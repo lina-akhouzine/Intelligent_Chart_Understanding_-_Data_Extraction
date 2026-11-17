@@ -1,0 +1,82 @@
+{
+  "train": {
+    "images": 18317,
+    "qa": {
+      "train_augmented.json": {
+        "records": 20901,
+        "keys": [
+          "imgname",
+          "label",
+          "query"
+        ],
+        "missing_images": []
+      },
+      "train_human.json": {
+        "records": 7398,
+        "keys": [
+          "imgname",
+          "label",
+          "query"
+        ],
+        "missing_images": []
+      }
+    },
+    "annotation_folder_exists": false
+  },
+  "val": {
+    "images": 1056,
+    "qa": {
+      "val_augmented.json": {
+        "records": 960,
+        "keys": [
+          "imgname",
+          "label",
+          "query"
+        ],
+        "missing_images": []
+      },
+      "val_human.json": {
+        "records": 960,
+        "keys": [
+          "imgname",
+          "label",
+          "query"
+        ],
+        "missing_images": []
+      }
+    },
+    "annotation_folder_exists": false
+  },
+  "test": {
+    "images": 1509,
+    "qa": {
+      "test_augmented.json": {
+        "records": 1250,
+        "keys": [
+          "imgname",
+          "label",
+          "query"
+        ],
+        "missing_images": []
+      },
+      "test_human.json": {
+        "records": 1250,
+        "keys": [
+          "imgname",
+          "label",
+          "query"
+        ],
+        "missing_images": []
+      }
+    },
+    "annotation_folder_exists": false
+  },
+  "status": "BLOCKED_NO_RELIABLE_CHART_TYPE_LABELS",
+  "class_distribution": {
+    "v_bar": null,
+    "h_bar": null,
+    "line": null,
+    "pie": null
+  },
+  "note": "label des JSON QA = r\u00e9ponse \u00e0 la question, jamais type du graphique."
+}
