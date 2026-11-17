@@ -1,0 +1,117 @@
+{
+  "source": {
+    "repository": "https://huggingface.co/datasets/ahmed-masry/ChartQA",
+    "revision": "af8b6f5c08c95085271561c2a3f9d15f2b5a9031",
+    "archive_url": "https://huggingface.co/datasets/ahmed-masry/ChartQA/resolve/af8b6f5c08c95085271561c2a3f9d15f2b5a9031/ChartQA%20Dataset.zip",
+    "archive_size": 875370872,
+    "transferred_bytes": 22996493,
+    "annotations": 20882,
+    "images_downloaded": 0
+  },
+  "usable_images": 20819,
+  "distribution": {
+    "train": {
+      "v_bar": 10156,
+      "h_bar": 5391,
+      "line": 2184,
+      "pie": 525
+    },
+    "val": {
+      "v_bar": 495,
+      "h_bar": 340,
+      "line": 171,
+      "pie": 48
+    },
+    "test": {
+      "v_bar": 759,
+      "h_bar": 461,
+      "line": 211,
+      "pie": 78
+    }
+  },
+  "excluded": 63,
+  "cross_split_duplicates_excluded": 16,
+  "pilot": {
+    "checkpoint": "C:\\Users\\ELECTRO-RIMO\\Downloads\\ChartQA-main\\ChartQA-main\\models_cv2\\resnet18_20261117_005259_323200.pt",
+    "epochs": 2,
+    "device": "cpu",
+    "best_validation_loss": 1.1114370822906494,
+    "seconds": 2.9994514000136405,
+    "counts": {
+      "train": 32,
+      "val": 32,
+      "test": 1509
+    },
+    "cache_features": true,
+    "seed": 42
+  },
+  "full_training": {
+    "checkpoint": "C:\\Users\\ELECTRO-RIMO\\Downloads\\ChartQA-main\\ChartQA-main\\models_cv2\\resnet18_20261117_010609_069660.pt",
+    "epochs": 20,
+    "device": "cpu",
+    "best_validation_loss": 0.0009146553299082063,
+    "seconds": 678.5204494000063,
+    "counts": {
+      "train": 18256,
+      "val": 1054,
+      "test": 1509
+    },
+    "cache_features": true,
+    "seed": 42
+  },
+  "selected_validation": {
+    "epoch": 20,
+    "train_loss": 0.00027034801377456423,
+    "train_accuracy": 1.0,
+    "val_loss": 0.0009146553299082063,
+    "val_accuracy": 0.9990512333965844
+  },
+  "test": {
+    "split": "test",
+    "n": 1509,
+    "accuracy": 1.0,
+    "classification_report": {
+      "v_bar": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 759.0
+      },
+      "h_bar": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 461.0
+      },
+      "line": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 211.0
+      },
+      "pie": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 78.0
+      },
+      "accuracy": 1.0,
+      "macro avg": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 1509.0
+      },
+      "weighted avg": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 1509.0
+      }
+    },
+    "checkpoint": "C:\\Users\\ELECTRO-RIMO\\Downloads\\ChartQA-main\\ChartQA-main\\models_cv2\\resnet18_20261117_010609_069660.pt",
+    "selected_epoch": 20
+  },
+  "training_results": "results\\cv2\\train_20261117_010609_069660",
+  "test_results": "results\\cv2\\test_20261117_010942_094601"
+}

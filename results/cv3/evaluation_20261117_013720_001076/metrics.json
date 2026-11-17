@@ -1,0 +1,4481 @@
+{
+  "images": 20,
+  "sampling": "seed 43, test officiel, 5 images/classe par défaut",
+  "reused_ocr_run": "results\\cv3\\evaluation_20261117_012518_614675",
+  "counts": {
+    "reference_regions": 287,
+    "detections": 540,
+    "detections_in_annotated_regions": 295,
+    "matched_regions": 225,
+    "transcribed_references": 188,
+    "matched_transcribed_references": 181,
+    "characters": 1889,
+    "words": 340,
+    "character_edits": 489,
+    "word_edits": 112,
+    "matched_characters": 1614,
+    "matched_words": 294,
+    "matched_character_edits": 214,
+    "matched_word_edits": 66,
+    "role_correct_geometry": 145
+  },
+  "metrics": {
+    "CER_reference_regions_misses_as_deletions": 0.25886712546320806,
+    "WER_reference_regions_misses_as_deletions": 0.32941176470588235,
+    "CER_matched_only": 0.1325898389095415,
+    "WER_matched_only": 0.22448979591836735,
+    "detection_precision_annotated_regions": 0.7627118644067796,
+    "detection_recall_reference_regions": 0.7839721254355401,
+    "role_accuracy_geometry_on_matches": 0.6444444444444445
+  },
+  "by_class": {
+    "v_bar": {
+      "counts": {
+        "reference_regions": 70,
+        "detections": 140,
+        "detections_in_annotated_regions": 71,
+        "matched_regions": 51,
+        "transcribed_references": 38,
+        "matched_transcribed_references": 36,
+        "characters": 352,
+        "words": 61,
+        "character_edits": 103,
+        "word_edits": 19,
+        "matched_characters": 287,
+        "matched_words": 50,
+        "matched_character_edits": 38,
+        "matched_word_edits": 8,
+        "role_correct_geometry": 26
+      },
+      "metrics": {
+        "CER_reference_regions_misses_as_deletions": 0.29261363636363635,
+        "WER_reference_regions_misses_as_deletions": 0.3114754098360656,
+        "CER_matched_only": 0.13240418118466898,
+        "WER_matched_only": 0.16,
+        "detection_precision_annotated_regions": 0.7183098591549296,
+        "detection_recall_reference_regions": 0.7285714285714285,
+        "role_accuracy_geometry_on_matches": 0.5098039215686274
+      }
+    },
+    "h_bar": {
+      "counts": {
+        "reference_regions": 91,
+        "detections": 160,
+        "detections_in_annotated_regions": 90,
+        "matched_regions": 70,
+        "transcribed_references": 52,
+        "matched_transcribed_references": 52,
+        "characters": 804,
+        "words": 122,
+        "character_edits": 28,
+        "word_edits": 11,
+        "matched_characters": 804,
+        "matched_words": 122,
+        "matched_character_edits": 28,
+        "matched_word_edits": 11,
+        "role_correct_geometry": 46
+      },
+      "metrics": {
+        "CER_reference_regions_misses_as_deletions": 0.03482587064676617,
+        "WER_reference_regions_misses_as_deletions": 0.09016393442622951,
+        "CER_matched_only": 0.03482587064676617,
+        "WER_matched_only": 0.09016393442622951,
+        "detection_precision_annotated_regions": 0.7777777777777778,
+        "detection_recall_reference_regions": 0.7692307692307693,
+        "role_accuracy_geometry_on_matches": 0.6571428571428571
+      }
+    },
+    "line": {
+      "counts": {
+        "reference_regions": 103,
+        "detections": 199,
+        "detections_in_annotated_regions": 110,
+        "matched_regions": 81,
+        "transcribed_references": 75,
+        "matched_transcribed_references": 70,
+        "characters": 507,
+        "words": 105,
+        "character_edits": 222,
+        "word_edits": 40,
+        "matched_characters": 297,
+        "matched_words": 70,
+        "matched_character_edits": 12,
+        "matched_word_edits": 5,
+        "role_correct_geometry": 73
+      },
+      "metrics": {
+        "CER_reference_regions_misses_as_deletions": 0.4378698224852071,
+        "WER_reference_regions_misses_as_deletions": 0.38095238095238093,
+        "CER_matched_only": 0.04040404040404041,
+        "WER_matched_only": 0.07142857142857142,
+        "detection_precision_annotated_regions": 0.7363636363636363,
+        "detection_recall_reference_regions": 0.7864077669902912,
+        "role_accuracy_geometry_on_matches": 0.9012345679012346
+      }
+    },
+    "pie": {
+      "counts": {
+        "reference_regions": 23,
+        "detections": 41,
+        "detections_in_annotated_regions": 24,
+        "matched_regions": 23,
+        "transcribed_references": 23,
+        "matched_transcribed_references": 23,
+        "characters": 226,
+        "words": 52,
+        "character_edits": 136,
+        "word_edits": 42,
+        "matched_characters": 226,
+        "matched_words": 52,
+        "matched_character_edits": 136,
+        "matched_word_edits": 42,
+        "role_correct_geometry": 0
+      },
+      "metrics": {
+        "CER_reference_regions_misses_as_deletions": 0.6017699115044248,
+        "WER_reference_regions_misses_as_deletions": 0.8076923076923077,
+        "CER_matched_only": 0.6017699115044248,
+        "WER_matched_only": 0.8076923076923077,
+        "detection_precision_annotated_regions": 0.9583333333333334,
+        "detection_recall_reference_regions": 1.0,
+        "role_accuracy_geometry_on_matches": 0.0
+      }
+    }
+  },
+  "protocol": {
+    "matching": "Hungarian one-to-one, IoU >= 0.30, no reference text used",
+    "precision_denominator": "OCR detections overlapping a known reference region at IoU >= 0.10 only",
+    "normalization": "Unicode NFKC, casefold, whitespace collapsed; punctuation retained",
+    "missing_text": "regions without transcripts evaluated only for localization and roles",
+    "roles": "geometry only scored; annotation assistance not scored",
+    "CER_WER": "micro-average; misses count as deletions; extra unannotated text excluded",
+    "warning": "Partial annotation evaluation, NOT full-page OCR precision/recall or role accuracy."
+  },
+  "per_image": [
+    {
+      "image": "multi_col_101181.png",
+      "class_reference": "v_bar",
+      "counts": {
+        "reference_regions": 18,
+        "detections": 42,
+        "detections_in_annotated_regions": 19,
+        "matched_regions": 13,
+        "transcribed_references": 13,
+        "matched_transcribed_references": 13,
+        "characters": 101,
+        "words": 15,
+        "character_edits": 16,
+        "word_edits": 3,
+        "matched_characters": 101,
+        "matched_words": 15,
+        "matched_character_edits": 16,
+        "matched_word_edits": 3,
+        "role_correct_geometry": 1
+      },
+      "metrics": {
+        "CER_reference_regions_misses_as_deletions": 0.15841584158415842,
+        "WER_reference_regions_misses_as_deletions": 0.2,
+        "CER_matched_only": 0.15841584158415842,
+        "WER_matched_only": 0.2,
+        "detection_precision_annotated_regions": 0.6842105263157895,
+        "detection_recall_reference_regions": 0.7222222222222222,
+        "role_accuracy_geometry_on_matches": 0.07692307692307693
+      },
+      "examples": [
+        {
+          "reference": "2009/10",
+          "ocr": "2009/10",
+          "reference_role": "x_category",
+          "reference_field": "x_axis.major_labels[0]",
+          "bbox": [
+            127.0,
+            388.0,
+            166.765625,
+            400.0
+          ],
+          "matched": true,
+          "character_edits": 0,
+          "word_edits": 0
+        },
+        {
+          "reference": "2010/11",
+          "ocr": "2010/11",
+          "reference_role": "x_category",
+          "reference_field": "x_axis.major_labels[1]",
+          "bbox": [
+            188.0,
+            388.0,
+            226.953125,
+            400.0
+          ],
+          "matched": true,
+          "character_edits": 0,
+          "word_edits": 0
+        },
+        {
+          "reference": "2011/12",
+          "ocr": "2011/12",
+          "reference_role": "x_category",
+          "reference_field": "x_axis.major_labels[2]",
+          "bbox": [
+            249.0,
+            388.0,
+            287.953125,
+            400.0
+          ],
+          "matched": true,
+          "character_edits": 0,
+          "word_edits": 0
+        },
+        {
+          "reference": "2012/13",
+          "ocr": "2012/13",
+          "reference_role": "x_category",
+          "reference_field": "x_axis.major_labels[3]",
+          "bbox": [
+            309.0,
+            388.0,
+            348.765625,
+            400.0
+          ],
+          "matched": true,
+          "character_edits": 0,
+          "word_edits": 0
+        },
+        {
+          "reference": "2013/14",
+          "ocr": "2013/14",
+          "reference_role": "x_category",
+          "reference_field": "x_axis.major_labels[4]",
+          "bbox": [
+            370.0,
+            388.0,
+            409.765625,
+            400.0
+          ],
+          "matched": true,
+          "character_edits": 0,
+          "word_edits": 0
+        },
+        {
+          "reference": "2014/15",
+          "ocr": "2014/15",
+          "reference_role": "x_category",
+          "reference_field": "x_axis.major_labels[5]",
+          "bbox": [
+            431.0,
+            388.0,
+            470.765625,
+            400.0
+          ],
+          "matched": true,
+          "character_edits": 0,
+          "word_edits": 0
+        },
+        {
+          "reference": "2015/16",
+          "ocr": "2015/16",
+          "reference_role": "x_category",
+          "reference_field": "x_axis.major_labels[6]",
+          "bbox": [
+            492.0,
+            388.0,
+            531.765625,
+            400.0
+          ],
+          "matched": true,
+          "character_edits": 0,
+          "word_edits": 0
+        },
+        {
+          "reference": "2016/17",
+          "ocr": "1",
+          "reference_role": "x_category",
+          "reference_field": "x_axis.major_labels[7]",
+          "bbox": [
+            553.0,
+            388.0,
+            592.765625,
+            400.0
+          ],
+          "matched": true,
+          "character_edits": 6,
+          "word_edits": 1
+        },
+        {
+          "reference": "2017/18",
+          "ocr": "2017/18",
+          "reference_role": "x_category",
+          "reference_field": "x_axis.major_labels[8]",
+          "bbox": [
+            614.0,
+            388.0,
+            653.765625,
+            400.0
+          ],
+          "matched": true,
+          "character_edits": 0,
+          "word_edits": 0
+        },
+        {
+          "reference": "2018/19",
+          "ocr": "2018/19",
+          "reference_role": "x_category",
+          "reference_field": "x_axis.major_labels[9]",
+          "bbox": [
+            675.0,
+            388.0,
+            714.765625,
+            400.0
+          ],
+          "matched": true,
+          "character_edits": 0,
+          "word_edits": 0
+        },
+        {
+          "reference": "Number of participants",
+          "ocr": "participants",
+          "reference_role": "y_axis_title",
+          "reference_field": "y_axis.label",
+          "bbox": [
+            40.0,
+            161.0,
+            51.0,
+            261.609375
+          ],
+          "matched": true,
+          "character_edits": 10,
+          "word_edits": 2
+        },
+        {
+          "reference": "Boys",
+          "ocr": "Boys",
+          "reference_role": "legend",
+          "reference_field": "legend.items[0].label",
+          "bbox": [
+            347.0,
+            428.0,
+            376.669921875,
+            442.0
+          ],
+          "matched": true,
+          "character_edits": 0,
+          "word_edits": 0
+        },
+        {
+          "reference": "Girls",
+          "ocr": "Girls",
+          "reference_role": "legend",
+          "reference_field": "legend.items[1].label",
+          "bbox": [
+            406.0,
+            428.0,
+            433.671875,
+            442.0
+          ],
+          "matched": true,
+          "character_edits": 0,
+          "word_edits": 0
+        }
+      ],
+      "role_confusion": [
+        {
+          "reference_role": "x_category",
+          "predicted_role": "unknown",
+          "count": 9
+        },
+        {
+          "reference_role": "x_category",
+          "predicted_role": "x_category",
+          "count": 1
+        },
+        {
+          "reference_role": "y_axis_title",
+          "predicted_role": "unknown",
+          "count": 1
+        },
+        {
+          "reference_role": "legend",
+          "predicted_role": "unknown",
+          "count": 2
+        }
+      ],
+      "ocr_errors": [],
+      "annotation_issues": [
+        "y_axis.major_labels: 5 boîtes, 0 valeurs ; aucune valeur complétée"
+      ]
+    },
+    {
+      "image": "two_col_103667.png",
+      "class_reference": "v_bar",
+      "counts": {
+        "reference_regions": 16,
+        "detections": 26,
+        "detections_in_annotated_regions": 17,
+        "matched_regions": 16,
+        "transcribed_references": 7,
+        "matched_transcribed_references": 7,
+        "characters": 36,
+        "words": 8,
+        "character_edits": 12,
+        "word_edits": 3,
+        "matched_characters": 36,
+        "matched_words": 8,
+        "matched_character_edits": 12,
+        "matched_word_edits": 3,
+        "role_correct_geometry": 14
+      },
+      "metrics": {
+        "CER_reference_regions_misses_as_deletions": 0.3333333333333333,
+        "WER_reference_regions_misses_as_deletions": 0.375,
+        "CER_matched_only": 0.3333333333333333,
+        "WER_matched_only": 0.375,
+        "detection_precision_annotated_regions": 0.9411764705882353,
+        "detection_recall_reference_regions": 1.0,
+        "role_accuracy_geometry_on_matches": 0.875
+      },
+      "examples": [
+        {
+          "reference": "2012",
+          "ocr": "2012",
+          "reference_role": "x_category",
+          "reference_field": "x_axis.major_labels[0]",
+          "bbox": [
+            130.0,
+            447.0,
+            154.484375,
+            459.0
+          ],
+          "matched": true,
+          "character_edits": 0,
+          "word_edits": 0
+        },
+        {
+          "reference": "2013",
+          "ocr": "2013",
+          "reference_role": "x_category",
+          "reference_field": "x_axis.major_labels[1]",
+          "bbox": [
+            236.0,
+            447.0,
+            260.484375,
+            459.0
+          ],
+          "matched": true,
+          "character_edits": 0,
+          "word_edits": 0
+        },
+        {
+          "reference": "2014",
+          "ocr": "2014",
+          "reference_role": "x_category",
+          "reference_field": "x_axis.major_labels[2]",
+          "bbox": [
+            342.0,
+            447.0,
+            366.484375,
+            459.0
+          ],
+          "matched": true,
+          "character_edits": 0,
+          "word_edits": 0
+        },
+        {
+          "reference": "2015",
+          "ocr": "2015",
+          "reference_role": "x_category",
+          "reference_field": "x_axis.major_labels[3]",
+          "bbox": [
+            448.0,
+            447.0,
+            472.484375,
+            459.0
+          ],
+          "matched": true,
+          "character_edits": 0,
+          "word_edits": 0
+        },
+        {
+          "reference": "2016",
+          "ocr": "2016",
+          "reference_role": "x_category",
+          "reference_field": "x_axis.major_labels[4]",
+          "bbox": [
+            554.0,
+            447.0,
+            578.484375,
+            459.0
+          ],
+          "matched": true,
+          "character_edits": 0,
+          "word_edits": 0
+        },
+        {
+          "reference": "2020*",
+          "ocr": "8",
+          "reference_role": "x_category",
+          "reference_field": "x_axis.major_labels[5]",
+          "bbox": [
+            658.0,
+            447.0,
+            687.470703125,
+            459.0
+          ],
+          "matched": true,
+          "character_edits": 5,
+          "word_edits": 1
+        },
+        {
+          "reference": "Growth rate",
+          "ocr": "uroth",
+          "reference_role": "y_axis_title",
+          "reference_field": "y_axis.label",
+          "bbox": [
+            40.0,
+            214.0,
+            51.0,
+            266.6796875
+          ],
+          "matched": true,
+          "character_edits": 7,
+          "word_edits": 2
+        }
+      ],
+      "role_confusion": [
+        {
+          "reference_role": "x_category",
+          "predicted_role": "x_category",
+          "count": 6
+        },
+        {
+          "reference_role": "y_axis_title",
+          "predicted_role": "unknown",
+          "count": 1
+        },
+        {
+          "reference_role": "y_tick",
+          "predicted_role": "y_tick",
+          "count": 8
+        },
+        {
+          "reference_role": "y_tick",
+          "predicted_role": "unknown",
+          "count": 1
+        }
+      ],
+      "ocr_errors": [],
+      "annotation_issues": [
+        "y_axis.major_labels: 9 boîtes, 0 valeurs ; aucune valeur complétée"
+      ]
+    },
+    {
+      "image": "two_col_81707.png",
+      "class_reference": "v_bar",
+      "counts": {
+        "reference_regions": 15,
+        "detections": 33,
+        "detections_in_annotated_regions": 17,
+        "matched_regions": 13,
+        "transcribed_references": 8,
+        "matched_transcribed_references": 7,
+        "characters": 62,
+        "words": 12,
+        "character_edits": 38,
+        "word_edits": 6,
+        "matched_characters": 28,
+        "matched_words": 7,
+        "matched_character_edits": 4,
+        "matched_word_edits": 1,
+        "role_correct_geometry": 11
+      },
+      "metrics": {
+        "CER_reference_regions_misses_as_deletions": 0.6129032258064516,
+        "WER_reference_regions_misses_as_deletions": 0.5,
+        "CER_matched_only": 0.14285714285714285,
+        "WER_matched_only": 0.14285714285714285,
+        "detection_precision_annotated_regions": 0.7647058823529411,
+        "detection_recall_reference_regions": 0.8666666666666667,
+        "role_accuracy_geometry_on_matches": 0.8461538461538461
+      },
+      "examples": [
+        {
+          "reference": "2013",
+          "ocr": "2013",
+          "reference_role": "x_category",
+          "reference_field": "x_axis.major_labels[0]",
+          "bbox": [
+            138.0,
+            447.0,
+            162.484375,
+            459.0
+          ],
+          "matched": true,
+          "character_edits": 0,
+          "word_edits": 0
+        },
+        {
+          "reference": "2014",
+          "ocr": "2014",
+          "reference_role": "x_category",
+          "reference_field": "x_axis.major_labels[1]",
+          "bbox": [
+            226.0,
+            447.0,
+            250.484375,
+            459.0
+          ],
+          "matched": true,
+          "character_edits": 0,
+          "word_edits": 0
+        },
+        {
+          "reference": "2015",
+          "ocr": "2015",
+          "reference_role": "x_category",
+          "reference_field": "x_axis.major_labels[2]",
+          "bbox": [
+            315.0,
+            447.0,
+            339.484375,
+            459.0
+          ],
+          "matched": true,
+          "character_edits": 0,
+          "word_edits": 0
+        },
+        {
+          "reference": "2016",
+          "ocr": "2016",
+          "reference_role": "x_category",
+          "reference_field": "x_axis.major_labels[3]",
+          "bbox": [
+            403.0,
+            447.0,
+            427.484375,
+            459.0
+          ],
+          "matched": true,
+          "character_edits": 0,
+          "word_edits": 0
+        },
+        {
+          "reference": "2017",
+          "ocr": "2017",
+          "reference_role": "x_category",
+          "reference_field": "x_axis.major_labels[4]",
+          "bbox": [
+            492.0,
+            447.0,
+            516.484375,
+            459.0
+          ],
+          "matched": true,
+          "character_edits": 0,
+          "word_edits": 0
+        },
+        {
+          "reference": "2018",
+          "ocr": "3",
+          "reference_role": "x_category",
+          "reference_field": "x_axis.major_labels[5]",
+          "bbox": [
+            580.0,
+            447.0,
+            604.484375,
+            459.0
+          ],
+          "matched": true,
+          "character_edits": 4,
+          "word_edits": 1
+        },
+        {
+          "reference": "2019",
+          "ocr": "2019",
+          "reference_role": "x_category",
+          "reference_field": "x_axis.major_labels[6]",
+          "bbox": [
+            669.0,
+            447.0,
+            693.484375,
+            459.0
+          ],
+          "matched": true,
+          "character_edits": 0,
+          "word_edits": 0
+        },
+        {
+          "reference": "Investment volume in million euros",
+          "ocr": null,
+          "reference_role": "y_axis_title",
+          "reference_field": "y_axis.label",
+          "bbox": [
+            40.0,
+            164.0,
+            51.0,
+            317.40625
+          ],
+          "matched": false,
+          "character_edits": 34,
+          "word_edits": 5
+        }
+      ],
+      "role_confusion": [
+        {
+          "reference_role": "x_category",
+          "predicted_role": "x_category",
+          "count": 7
+        },
+        {
+          "reference_role": "y_tick",
+          "predicted_role": "x_category",
+          "count": 1
+        },
+        {
+          "reference_role": "y_tick",
+          "predicted_role": "y_tick",
+          "count": 4
+        },
+        {
+          "reference_role": "y_tick",
+          "predicted_role": "unknown",
+          "count": 1
+        }
+      ],
+      "ocr_errors": [],
+      "annotation_issues": [
+        "y_axis.major_labels: 7 boîtes, 0 valeurs ; aucune valeur complétée"
+      ]
+    },
+    {
+      "image": "multi_col_60369.png",
+      "class_reference": "v_bar",
+      "counts": {
+        "reference_regions": 12,
+        "detections": 22,
+        "detections_in_annotated_regions": 10,
+        "matched_regions": 7,
+        "transcribed_references": 7,
+        "matched_transcribed_references": 7,
+        "characters": 107,
+        "words": 16,
+        "character_edits": 6,
+        "word_edits": 1,
+        "matched_characters": 107,
+        "matched_words": 16,
+        "matched_character_edits": 6,
+        "matched_word_edits": 1,
+        "role_correct_geometry": 0
+      },
+      "metrics": {
+        "CER_reference_regions_misses_as_deletions": 0.056074766355140186,
+        "WER_reference_regions_misses_as_deletions": 0.0625,
+        "CER_matched_only": 0.056074766355140186,
+        "WER_matched_only": 0.0625,
+        "detection_precision_annotated_regions": 0.7,
+        "detection_recall_reference_regions": 0.5833333333333334,
+        "role_accuracy_geometry_on_matches": 0.0
+      },
+      "examples": [
+        {
+          "reference": "2009 (PCA peanut butter)",
+          "ocr": "2009 (PCA peanut butter)",
+          "reference_role": "x_category",
+          "reference_field": "x_axis.major_labels[0]",
+          "bbox": [
+            121.0,
+            348.0,
+            245.75,
+            360.0
+          ],
+          "matched": true,
+          "character_edits": 0,
+          "word_edits": 0
+        },
+        {
+          "reference": "2011 (Cargill ground",
+          "ocr": "2011 (Cargill ground",
+          "reference_role": "x_category",
+          "reference_field": "x_axis.major_labels[1]",
+          "bbox": [
+            289.0,
+            348.0,
+            387.859375,
+            372.0
+          ],
+          "matched": true,
+          "character_edits": 0,
+          "word_edits": 0
+        },
+        {
+          "reference": "2013 (Foster Farms",
+          "ocr": "2013 (Foster Farms",
+          "reference_role": "x_category",
+          "reference_field": "x_axis.major_labels[2]",
+          "bbox": [
+            445.0,
+            348.0,
+            542.0830078125,
+            372.0
+          ],
+          "matched": true,
+          "character_edits": 0,
+          "word_edits": 0
+        },
+        {
+          "reference": "2015 (Mexican cucumbers)",
+          "ocr": "2015 (Mexican cucumbers)",
+          "reference_role": "x_category",
+          "reference_field": "x_axis.major_labels[3]",
+          "bbox": [
+            581.0,
+            348.0,
+            713.671875,
+            360.0
+          ],
+          "matched": true,
+          "character_edits": 0,
+          "word_edits": 0
+        },
+        {
+          "reference": "Number",
+          "ocr": "2",
+          "reference_role": "y_axis_title",
+          "reference_field": "y_axis.label",
+          "bbox": [
+            387.0,
+            387.0,
+            443.328125,
+            398.0
+          ],
+          "matched": true,
+          "character_edits": 6,
+          "word_edits": 1
+        },
+        {
+          "reference": "Illnesses",
+          "ocr": "Illnesses",
+          "reference_role": "legend",
+          "reference_field": "legend.items[0].label",
+          "bbox": [
+            328.0,
+            428.0,
+            379.02734375,
+            442.0
+          ],
+          "matched": true,
+          "character_edits": 0,
+          "word_edits": 0
+        },
+        {
+          "reference": "Deaths",
+          "ocr": "Deaths",
+          "reference_role": "legend",
+          "reference_field": "legend.items[1].label",
+          "bbox": [
+            411.0,
+            428.0,
+            451.33984375,
+            442.0
+          ],
+          "matched": true,
+          "character_edits": 0,
+          "word_edits": 0
+        }
+      ],
+      "role_confusion": [
+        {
+          "reference_role": "x_category",
+          "predicted_role": "unknown",
+          "count": 4
+        },
+        {
+          "reference_role": "y_axis_title",
+          "predicted_role": "x_category",
+          "count": 1
+        },
+        {
+          "reference_role": "legend",
+          "predicted_role": "unknown",
+          "count": 2
+        }
+      ],
+      "ocr_errors": [],
+      "annotation_issues": [
+        "y_axis.major_labels: 5 boîtes, 0 valeurs ; aucune valeur complétée"
+      ]
+    },
+    {
+      "image": "two_col_3752.png",
+      "class_reference": "v_bar",
+      "counts": {
+        "reference_regions": 9,
+        "detections": 17,
+        "detections_in_annotated_regions": 8,
+        "matched_regions": 2,
+        "transcribed_references": 3,
+        "matched_transcribed_references": 2,
+        "characters": 46,
+        "words": 10,
+        "character_edits": 31,
+        "word_edits": 6,
+        "matched_characters": 15,
+        "matched_words": 4,
+        "matched_character_edits": 0,
+        "matched_word_edits": 0,
+        "role_correct_geometry": 0
+      },
+      "metrics": {
+        "CER_reference_regions_misses_as_deletions": 0.6739130434782609,
+        "WER_reference_regions_misses_as_deletions": 0.6,
+        "CER_matched_only": 0.0,
+        "WER_matched_only": 0.0,
+        "detection_precision_annotated_regions": 0.25,
+        "detection_recall_reference_regions": 0.2222222222222222,
+        "role_accuracy_geometry_on_matches": 0.0
+      },
+      "examples": [
+        {
+          "reference": "Jul '14*",
+          "ocr": "Jul '14*",
+          "reference_role": "x_category",
+          "reference_field": "x_axis.major_labels[0]",
+          "bbox": [
+            230.0,
+            447.0,
+            266.453125,
+            459.0
+          ],
+          "matched": true,
+          "character_edits": 0,
+          "word_edits": 0
+        },
+        {
+          "reference": "Apr '16",
+          "ocr": "Apr '16",
+          "reference_role": "x_category",
+          "reference_field": "x_axis.major_labels[1]",
+          "bbox": [
+            549.0,
+            447.0,
+            583.515625,
+            459.0
+          ],
+          "matched": true,
+          "character_edits": 0,
+          "word_edits": 0
+        },
+        {
+          "reference": "Number of app users in millions",
+          "ocr": null,
+          "reference_role": "y_axis_title",
+          "reference_field": "y_axis.label",
+          "bbox": [
+            40.0,
+            171.0,
+            51.0,
+            311.0625
+          ],
+          "matched": false,
+          "character_edits": 31,
+          "word_edits": 6
+        }
+      ],
+      "role_confusion": [
+        {
+          "reference_role": "x_category",
+          "predicted_role": "unknown",
+          "count": 2
+        }
+      ],
+      "ocr_errors": [],
+      "annotation_issues": [
+        "y_axis.major_labels: 6 boîtes, 0 valeurs ; aucune valeur complétée"
+      ]
+    },
+    {
+      "image": "multi_col_40202.png",
+      "class_reference": "h_bar",
+      "counts": {
+        "reference_regions": 18,
+        "detections": 36,
+        "detections_in_annotated_regions": 17,
+        "matched_regions": 11,
+        "transcribed_references": 11,
+        "matched_transcribed_references": 11,
+        "characters": 183,
+        "words": 23,
+        "character_edits": 0,
+        "word_edits": 0,
+        "matched_characters": 183,
+        "matched_words": 23,
+        "matched_character_edits": 0,
+        "matched_word_edits": 0,
+        "role_correct_geometry": 4
+      },
+      "metrics": {
+        "CER_reference_regions_misses_as_deletions": 0.0,
+        "WER_reference_regions_misses_as_deletions": 0.0,
+        "CER_matched_only": 0.0,
+        "WER_matched_only": 0.0,
+        "detection_precision_annotated_regions": 0.6470588235294118,
+        "detection_recall_reference_regions": 0.6111111111111112,
+        "role_accuracy_geometry_on_matches": 0.36363636363636365
+      },
+      "examples": [
+        {
+          "reference": "Cinematography",
+          "ocr": "Cinematography",
+          "reference_role": "y_category",
+          "reference_field": "x_axis.major_labels[0]",
+          "bbox": [
+            108.0,
+            49.0,
+            189.21142578125,
+            61.0
+          ],
+          "matched": true,
+          "character_edits": 0,
+          "word_edits": 0
+        },
+        {
+          "reference": "Film Editing",
+          "ocr": "Film Editing",
+          "reference_role": "y_category",
+          "reference_field": "x_axis.major_labels[1]",
+          "bbox": [
+            132.0,
+            90.0,
+            189.46875,
+            102.0
+          ],
+          "matched": true,
+          "character_edits": 0,
+          "word_edits": 0
+        },
+        {
+          "reference": "Writing (adapted screenplay)",
+          "ocr": "Writing (adapted screenplay)",
+          "reference_role": "y_category",
+          "reference_field": "x_axis.major_labels[2]",
+          "bbox": [
+            49.0,
+            130.0,
+            189.421875,
+            142.0
+          ],
+          "matched": true,
+          "character_edits": 0,
+          "word_edits": 0
+        },
+        {
+          "reference": "Best Picture",
+          "ocr": "Best Picture",
+          "reference_role": "y_category",
+          "reference_field": "x_axis.major_labels[3]",
+          "bbox": [
+            130.0,
+            170.0,
+            189.3125,
+            182.0
+          ],
+          "matched": true,
+          "character_edits": 0,
+          "word_edits": 0
+        },
+        {
+          "reference": "Best Director",
+          "ocr": "Best Director",
+          "reference_role": "y_category",
+          "reference_field": "x_axis.major_labels[4]",
+          "bbox": [
+            125.0,
+            211.0,
+            188.9091796875,
+            223.0
+          ],
+          "matched": true,
+          "character_edits": 0,
+          "word_edits": 0
+        },
+        {
+          "reference": "Writing (original screenplay)",
+          "ocr": "Writing (original screenplay)",
+          "reference_role": "y_category",
+          "reference_field": "x_axis.major_labels[5]",
+          "bbox": [
+            53.0,
+            251.0,
+            189.125,
+            263.0
+          ],
+          "matched": true,
+          "character_edits": 0,
+          "word_edits": 0
+        },
+        {
+          "reference": "Documentary (short subject)",
+          "ocr": "Documentary (short subject)",
+          "reference_role": "y_category",
+          "reference_field": "x_axis.major_labels[6]",
+          "bbox": [
+            51.0,
+            291.0,
+            189.171875,
+            303.0
+          ],
+          "matched": true,
+          "character_edits": 0,
+          "word_edits": 0
+        },
+        {
+          "reference": "Documentary (feature)",
+          "ocr": "Documentary (feature)",
+          "reference_role": "y_category",
+          "reference_field": "x_axis.major_labels[7]",
+          "bbox": [
+            79.0,
+            332.0,
+            189.046875,
+            344.0
+          ],
+          "matched": true,
+          "character_edits": 0,
+          "word_edits": 0
+        },
+        {
+          "reference": "Share of nominees",
+          "ocr": "Share of nominees",
+          "reference_role": "x_axis_title",
+          "reference_field": "y_axis.label",
+          "bbox": [
+            414.0,
+            387.0,
+            497.953125,
+            398.0
+          ],
+          "matched": true,
+          "character_edits": 0,
+          "word_edits": 0
+        },
+        {
+          "reference": "Female",
+          "ocr": "Female",
+          "reference_role": "legend",
+          "reference_field": "legend.items[0].label",
+          "bbox": [
+            391.0,
+            428.0,
+            432.681640625,
+            442.0
+          ],
+          "matched": true,
+          "character_edits": 0,
+          "word_edits": 0
+        },
+        {
+          "reference": "Male",
+          "ocr": "Male",
+          "reference_role": "legend",
+          "reference_field": "legend.items[1].label",
+          "bbox": [
+            331.0,
+            428.0,
+            358.00390625,
+            442.0
+          ],
+          "matched": true,
+          "character_edits": 0,
+          "word_edits": 0
+        }
+      ],
+      "role_confusion": [
+        {
+          "reference_role": "y_category",
+          "predicted_role": "unknown",
+          "count": 4
+        },
+        {
+          "reference_role": "y_category",
+          "predicted_role": "y_category",
+          "count": 4
+        },
+        {
+          "reference_role": "x_axis_title",
+          "predicted_role": "unknown",
+          "count": 1
+        },
+        {
+          "reference_role": "legend",
+          "predicted_role": "unknown",
+          "count": 2
+        }
+      ],
+      "ocr_errors": [],
+      "annotation_issues": [
+        "y_axis.major_labels: 7 boîtes, 0 valeurs ; aucune valeur complétée"
+      ]
+    },
+    {
+      "image": "two_col_4167.png",
+      "class_reference": "h_bar",
+      "counts": {
+        "reference_regions": 26,
+        "detections": 42,
+        "detections_in_annotated_regions": 26,
+        "matched_regions": 24,
+        "transcribed_references": 14,
+        "matched_transcribed_references": 14,
+        "characters": 126,
+        "words": 21,
+        "character_edits": 0,
+        "word_edits": 0,
+        "matched_characters": 126,
+        "matched_words": 21,
+        "matched_character_edits": 0,
+        "matched_word_edits": 0,
+        "role_correct_geometry": 22
+      },
+      "metrics": {
+        "CER_reference_regions_misses_as_deletions": 0.0,
+        "WER_reference_regions_misses_as_deletions": 0.0,
+        "CER_matched_only": 0.0,
+        "WER_matched_only": 0.0,
+        "detection_precision_annotated_regions": 0.9230769230769231,
+        "detection_recall_reference_regions": 0.9230769230769231,
+        "role_accuracy_geometry_on_matches": 0.9166666666666666
+      },
+      "examples": [
+        {
+          "reference": "Niger",
+          "ocr": "Niger",
+          "reference_role": "y_category",
+          "reference_field": "x_axis.major_labels[0]",
+          "bbox": [
+            75.0,
+            50.0,
+            101.623046875,
+            62.0
+          ],
+          "matched": true,
+          "character_edits": 0,
+          "word_edits": 0
+        },
+        {
+          "reference": "Madagascar",
+          "ocr": "Madagascar",
+          "reference_role": "y_category",
+          "reference_field": "x_axis.major_labels[1]",
+          "bbox": [
+            40.0,
+            91.0,
+            100.869140625,
+            103.0
+          ],
+          "matched": true,
+          "character_edits": 0,
+          "word_edits": 0
+        },
+        {
+          "reference": "Mali",
+          "ocr": "Mali",
+          "reference_role": "y_category",
+          "reference_field": "x_axis.major_labels[2]",
+          "bbox": [
+            81.0,
+            133.0,
+            101.171875,
+            145.0
+          ],
+          "matched": true,
+          "character_edits": 0,
+          "word_edits": 0
+        },
+        {
+          "reference": "Sierra Leone",
+          "ocr": "Sierra Leone",
+          "reference_role": "y_category",
+          "reference_field": "x_axis.major_labels[3]",
+          "bbox": [
+            38.0,
+            174.0,
+            101.0,
+            186.0
+          ],
+          "matched": true,
+          "character_edits": 0,
+          "word_edits": 0
+        },
+        {
+          "reference": "Burundi",
+          "ocr": "Burundi",
+          "reference_role": "y_category",
+          "reference_field": "x_axis.major_labels[4]",
+          "bbox": [
+            63.0,
+            216.0,
+            100.921875,
+            228.0
+          ],
+          "matched": true,
+          "character_edits": 0,
+          "word_edits": 0
+        },
+        {
+          "reference": "Ethiopia",
+          "ocr": "Ethiopia",
+          "reference_role": "y_category",
+          "reference_field": "x_axis.major_labels[5]",
+          "bbox": [
+            61.0,
+            257.0,
+            101.6337890625,
+            269.0
+          ],
+          "matched": true,
+          "character_edits": 0,
+          "word_edits": 0
+        },
+        {
+          "reference": "DC Congo",
+          "ocr": "DC Congo",
+          "reference_role": "y_category",
+          "reference_field": "x_axis.major_labels[6]",
+          "bbox": [
+            50.0,
+            299.0,
+            101.359375,
+            311.0
+          ],
+          "matched": true,
+          "character_edits": 0,
+          "word_edits": 0
+        },
+        {
+          "reference": "East Timor",
+          "ocr": "East Timor",
+          "reference_role": "y_category",
+          "reference_field": "x_axis.major_labels[7]",
+          "bbox": [
+            48.0,
+            341.0,
+            100.90380859375,
+            353.0
+          ],
+          "matched": true,
+          "character_edits": 0,
+          "word_edits": 0
+        },
+        {
+          "reference": "Uganda",
+          "ocr": "Uganda",
+          "reference_role": "y_category",
+          "reference_field": "x_axis.major_labels[8]",
+          "bbox": [
+            62.0,
+            382.0,
+            101.41455078125,
+            394.0
+          ],
+          "matched": true,
+          "character_edits": 0,
+          "word_edits": 0
+        },
+        {
+          "reference": "Nigeria",
+          "ocr": "Nigeria",
+          "reference_role": "y_category",
+          "reference_field": "x_axis.major_labels[9]",
+          "bbox": [
+            66.0,
+            424.0,
+            101.72998046875,
+            436.0
+          ],
+          "matched": true,
+          "character_edits": 0,
+          "word_edits": 0
+        },
+        {
+          "reference": "Senegal",
+          "ocr": "Senegal",
+          "reference_role": "y_category",
+          "reference_field": "x_axis.major_labels[10]",
+          "bbox": [
+            61.0,
+            465.0,
+            101.375,
+            477.0
+          ],
+          "matched": true,
+          "character_edits": 0,
+          "word_edits": 0
+        },
+        {
+          "reference": "Benin",
+          "ocr": "Benin",
+          "reference_role": "y_category",
+          "reference_field": "x_axis.major_labels[11]",
+          "bbox": [
+            73.0,
+            507.0,
+            101.140625,
+            519.0
+          ],
+          "matched": true,
+          "character_edits": 0,
+          "word_edits": 0
+        },
+        {
+          "reference": "Liberia",
+          "ocr": "Liberia",
+          "reference_role": "y_category",
+          "reference_field": "x_axis.major_labels[12]",
+          "bbox": [
+            68.0,
+            548.0,
+            101.90380859375,
+            560.0
+          ],
+          "matched": true,
+          "character_edits": 0,
+          "word_edits": 0
+        },
+        {
+          "reference": "Percentage of males aged 15-49",
+          "ocr": "Percentage of males aged 15-49",
+          "reference_role": "x_axis_title",
+          "reference_field": "y_axis.label",
+          "bbox": [
+            339.0,
+            606.0,
+            484.5361328125,
+            617.0
+          ],
+          "matched": true,
+          "character_edits": 0,
+          "word_edits": 0
+        }
+      ],
+      "role_confusion": [
+        {
+          "reference_role": "y_category",
+          "predicted_role": "unknown",
+          "count": 2
+        },
+        {
+          "reference_role": "y_category",
+          "predicted_role": "y_category",
+          "count": 11
+        },
+        {
+          "reference_role": "x_axis_title",
+          "predicted_role": "x_axis_title",
+          "count": 1
+        },
+        {
+          "reference_role": "x_tick",
+          "predicted_role": "x_tick",
+          "count": 10
+        }
+      ],
+      "ocr_errors": [],
+      "annotation_issues": [
+        "y_axis.major_labels: 12 boîtes, 0 valeurs ; aucune valeur complétée"
+      ]
+    },
+    {
+      "image": "two_col_42847.png",
+      "class_reference": "h_bar",
+      "counts": {
+        "reference_regions": 17,
+        "detections": 28,
+        "detections_in_annotated_regions": 18,
+        "matched_regions": 15,
+        "transcribed_references": 7,
+        "matched_transcribed_references": 7,
+        "characters": 74,
+        "words": 13,
+        "character_edits": 13,
+        "word_edits": 3,
+        "matched_characters": 74,
+        "matched_words": 13,
+        "matched_character_edits": 13,
+        "matched_word_edits": 3,
+        "role_correct_geometry": 12
+      },
+      "metrics": {
+        "CER_reference_regions_misses_as_deletions": 0.17567567567567569,
+        "WER_reference_regions_misses_as_deletions": 0.23076923076923078,
+        "CER_matched_only": 0.17567567567567569,
+        "WER_matched_only": 0.23076923076923078,
+        "detection_precision_annotated_regions": 0.8333333333333334,
+        "detection_recall_reference_regions": 0.8823529411764706,
+        "role_accuracy_geometry_on_matches": 0.8
+      },
+      "examples": [
+        {
+          "reference": "Hershey",
+          "ocr": "Hershey",
+          "reference_role": "y_category",
+          "reference_field": "x_axis.major_labels[0]",
+          "bbox": [
+            97.0,
+            61.0,
+            138.4599609375,
+            73.0
+          ],
+          "matched": true,
+          "character_edits": 0,
+          "word_edits": 0
+        },
+        {
+          "reference": "Ferrero",
+          "ocr": "Ferrero",
+          "reference_role": "y_category",
+          "reference_field": "x_axis.major_labels[1]",
+          "bbox": [
+            102.0,
+            124.0,
+            138.0625,
+            136.0
+          ],
+          "matched": true,
+          "character_edits": 0,
+          "word_edits": 0
+        },
+        {
+          "reference": "Mars",
+          "ocr": "4",
+          "reference_role": "y_category",
+          "reference_field": "x_axis.major_labels[2]",
+          "bbox": [
+            114.0,
+            188.0,
+            138.94384765625,
+            200.0
+          ],
+          "matched": true,
+          "character_edits": 4,
+          "word_edits": 1
+        },
+        {
+          "reference": "Perfetti Van Melle",
+          "ocr": "Perfetti Van Melle",
+          "reference_role": "y_category",
+          "reference_field": "x_axis.major_labels[3]",
+          "bbox": [
+            52.0,
+            252.0,
+            138.015625,
+            264.0
+          ],
+          "matched": true,
+          "character_edits": 0,
+          "word_edits": 0
+        },
+        {
+          "reference": "Johnson & Johnson",
+          "ocr": "Johnson & Johnson",
+          "reference_role": "y_category",
+          "reference_field": "x_axis.major_labels[4]",
+          "bbox": [
+            41.0,
+            315.0,
+            137.640625,
+            327.0
+          ],
+          "matched": true,
+          "character_edits": 0,
+          "word_edits": 0
+        },
+        {
+          "reference": "All other",
+          "ocr": "1",
+          "reference_role": "y_category",
+          "reference_field": "x_axis.major_labels[5]",
+          "bbox": [
+            98.0,
+            379.0,
+            138.68994140625,
+            391.0
+          ],
+          "matched": true,
+          "character_edits": 9,
+          "word_edits": 2
+        },
+        {
+          "reference": "Market share",
+          "ocr": "Market share",
+          "reference_role": "x_axis_title",
+          "reference_field": "y_axis.label",
+          "bbox": [
+            401.0,
+            446.0,
+            459.79296875,
+            457.0
+          ],
+          "matched": true,
+          "character_edits": 0,
+          "word_edits": 0
+        }
+      ],
+      "role_confusion": [
+        {
+          "reference_role": "y_category",
+          "predicted_role": "unknown",
+          "count": 1
+        },
+        {
+          "reference_role": "y_category",
+          "predicted_role": "y_category",
+          "count": 4
+        },
+        {
+          "reference_role": "y_category",
+          "predicted_role": "x_tick",
+          "count": 1
+        },
+        {
+          "reference_role": "x_axis_title",
+          "predicted_role": "unknown",
+          "count": 1
+        },
+        {
+          "reference_role": "x_tick",
+          "predicted_role": "x_tick",
+          "count": 8
+        }
+      ],
+      "ocr_errors": [],
+      "annotation_issues": [
+        "y_axis.major_labels: 10 boîtes, 0 valeurs ; aucune valeur complétée"
+      ]
+    },
+    {
+      "image": "two_col_61697.png",
+      "class_reference": "h_bar",
+      "counts": {
+        "reference_regions": 21,
+        "detections": 35,
+        "detections_in_annotated_regions": 20,
+        "matched_regions": 11,
+        "transcribed_references": 11,
+        "matched_transcribed_references": 11,
+        "characters": 336,
+        "words": 49,
+        "character_edits": 5,
+        "word_edits": 4,
+        "matched_characters": 336,
+        "matched_words": 49,
+        "matched_character_edits": 5,
+        "matched_word_edits": 4,
+        "role_correct_geometry": 0
+      },
+      "metrics": {
+        "CER_reference_regions_misses_as_deletions": 0.01488095238095238,
+        "WER_reference_regions_misses_as_deletions": 0.08163265306122448,
+        "CER_matched_only": 0.01488095238095238,
+        "WER_matched_only": 0.08163265306122448,
+        "detection_precision_annotated_regions": 0.55,
+        "detection_recall_reference_regions": 0.5238095238095238,
+        "role_accuracy_geometry_on_matches": 0.0
+      },
+      "examples": [
+        {
+          "reference": "BlackRock Investment Management (UK)",
+          "ocr": "BlackRock Investment Management (UK)",
+          "reference_role": "y_category",
+          "reference_field": "x_axis.major_labels[0]",
+          "bbox": [
+            47.0,
+            40.0,
+            248.75,
+            66.0
+          ],
+          "matched": true,
+          "character_edits": 0,
+          "word_edits": 0
+        },
+        {
+          "reference": "Link Fund Solutions Limited",
+          "ocr": "Link Fund Solutions Limited",
+          "reference_role": "y_category",
+          "reference_field": "x_axis.major_labels[1]",
+          "bbox": [
+            114.0,
+            86.0,
+            249.140625,
+            98.0
+          ],
+          "matched": true,
+          "character_edits": 0,
+          "word_edits": 0
+        },
+        {
+          "reference": "Scottish Widows Unit Trusts Managers",
+          "ocr": "Scottish Widows Unit Trusts Managers",
+          "reference_role": "y_category",
+          "reference_field": "x_axis.major_labels[2]",
+          "bbox": [
+            61.0,
+            124.0,
+            249.78369140625,
+            136.0
+          ],
+          "matched": true,
+          "character_edits": 0,
+          "word_edits": 0
+        },
+        {
+          "reference": "Aberdeen Standard Fund Managers",
+          "ocr": "Aberdeen Standard Fund Managers",
+          "reference_role": "y_category",
+          "reference_field": "x_axis.major_labels[3]",
+          "bbox": [
+            73.0,
+            154.0,
+            249.005859375,
+            180.0
+          ],
+          "matched": true,
+          "character_edits": 0,
+          "word_edits": 0
+        },
+        {
+          "reference": "Legal & General (Unit Trust) Managers",
+          "ocr": "Legal & Ceneral (Unit Trust) Managers",
+          "reference_role": "y_category",
+          "reference_field": "x_axis.major_labels[4]",
+          "bbox": [
+            60.0,
+            192.0,
+            249.41748046875,
+            218.0
+          ],
+          "matched": true,
+          "character_edits": 1,
+          "word_edits": 1
+        },
+        {
+          "reference": "Royal London Unit Trust Managers Ltd",
+          "ocr": "Royal London Unit Trust Managers Ltd",
+          "reference_role": "y_category",
+          "reference_field": "x_axis.major_labels[5]",
+          "bbox": [
+            61.0,
+            238.0,
+            249.328125,
+            250.0
+          ],
+          "matched": true,
+          "character_edits": 0,
+          "word_edits": 0
+        },
+        {
+          "reference": "Fidelity Worldwide Investment",
+          "ocr": "Fidelity Worldwide Investment",
+          "reference_role": "y_category",
+          "reference_field": "x_axis.major_labels[6]",
+          "bbox": [
+            103.0,
+            276.0,
+            248.90625,
+            288.0
+          ],
+          "matched": true,
+          "character_edits": 0,
+          "word_edits": 0
+        },
+        {
+          "reference": "Baillie Gifford & Co Limited",
+          "ocr": "Baillie Cifford & Co Limited",
+          "reference_role": "y_category",
+          "reference_field": "x_axis.major_labels[7]",
+          "bbox": [
+            118.0,
+            314.0,
+            249.25,
+            326.0
+          ],
+          "matched": true,
+          "character_edits": 1,
+          "word_edits": 1
+        },
+        {
+          "reference": "Schroder Unit Trusts Limited",
+          "ocr": "Schroder Unit Trusts Limited",
+          "reference_role": "y_category",
+          "reference_field": "x_axis.major_labels[8]",
+          "bbox": [
+            110.0,
+            352.0,
+            248.78125,
+            364.0
+          ],
+          "matched": true,
+          "character_edits": 0,
+          "word_edits": 0
+        },
+        {
+          "reference": "M&G Securities Limited",
+          "ocr": "MEC Securities Limited",
+          "reference_role": "y_category",
+          "reference_field": "x_axis.major_labels[9]",
+          "bbox": [
+            134.0,
+            390.0,
+            248.9375,
+            402.0
+          ],
+          "matched": true,
+          "character_edits": 2,
+          "word_edits": 1
+        },
+        {
+          "reference": "Funds value in billion GBP",
+          "ocr": "Funds value in billion CBP",
+          "reference_role": "x_axis_title",
+          "reference_field": "y_axis.label",
+          "bbox": [
+            427.0,
+            446.0,
+            544.615234375,
+            457.0
+          ],
+          "matched": true,
+          "character_edits": 1,
+          "word_edits": 1
+        }
+      ],
+      "role_confusion": [
+        {
+          "reference_role": "y_category",
+          "predicted_role": "title",
+          "count": 1
+        },
+        {
+          "reference_role": "y_category",
+          "predicted_role": "unknown",
+          "count": 9
+        },
+        {
+          "reference_role": "x_axis_title",
+          "predicted_role": "unknown",
+          "count": 1
+        }
+      ],
+      "ocr_errors": [],
+      "annotation_issues": [
+        "y_axis.major_labels: 10 boîtes, 0 valeurs ; aucune valeur complétée"
+      ]
+    },
+    {
+      "image": "21881727007008.png",
+      "class_reference": "h_bar",
+      "counts": {
+        "reference_regions": 9,
+        "detections": 19,
+        "detections_in_annotated_regions": 9,
+        "matched_regions": 9,
+        "transcribed_references": 9,
+        "matched_transcribed_references": 9,
+        "characters": 85,
+        "words": 16,
+        "character_edits": 10,
+        "word_edits": 4,
+        "matched_characters": 85,
+        "matched_words": 16,
+        "matched_character_edits": 10,
+        "matched_word_edits": 4,
+        "role_correct_geometry": 8
+      },
+      "metrics": {
+        "CER_reference_regions_misses_as_deletions": 0.11764705882352941,
+        "WER_reference_regions_misses_as_deletions": 0.25,
+        "CER_matched_only": 0.11764705882352941,
+        "WER_matched_only": 0.25,
+        "detection_precision_annotated_regions": 1.0,
+        "detection_recall_reference_regions": 1.0,
+        "role_accuracy_geometry_on_matches": 0.8888888888888888
+      },
+      "examples": [
+        {
+          "reference": "Share of primary energy from fossil fuels, 1993",
+          "ocr": "Share of primary energy from fossil fuels, 1993",
+          "reference_role": "title",
+          "reference_field": "general_figure_info.title",
+          "bbox": [
+            15.0,
+            12.0,
+            533.359375,
+            41.015625
+          ],
+          "matched": true,
+          "character_edits": 0,
+          "word_edits": 0
+        },
+        {
+          "reference": "Algeria",
+          "ocr": "Algeria",
+          "reference_role": "y_category",
+          "reference_field": "x_axis.major_labels[0]",
+          "bbox": [
+            27.0,
+            120.0,
+            73.28125,
+            135.015625
+          ],
+          "matched": true,
+          "character_edits": 0,
+          "word_edits": 0
+        },
+        {
+          "reference": "Indonesia",
+          "ocr": "Indonesia",
+          "reference_role": "y_category",
+          "reference_field": "x_axis.major_labels[1]",
+          "bbox": [
+            10.0,
+            271.0,
+            73.515625,
+            286.015625
+          ],
+          "matched": true,
+          "character_edits": 0,
+          "word_edits": 0
+        },
+        {
+          "reference": "Portugal",
+          "ocr": "Portugal",
+          "reference_role": "y_category",
+          "reference_field": "x_axis.major_labels[2]",
+          "bbox": [
+            18.0,
+            422.0,
+            72.765625,
+            437.015625
+          ],
+          "matched": true,
+          "character_edits": 0,
+          "word_edits": 0
+        },
+        {
+          "reference": "0%",
+          "ocr": "8",
+          "reference_role": "x_tick",
+          "reference_field": "y_axis.major_labels[0]",
+          "bbox": [
+            66.0,
+            528.0,
+            89.4375,
+            546.015625
+          ],
+          "matched": true,
+          "character_edits": 2,
+          "word_edits": 1
+        },
+        {
+          "reference": "20%",
+          "ocr": "8",
+          "reference_role": "x_tick",
+          "reference_field": "y_axis.major_labels[1]",
+          "bbox": [
+            203.0,
+            528.0,
+            235.4375,
+            546.015625
+          ],
+          "matched": true,
+          "character_edits": 3,
+          "word_edits": 1
+        },
+        {
+          "reference": "40%",
+          "ocr": "40%",
+          "reference_role": "x_tick",
+          "reference_field": "y_axis.major_labels[2]",
+          "bbox": [
+            343.0,
+            528.0,
+            375.4375,
+            546.015625
+          ],
+          "matched": true,
+          "character_edits": 0,
+          "word_edits": 0
+        },
+        {
+          "reference": "60%",
+          "ocr": "8",
+          "reference_role": "x_tick",
+          "reference_field": "y_axis.major_labels[3]",
+          "bbox": [
+            484.0,
+            528.0,
+            516.4375,
+            546.015625
+          ],
+          "matched": true,
+          "character_edits": 3,
+          "word_edits": 1
+        },
+        {
+          "reference": "80%",
+          "ocr": "8",
+          "reference_role": "x_tick",
+          "reference_field": "y_axis.major_labels[4]",
+          "bbox": [
+            624.0,
+            528.0,
+            656.4375,
+            546.015625
+          ],
+          "matched": true,
+          "character_edits": 2,
+          "word_edits": 1
+        }
+      ],
+      "role_confusion": [
+        {
+          "reference_role": "title",
+          "predicted_role": "title",
+          "count": 1
+        },
+        {
+          "reference_role": "y_category",
+          "predicted_role": "y_category",
+          "count": 3
+        },
+        {
+          "reference_role": "x_tick",
+          "predicted_role": "unknown",
+          "count": 1
+        },
+        {
+          "reference_role": "x_tick",
+          "predicted_role": "x_tick",
+          "count": 4
+        }
+      ],
+      "ocr_errors": [],
+      "annotation_issues": []
+    },
+    {
+      "image": "two_col_102453.png",
+      "class_reference": "line",
+      "counts": {
+        "reference_regions": 14,
+        "detections": 25,
+        "detections_in_annotated_regions": 15,
+        "matched_regions": 6,
+        "transcribed_references": 7,
+        "matched_transcribed_references": 6,
+        "characters": 40,
+        "words": 9,
+        "character_edits": 16,
+        "word_edits": 3,
+        "matched_characters": 24,
+        "matched_words": 6,
+        "matched_character_edits": 0,
+        "matched_word_edits": 0,
+        "role_correct_geometry": 6
+      },
+      "metrics": {
+        "CER_reference_regions_misses_as_deletions": 0.4,
+        "WER_reference_regions_misses_as_deletions": 0.3333333333333333,
+        "CER_matched_only": 0.0,
+        "WER_matched_only": 0.0,
+        "detection_precision_annotated_regions": 0.4,
+        "detection_recall_reference_regions": 0.42857142857142855,
+        "role_accuracy_geometry_on_matches": 1.0
+      },
+      "examples": [
+        {
+          "reference": "2015",
+          "ocr": "2015",
+          "reference_role": "x_category",
+          "reference_field": "x_axis.major_labels[0]",
+          "bbox": [
+            132.0,
+            447.0,
+            156.484375,
+            459.0
+          ],
+          "matched": true,
+          "character_edits": 0,
+          "word_edits": 0
+        },
+        {
+          "reference": "2016",
+          "ocr": "2016",
+          "reference_role": "x_category",
+          "reference_field": "x_axis.major_labels[1]",
+          "bbox": [
+            237.0,
+            447.0,
+            261.484375,
+            459.0
+          ],
+          "matched": true,
+          "character_edits": 0,
+          "word_edits": 0
+        },
+        {
+          "reference": "2017",
+          "ocr": "2017",
+          "reference_role": "x_category",
+          "reference_field": "x_axis.major_labels[2]",
+          "bbox": [
+            343.0,
+            447.0,
+            367.484375,
+            459.0
+          ],
+          "matched": true,
+          "character_edits": 0,
+          "word_edits": 0
+        },
+        {
+          "reference": "2018",
+          "ocr": "2018",
+          "reference_role": "x_category",
+          "reference_field": "x_axis.major_labels[3]",
+          "bbox": [
+            449.0,
+            447.0,
+            473.484375,
+            459.0
+          ],
+          "matched": true,
+          "character_edits": 0,
+          "word_edits": 0
+        },
+        {
+          "reference": "2019",
+          "ocr": "2019",
+          "reference_role": "x_category",
+          "reference_field": "x_axis.major_labels[4]",
+          "bbox": [
+            554.0,
+            447.0,
+            578.484375,
+            459.0
+          ],
+          "matched": true,
+          "character_edits": 0,
+          "word_edits": 0
+        },
+        {
+          "reference": "2020",
+          "ocr": "2020",
+          "reference_role": "x_category",
+          "reference_field": "x_axis.major_labels[5]",
+          "bbox": [
+            660.0,
+            447.0,
+            684.484375,
+            459.0
+          ],
+          "matched": true,
+          "character_edits": 0,
+          "word_edits": 0
+        },
+        {
+          "reference": "Risk index score",
+          "ocr": null,
+          "reference_role": "y_axis_title",
+          "reference_field": "y_axis.label",
+          "bbox": [
+            40.0,
+            204.0,
+            51.0,
+            277.7978515625
+          ],
+          "matched": false,
+          "character_edits": 16,
+          "word_edits": 3
+        }
+      ],
+      "role_confusion": [
+        {
+          "reference_role": "x_category",
+          "predicted_role": "x_category",
+          "count": 6
+        }
+      ],
+      "ocr_errors": [],
+      "annotation_issues": [
+        "y_axis.major_labels: 7 boîtes, 0 valeurs ; aucune valeur complétée"
+      ]
+    },
+    {
+      "image": "two_col_24637.png",
+      "class_reference": "line",
+      "counts": {
+        "reference_regions": 24,
+        "detections": 32,
+        "detections_in_annotated_regions": 26,
+        "matched_regions": 21,
+        "transcribed_references": 16,
+        "matched_transcribed_references": 15,
+        "characters": 88,
+        "words": 20,
+        "character_edits": 32,
+        "word_edits": 6,
+        "matched_characters": 60,
+        "matched_words": 15,
+        "matched_character_edits": 4,
+        "matched_word_edits": 1,
+        "role_correct_geometry": 20
+      },
+      "metrics": {
+        "CER_reference_regions_misses_as_deletions": 0.36363636363636365,
+        "WER_reference_regions_misses_as_deletions": 0.3,
+        "CER_matched_only": 0.06666666666666667,
+        "WER_matched_only": 0.06666666666666667,
+        "detection_precision_annotated_regions": 0.8076923076923077,
+        "detection_recall_reference_regions": 0.875,
+        "role_accuracy_geometry_on_matches": 0.9523809523809523
+      },
+      "examples": [
+        {
+          "reference": "1950",
+          "ocr": "1950",
+          "reference_role": "x_category",
+          "reference_field": "x_axis.major_labels[0]",
+          "bbox": [
+            98.0,
+            447.0,
+            122.484375,
+            459.0
+          ],
+          "matched": true,
+          "character_edits": 0,
+          "word_edits": 0
+        },
+        {
+          "reference": "1955",
+          "ocr": "1955",
+          "reference_role": "x_category",
+          "reference_field": "x_axis.major_labels[1]",
+          "bbox": [
+            140.0,
+            447.0,
+            164.484375,
+            459.0
+          ],
+          "matched": true,
+          "character_edits": 0,
+          "word_edits": 0
+        },
+        {
+          "reference": "1960",
+          "ocr": "1960",
+          "reference_role": "x_category",
+          "reference_field": "x_axis.major_labels[2]",
+          "bbox": [
+            183.0,
+            447.0,
+            207.484375,
+            459.0
+          ],
+          "matched": true,
+          "character_edits": 0,
+          "word_edits": 0
+        },
+        {
+          "reference": "1965",
+          "ocr": "1965",
+          "reference_role": "x_category",
+          "reference_field": "x_axis.major_labels[3]",
+          "bbox": [
+            225.0,
+            447.0,
+            249.484375,
+            459.0
+          ],
+          "matched": true,
+          "character_edits": 0,
+          "word_edits": 0
+        },
+        {
+          "reference": "1970",
+          "ocr": "1970",
+          "reference_role": "x_category",
+          "reference_field": "x_axis.major_labels[4]",
+          "bbox": [
+            268.0,
+            447.0,
+            292.484375,
+            459.0
+          ],
+          "matched": true,
+          "character_edits": 0,
+          "word_edits": 0
+        },
+        {
+          "reference": "1975",
+          "ocr": "1975",
+          "reference_role": "x_category",
+          "reference_field": "x_axis.major_labels[5]",
+          "bbox": [
+            310.0,
+            447.0,
+            334.484375,
+            459.0
+          ],
+          "matched": true,
+          "character_edits": 0,
+          "word_edits": 0
+        },
+        {
+          "reference": "1980",
+          "ocr": "1980",
+          "reference_role": "x_category",
+          "reference_field": "x_axis.major_labels[6]",
+          "bbox": [
+            352.0,
+            447.0,
+            376.484375,
+            459.0
+          ],
+          "matched": true,
+          "character_edits": 0,
+          "word_edits": 0
+        },
+        {
+          "reference": "1985",
+          "ocr": "1985",
+          "reference_role": "x_category",
+          "reference_field": "x_axis.major_labels[7]",
+          "bbox": [
+            395.0,
+            447.0,
+            419.484375,
+            459.0
+          ],
+          "matched": true,
+          "character_edits": 0,
+          "word_edits": 0
+        },
+        {
+          "reference": "1990",
+          "ocr": "1990",
+          "reference_role": "x_category",
+          "reference_field": "x_axis.major_labels[8]",
+          "bbox": [
+            437.0,
+            447.0,
+            461.484375,
+            459.0
+          ],
+          "matched": true,
+          "character_edits": 0,
+          "word_edits": 0
+        },
+        {
+          "reference": "1995",
+          "ocr": "1995",
+          "reference_role": "x_category",
+          "reference_field": "x_axis.major_labels[9]",
+          "bbox": [
+            480.0,
+            447.0,
+            504.484375,
+            459.0
+          ],
+          "matched": true,
+          "character_edits": 0,
+          "word_edits": 0
+        },
+        {
+          "reference": "2000",
+          "ocr": "8",
+          "reference_role": "x_category",
+          "reference_field": "x_axis.major_labels[10]",
+          "bbox": [
+            522.0,
+            447.0,
+            546.484375,
+            459.0
+          ],
+          "matched": true,
+          "character_edits": 4,
+          "word_edits": 1
+        },
+        {
+          "reference": "2005",
+          "ocr": "2005",
+          "reference_role": "x_category",
+          "reference_field": "x_axis.major_labels[11]",
+          "bbox": [
+            564.0,
+            447.0,
+            588.484375,
+            459.0
+          ],
+          "matched": true,
+          "character_edits": 0,
+          "word_edits": 0
+        },
+        {
+          "reference": "2010",
+          "ocr": "2010",
+          "reference_role": "x_category",
+          "reference_field": "x_axis.major_labels[12]",
+          "bbox": [
+            607.0,
+            447.0,
+            631.484375,
+            459.0
+          ],
+          "matched": true,
+          "character_edits": 0,
+          "word_edits": 0
+        },
+        {
+          "reference": "2015",
+          "ocr": "2015",
+          "reference_role": "x_category",
+          "reference_field": "x_axis.major_labels[13]",
+          "bbox": [
+            649.0,
+            447.0,
+            673.484375,
+            459.0
+          ],
+          "matched": true,
+          "character_edits": 0,
+          "word_edits": 0
+        },
+        {
+          "reference": "2020",
+          "ocr": "2020",
+          "reference_role": "x_category",
+          "reference_field": "x_axis.major_labels[14]",
+          "bbox": [
+            692.0,
+            447.0,
+            716.484375,
+            459.0
+          ],
+          "matched": true,
+          "character_edits": 0,
+          "word_edits": 0
+        },
+        {
+          "reference": "Deaths per 1,000 live births",
+          "ocr": null,
+          "reference_role": "y_axis_title",
+          "reference_field": "y_axis.label",
+          "bbox": [
+            40.0,
+            180.0,
+            51.0,
+            301.734375
+          ],
+          "matched": false,
+          "character_edits": 28,
+          "word_edits": 5
+        }
+      ],
+      "role_confusion": [
+        {
+          "reference_role": "x_category",
+          "predicted_role": "x_category",
+          "count": 15
+        },
+        {
+          "reference_role": "y_tick",
+          "predicted_role": "y_tick",
+          "count": 5
+        },
+        {
+          "reference_role": "y_tick",
+          "predicted_role": "unknown",
+          "count": 1
+        }
+      ],
+      "ocr_errors": [],
+      "annotation_issues": [
+        "y_axis.major_labels: 8 boîtes, 0 valeurs ; aucune valeur complétée"
+      ]
+    },
+    {
+      "image": "two_col_1716.png",
+      "class_reference": "line",
+      "counts": {
+        "reference_regions": 27,
+        "detections": 50,
+        "detections_in_annotated_regions": 28,
+        "matched_regions": 24,
+        "transcribed_references": 21,
+        "matched_transcribed_references": 20,
+        "characters": 109,
+        "words": 25,
+        "character_edits": 29,
+        "word_edits": 5,
+        "matched_characters": 80,
+        "matched_words": 20,
+        "matched_character_edits": 0,
+        "matched_word_edits": 0,
+        "role_correct_geometry": 23
+      },
+      "metrics": {
+        "CER_reference_regions_misses_as_deletions": 0.26605504587155965,
+        "WER_reference_regions_misses_as_deletions": 0.2,
+        "CER_matched_only": 0.0,
+        "WER_matched_only": 0.0,
+        "detection_precision_annotated_regions": 0.8571428571428571,
+        "detection_recall_reference_regions": 0.8888888888888888,
+        "role_accuracy_geometry_on_matches": 0.9583333333333334
+      },
+      "examples": [
+        {
+          "reference": "2000",
+          "ocr": "2000",
+          "reference_role": "x_category",
+          "reference_field": "x_axis.major_labels[0]",
+          "bbox": [
+            107.0,
+            431.0,
+            132.79834747314453,
+            456.7983703613281
+          ],
+          "matched": true,
+          "character_edits": 0,
+          "word_edits": 0
+        },
+        {
+          "reference": "2001",
+          "ocr": "2001",
+          "reference_role": "x_category",
+          "reference_field": "x_axis.major_labels[1]",
+          "bbox": [
+            137.0,
+            431.0,
+            162.79834747314453,
+            456.7983703613281
+          ],
+          "matched": true,
+          "character_edits": 0,
+          "word_edits": 0
+        },
+        {
+          "reference": "2002",
+          "ocr": "2002",
+          "reference_role": "x_category",
+          "reference_field": "x_axis.major_labels[2]",
+          "bbox": [
+            168.0,
+            431.0,
+            193.79835510253906,
+            456.7983703613281
+          ],
+          "matched": true,
+          "character_edits": 0,
+          "word_edits": 0
+        },
+        {
+          "reference": "2003",
+          "ocr": "2003",
+          "reference_role": "x_category",
+          "reference_field": "x_axis.major_labels[3]",
+          "bbox": [
+            198.0,
+            431.0,
+            223.79835510253906,
+            456.7983703613281
+          ],
+          "matched": true,
+          "character_edits": 0,
+          "word_edits": 0
+        },
+        {
+          "reference": "2004",
+          "ocr": "2004",
+          "reference_role": "x_category",
+          "reference_field": "x_axis.major_labels[4]",
+          "bbox": [
+            229.0,
+            431.0,
+            254.79835510253906,
+            456.7983703613281
+          ],
+          "matched": true,
+          "character_edits": 0,
+          "word_edits": 0
+        },
+        {
+          "reference": "2005",
+          "ocr": "2005",
+          "reference_role": "x_category",
+          "reference_field": "x_axis.major_labels[5]",
+          "bbox": [
+            260.0,
+            431.0,
+            285.79835510253906,
+            456.7983703613281
+          ],
+          "matched": true,
+          "character_edits": 0,
+          "word_edits": 0
+        },
+        {
+          "reference": "2006",
+          "ocr": "2006",
+          "reference_role": "x_category",
+          "reference_field": "x_axis.major_labels[6]",
+          "bbox": [
+            290.0,
+            431.0,
+            315.79833984375,
+            456.7983703613281
+          ],
+          "matched": true,
+          "character_edits": 0,
+          "word_edits": 0
+        },
+        {
+          "reference": "2007",
+          "ocr": "2007",
+          "reference_role": "x_category",
+          "reference_field": "x_axis.major_labels[7]",
+          "bbox": [
+            321.0,
+            431.0,
+            346.79833984375,
+            456.7983703613281
+          ],
+          "matched": true,
+          "character_edits": 0,
+          "word_edits": 0
+        },
+        {
+          "reference": "2008",
+          "ocr": "2008",
+          "reference_role": "x_category",
+          "reference_field": "x_axis.major_labels[8]",
+          "bbox": [
+            351.0,
+            431.0,
+            376.79833984375,
+            456.7983703613281
+          ],
+          "matched": true,
+          "character_edits": 0,
+          "word_edits": 0
+        },
+        {
+          "reference": "2009",
+          "ocr": "2009",
+          "reference_role": "x_category",
+          "reference_field": "x_axis.major_labels[9]",
+          "bbox": [
+            382.0,
+            431.0,
+            407.79833984375,
+            456.7983703613281
+          ],
+          "matched": true,
+          "character_edits": 0,
+          "word_edits": 0
+        },
+        {
+          "reference": "2010",
+          "ocr": "2010",
+          "reference_role": "x_category",
+          "reference_field": "x_axis.major_labels[10]",
+          "bbox": [
+            413.0,
+            431.0,
+            438.79833984375,
+            456.7983703613281
+          ],
+          "matched": true,
+          "character_edits": 0,
+          "word_edits": 0
+        },
+        {
+          "reference": "2011",
+          "ocr": "2011",
+          "reference_role": "x_category",
+          "reference_field": "x_axis.major_labels[11]",
+          "bbox": [
+            444.0,
+            431.0,
+            469.2127685546875,
+            456.2127685546875
+          ],
+          "matched": true,
+          "character_edits": 0,
+          "word_edits": 0
+        },
+        {
+          "reference": "2012",
+          "ocr": "2012",
+          "reference_role": "x_category",
+          "reference_field": "x_axis.major_labels[12]",
+          "bbox": [
+            474.0,
+            431.0,
+            499.79833984375,
+            456.7983703613281
+          ],
+          "matched": true,
+          "character_edits": 0,
+          "word_edits": 0
+        },
+        {
+          "reference": "2013",
+          "ocr": "2013",
+          "reference_role": "x_category",
+          "reference_field": "x_axis.major_labels[13]",
+          "bbox": [
+            504.0,
+            431.0,
+            529.79833984375,
+            456.79833984375
+          ],
+          "matched": true,
+          "character_edits": 0,
+          "word_edits": 0
+        },
+        {
+          "reference": "2014",
+          "ocr": "2014",
+          "reference_role": "x_category",
+          "reference_field": "x_axis.major_labels[14]",
+          "bbox": [
+            535.0,
+            431.0,
+            560.7983093261719,
+            456.7983703613281
+          ],
+          "matched": true,
+          "character_edits": 0,
+          "word_edits": 0
+        },
+        {
+          "reference": "2015",
+          "ocr": "2015",
+          "reference_role": "x_category",
+          "reference_field": "x_axis.major_labels[15]",
+          "bbox": [
+            566.0,
+            431.0,
+            591.79833984375,
+            456.7983703613281
+          ],
+          "matched": true,
+          "character_edits": 0,
+          "word_edits": 0
+        },
+        {
+          "reference": "2016",
+          "ocr": "2016",
+          "reference_role": "x_category",
+          "reference_field": "x_axis.major_labels[16]",
+          "bbox": [
+            596.0,
+            431.0,
+            621.79833984375,
+            456.7983703613281
+          ],
+          "matched": true,
+          "character_edits": 0,
+          "word_edits": 0
+        },
+        {
+          "reference": "2017",
+          "ocr": "2017",
+          "reference_role": "x_category",
+          "reference_field": "x_axis.major_labels[17]",
+          "bbox": [
+            627.0,
+            431.0,
+            652.79833984375,
+            456.7983703613281
+          ],
+          "matched": true,
+          "character_edits": 0,
+          "word_edits": 0
+        },
+        {
+          "reference": "2018",
+          "ocr": "2018",
+          "reference_role": "x_category",
+          "reference_field": "x_axis.major_labels[18]",
+          "bbox": [
+            657.0,
+            431.0,
+            682.79833984375,
+            456.7983703613281
+          ],
+          "matched": true,
+          "character_edits": 0,
+          "word_edits": 0
+        },
+        {
+          "reference": "2019",
+          "ocr": "2019",
+          "reference_role": "x_category",
+          "reference_field": "x_axis.major_labels[19]",
+          "bbox": [
+            688.0,
+            431.0,
+            713.79833984375,
+            456.7983703613281
+          ],
+          "matched": true,
+          "character_edits": 0,
+          "word_edits": 0
+        },
+        {
+          "reference": "Average annual wages in euros",
+          "ocr": null,
+          "reference_role": "y_axis_title",
+          "reference_field": "y_axis.label",
+          "bbox": [
+            40.0,
+            162.0,
+            51.0,
+            301.921875
+          ],
+          "matched": false,
+          "character_edits": 29,
+          "word_edits": 5
+        }
+      ],
+      "role_confusion": [
+        {
+          "reference_role": "x_category",
+          "predicted_role": "x_category",
+          "count": 20
+        },
+        {
+          "reference_role": "y_tick",
+          "predicted_role": "x_category",
+          "count": 1
+        },
+        {
+          "reference_role": "y_tick",
+          "predicted_role": "y_tick",
+          "count": 3
+        }
+      ],
+      "ocr_errors": [],
+      "annotation_issues": [
+        "y_axis.major_labels: 6 boîtes, 0 valeurs ; aucune valeur complétée"
+      ]
+    },
+    {
+      "image": "two_col_2888.png",
+      "class_reference": "line",
+      "counts": {
+        "reference_regions": 29,
+        "detections": 59,
+        "detections_in_annotated_regions": 31,
+        "matched_regions": 22,
+        "transcribed_references": 22,
+        "matched_transcribed_references": 21,
+        "characters": 115,
+        "words": 26,
+        "character_edits": 35,
+        "word_edits": 9,
+        "matched_characters": 88,
+        "matched_words": 21,
+        "matched_character_edits": 8,
+        "matched_word_edits": 4,
+        "role_correct_geometry": 19
+      },
+      "metrics": {
+        "CER_reference_regions_misses_as_deletions": 0.30434782608695654,
+        "WER_reference_regions_misses_as_deletions": 0.34615384615384615,
+        "CER_matched_only": 0.09090909090909091,
+        "WER_matched_only": 0.19047619047619047,
+        "detection_precision_annotated_regions": 0.7096774193548387,
+        "detection_recall_reference_regions": 0.7586206896551724,
+        "role_accuracy_geometry_on_matches": 0.8636363636363636
+      },
+      "examples": [
+        {
+          "reference": "1986",
+          "ocr": "1986",
+          "reference_role": "x_category",
+          "reference_field": "x_axis.major_labels[0]",
+          "bbox": [
+            80.0,
+            477.0,
+            105.7983512878418,
+            502.7983703613281
+          ],
+          "matched": true,
+          "character_edits": 0,
+          "word_edits": 0
+        },
+        {
+          "reference": "1988",
+          "ocr": "1988",
+          "reference_role": "x_category",
+          "reference_field": "x_axis.major_labels[1]",
+          "bbox": [
+            111.0,
+            477.0,
+            136.79835510253906,
+            502.79833984375
+          ],
+          "matched": true,
+          "character_edits": 0,
+          "word_edits": 0
+        },
+        {
+          "reference": "1990",
+          "ocr": "1990",
+          "reference_role": "x_category",
+          "reference_field": "x_axis.major_labels[2]",
+          "bbox": [
+            141.0,
+            477.0,
+            166.79834747314453,
+            502.7983703613281
+          ],
+          "matched": true,
+          "character_edits": 0,
+          "word_edits": 0
+        },
+        {
+          "reference": "1992",
+          "ocr": "1992",
+          "reference_role": "x_category",
+          "reference_field": "x_axis.major_labels[3]",
+          "bbox": [
+            172.0,
+            477.0,
+            197.79835510253906,
+            502.7983703613281
+          ],
+          "matched": true,
+          "character_edits": 0,
+          "word_edits": 0
+        },
+        {
+          "reference": "1994",
+          "ocr": "1994",
+          "reference_role": "x_category",
+          "reference_field": "x_axis.major_labels[4]",
+          "bbox": [
+            203.0,
+            477.0,
+            228.79835510253906,
+            502.7983703613281
+          ],
+          "matched": true,
+          "character_edits": 0,
+          "word_edits": 0
+        },
+        {
+          "reference": "1996",
+          "ocr": "1996",
+          "reference_role": "x_category",
+          "reference_field": "x_axis.major_labels[5]",
+          "bbox": [
+            234.0,
+            477.0,
+            259.79833984375,
+            502.79833984375
+          ],
+          "matched": true,
+          "character_edits": 0,
+          "word_edits": 0
+        },
+        {
+          "reference": "1998",
+          "ocr": "1998",
+          "reference_role": "x_category",
+          "reference_field": "x_axis.major_labels[6]",
+          "bbox": [
+            265.0,
+            477.0,
+            290.79835510253906,
+            502.7983703613281
+          ],
+          "matched": true,
+          "character_edits": 0,
+          "word_edits": 0
+        },
+        {
+          "reference": "2000",
+          "ocr": "2000",
+          "reference_role": "x_category",
+          "reference_field": "x_axis.major_labels[7]",
+          "bbox": [
+            295.0,
+            477.0,
+            320.79833984375,
+            502.7983703613281
+          ],
+          "matched": true,
+          "character_edits": 0,
+          "word_edits": 0
+        },
+        {
+          "reference": "2002",
+          "ocr": "2002",
+          "reference_role": "x_category",
+          "reference_field": "x_axis.major_labels[8]",
+          "bbox": [
+            326.0,
+            477.0,
+            351.79833984375,
+            502.7983703613281
+          ],
+          "matched": true,
+          "character_edits": 0,
+          "word_edits": 0
+        },
+        {
+          "reference": "2004",
+          "ocr": "2004",
+          "reference_role": "x_category",
+          "reference_field": "x_axis.major_labels[9]",
+          "bbox": [
+            357.0,
+            477.0,
+            382.79833984375,
+            502.7983703613281
+          ],
+          "matched": true,
+          "character_edits": 0,
+          "word_edits": 0
+        },
+        {
+          "reference": "2006",
+          "ocr": "2006",
+          "reference_role": "x_category",
+          "reference_field": "x_axis.major_labels[10]",
+          "bbox": [
+            388.0,
+            477.0,
+            413.79833984375,
+            502.7983703613281
+          ],
+          "matched": true,
+          "character_edits": 0,
+          "word_edits": 0
+        },
+        {
+          "reference": "2008",
+          "ocr": "2008",
+          "reference_role": "x_category",
+          "reference_field": "x_axis.major_labels[11]",
+          "bbox": [
+            418.0,
+            477.0,
+            443.79833984375,
+            502.7983703613281
+          ],
+          "matched": true,
+          "character_edits": 0,
+          "word_edits": 0
+        },
+        {
+          "reference": "2010",
+          "ocr": "2010",
+          "reference_role": "x_category",
+          "reference_field": "x_axis.major_labels[12]",
+          "bbox": [
+            449.0,
+            477.0,
+            474.79833984375,
+            502.7983703613281
+          ],
+          "matched": true,
+          "character_edits": 0,
+          "word_edits": 0
+        },
+        {
+          "reference": "2012",
+          "ocr": "2012",
+          "reference_role": "x_category",
+          "reference_field": "x_axis.major_labels[13]",
+          "bbox": [
+            480.0,
+            477.0,
+            505.79833984375,
+            502.7983703613281
+          ],
+          "matched": true,
+          "character_edits": 0,
+          "word_edits": 0
+        },
+        {
+          "reference": "2014",
+          "ocr": "2014",
+          "reference_role": "x_category",
+          "reference_field": "x_axis.major_labels[14]",
+          "bbox": [
+            511.0,
+            477.0,
+            536.79833984375,
+            502.79833984375
+          ],
+          "matched": true,
+          "character_edits": 0,
+          "word_edits": 0
+        },
+        {
+          "reference": "2016",
+          "ocr": "2016",
+          "reference_role": "x_category",
+          "reference_field": "x_axis.major_labels[15]",
+          "bbox": [
+            542.0,
+            477.0,
+            567.79833984375,
+            502.7983703613281
+          ],
+          "matched": true,
+          "character_edits": 0,
+          "word_edits": 0
+        },
+        {
+          "reference": "2018",
+          "ocr": "2018",
+          "reference_role": "x_category",
+          "reference_field": "x_axis.major_labels[16]",
+          "bbox": [
+            572.0,
+            477.0,
+            597.79833984375,
+            502.7983703613281
+          ],
+          "matched": true,
+          "character_edits": 0,
+          "word_edits": 0
+        },
+        {
+          "reference": "2020*",
+          "ocr": "8",
+          "reference_role": "x_category",
+          "reference_field": "x_axis.major_labels[17]",
+          "bbox": [
+            600.0,
+            476.0,
+            629.32421875,
+            505.32421875
+          ],
+          "matched": true,
+          "character_edits": 5,
+          "word_edits": 1
+        },
+        {
+          "reference": "2022*",
+          "ocr": "2022\"",
+          "reference_role": "x_category",
+          "reference_field": "x_axis.major_labels[18]",
+          "bbox": [
+            631.0,
+            476.0,
+            660.32421875,
+            505.32421875
+          ],
+          "matched": true,
+          "character_edits": 1,
+          "word_edits": 1
+        },
+        {
+          "reference": "2024*",
+          "ocr": "2024\"",
+          "reference_role": "x_category",
+          "reference_field": "x_axis.major_labels[19]",
+          "bbox": [
+            662.0,
+            476.0,
+            691.32421875,
+            505.32421875
+          ],
+          "matched": true,
+          "character_edits": 1,
+          "word_edits": 1
+        },
+        {
+          "reference": "2026*",
+          "ocr": "2026\"",
+          "reference_role": "x_category",
+          "reference_field": "x_axis.major_labels[20]",
+          "bbox": [
+            692.0,
+            476.0,
+            721.32421875,
+            505.32421875
+          ],
+          "matched": true,
+          "character_edits": 1,
+          "word_edits": 1
+        },
+        {
+          "reference": "GDP in billion U.S. dollars",
+          "ocr": null,
+          "reference_role": "y_axis_title",
+          "reference_field": "y_axis.label",
+          "bbox": [
+            40.0,
+            222.0,
+            51.0,
+            336.875
+          ],
+          "matched": false,
+          "character_edits": 27,
+          "word_edits": 5
+        }
+      ],
+      "role_confusion": [
+        {
+          "reference_role": "x_category",
+          "predicted_role": "x_category",
+          "count": 18
+        },
+        {
+          "reference_role": "x_category",
+          "predicted_role": "unknown",
+          "count": 3
+        },
+        {
+          "reference_role": "y_tick",
+          "predicted_role": "y_tick",
+          "count": 1
+        }
+      ],
+      "ocr_errors": [],
+      "annotation_issues": [
+        "y_axis.major_labels: 7 boîtes, 0 valeurs ; aucune valeur complétée"
+      ]
+    },
+    {
+      "image": "10146.png",
+      "class_reference": "line",
+      "counts": {
+        "reference_regions": 9,
+        "detections": 33,
+        "detections_in_annotated_regions": 10,
+        "matched_regions": 8,
+        "transcribed_references": 9,
+        "matched_transcribed_references": 8,
+        "characters": 155,
+        "words": 25,
+        "character_edits": 110,
+        "word_edits": 17,
+        "matched_characters": 45,
+        "matched_words": 8,
+        "matched_character_edits": 0,
+        "matched_word_edits": 0,
+        "role_correct_geometry": 5
+      },
+      "metrics": {
+        "CER_reference_regions_misses_as_deletions": 0.7096774193548387,
+        "WER_reference_regions_misses_as_deletions": 0.68,
+        "CER_matched_only": 0.0,
+        "WER_matched_only": 0.0,
+        "detection_precision_annotated_regions": 0.8,
+        "detection_recall_reference_regions": 0.8888888888888888,
+        "role_accuracy_geometry_on_matches": 0.625
+      },
+      "examples": [
+        {
+          "reference": "Dissatisfaction with Mexico's Direction Continues Are you_ with the way things are going in our country today?",
+          "ocr": null,
+          "reference_role": "title",
+          "reference_field": "general_figure_info.title",
+          "bbox": [
+            0.0,
+            0.0,
+            418.0,
+            61.0
+          ],
+          "matched": false,
+          "character_edits": 110,
+          "word_edits": 17
+        },
+        {
+          "reference": "2015",
+          "ocr": "2015",
+          "reference_role": "x_category",
+          "reference_field": "x_axis.major_labels[0]",
+          "bbox": [
+            381.0,
+            256.0,
+            412.0,
+            269.0
+          ],
+          "matched": true,
+          "character_edits": 0,
+          "word_edits": 0
+        },
+        {
+          "reference": "2002",
+          "ocr": "2002",
+          "reference_role": "x_category",
+          "reference_field": "x_axis.major_labels[1]",
+          "bbox": [
+            26.0,
+            257.0,
+            57.0,
+            269.0
+          ],
+          "matched": true,
+          "character_edits": 0,
+          "word_edits": 0
+        },
+        {
+          "reference": "2007",
+          "ocr": "2007",
+          "reference_role": "x_category",
+          "reference_field": "x_axis.major_labels[2]",
+          "bbox": [
+            65.0,
+            257.0,
+            96.0,
+            268.0
+          ],
+          "matched": true,
+          "character_edits": 0,
+          "word_edits": 0
+        },
+        {
+          "reference": "2009",
+          "ocr": "2009",
+          "reference_role": "x_category",
+          "reference_field": "x_axis.major_labels[3]",
+          "bbox": [
+            145.0,
+            257.0,
+            174.0,
+            269.0
+          ],
+          "matched": true,
+          "character_edits": 0,
+          "word_edits": 0
+        },
+        {
+          "reference": "2011",
+          "ocr": "2011",
+          "reference_role": "x_category",
+          "reference_field": "x_axis.major_labels[4]",
+          "bbox": [
+            224.0,
+            257.0,
+            253.0,
+            269.0
+          ],
+          "matched": true,
+          "character_edits": 0,
+          "word_edits": 0
+        },
+        {
+          "reference": "2013",
+          "ocr": "2013",
+          "reference_role": "x_category",
+          "reference_field": "x_axis.major_labels[5]",
+          "bbox": [
+            302.0,
+            257.0,
+            333.0,
+            269.0
+          ],
+          "matched": true,
+          "character_edits": 0,
+          "word_edits": 0
+        },
+        {
+          "reference": "Dissatisfied",
+          "ocr": "Dissatisfied",
+          "reference_role": "legend",
+          "reference_field": "legend.items[0].label",
+          "bbox": [
+            64.0,
+            80.0,
+            131.0,
+            95.0
+          ],
+          "matched": true,
+          "character_edits": 0,
+          "word_edits": 0
+        },
+        {
+          "reference": "Satisfied",
+          "ocr": "Satisfied",
+          "reference_role": "legend",
+          "reference_field": "legend.items[1].label",
+          "bbox": [
+            75.0,
+            223.0,
+            126.0,
+            242.0
+          ],
+          "matched": true,
+          "character_edits": 0,
+          "word_edits": 0
+        }
+      ],
+      "role_confusion": [
+        {
+          "reference_role": "x_category",
+          "predicted_role": "x_category",
+          "count": 5
+        },
+        {
+          "reference_role": "x_category",
+          "predicted_role": "y_tick",
+          "count": 1
+        },
+        {
+          "reference_role": "legend",
+          "predicted_role": "unknown",
+          "count": 2
+        }
+      ],
+      "ocr_errors": [],
+      "annotation_issues": []
+    },
+    {
+      "image": "two_col_60392.png",
+      "class_reference": "pie",
+      "counts": {
+        "reference_regions": 7,
+        "detections": 10,
+        "detections_in_annotated_regions": 7,
+        "matched_regions": 7,
+        "transcribed_references": 7,
+        "matched_transcribed_references": 7,
+        "characters": 88,
+        "words": 14,
+        "character_edits": 41,
+        "word_edits": 11,
+        "matched_characters": 88,
+        "matched_words": 14,
+        "matched_character_edits": 41,
+        "matched_word_edits": 11,
+        "role_correct_geometry": 0
+      },
+      "metrics": {
+        "CER_reference_regions_misses_as_deletions": 0.4659090909090909,
+        "WER_reference_regions_misses_as_deletions": 0.7857142857142857,
+        "CER_matched_only": 0.4659090909090909,
+        "WER_matched_only": 0.7857142857142857,
+        "detection_precision_annotated_regions": 1.0,
+        "detection_recall_reference_regions": 1.0,
+        "role_accuracy_geometry_on_matches": 0.0
+      },
+      "examples": [
+        {
+          "reference": "Internet",
+          "ocr": "Internet 355",
+          "reference_role": "other",
+          "reference_field": "models[0].text_label",
+          "bbox": [
+            594.0,
+            161.0,
+            672.0,
+            174.0
+          ],
+          "matched": true,
+          "character_edits": 4,
+          "word_edits": 1
+        },
+        {
+          "reference": "Social media",
+          "ocr": "Social media 269",
+          "reference_role": "other",
+          "reference_field": "models[1].text_label",
+          "bbox": [
+            452.0,
+            444.0,
+            558.0,
+            457.0
+          ],
+          "matched": true,
+          "character_edits": 4,
+          "word_edits": 1
+        },
+        {
+          "reference": "Television",
+          "ocr": "Television 21%",
+          "reference_role": "other",
+          "reference_field": "models[2].text_label",
+          "bbox": [
+            74.0,
+            302.0,
+            165.0,
+            316.0
+          ],
+          "matched": true,
+          "character_edits": 4,
+          "word_edits": 1
+        },
+        {
+          "reference": "Friends & family",
+          "ocr": "1",
+          "reference_role": "other",
+          "reference_field": "models[3].text_label",
+          "bbox": [
+            74.0,
+            141.0,
+            194.0,
+            157.0
+          ],
+          "matched": true,
+          "character_edits": 16,
+          "word_edits": 3
+        },
+        {
+          "reference": "Newspapers",
+          "ocr": "Newspapers 626",
+          "reference_role": "other",
+          "reference_field": "models[4].text_label",
+          "bbox": [
+            122.0,
+            113.0,
+            217.0,
+            127.0
+          ],
+          "matched": true,
+          "character_edits": 4,
+          "word_edits": 1
+        },
+        {
+          "reference": "Other",
+          "ocr": "Other 4%",
+          "reference_role": "other",
+          "reference_field": "models[5].text_label",
+          "bbox": [
+            197.0,
+            86.0,
+            253.0,
+            98.0
+          ],
+          "matched": true,
+          "character_edits": 3,
+          "word_edits": 1
+        },
+        {
+          "reference": "I don't keep myself updated",
+          "ocr": "don*t keep myself updated 2%",
+          "reference_role": "other",
+          "reference_field": "models[6].text_label",
+          "bbox": [
+            151.0,
+            57.0,
+            342.0,
+            73.0
+          ],
+          "matched": true,
+          "character_edits": 6,
+          "word_edits": 3
+        }
+      ],
+      "role_confusion": [
+        {
+          "reference_role": "other",
+          "predicted_role": "unknown",
+          "count": 6
+        },
+        {
+          "reference_role": "other",
+          "predicted_role": "title",
+          "count": 1
+        }
+      ],
+      "ocr_errors": [],
+      "annotation_issues": []
+    },
+    {
+      "image": "two_col_4223.png",
+      "class_reference": "pie",
+      "counts": {
+        "reference_regions": 2,
+        "detections": 6,
+        "detections_in_annotated_regions": 2,
+        "matched_regions": 2,
+        "transcribed_references": 2,
+        "matched_transcribed_references": 2,
+        "characters": 5,
+        "words": 2,
+        "character_edits": 5,
+        "word_edits": 2,
+        "matched_characters": 5,
+        "matched_words": 2,
+        "matched_character_edits": 5,
+        "matched_word_edits": 2,
+        "role_correct_geometry": 0
+      },
+      "metrics": {
+        "CER_reference_regions_misses_as_deletions": 1.0,
+        "WER_reference_regions_misses_as_deletions": 1.0,
+        "CER_matched_only": 1.0,
+        "WER_matched_only": 1.0,
+        "detection_precision_annotated_regions": 1.0,
+        "detection_recall_reference_regions": 1.0,
+        "role_accuracy_geometry_on_matches": 0.0
+      },
+      "examples": [
+        {
+          "reference": "No",
+          "ocr": "1",
+          "reference_role": "other",
+          "reference_field": "models[0].text_label",
+          "bbox": [
+            213.0,
+            444.0,
+            270.0,
+            457.0
+          ],
+          "matched": true,
+          "character_edits": 2,
+          "word_edits": 1
+        },
+        {
+          "reference": "Yes",
+          "ocr": "1",
+          "reference_role": "other",
+          "reference_field": "models[1].text_label",
+          "bbox": [
+            504.0,
+            57.0,
+            566.0,
+            70.0
+          ],
+          "matched": true,
+          "character_edits": 3,
+          "word_edits": 1
+        }
+      ],
+      "role_confusion": [
+        {
+          "reference_role": "other",
+          "predicted_role": "unknown",
+          "count": 2
+        }
+      ],
+      "ocr_errors": [],
+      "annotation_issues": []
+    },
+    {
+      "image": "two_col_81161.png",
+      "class_reference": "pie",
+      "counts": {
+        "reference_regions": 3,
+        "detections": 6,
+        "detections_in_annotated_regions": 3,
+        "matched_regions": 3,
+        "transcribed_references": 3,
+        "matched_transcribed_references": 3,
+        "characters": 12,
+        "words": 3,
+        "character_edits": 12,
+        "word_edits": 3,
+        "matched_characters": 12,
+        "matched_words": 3,
+        "matched_character_edits": 12,
+        "matched_word_edits": 3,
+        "role_correct_geometry": 0
+      },
+      "metrics": {
+        "CER_reference_regions_misses_as_deletions": 1.0,
+        "WER_reference_regions_misses_as_deletions": 1.0,
+        "CER_matched_only": 1.0,
+        "WER_matched_only": 1.0,
+        "detection_precision_annotated_regions": 1.0,
+        "detection_recall_reference_regions": 1.0,
+        "role_accuracy_geometry_on_matches": 0.0
+      },
+      "examples": [
+        {
+          "reference": "Same",
+          "ocr": "Same 54%",
+          "reference_role": "other",
+          "reference_field": "models[0].text_label",
+          "bbox": [
+            637.0,
+            278.0,
+            700.0,
+            292.0
+          ],
+          "matched": true,
+          "character_edits": 4,
+          "word_edits": 1
+        },
+        {
+          "reference": "More",
+          "ocr": "More 242",
+          "reference_role": "other",
+          "reference_field": "models[1].text_label",
+          "bbox": [
+            109.0,
+            368.0,
+            169.0,
+            380.0
+          ],
+          "matched": true,
+          "character_edits": 4,
+          "word_edits": 1
+        },
+        {
+          "reference": "Less",
+          "ocr": "Less 22%",
+          "reference_role": "other",
+          "reference_field": "models[2].text_label",
+          "bbox": [
+            157.0,
+            84.0,
+            213.0,
+            97.0
+          ],
+          "matched": true,
+          "character_edits": 4,
+          "word_edits": 1
+        }
+      ],
+      "role_confusion": [
+        {
+          "reference_role": "other",
+          "predicted_role": "unknown",
+          "count": 3
+        }
+      ],
+      "ocr_errors": [],
+      "annotation_issues": []
+    },
+    {
+      "image": "two_col_22308.png",
+      "class_reference": "pie",
+      "counts": {
+        "reference_regions": 5,
+        "detections": 10,
+        "detections_in_annotated_regions": 6,
+        "matched_regions": 5,
+        "transcribed_references": 5,
+        "matched_transcribed_references": 5,
+        "characters": 45,
+        "words": 20,
+        "character_edits": 33,
+        "word_edits": 17,
+        "matched_characters": 45,
+        "matched_words": 20,
+        "matched_character_edits": 33,
+        "matched_word_edits": 17,
+        "role_correct_geometry": 0
+      },
+      "metrics": {
+        "CER_reference_regions_misses_as_deletions": 0.7333333333333333,
+        "WER_reference_regions_misses_as_deletions": 0.85,
+        "CER_matched_only": 0.7333333333333333,
+        "WER_matched_only": 0.85,
+        "detection_precision_annotated_regions": 0.8333333333333334,
+        "detection_recall_reference_regions": 1.0,
+        "role_accuracy_geometry_on_matches": 0.0
+      },
+      "examples": [
+        {
+          "reference": "5 - 10 %",
+          "ocr": "1",
+          "reference_role": "other",
+          "reference_field": "models[0].text_label",
+          "bbox": [
+            529.0,
+            438.0,
+            609.0,
+            452.0
+          ],
+          "matched": true,
+          "character_edits": 7,
+          "word_edits": 4
+        },
+        {
+          "reference": "0 - 5 %",
+          "ocr": "1",
+          "reference_role": "other",
+          "reference_field": "models[1].text_label",
+          "bbox": [
+            64.0,
+            286.0,
+            153.0,
+            305.0
+          ],
+          "matched": true,
+          "character_edits": 7,
+          "word_edits": 4
+        },
+        {
+          "reference": "15 - 20 %",
+          "ocr": "1",
+          "reference_role": "other",
+          "reference_field": "models[2].text_label",
+          "bbox": [
+            135.0,
+            100.0,
+            220.0,
+            119.0
+          ],
+          "matched": true,
+          "character_edits": 8,
+          "word_edits": 4
+        },
+        {
+          "reference": "More than 20 %",
+          "ocr": "More than 20 % 526",
+          "reference_role": "other",
+          "reference_field": "models[3].text_label",
+          "bbox": [
+            209.0,
+            57.0,
+            322.0,
+            70.0
+          ],
+          "matched": true,
+          "character_edits": 4,
+          "word_edits": 1
+        },
+        {
+          "reference": "0 - 5 %",
+          "ocr": "1",
+          "reference_role": "other",
+          "reference_field": "models[4].text_label",
+          "bbox": [
+            550.0,
+            97.0,
+            622.0,
+            110.0
+          ],
+          "matched": true,
+          "character_edits": 7,
+          "word_edits": 4
+        }
+      ],
+      "role_confusion": [
+        {
+          "reference_role": "other",
+          "predicted_role": "unknown",
+          "count": 5
+        }
+      ],
+      "ocr_errors": [],
+      "annotation_issues": []
+    },
+    {
+      "image": "two_col_6419.png",
+      "class_reference": "pie",
+      "counts": {
+        "reference_regions": 6,
+        "detections": 9,
+        "detections_in_annotated_regions": 6,
+        "matched_regions": 6,
+        "transcribed_references": 6,
+        "matched_transcribed_references": 6,
+        "characters": 76,
+        "words": 13,
+        "character_edits": 45,
+        "word_edits": 9,
+        "matched_characters": 76,
+        "matched_words": 13,
+        "matched_character_edits": 45,
+        "matched_word_edits": 9,
+        "role_correct_geometry": 0
+      },
+      "metrics": {
+        "CER_reference_regions_misses_as_deletions": 0.5921052631578947,
+        "WER_reference_regions_misses_as_deletions": 0.6923076923076923,
+        "CER_matched_only": 0.5921052631578947,
+        "WER_matched_only": 0.6923076923076923,
+        "detection_precision_annotated_regions": 1.0,
+        "detection_recall_reference_regions": 1.0,
+        "role_accuracy_geometry_on_matches": 0.0
+      },
+      "examples": [
+        {
+          "reference": "Other",
+          "ocr": "Other 347",
+          "reference_role": "other",
+          "reference_field": "models[0].text_label",
+          "bbox": [
+            109.0,
+            141.0,
+            173.0,
+            153.0
+          ],
+          "matched": true,
+          "character_edits": 4,
+          "word_edits": 1
+        },
+        {
+          "reference": "Bed & bathroom",
+          "ocr": "Bed & bathroom 222",
+          "reference_role": "other",
+          "reference_field": "models[1].text_label",
+          "bbox": [
+            554.0,
+            81.0,
+            680.0,
+            93.0
+          ],
+          "matched": true,
+          "character_edits": 4,
+          "word_edits": 1
+        },
+        {
+          "reference": "Living room",
+          "ocr": "Living room 195",
+          "reference_role": "other",
+          "reference_field": "models[2].text_label",
+          "bbox": [
+            612.0,
+            321.0,
+            713.0,
+            336.0
+          ],
+          "matched": true,
+          "character_edits": 4,
+          "word_edits": 1
+        },
+        {
+          "reference": "Kitchen & dining",
+          "ocr": "Kitchen & dining 15%",
+          "reference_role": "other",
+          "reference_field": "models[3].text_label",
+          "bbox": [
+            442.0,
+            444.0,
+            572.0,
+            458.0
+          ],
+          "matched": true,
+          "character_edits": 4,
+          "word_edits": 1
+        },
+        {
+          "reference": "Children's IKEA",
+          "ocr": "1",
+          "reference_role": "other",
+          "reference_field": "models[4].text_label",
+          "bbox": [
+            136.0,
+            415.0,
+            249.0,
+            429.0
+          ],
+          "matched": true,
+          "character_edits": 15,
+          "word_edits": 2
+        },
+        {
+          "reference": "Children's IKEA",
+          "ocr": "IKEA food 526",
+          "reference_role": "other",
+          "reference_field": "models[5].text_label",
+          "bbox": [
+            117.0,
+            376.0,
+            198.0,
+            388.0
+          ],
+          "matched": true,
+          "character_edits": 14,
+          "word_edits": 3
+        }
+      ],
+      "role_confusion": [
+        {
+          "reference_role": "other",
+          "predicted_role": "unknown",
+          "count": 6
+        }
+      ],
+      "ocr_errors": [],
+      "annotation_issues": []
+    }
+  ],
+  "good_examples": [
+    {
+      "image": "multi_col_101181.png",
+      "reference": "2009/10",
+      "ocr": "2009/10",
+      "reference_role": "x_category",
+      "reference_field": "x_axis.major_labels[0]",
+      "bbox": [
+        127.0,
+        388.0,
+        166.765625,
+        400.0
+      ],
+      "matched": true,
+      "character_edits": 0,
+      "word_edits": 0
+    },
+    {
+      "image": "multi_col_101181.png",
+      "reference": "2010/11",
+      "ocr": "2010/11",
+      "reference_role": "x_category",
+      "reference_field": "x_axis.major_labels[1]",
+      "bbox": [
+        188.0,
+        388.0,
+        226.953125,
+        400.0
+      ],
+      "matched": true,
+      "character_edits": 0,
+      "word_edits": 0
+    },
+    {
+      "image": "multi_col_101181.png",
+      "reference": "2011/12",
+      "ocr": "2011/12",
+      "reference_role": "x_category",
+      "reference_field": "x_axis.major_labels[2]",
+      "bbox": [
+        249.0,
+        388.0,
+        287.953125,
+        400.0
+      ],
+      "matched": true,
+      "character_edits": 0,
+      "word_edits": 0
+    },
+    {
+      "image": "multi_col_101181.png",
+      "reference": "2012/13",
+      "ocr": "2012/13",
+      "reference_role": "x_category",
+      "reference_field": "x_axis.major_labels[3]",
+      "bbox": [
+        309.0,
+        388.0,
+        348.765625,
+        400.0
+      ],
+      "matched": true,
+      "character_edits": 0,
+      "word_edits": 0
+    },
+    {
+      "image": "multi_col_101181.png",
+      "reference": "2013/14",
+      "ocr": "2013/14",
+      "reference_role": "x_category",
+      "reference_field": "x_axis.major_labels[4]",
+      "bbox": [
+        370.0,
+        388.0,
+        409.765625,
+        400.0
+      ],
+      "matched": true,
+      "character_edits": 0,
+      "word_edits": 0
+    },
+    {
+      "image": "multi_col_101181.png",
+      "reference": "2014/15",
+      "ocr": "2014/15",
+      "reference_role": "x_category",
+      "reference_field": "x_axis.major_labels[5]",
+      "bbox": [
+        431.0,
+        388.0,
+        470.765625,
+        400.0
+      ],
+      "matched": true,
+      "character_edits": 0,
+      "word_edits": 0
+    },
+    {
+      "image": "multi_col_101181.png",
+      "reference": "2015/16",
+      "ocr": "2015/16",
+      "reference_role": "x_category",
+      "reference_field": "x_axis.major_labels[6]",
+      "bbox": [
+        492.0,
+        388.0,
+        531.765625,
+        400.0
+      ],
+      "matched": true,
+      "character_edits": 0,
+      "word_edits": 0
+    },
+    {
+      "image": "multi_col_101181.png",
+      "reference": "2017/18",
+      "ocr": "2017/18",
+      "reference_role": "x_category",
+      "reference_field": "x_axis.major_labels[8]",
+      "bbox": [
+        614.0,
+        388.0,
+        653.765625,
+        400.0
+      ],
+      "matched": true,
+      "character_edits": 0,
+      "word_edits": 0
+    },
+    {
+      "image": "multi_col_101181.png",
+      "reference": "2018/19",
+      "ocr": "2018/19",
+      "reference_role": "x_category",
+      "reference_field": "x_axis.major_labels[9]",
+      "bbox": [
+        675.0,
+        388.0,
+        714.765625,
+        400.0
+      ],
+      "matched": true,
+      "character_edits": 0,
+      "word_edits": 0
+    },
+    {
+      "image": "multi_col_101181.png",
+      "reference": "Boys",
+      "ocr": "Boys",
+      "reference_role": "legend",
+      "reference_field": "legend.items[0].label",
+      "bbox": [
+        347.0,
+        428.0,
+        376.669921875,
+        442.0
+      ],
+      "matched": true,
+      "character_edits": 0,
+      "word_edits": 0
+    },
+    {
+      "image": "multi_col_101181.png",
+      "reference": "Girls",
+      "ocr": "Girls",
+      "reference_role": "legend",
+      "reference_field": "legend.items[1].label",
+      "bbox": [
+        406.0,
+        428.0,
+        433.671875,
+        442.0
+      ],
+      "matched": true,
+      "character_edits": 0,
+      "word_edits": 0
+    },
+    {
+      "image": "two_col_103667.png",
+      "reference": "2012",
+      "ocr": "2012",
+      "reference_role": "x_category",
+      "reference_field": "x_axis.major_labels[0]",
+      "bbox": [
+        130.0,
+        447.0,
+        154.484375,
+        459.0
+      ],
+      "matched": true,
+      "character_edits": 0,
+      "word_edits": 0
+    },
+    {
+      "image": "two_col_103667.png",
+      "reference": "2013",
+      "ocr": "2013",
+      "reference_role": "x_category",
+      "reference_field": "x_axis.major_labels[1]",
+      "bbox": [
+        236.0,
+        447.0,
+        260.484375,
+        459.0
+      ],
+      "matched": true,
+      "character_edits": 0,
+      "word_edits": 0
+    },
+    {
+      "image": "two_col_103667.png",
+      "reference": "2014",
+      "ocr": "2014",
+      "reference_role": "x_category",
+      "reference_field": "x_axis.major_labels[2]",
+      "bbox": [
+        342.0,
+        447.0,
+        366.484375,
+        459.0
+      ],
+      "matched": true,
+      "character_edits": 0,
+      "word_edits": 0
+    },
+    {
+      "image": "two_col_103667.png",
+      "reference": "2015",
+      "ocr": "2015",
+      "reference_role": "x_category",
+      "reference_field": "x_axis.major_labels[3]",
+      "bbox": [
+        448.0,
+        447.0,
+        472.484375,
+        459.0
+      ],
+      "matched": true,
+      "character_edits": 0,
+      "word_edits": 0
+    }
+  ],
+  "bad_examples": [
+    {
+      "image": "10146.png",
+      "reference": "Dissatisfaction with Mexico's Direction Continues Are you_ with the way things are going in our country today?",
+      "ocr": null,
+      "reference_role": "title",
+      "reference_field": "general_figure_info.title",
+      "bbox": [
+        0.0,
+        0.0,
+        418.0,
+        61.0
+      ],
+      "matched": false,
+      "character_edits": 110,
+      "word_edits": 17
+    },
+    {
+      "image": "two_col_81707.png",
+      "reference": "Investment volume in million euros",
+      "ocr": null,
+      "reference_role": "y_axis_title",
+      "reference_field": "y_axis.label",
+      "bbox": [
+        40.0,
+        164.0,
+        51.0,
+        317.40625
+      ],
+      "matched": false,
+      "character_edits": 34,
+      "word_edits": 5
+    },
+    {
+      "image": "two_col_3752.png",
+      "reference": "Number of app users in millions",
+      "ocr": null,
+      "reference_role": "y_axis_title",
+      "reference_field": "y_axis.label",
+      "bbox": [
+        40.0,
+        171.0,
+        51.0,
+        311.0625
+      ],
+      "matched": false,
+      "character_edits": 31,
+      "word_edits": 6
+    },
+    {
+      "image": "two_col_1716.png",
+      "reference": "Average annual wages in euros",
+      "ocr": null,
+      "reference_role": "y_axis_title",
+      "reference_field": "y_axis.label",
+      "bbox": [
+        40.0,
+        162.0,
+        51.0,
+        301.921875
+      ],
+      "matched": false,
+      "character_edits": 29,
+      "word_edits": 5
+    },
+    {
+      "image": "two_col_24637.png",
+      "reference": "Deaths per 1,000 live births",
+      "ocr": null,
+      "reference_role": "y_axis_title",
+      "reference_field": "y_axis.label",
+      "bbox": [
+        40.0,
+        180.0,
+        51.0,
+        301.734375
+      ],
+      "matched": false,
+      "character_edits": 28,
+      "word_edits": 5
+    },
+    {
+      "image": "two_col_2888.png",
+      "reference": "GDP in billion U.S. dollars",
+      "ocr": null,
+      "reference_role": "y_axis_title",
+      "reference_field": "y_axis.label",
+      "bbox": [
+        40.0,
+        222.0,
+        51.0,
+        336.875
+      ],
+      "matched": false,
+      "character_edits": 27,
+      "word_edits": 5
+    },
+    {
+      "image": "two_col_102453.png",
+      "reference": "Risk index score",
+      "ocr": null,
+      "reference_role": "y_axis_title",
+      "reference_field": "y_axis.label",
+      "bbox": [
+        40.0,
+        204.0,
+        51.0,
+        277.7978515625
+      ],
+      "matched": false,
+      "character_edits": 16,
+      "word_edits": 3
+    },
+    {
+      "image": "two_col_60392.png",
+      "reference": "Friends & family",
+      "ocr": "1",
+      "reference_role": "other",
+      "reference_field": "models[3].text_label",
+      "bbox": [
+        74.0,
+        141.0,
+        194.0,
+        157.0
+      ],
+      "matched": true,
+      "character_edits": 16,
+      "word_edits": 3
+    },
+    {
+      "image": "two_col_6419.png",
+      "reference": "Children's IKEA",
+      "ocr": "1",
+      "reference_role": "other",
+      "reference_field": "models[4].text_label",
+      "bbox": [
+        136.0,
+        415.0,
+        249.0,
+        429.0
+      ],
+      "matched": true,
+      "character_edits": 15,
+      "word_edits": 2
+    },
+    {
+      "image": "two_col_6419.png",
+      "reference": "Children's IKEA",
+      "ocr": "IKEA food 526",
+      "reference_role": "other",
+      "reference_field": "models[5].text_label",
+      "bbox": [
+        117.0,
+        376.0,
+        198.0,
+        388.0
+      ],
+      "matched": true,
+      "character_edits": 14,
+      "word_edits": 3
+    },
+    {
+      "image": "multi_col_101181.png",
+      "reference": "Number of participants",
+      "ocr": "participants",
+      "reference_role": "y_axis_title",
+      "reference_field": "y_axis.label",
+      "bbox": [
+        40.0,
+        161.0,
+        51.0,
+        261.609375
+      ],
+      "matched": true,
+      "character_edits": 10,
+      "word_edits": 2
+    },
+    {
+      "image": "two_col_42847.png",
+      "reference": "All other",
+      "ocr": "1",
+      "reference_role": "y_category",
+      "reference_field": "x_axis.major_labels[5]",
+      "bbox": [
+        98.0,
+        379.0,
+        138.68994140625,
+        391.0
+      ],
+      "matched": true,
+      "character_edits": 9,
+      "word_edits": 2
+    },
+    {
+      "image": "two_col_22308.png",
+      "reference": "15 - 20 %",
+      "ocr": "1",
+      "reference_role": "other",
+      "reference_field": "models[2].text_label",
+      "bbox": [
+        135.0,
+        100.0,
+        220.0,
+        119.0
+      ],
+      "matched": true,
+      "character_edits": 8,
+      "word_edits": 4
+    },
+    {
+      "image": "two_col_103667.png",
+      "reference": "Growth rate",
+      "ocr": "uroth",
+      "reference_role": "y_axis_title",
+      "reference_field": "y_axis.label",
+      "bbox": [
+        40.0,
+        214.0,
+        51.0,
+        266.6796875
+      ],
+      "matched": true,
+      "character_edits": 7,
+      "word_edits": 2
+    },
+    {
+      "image": "two_col_22308.png",
+      "reference": "5 - 10 %",
+      "ocr": "1",
+      "reference_role": "other",
+      "reference_field": "models[0].text_label",
+      "bbox": [
+        529.0,
+        438.0,
+        609.0,
+        452.0
+      ],
+      "matched": true,
+      "character_edits": 7,
+      "word_edits": 4
+    }
+  ]
+}

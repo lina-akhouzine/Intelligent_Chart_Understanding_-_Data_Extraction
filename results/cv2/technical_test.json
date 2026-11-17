@@ -1,0 +1,72 @@
+{
+  "torch": "2.12.0+cpu",
+  "cuda": false,
+  "status": "TECHNICAL_ONLY_NO_SUPERVISED_TRAINING",
+  "test_metrics": null,
+  "untrained_prediction_guard": "PASS",
+  "pretrained_weights": "IMAGENET1K_V1",
+  "images_tested": 5,
+  "input_shape": [
+    5,
+    3,
+    224,
+    224
+  ],
+  "output_shape": [
+    5,
+    4
+  ],
+  "checkpoint_roundtrip_exact": true,
+  "forward_passes": [
+    {
+      "image": "ChartQA Dataset/train/png/multi_col_60413.png",
+      "raw_logits_untrained_head": [
+        -0.5075960159301758,
+        0.3302290141582489,
+        -0.11416761577129364,
+        0.612308919429779
+      ],
+      "warning": "Pas une pr\u00e9diction valide de type de graphique"
+    },
+    {
+      "image": "ChartQA Dataset/train/png/39199516000329.png",
+      "raw_logits_untrained_head": [
+        -0.5380740761756897,
+        0.21588684618473053,
+        -0.060265060514211655,
+        0.23038041591644287
+      ],
+      "warning": "Pas une pr\u00e9diction valide de type de graphique"
+    },
+    {
+      "image": "ChartQA Dataset/train/png/two_col_22492.png",
+      "raw_logits_untrained_head": [
+        0.3532279431819916,
+        0.5249932408332825,
+        -0.18418699502944946,
+        0.3840695023536682
+      ],
+      "warning": "Pas une pr\u00e9diction valide de type de graphique"
+    },
+    {
+      "image": "ChartQA Dataset/train/png/two_col_20784.png",
+      "raw_logits_untrained_head": [
+        -0.11309091746807098,
+        0.10257701575756073,
+        -0.12511958181858063,
+        0.39259350299835205
+      ],
+      "warning": "Pas une pr\u00e9diction valide de type de graphique"
+    },
+    {
+      "image": "ChartQA Dataset/train/png/two_col_1580.png",
+      "raw_logits_untrained_head": [
+        0.39130115509033203,
+        0.0296458937227726,
+        -0.17541643977165222,
+        0.1455334573984146
+      ],
+      "warning": "Pas une pr\u00e9diction valide de type de graphique"
+    }
+  ]
+}

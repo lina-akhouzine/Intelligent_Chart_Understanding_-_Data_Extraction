@@ -1,0 +1,11 @@
+{
+  "checkpoint": "models_cv2\\resnet18_20261117_005259_323200.pt",
+  "trained": true,
+  "epoch": 2,
+  "validation_image": "ChartQA Dataset/val/png/two_col_40772.png",
+  "output_shape": [
+    1,
+    4
+  ],
+  "reload_forward": "PASS"
+}

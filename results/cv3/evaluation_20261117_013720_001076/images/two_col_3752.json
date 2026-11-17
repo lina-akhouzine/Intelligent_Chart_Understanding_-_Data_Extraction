@@ -1,0 +1,801 @@
+{
+  "schema_version": 1,
+  "image": "two_col_3752.png",
+  "source": "C:\\Users\\ELECTRO-RIMO\\Downloads\\ChartQA-main\\ChartQA-main\\ChartQA Dataset\\test\\png\\two_col_3752.png",
+  "source_sha256": "57631a8012bd4e777165ce603549eec4e5a51d54f9387c6b063424f3b0676b73",
+  "width": 800,
+  "height": 557,
+  "engine": "EasyOCR 1.7.2 / en",
+  "chart_type": "v_bar",
+  "chart_type_source": "CV2 checkpoint prediction",
+  "chart_probabilities": {
+    "v_bar": 0.9999988079071045,
+    "h_bar": 1.2396179727147683e-06,
+    "line": 1.154136564096575e-09,
+    "pie": 6.285008069539799e-09
+  },
+  "variants": [
+    "original",
+    "clahe"
+  ],
+  "texts": [
+    {
+      "text": "25",
+      "bbox": [
+        59.0,
+        40.0,
+        77.0,
+        53.0
+      ],
+      "polygon": [
+        [
+          59.0,
+          40.0
+        ],
+        [
+          77.0,
+          40.0
+        ],
+        [
+          77.0,
+          53.0
+        ],
+        [
+          59.0,
+          53.0
+        ]
+      ],
+      "confidence": 0.9999996628252286,
+      "variant": "original",
+      "variants": [
+        "original",
+        "clahe"
+      ],
+      "alternatives": [
+        {
+          "text": "5",
+          "confidence": 0.6672164734701234,
+          "variant": "clahe"
+        }
+      ],
+      "role": "unknown",
+      "role_confidence": 0.25,
+      "role_source": "geometry",
+      "role_reason": "position ambiguë",
+      "annotation_assistance": null
+    },
+    {
+      "text": "20",
+      "bbox": [
+        59.0,
+        117.0,
+        77.0,
+        131.0
+      ],
+      "polygon": [
+        [
+          59.0,
+          117.0
+        ],
+        [
+          77.0,
+          117.0
+        ],
+        [
+          77.0,
+          131.0
+        ],
+        [
+          59.0,
+          131.0
+        ]
+      ],
+      "confidence": 0.9999916549341934,
+      "variant": "clahe",
+      "variants": [
+        "clahe",
+        "original"
+      ],
+      "alternatives": [
+        {
+          "text": "20",
+          "confidence": 0.9999912334667646,
+          "variant": "original"
+        }
+      ],
+      "role": "y_tick",
+      "role_confidence": 0.5,
+      "role_source": "geometry",
+      "role_reason": "marge gauche du tracé probable",
+      "annotation_assistance": null
+    },
+    {
+      "text": "9",
+      "bbox": [
+        568.0,
+        122.0,
+        576.0,
+        132.0
+      ],
+      "polygon": [
+        [
+          568.0,
+          122.0
+        ],
+        [
+          576.0,
+          122.0
+        ],
+        [
+          576.0,
+          132.0
+        ],
+        [
+          568.0,
+          132.0
+        ]
+      ],
+      "confidence": 0.9999986886982448,
+      "variant": "original",
+      "variants": [
+        "original",
+        "clahe"
+      ],
+      "alternatives": [
+        {
+          "text": "9",
+          "confidence": 0.999998569489037,
+          "variant": "clahe"
+        }
+      ],
+      "role": "unknown",
+      "role_confidence": 0.25,
+      "role_source": "geometry",
+      "role_reason": "position ambiguë",
+      "annotation_assistance": null
+    },
+    {
+      "text": "millins",
+      "bbox": [
+        41.0,
+        164.0,
+        54.0,
+        205.0
+      ],
+      "polygon": [
+        [
+          41.0,
+          164.0
+        ],
+        [
+          54.0,
+          164.0
+        ],
+        [
+          54.0,
+          205.0
+        ],
+        [
+          41.0,
+          205.0
+        ]
+      ],
+      "confidence": 0.9867373672563403,
+      "variant": "clahe",
+      "variants": [
+        "clahe",
+        "original"
+      ],
+      "alternatives": [
+        {
+          "text": "millions",
+          "confidence": 0.6918595204334077,
+          "variant": "original"
+        }
+      ],
+      "role": "unknown",
+      "role_confidence": 0.5,
+      "role_source": "geometry",
+      "role_reason": "marge gauche du tracé probable",
+      "annotation_assistance": null
+    },
+    {
+      "text": "15",
+      "bbox": [
+        60.0,
+        196.0,
+        77.0,
+        209.0
+      ],
+      "polygon": [
+        [
+          60.0,
+          196.0
+        ],
+        [
+          77.0,
+          196.0
+        ],
+        [
+          77.0,
+          209.0
+        ],
+        [
+          60.0,
+          209.0
+        ]
+      ],
+      "confidence": 0.9999399834152334,
+      "variant": "clahe",
+      "variants": [
+        "clahe",
+        "original"
+      ],
+      "alternatives": [
+        {
+          "text": "15",
+          "confidence": 0.9999132628875714,
+          "variant": "original"
+        }
+      ],
+      "role": "y_tick",
+      "role_confidence": 0.5,
+      "role_source": "geometry",
+      "role_reason": "marge gauche du tracé probable",
+      "annotation_assistance": null
+    },
+    {
+      "text": "IN",
+      "bbox": [
+        44.0,
+        206.0,
+        52.0,
+        216.0
+      ],
+      "polygon": [
+        [
+          44.0,
+          206.0
+        ],
+        [
+          52.0,
+          206.0
+        ],
+        [
+          52.0,
+          216.0
+        ],
+        [
+          44.0,
+          216.0
+        ]
+      ],
+      "confidence": 0.775291389071094,
+      "variant": "original",
+      "variants": [
+        "original",
+        "clahe"
+      ],
+      "alternatives": [
+        {
+          "text": "in",
+          "confidence": 0.6242619521645814,
+          "variant": "clahe"
+        }
+      ],
+      "role": "unknown",
+      "role_confidence": 0.5,
+      "role_source": "geometry",
+      "role_reason": "marge gauche du tracé probable",
+      "annotation_assistance": null
+    },
+    {
+      "text": "S",
+      "bbox": [
+        45.0,
+        218.0,
+        53.0,
+        228.0
+      ],
+      "polygon": [
+        [
+          45.0,
+          218.0
+        ],
+        [
+          53.0,
+          218.0
+        ],
+        [
+          53.0,
+          228.0
+        ],
+        [
+          45.0,
+          228.0
+        ]
+      ],
+      "confidence": 0.3151099946872513,
+      "variant": "original",
+      "variants": [
+        "original"
+      ],
+      "alternatives": [],
+      "role": "unknown",
+      "role_confidence": 0.5,
+      "role_source": "geometry",
+      "role_reason": "marge gauche du tracé probable",
+      "annotation_assistance": null
+    },
+    {
+      "text": "Lise",
+      "bbox": [
+        45.0,
+        229.0,
+        53.0,
+        246.0
+      ],
+      "polygon": [
+        [
+          45.0,
+          229.0
+        ],
+        [
+          53.0,
+          229.0
+        ],
+        [
+          53.0,
+          246.0
+        ],
+        [
+          45.0,
+          246.0
+        ]
+      ],
+      "confidence": 0.6467079520225525,
+      "variant": "original",
+      "variants": [
+        "original",
+        "clahe"
+      ],
+      "alternatives": [
+        {
+          "text": "Lise TS",
+          "confidence": 0.14689618049242795,
+          "variant": "clahe"
+        }
+      ],
+      "role": "unknown",
+      "role_confidence": 0.5,
+      "role_source": "geometry",
+      "role_reason": "marge gauche du tracé probable",
+      "annotation_assistance": null
+    },
+    {
+      "text": "12",
+      "bbox": [
+        241.0,
+        229.0,
+        259.0,
+        243.0
+      ],
+      "polygon": [
+        [
+          241.0,
+          229.0
+        ],
+        [
+          259.0,
+          229.0
+        ],
+        [
+          259.0,
+          243.0
+        ],
+        [
+          241.0,
+          243.0
+        ]
+      ],
+      "confidence": 0.999891178571462,
+      "variant": "clahe",
+      "variants": [
+        "clahe",
+        "original"
+      ],
+      "alternatives": [
+        {
+          "text": "12",
+          "confidence": 0.9998799678855101,
+          "variant": "original"
+        }
+      ],
+      "role": "unknown",
+      "role_confidence": 0.25,
+      "role_source": "geometry",
+      "role_reason": "position ambiguë",
+      "annotation_assistance": null
+    },
+    {
+      "text": "dde",
+      "bbox": [
+        45.0,
+        248.0,
+        54.0,
+        268.0
+      ],
+      "polygon": [
+        [
+          45.0,
+          248.0
+        ],
+        [
+          54.0,
+          248.0
+        ],
+        [
+          54.0,
+          268.0
+        ],
+        [
+          45.0,
+          268.0
+        ]
+      ],
+      "confidence": 0.9942457256173033,
+      "variant": "clahe",
+      "variants": [
+        "clahe",
+        "original"
+      ],
+      "alternatives": [
+        {
+          "text": "8",
+          "confidence": 0.9630818749092782,
+          "variant": "original"
+        }
+      ],
+      "role": "unknown",
+      "role_confidence": 0.5,
+      "role_source": "geometry",
+      "role_reason": "marge gauche du tracé probable",
+      "annotation_assistance": null
+    },
+    {
+      "text": "Num ber of",
+      "bbox": [
+        41.0,
+        266.0,
+        55.0,
+        323.0
+      ],
+      "polygon": [
+        [
+          41.0,
+          266.0
+        ],
+        [
+          55.0,
+          266.0
+        ],
+        [
+          55.0,
+          323.0
+        ],
+        [
+          41.0,
+          323.0
+        ]
+      ],
+      "confidence": 0.9587865427192387,
+      "variant": "original",
+      "variants": [
+        "original",
+        "clahe"
+      ],
+      "alternatives": [
+        {
+          "text": "Num ber of",
+          "confidence": 0.8392902890656985,
+          "variant": "clahe"
+        }
+      ],
+      "role": "unknown",
+      "role_confidence": 0.5,
+      "role_source": "geometry",
+      "role_reason": "marge gauche du tracé probable",
+      "annotation_assistance": null
+    },
+    {
+      "text": "10",
+      "bbox": [
+        60.0,
+        275.0,
+        77.0,
+        287.0
+      ],
+      "polygon": [
+        [
+          60.0,
+          275.0
+        ],
+        [
+          77.0,
+          275.0
+        ],
+        [
+          77.0,
+          287.0
+        ],
+        [
+          60.0,
+          287.0
+        ]
+      ],
+      "confidence": 0.9997788205039201,
+      "variant": "clahe",
+      "variants": [
+        "clahe",
+        "original"
+      ],
+      "alternatives": [
+        {
+          "text": "10",
+          "confidence": 0.9997661772919526,
+          "variant": "original"
+        }
+      ],
+      "role": "y_tick",
+      "role_confidence": 0.5,
+      "role_source": "geometry",
+      "role_reason": "marge gauche du tracé probable",
+      "annotation_assistance": null
+    },
+    {
+      "text": "Jul '14*",
+      "bbox": [
+        227.0,
+        447.0,
+        271.0,
+        462.0
+      ],
+      "polygon": [
+        [
+          227.0,
+          447.0
+        ],
+        [
+          271.0,
+          447.0
+        ],
+        [
+          271.0,
+          462.0
+        ],
+        [
+          227.0,
+          462.0
+        ]
+      ],
+      "confidence": 0.7511910141646032,
+      "variant": "original",
+      "variants": [
+        "original",
+        "clahe"
+      ],
+      "alternatives": [
+        {
+          "text": "Jul '14\"",
+          "confidence": 0.6022320253278757,
+          "variant": "clahe"
+        }
+      ],
+      "role": "unknown",
+      "role_confidence": 0.25,
+      "role_source": "geometry",
+      "role_reason": "position ambiguë",
+      "annotation_assistance": {
+        "role": "x_category",
+        "iou": 0.662784090909091,
+        "field": "x_axis.major_labels[0]",
+        "source": "official_region"
+      }
+    },
+    {
+      "text": "Apr '16",
+      "bbox": [
+        545.0,
+        447.0,
+        590.0,
+        462.0
+      ],
+      "polygon": [
+        [
+          545.0,
+          447.0
+        ],
+        [
+          590.0,
+          447.0
+        ],
+        [
+          590.0,
+          462.0
+        ],
+        [
+          545.0,
+          462.0
+        ]
+      ],
+      "confidence": 0.9920934110944035,
+      "variant": "original",
+      "variants": [
+        "original",
+        "clahe"
+      ],
+      "alternatives": [
+        {
+          "text": "Apr '16",
+          "confidence": 0.9747317374204321,
+          "variant": "clahe"
+        }
+      ],
+      "role": "unknown",
+      "role_confidence": 0.25,
+      "role_source": "geometry",
+      "role_reason": "position ambiguë",
+      "annotation_assistance": {
+        "role": "x_category",
+        "iou": 0.6136111111111111,
+        "field": "x_axis.major_labels[1]",
+        "source": "official_region"
+      }
+    },
+    {
+      "text": "Statista 2021",
+      "bbox": [
+        680.0,
+        488.0,
+        755.0,
+        503.0
+      ],
+      "polygon": [
+        [
+          680.0,
+          488.0
+        ],
+        [
+          755.0,
+          488.0
+        ],
+        [
+          755.0,
+          503.0
+        ],
+        [
+          680.0,
+          503.0
+        ]
+      ],
+      "confidence": 0.9997238359746746,
+      "variant": "clahe",
+      "variants": [
+        "clahe",
+        "original"
+      ],
+      "alternatives": [
+        {
+          "text": "Statista 2021",
+          "confidence": 0.9953047456182631,
+          "variant": "original"
+        }
+      ],
+      "role": "unknown",
+      "role_confidence": 0.25,
+      "role_source": "geometry",
+      "role_reason": "position ambiguë",
+      "annotation_assistance": null
+    },
+    {
+      "text": "Additional Information",
+      "bbox": [
+        37.0,
+        512.0,
+        168.0,
+        527.0
+      ],
+      "polygon": [
+        [
+          37.0,
+          512.0
+        ],
+        [
+          168.0,
+          512.0
+        ],
+        [
+          168.0,
+          527.0
+        ],
+        [
+          37.0,
+          527.0
+        ]
+      ],
+      "confidence": 0.8410806015799449,
+      "variant": "clahe",
+      "variants": [
+        "clahe",
+        "original"
+      ],
+      "alternatives": [
+        {
+          "text": "Addirional Information",
+          "confidence": 0.7636141566499929,
+          "variant": "original"
+        }
+      ],
+      "role": "unknown",
+      "role_confidence": 0.25,
+      "role_source": "geometry",
+      "role_reason": "position ambiguë",
+      "annotation_assistance": null
+    },
+    {
+      "text": "Show source",
+      "bbox": [
+        685.0,
+        512.0,
+        761.0,
+        527.0
+      ],
+      "polygon": [
+        [
+          685.0,
+          512.0
+        ],
+        [
+          761.0,
+          512.0
+        ],
+        [
+          761.0,
+          527.0
+        ],
+        [
+          685.0,
+          527.0
+        ]
+      ],
+      "confidence": 0.918432806098684,
+      "variant": "original",
+      "variants": [
+        "original",
+        "clahe"
+      ],
+      "alternatives": [
+        {
+          "text": "Show source 0",
+          "confidence": 0.5620417870242373,
+          "variant": "clahe"
+        }
+      ],
+      "role": "unknown",
+      "role_confidence": 0.25,
+      "role_source": "geometry",
+      "role_reason": "position ambiguë",
+      "annotation_assistance": null
+    }
+  ],
+  "errors": [],
+  "uncertainties": [
+    "y_axis.major_labels: 6 boîtes, 0 valeurs ; aucune valeur complétée",
+    "Certains textes ont une confiance OCR inférieure à 0.5.",
+    "Hypothèses concurrentes entre variantes : consulter alternatives."
+  ],
+  "seconds": 18.49134980002418,
+  "scope": "Visible text only. Numeric OCR strings are NOT extracted chart data.",
+  "annotation_assistance": "regions/roles only; reference text never fed into OCR",
+  "roles_recomputed_from": "results\\cv3\\evaluation_20261117_012518_614675"
+}

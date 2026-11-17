@@ -1,0 +1,624 @@
+{
+  "source": {
+    "repository": "https://huggingface.co/datasets/ahmed-masry/ChartQA",
+    "revision": "af8b6f5c08c95085271561c2a3f9d15f2b5a9031",
+    "archive_url": "https://huggingface.co/datasets/ahmed-masry/ChartQA/resolve/af8b6f5c08c95085271561c2a3f9d15f2b5a9031/ChartQA%20Dataset.zip",
+    "archive_size": 875370872,
+    "transferred_bytes": 22996493,
+    "annotations": 20882,
+    "images_downloaded": 0
+  },
+  "annotation_count": 20882,
+  "matched_valid_before_dedup": 20882,
+  "usable_images": 20819,
+  "raw_distribution": {
+    "train": {
+      "h_bar": 5423,
+      "line": 2195,
+      "pie": 541,
+      "v_bar": 10158
+    },
+    "val": {
+      "line": 171,
+      "h_bar": 342,
+      "pie": 48,
+      "v_bar": 495
+    },
+    "test": {
+      "h_bar": 461,
+      "line": 211,
+      "pie": 78,
+      "v_bar": 759
+    }
+  },
+  "distribution": {
+    "train": {
+      "v_bar": 10156,
+      "h_bar": 5391,
+      "line": 2184,
+      "pie": 525
+    },
+    "val": {
+      "v_bar": 495,
+      "h_bar": 340,
+      "line": 171,
+      "pie": 48
+    },
+    "test": {
+      "v_bar": 759,
+      "h_bar": 461,
+      "line": 211,
+      "pie": 78
+    }
+  },
+  "rejected": [
+    {
+      "image": "ChartQA Dataset/val/png/3861.png",
+      "split": "val",
+      "label": "h_bar",
+      "annotator": "official:af8b6f5c08c95085271561c2a3f9d15f2b5a9031",
+      "pixel_sha256": "3215a0189d3de212656bc1f394b6adb66668e72e0c295eac580b4cc82ed82690",
+      "annotation": "annotations_cv2\\af8b6f5c08c95085271561c2a3f9d15f2b5a9031\\val\\3861.json",
+      "reason": "duplicate_pixels_or_filename; heldout_priority"
+    },
+    {
+      "image": "ChartQA Dataset/val/png/7940.png",
+      "split": "val",
+      "label": "h_bar",
+      "annotator": "official:af8b6f5c08c95085271561c2a3f9d15f2b5a9031",
+      "pixel_sha256": "aacbeff0e02c0008e40eece1644be02c1118a4558cc350669dad915bc6e28d00",
+      "annotation": "annotations_cv2\\af8b6f5c08c95085271561c2a3f9d15f2b5a9031\\val\\7940.json",
+      "reason": "duplicate_pixels_or_filename; heldout_priority"
+    },
+    {
+      "image": "ChartQA Dataset/train/png/10159.png",
+      "split": "train",
+      "label": "h_bar",
+      "annotator": "official:af8b6f5c08c95085271561c2a3f9d15f2b5a9031",
+      "pixel_sha256": "b296239f27382947859a1dfc5ab7842175f801fa09ddbc1d6f3b1413283b4c54",
+      "annotation": "annotations_cv2\\af8b6f5c08c95085271561c2a3f9d15f2b5a9031\\train\\10159.json",
+      "reason": "duplicate_pixels_or_filename; heldout_priority"
+    },
+    {
+      "image": "ChartQA Dataset/train/png/10967.png",
+      "split": "train",
+      "label": "pie",
+      "annotator": "official:af8b6f5c08c95085271561c2a3f9d15f2b5a9031",
+      "pixel_sha256": "80b3a60737ff6c40d54de2b573f7774b7177f6948fc47049ec3ba1038c3a5d88",
+      "annotation": "annotations_cv2\\af8b6f5c08c95085271561c2a3f9d15f2b5a9031\\train\\10967.json",
+      "reason": "duplicate_pixels_or_filename; heldout_priority"
+    },
+    {
+      "image": "ChartQA Dataset/train/png/11135.png",
+      "split": "train",
+      "label": "pie",
+      "annotator": "official:af8b6f5c08c95085271561c2a3f9d15f2b5a9031",
+      "pixel_sha256": "98e553955e26557f4de49afa8e303ea70cd001a7e2a8a4553ce48675e501f81c",
+      "annotation": "annotations_cv2\\af8b6f5c08c95085271561c2a3f9d15f2b5a9031\\train\\11135.json",
+      "reason": "duplicate_pixels_or_filename; heldout_priority"
+    },
+    {
+      "image": "ChartQA Dataset/train/png/11625.png",
+      "split": "train",
+      "label": "line",
+      "annotator": "official:af8b6f5c08c95085271561c2a3f9d15f2b5a9031",
+      "pixel_sha256": "7331df7d2a778a9a0a2c10b0847ba864d17bb971fa9eae61e794d84afee67e83",
+      "annotation": "annotations_cv2\\af8b6f5c08c95085271561c2a3f9d15f2b5a9031\\train\\11625.json",
+      "reason": "duplicate_pixels_or_filename; heldout_priority"
+    },
+    {
+      "image": "ChartQA Dataset/train/png/11714.png",
+      "split": "train",
+      "label": "pie",
+      "annotator": "official:af8b6f5c08c95085271561c2a3f9d15f2b5a9031",
+      "pixel_sha256": "8f28dd543cc36b2057fc678aaa9ca0974b3007d01d0c6a05915b076ea37a923e",
+      "annotation": "annotations_cv2\\af8b6f5c08c95085271561c2a3f9d15f2b5a9031\\train\\11714.json",
+      "reason": "duplicate_pixels_or_filename; heldout_priority"
+    },
+    {
+      "image": "ChartQA Dataset/train/png/1184.png",
+      "split": "train",
+      "label": "h_bar",
+      "annotator": "official:af8b6f5c08c95085271561c2a3f9d15f2b5a9031",
+      "pixel_sha256": "93ca7313a2fcbdcb75b25986d1a2cbd899a40620beca5b85d2ddcbd9c082407b",
+      "annotation": "annotations_cv2\\af8b6f5c08c95085271561c2a3f9d15f2b5a9031\\train\\1184.json",
+      "reason": "duplicate_pixels_or_filename; heldout_priority"
+    },
+    {
+      "image": "ChartQA Dataset/train/png/14629.png",
+      "split": "train",
+      "label": "line",
+      "annotator": "official:af8b6f5c08c95085271561c2a3f9d15f2b5a9031",
+      "pixel_sha256": "a024f2d7dd17453df99059e6a39da77ddf7fbd68929fba7f1123c04d039d708b",
+      "annotation": "annotations_cv2\\af8b6f5c08c95085271561c2a3f9d15f2b5a9031\\train\\14629.json",
+      "reason": "duplicate_pixels_or_filename; heldout_priority"
+    },
+    {
+      "image": "ChartQA Dataset/train/png/14915.png",
+      "split": "train",
+      "label": "pie",
+      "annotator": "official:af8b6f5c08c95085271561c2a3f9d15f2b5a9031",
+      "pixel_sha256": "69fde59c08a96e3ddb89ab84f1f2b81675083f7d519333d2f7fb24471376b53e",
+      "annotation": "annotations_cv2\\af8b6f5c08c95085271561c2a3f9d15f2b5a9031\\train\\14915.json",
+      "reason": "duplicate_pixels_or_filename; heldout_priority"
+    },
+    {
+      "image": "ChartQA Dataset/train/png/15015.png",
+      "split": "train",
+      "label": "pie",
+      "annotator": "official:af8b6f5c08c95085271561c2a3f9d15f2b5a9031",
+      "pixel_sha256": "b0bc06209cb3033209ac2df2851ecb8d58d8eface6277401bba3c12a5eddf06d",
+      "annotation": "annotations_cv2\\af8b6f5c08c95085271561c2a3f9d15f2b5a9031\\train\\15015.json",
+      "reason": "duplicate_pixels_or_filename; heldout_priority"
+    },
+    {
+      "image": "ChartQA Dataset/train/png/16909.png",
+      "split": "train",
+      "label": "pie",
+      "annotator": "official:af8b6f5c08c95085271561c2a3f9d15f2b5a9031",
+      "pixel_sha256": "970b0ac33629b317b7866e14533ef25d295032e6015863b5987bf2c6767abec7",
+      "annotation": "annotations_cv2\\af8b6f5c08c95085271561c2a3f9d15f2b5a9031\\train\\16909.json",
+      "reason": "duplicate_pixels_or_filename; heldout_priority"
+    },
+    {
+      "image": "ChartQA Dataset/train/png/16913.png",
+      "split": "train",
+      "label": "pie",
+      "annotator": "official:af8b6f5c08c95085271561c2a3f9d15f2b5a9031",
+      "pixel_sha256": "970b0ac33629b317b7866e14533ef25d295032e6015863b5987bf2c6767abec7",
+      "annotation": "annotations_cv2\\af8b6f5c08c95085271561c2a3f9d15f2b5a9031\\train\\16913.json",
+      "reason": "duplicate_pixels_or_filename; heldout_priority"
+    },
+    {
+      "image": "ChartQA Dataset/train/png/16970.png",
+      "split": "train",
+      "label": "pie",
+      "annotator": "official:af8b6f5c08c95085271561c2a3f9d15f2b5a9031",
+      "pixel_sha256": "a126f159310d845d2d67dd1c77a49a3f7cad42399de45aaef80024455d87180c",
+      "annotation": "annotations_cv2\\af8b6f5c08c95085271561c2a3f9d15f2b5a9031\\train\\16970.json",
+      "reason": "duplicate_pixels_or_filename; heldout_priority"
+    },
+    {
+      "image": "ChartQA Dataset/train/png/17361.png",
+      "split": "train",
+      "label": "pie",
+      "annotator": "official:af8b6f5c08c95085271561c2a3f9d15f2b5a9031",
+      "pixel_sha256": "6dc175d207b567e9203f69e53a5f4fec7f0fec7a547dcb67613172de3d372aa6",
+      "annotation": "annotations_cv2\\af8b6f5c08c95085271561c2a3f9d15f2b5a9031\\train\\17361.json",
+      "reason": "duplicate_pixels_or_filename; heldout_priority"
+    },
+    {
+      "image": "ChartQA Dataset/train/png/17432.png",
+      "split": "train",
+      "label": "line",
+      "annotator": "official:af8b6f5c08c95085271561c2a3f9d15f2b5a9031",
+      "pixel_sha256": "815cac4a99fa0c17a6549f8ca910b74fed1f15243df070fa13419cc6ecf3dc84",
+      "annotation": "annotations_cv2\\af8b6f5c08c95085271561c2a3f9d15f2b5a9031\\train\\17432.json",
+      "reason": "duplicate_pixels_or_filename; heldout_priority"
+    },
+    {
+      "image": "ChartQA Dataset/train/png/17777.png",
+      "split": "train",
+      "label": "line",
+      "annotator": "official:af8b6f5c08c95085271561c2a3f9d15f2b5a9031",
+      "pixel_sha256": "32b257ccd83cf9b34a4b6368161ace503b70859c515879499b9c41dd63f682f5",
+      "annotation": "annotations_cv2\\af8b6f5c08c95085271561c2a3f9d15f2b5a9031\\train\\17777.json",
+      "reason": "duplicate_pixels_or_filename; heldout_priority"
+    },
+    {
+      "image": "ChartQA Dataset/train/png/17975.png",
+      "split": "train",
+      "label": "line",
+      "annotator": "official:af8b6f5c08c95085271561c2a3f9d15f2b5a9031",
+      "pixel_sha256": "1288ee40891907baa39db0fd027041055c47476c1e02afde81232f3d6d7295ea",
+      "annotation": "annotations_cv2\\af8b6f5c08c95085271561c2a3f9d15f2b5a9031\\train\\17975.json",
+      "reason": "duplicate_pixels_or_filename; heldout_priority"
+    },
+    {
+      "image": "ChartQA Dataset/train/png/1878.png",
+      "split": "train",
+      "label": "h_bar",
+      "annotator": "official:af8b6f5c08c95085271561c2a3f9d15f2b5a9031",
+      "pixel_sha256": "af2997410b6c598011ade4e7238b22c863df04fbb8ebdd2030c76db52c1a6b95",
+      "annotation": "annotations_cv2\\af8b6f5c08c95085271561c2a3f9d15f2b5a9031\\train\\1878.json",
+      "reason": "duplicate_pixels_or_filename; heldout_priority"
+    },
+    {
+      "image": "ChartQA Dataset/train/png/2881.png",
+      "split": "train",
+      "label": "h_bar",
+      "annotator": "official:af8b6f5c08c95085271561c2a3f9d15f2b5a9031",
+      "pixel_sha256": "c9aa71c02ace1cdc8b9bcc33d25038c901b84e0d6bd591cdc0fbeaa86a66eee2",
+      "annotation": "annotations_cv2\\af8b6f5c08c95085271561c2a3f9d15f2b5a9031\\train\\2881.json",
+      "reason": "duplicate_pixels_or_filename; heldout_priority"
+    },
+    {
+      "image": "ChartQA Dataset/train/png/3139.png",
+      "split": "train",
+      "label": "h_bar",
+      "annotator": "official:af8b6f5c08c95085271561c2a3f9d15f2b5a9031",
+      "pixel_sha256": "e57ba3cb022b08c00059466f602ef7145b86d7ef60fd405702664b927704d239",
+      "annotation": "annotations_cv2\\af8b6f5c08c95085271561c2a3f9d15f2b5a9031\\train\\3139.json",
+      "reason": "duplicate_pixels_or_filename; heldout_priority"
+    },
+    {
+      "image": "ChartQA Dataset/train/png/3526.png",
+      "split": "train",
+      "label": "h_bar",
+      "annotator": "official:af8b6f5c08c95085271561c2a3f9d15f2b5a9031",
+      "pixel_sha256": "bc1fdf1073917f16595487cd08760789999b84848016d457fefde8d40a60b32e",
+      "annotation": "annotations_cv2\\af8b6f5c08c95085271561c2a3f9d15f2b5a9031\\train\\3526.json",
+      "reason": "duplicate_pixels_or_filename; heldout_priority"
+    },
+    {
+      "image": "ChartQA Dataset/train/png/3590.png",
+      "split": "train",
+      "label": "h_bar",
+      "annotator": "official:af8b6f5c08c95085271561c2a3f9d15f2b5a9031",
+      "pixel_sha256": "5ffc0a0f55d8565ef1f30d0253fab3a28a7bc06faf4a04c17c705092b14bcd50",
+      "annotation": "annotations_cv2\\af8b6f5c08c95085271561c2a3f9d15f2b5a9031\\train\\3590.json",
+      "reason": "duplicate_pixels_or_filename; heldout_priority"
+    },
+    {
+      "image": "ChartQA Dataset/train/png/43.png",
+      "split": "train",
+      "label": "pie",
+      "annotator": "official:af8b6f5c08c95085271561c2a3f9d15f2b5a9031",
+      "pixel_sha256": "2006c22a829c75405ca4cf89a514456b7ff09e03bab423b8d847b3d86ac68567",
+      "annotation": "annotations_cv2\\af8b6f5c08c95085271561c2a3f9d15f2b5a9031\\train\\43.json",
+      "reason": "duplicate_pixels_or_filename; heldout_priority"
+    },
+    {
+      "image": "ChartQA Dataset/train/png/4549.png",
+      "split": "train",
+      "label": "line",
+      "annotator": "official:af8b6f5c08c95085271561c2a3f9d15f2b5a9031",
+      "pixel_sha256": "bba0e57922a10d8c1fe89bcba64973922ef307d0148e93caa50397d313230312",
+      "annotation": "annotations_cv2\\af8b6f5c08c95085271561c2a3f9d15f2b5a9031\\train\\4549.json",
+      "reason": "duplicate_pixels_or_filename; heldout_priority"
+    },
+    {
+      "image": "ChartQA Dataset/train/png/4566.png",
+      "split": "train",
+      "label": "h_bar",
+      "annotator": "official:af8b6f5c08c95085271561c2a3f9d15f2b5a9031",
+      "pixel_sha256": "1b7b40e71c201f8e490a429b7a963b3d07c7af4e1550c3db4e738c336fe14edd",
+      "annotation": "annotations_cv2\\af8b6f5c08c95085271561c2a3f9d15f2b5a9031\\train\\4566.json",
+      "reason": "duplicate_pixels_or_filename; heldout_priority"
+    },
+    {
+      "image": "ChartQA Dataset/train/png/4571.png",
+      "split": "train",
+      "label": "h_bar",
+      "annotator": "official:af8b6f5c08c95085271561c2a3f9d15f2b5a9031",
+      "pixel_sha256": "be0198a99f73ab3e006d6cb0f19a39a182bebd9d7439a950f29cde5662a2df20",
+      "annotation": "annotations_cv2\\af8b6f5c08c95085271561c2a3f9d15f2b5a9031\\train\\4571.json",
+      "reason": "duplicate_pixels_or_filename; heldout_priority"
+    },
+    {
+      "image": "ChartQA Dataset/train/png/46.png",
+      "split": "train",
+      "label": "pie",
+      "annotator": "official:af8b6f5c08c95085271561c2a3f9d15f2b5a9031",
+      "pixel_sha256": "b96a2344ed19205e5e4cd43722c9cdd6cbf4bbb83b0df448a1a152a47ce16c5f",
+      "annotation": "annotations_cv2\\af8b6f5c08c95085271561c2a3f9d15f2b5a9031\\train\\46.json",
+      "reason": "duplicate_pixels_or_filename; heldout_priority"
+    },
+    {
+      "image": "ChartQA Dataset/train/png/4612.png",
+      "split": "train",
+      "label": "line",
+      "annotator": "official:af8b6f5c08c95085271561c2a3f9d15f2b5a9031",
+      "pixel_sha256": "bba0e57922a10d8c1fe89bcba64973922ef307d0148e93caa50397d313230312",
+      "annotation": "annotations_cv2\\af8b6f5c08c95085271561c2a3f9d15f2b5a9031\\train\\4612.json",
+      "reason": "duplicate_pixels_or_filename; heldout_priority"
+    },
+    {
+      "image": "ChartQA Dataset/train/png/4628.png",
+      "split": "train",
+      "label": "h_bar",
+      "annotator": "official:af8b6f5c08c95085271561c2a3f9d15f2b5a9031",
+      "pixel_sha256": "3a6be5fa877982bd21afb9d7db62fc8218c1854aadf73da03f1f8cbd6787d064",
+      "annotation": "annotations_cv2\\af8b6f5c08c95085271561c2a3f9d15f2b5a9031\\train\\4628.json",
+      "reason": "duplicate_pixels_or_filename; heldout_priority"
+    },
+    {
+      "image": "ChartQA Dataset/train/png/4648.png",
+      "split": "train",
+      "label": "h_bar",
+      "annotator": "official:af8b6f5c08c95085271561c2a3f9d15f2b5a9031",
+      "pixel_sha256": "29ea987cc65e5c4deee4d4e663019dbb54c8343d52837f4afae33fe0399a78f4",
+      "annotation": "annotations_cv2\\af8b6f5c08c95085271561c2a3f9d15f2b5a9031\\train\\4648.json",
+      "reason": "duplicate_pixels_or_filename; heldout_priority"
+    },
+    {
+      "image": "ChartQA Dataset/train/png/4652.png",
+      "split": "train",
+      "label": "line",
+      "annotator": "official:af8b6f5c08c95085271561c2a3f9d15f2b5a9031",
+      "pixel_sha256": "63120ed0f7675798c9a1857f441d99e6d28c63b199233da22f6aedb6b219de07",
+      "annotation": "annotations_cv2\\af8b6f5c08c95085271561c2a3f9d15f2b5a9031\\train\\4652.json",
+      "reason": "duplicate_pixels_or_filename; heldout_priority"
+    },
+    {
+      "image": "ChartQA Dataset/train/png/4877.png",
+      "split": "train",
+      "label": "line",
+      "annotator": "official:af8b6f5c08c95085271561c2a3f9d15f2b5a9031",
+      "pixel_sha256": "219272f63e9aeca4c02ab877fc89a36118d5fed3e79ac3cc61b03b1d53bf69c4",
+      "annotation": "annotations_cv2\\af8b6f5c08c95085271561c2a3f9d15f2b5a9031\\train\\4877.json",
+      "reason": "duplicate_pixels_or_filename; heldout_priority"
+    },
+    {
+      "image": "ChartQA Dataset/train/png/5350.png",
+      "split": "train",
+      "label": "h_bar",
+      "annotator": "official:af8b6f5c08c95085271561c2a3f9d15f2b5a9031",
+      "pixel_sha256": "74ea50d819d8e46e1dee6bfe7e763aa6da2e1add85b55590bba74449a6bfbc55",
+      "annotation": "annotations_cv2\\af8b6f5c08c95085271561c2a3f9d15f2b5a9031\\train\\5350.json",
+      "reason": "duplicate_pixels_or_filename; heldout_priority"
+    },
+    {
+      "image": "ChartQA Dataset/train/png/5491.png",
+      "split": "train",
+      "label": "h_bar",
+      "annotator": "official:af8b6f5c08c95085271561c2a3f9d15f2b5a9031",
+      "pixel_sha256": "75a7d2669fef0c80f96ed9ba0c2318c4a47b7277a255d66816493b6e42a45ec1",
+      "annotation": "annotations_cv2\\af8b6f5c08c95085271561c2a3f9d15f2b5a9031\\train\\5491.json",
+      "reason": "duplicate_pixels_or_filename; heldout_priority"
+    },
+    {
+      "image": "ChartQA Dataset/train/png/5869.png",
+      "split": "train",
+      "label": "h_bar",
+      "annotator": "official:af8b6f5c08c95085271561c2a3f9d15f2b5a9031",
+      "pixel_sha256": "a4b1f9a4462ad2ba994ec379b8742a26addc53a871a83352967df3ff9550852f",
+      "annotation": "annotations_cv2\\af8b6f5c08c95085271561c2a3f9d15f2b5a9031\\train\\5869.json",
+      "reason": "duplicate_pixels_or_filename; heldout_priority"
+    },
+    {
+      "image": "ChartQA Dataset/train/png/598.png",
+      "split": "train",
+      "label": "pie",
+      "annotator": "official:af8b6f5c08c95085271561c2a3f9d15f2b5a9031",
+      "pixel_sha256": "2006c22a829c75405ca4cf89a514456b7ff09e03bab423b8d847b3d86ac68567",
+      "annotation": "annotations_cv2\\af8b6f5c08c95085271561c2a3f9d15f2b5a9031\\train\\598.json",
+      "reason": "duplicate_pixels_or_filename; heldout_priority"
+    },
+    {
+      "image": "ChartQA Dataset/train/png/5985.png",
+      "split": "train",
+      "label": "h_bar",
+      "annotator": "official:af8b6f5c08c95085271561c2a3f9d15f2b5a9031",
+      "pixel_sha256": "eb59bb2283b1a0910d5ac50dffac4fff3d9726f7e8488f89f769df6d2cf8c1a9",
+      "annotation": "annotations_cv2\\af8b6f5c08c95085271561c2a3f9d15f2b5a9031\\train\\5985.json",
+      "reason": "duplicate_pixels_or_filename; heldout_priority"
+    },
+    {
+      "image": "ChartQA Dataset/train/png/6394.png",
+      "split": "train",
+      "label": "line",
+      "annotator": "official:af8b6f5c08c95085271561c2a3f9d15f2b5a9031",
+      "pixel_sha256": "e9690067ea6a45aa7c9b67a6d54e4d194678a68573a376e3ebab36d2a66597ba",
+      "annotation": "annotations_cv2\\af8b6f5c08c95085271561c2a3f9d15f2b5a9031\\train\\6394.json",
+      "reason": "duplicate_pixels_or_filename; heldout_priority"
+    },
+    {
+      "image": "ChartQA Dataset/train/png/7659.png",
+      "split": "train",
+      "label": "h_bar",
+      "annotator": "official:af8b6f5c08c95085271561c2a3f9d15f2b5a9031",
+      "pixel_sha256": "c3bf31199ad9dc7cee9316a77971e314817056921812052259c715a113a3da7a",
+      "annotation": "annotations_cv2\\af8b6f5c08c95085271561c2a3f9d15f2b5a9031\\train\\7659.json",
+      "reason": "duplicate_pixels_or_filename; heldout_priority"
+    },
+    {
+      "image": "ChartQA Dataset/train/png/7944.png",
+      "split": "train",
+      "label": "h_bar",
+      "annotator": "official:af8b6f5c08c95085271561c2a3f9d15f2b5a9031",
+      "pixel_sha256": "461ec7a7f3f742f28865da1d06a4a7e2a8d55ee1ddfb07d61b7c784d36713966",
+      "annotation": "annotations_cv2\\af8b6f5c08c95085271561c2a3f9d15f2b5a9031\\train\\7944.json",
+      "reason": "duplicate_pixels_or_filename; heldout_priority"
+    },
+    {
+      "image": "ChartQA Dataset/train/png/8310.png",
+      "split": "train",
+      "label": "h_bar",
+      "annotator": "official:af8b6f5c08c95085271561c2a3f9d15f2b5a9031",
+      "pixel_sha256": "298cd8b342d38cdcbe534912faaab0fbef2aad926a0cba2b6374895230d4d3b8",
+      "annotation": "annotations_cv2\\af8b6f5c08c95085271561c2a3f9d15f2b5a9031\\train\\8310.json",
+      "reason": "duplicate_pixels_or_filename; heldout_priority"
+    },
+    {
+      "image": "ChartQA Dataset/train/png/8312.png",
+      "split": "train",
+      "label": "h_bar",
+      "annotator": "official:af8b6f5c08c95085271561c2a3f9d15f2b5a9031",
+      "pixel_sha256": "1f1dad8740570a0cf5cf69255d8c9f08805fa8048e8a5199b2b029d3c7f17d98",
+      "annotation": "annotations_cv2\\af8b6f5c08c95085271561c2a3f9d15f2b5a9031\\train\\8312.json",
+      "reason": "duplicate_pixels_or_filename; heldout_priority"
+    },
+    {
+      "image": "ChartQA Dataset/train/png/8314.png",
+      "split": "train",
+      "label": "h_bar",
+      "annotator": "official:af8b6f5c08c95085271561c2a3f9d15f2b5a9031",
+      "pixel_sha256": "8b0de457b19f64156a0634ec3e59783baf9c27203518dbfeacab4551c7ea3e4a",
+      "annotation": "annotations_cv2\\af8b6f5c08c95085271561c2a3f9d15f2b5a9031\\train\\8314.json",
+      "reason": "duplicate_pixels_or_filename; heldout_priority"
+    },
+    {
+      "image": "ChartQA Dataset/train/png/8455.png",
+      "split": "train",
+      "label": "h_bar",
+      "annotator": "official:af8b6f5c08c95085271561c2a3f9d15f2b5a9031",
+      "pixel_sha256": "27cb59ca296f7071668eec4f7098264e9a416687007e41c6d57e6cca63113eb0",
+      "annotation": "annotations_cv2\\af8b6f5c08c95085271561c2a3f9d15f2b5a9031\\train\\8455.json",
+      "reason": "duplicate_pixels_or_filename; heldout_priority"
+    },
+    {
+      "image": "ChartQA Dataset/train/png/847.png",
+      "split": "train",
+      "label": "h_bar",
+      "annotator": "official:af8b6f5c08c95085271561c2a3f9d15f2b5a9031",
+      "pixel_sha256": "f001d11d7af44a625200c256d25134f39339d47ee0c4de23a33f668c846a2191",
+      "annotation": "annotations_cv2\\af8b6f5c08c95085271561c2a3f9d15f2b5a9031\\train\\847.json",
+      "reason": "duplicate_pixels_or_filename; heldout_priority"
+    },
+    {
+      "image": "ChartQA Dataset/train/png/863.png",
+      "split": "train",
+      "label": "line",
+      "annotator": "official:af8b6f5c08c95085271561c2a3f9d15f2b5a9031",
+      "pixel_sha256": "a99f416c3f183bd61a5645d7f09aa5f5fbbf4921b75bf6f5a3f0468ac136e85d",
+      "annotation": "annotations_cv2\\af8b6f5c08c95085271561c2a3f9d15f2b5a9031\\train\\863.json",
+      "reason": "duplicate_pixels_or_filename; heldout_priority"
+    },
+    {
+      "image": "ChartQA Dataset/train/png/8694.png",
+      "split": "train",
+      "label": "pie",
+      "annotator": "official:af8b6f5c08c95085271561c2a3f9d15f2b5a9031",
+      "pixel_sha256": "e9c4fb61d0d9a71a51029957f0d9e7fc13da3dbb7b7a9a0f5b5c2f334e79a327",
+      "annotation": "annotations_cv2\\af8b6f5c08c95085271561c2a3f9d15f2b5a9031\\train\\8694.json",
+      "reason": "duplicate_pixels_or_filename; heldout_priority"
+    },
+    {
+      "image": "ChartQA Dataset/train/png/9305.png",
+      "split": "train",
+      "label": "h_bar",
+      "annotator": "official:af8b6f5c08c95085271561c2a3f9d15f2b5a9031",
+      "pixel_sha256": "10196d7f4a4a7dc3b112ce0e3612db6bbe47c0a32d65a09b13b9d48f920cbc0b",
+      "annotation": "annotations_cv2\\af8b6f5c08c95085271561c2a3f9d15f2b5a9031\\train\\9305.json",
+      "reason": "duplicate_pixels_or_filename; heldout_priority"
+    },
+    {
+      "image": "ChartQA Dataset/train/png/9432.png",
+      "split": "train",
+      "label": "h_bar",
+      "annotator": "official:af8b6f5c08c95085271561c2a3f9d15f2b5a9031",
+      "pixel_sha256": "f4e2a391d760052a121b788e542214a317b58cac0c67ac58cabf5269aa621b00",
+      "annotation": "annotations_cv2\\af8b6f5c08c95085271561c2a3f9d15f2b5a9031\\train\\9432.json",
+      "reason": "duplicate_pixels_or_filename; heldout_priority"
+    },
+    {
+      "image": "ChartQA Dataset/train/png/9598.png",
+      "split": "train",
+      "label": "h_bar",
+      "annotator": "official:af8b6f5c08c95085271561c2a3f9d15f2b5a9031",
+      "pixel_sha256": "85c0cb0fbbbf3cf1c10b11b00ca0b1e1ea425c314519c0231cffa79e2ca251c2",
+      "annotation": "annotations_cv2\\af8b6f5c08c95085271561c2a3f9d15f2b5a9031\\train\\9598.json",
+      "reason": "duplicate_pixels_or_filename; heldout_priority"
+    },
+    {
+      "image": "ChartQA Dataset/train/png/9796.png",
+      "split": "train",
+      "label": "pie",
+      "annotator": "official:af8b6f5c08c95085271561c2a3f9d15f2b5a9031",
+      "pixel_sha256": "42e3180a89ccd63e4bccf4ba385f6c70d97906ba1e2e95f3239f189a09064926",
+      "annotation": "annotations_cv2\\af8b6f5c08c95085271561c2a3f9d15f2b5a9031\\train\\9796.json",
+      "reason": "duplicate_pixels_or_filename; heldout_priority"
+    },
+    {
+      "image": "ChartQA Dataset/train/png/multi_col_100318.png",
+      "split": "train",
+      "label": "v_bar",
+      "annotator": "official:af8b6f5c08c95085271561c2a3f9d15f2b5a9031",
+      "pixel_sha256": "0016f073be82169b495e94cc3cbe19b5d659c868e5037b8505cc4be6d848aa01",
+      "annotation": "annotations_cv2\\af8b6f5c08c95085271561c2a3f9d15f2b5a9031\\train\\multi_col_100318.json",
+      "reason": "duplicate_pixels_or_filename; heldout_priority"
+    },
+    {
+      "image": "ChartQA Dataset/train/png/multi_col_634.png",
+      "split": "train",
+      "label": "v_bar",
+      "annotator": "official:af8b6f5c08c95085271561c2a3f9d15f2b5a9031",
+      "pixel_sha256": "4fe111fe8a4ccd6fba3bdc8227a45015124973747d1511039aafd9e61fd88fef",
+      "annotation": "annotations_cv2\\af8b6f5c08c95085271561c2a3f9d15f2b5a9031\\train\\multi_col_634.json",
+      "reason": "duplicate_pixels_or_filename; heldout_priority"
+    },
+    {
+      "image": "ChartQA Dataset/train/png/two_col_23794.png",
+      "split": "train",
+      "label": "h_bar",
+      "annotator": "official:af8b6f5c08c95085271561c2a3f9d15f2b5a9031",
+      "pixel_sha256": "077b4e124aa6fc7cd58a76c8b8097fe012c65dbd96fce940663224d735bfa772",
+      "annotation": "annotations_cv2\\af8b6f5c08c95085271561c2a3f9d15f2b5a9031\\train\\two_col_23794.json",
+      "reason": "duplicate_pixels_or_filename; heldout_priority"
+    },
+    {
+      "image": "ChartQA Dataset/train/png/two_col_2495.png",
+      "split": "train",
+      "label": "h_bar",
+      "annotator": "official:af8b6f5c08c95085271561c2a3f9d15f2b5a9031",
+      "pixel_sha256": "eb91dec0dccfc8dfa5b75da7de6b5bd207b7ab0091ea9d932e2dcf65e2fac527",
+      "annotation": "annotations_cv2\\af8b6f5c08c95085271561c2a3f9d15f2b5a9031\\train\\two_col_2495.json",
+      "reason": "duplicate_pixels_or_filename; heldout_priority"
+    },
+    {
+      "image": "ChartQA Dataset/train/png/two_col_3611.png",
+      "split": "train",
+      "label": "h_bar",
+      "annotator": "official:af8b6f5c08c95085271561c2a3f9d15f2b5a9031",
+      "pixel_sha256": "b81daa411cc54fcc69655313ba05376a29ce453917996b103422366e925b9b69",
+      "annotation": "annotations_cv2\\af8b6f5c08c95085271561c2a3f9d15f2b5a9031\\train\\two_col_3611.json",
+      "reason": "duplicate_pixels_or_filename; heldout_priority"
+    },
+    {
+      "image": "ChartQA Dataset/train/png/two_col_405.png",
+      "split": "train",
+      "label": "h_bar",
+      "annotator": "official:af8b6f5c08c95085271561c2a3f9d15f2b5a9031",
+      "pixel_sha256": "91c480ea3d8d601fe8156d1c4c6ba15df92d6b4de8528937aaaaa3442bf1fe07",
+      "annotation": "annotations_cv2\\af8b6f5c08c95085271561c2a3f9d15f2b5a9031\\train\\two_col_405.json",
+      "reason": "duplicate_pixels_or_filename; heldout_priority"
+    },
+    {
+      "image": "ChartQA Dataset/train/png/two_col_452.png",
+      "split": "train",
+      "label": "h_bar",
+      "annotator": "official:af8b6f5c08c95085271561c2a3f9d15f2b5a9031",
+      "pixel_sha256": "4081e07dd44f53b417c89b160ffdbe8b1386a630a5145c09b2f2afcd9d88d202",
+      "annotation": "annotations_cv2\\af8b6f5c08c95085271561c2a3f9d15f2b5a9031\\train\\two_col_452.json",
+      "reason": "duplicate_pixels_or_filename; heldout_priority"
+    },
+    {
+      "image": "ChartQA Dataset/train/png/two_col_4668.png",
+      "split": "train",
+      "label": "h_bar",
+      "annotator": "official:af8b6f5c08c95085271561c2a3f9d15f2b5a9031",
+      "pixel_sha256": "93708ab1d1ffa1fb5a42587a55fafb78126bfd2bb7289d835a5e9b296afd5c02",
+      "annotation": "annotations_cv2\\af8b6f5c08c95085271561c2a3f9d15f2b5a9031\\train\\two_col_4668.json",
+      "reason": "duplicate_pixels_or_filename; heldout_priority"
+    },
+    {
+      "image": "ChartQA Dataset/train/png/two_col_5884.png",
+      "split": "train",
+      "label": "pie",
+      "annotator": "official:af8b6f5c08c95085271561c2a3f9d15f2b5a9031",
+      "pixel_sha256": "b0d99c406165756580952da5a2cdaf506c04b4cf32ceb9fc8f1f753e3a42109e",
+      "annotation": "annotations_cv2\\af8b6f5c08c95085271561c2a3f9d15f2b5a9031\\train\\two_col_5884.json",
+      "reason": "duplicate_pixels_or_filename; heldout_priority"
+    },
+    {
+      "image": "ChartQA Dataset/train/png/two_col_62893.png",
+      "split": "train",
+      "label": "pie",
+      "annotator": "official:af8b6f5c08c95085271561c2a3f9d15f2b5a9031",
+      "pixel_sha256": "f3f6ce5c2dab5c4ff000e81760d523a81dc87b8a99e62030b587b25e788dac19",
+      "annotation": "annotations_cv2\\af8b6f5c08c95085271561c2a3f9d15f2b5a9031\\train\\two_col_62893.json",
+      "reason": "duplicate_pixels_or_filename; heldout_priority"
+    },
+    {
+      "image": "ChartQA Dataset/train/png/two_col_693.png",
+      "split": "train",
+      "label": "h_bar",
+      "annotator": "official:af8b6f5c08c95085271561c2a3f9d15f2b5a9031",
+      "pixel_sha256": "4d8b2586618e7b468580f1f24f9da3f6fe3e2643f5e9ca339b1350c65238e7f5",
+      "annotation": "annotations_cv2\\af8b6f5c08c95085271561c2a3f9d15f2b5a9031\\train\\two_col_693.json",
+      "reason": "duplicate_pixels_or_filename; heldout_priority"
+    }
+  ],
+  "limitation": "Official types not exhaustively human-reviewed; near-duplicates with different names/pixels not detected."
+}

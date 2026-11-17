@@ -1,0 +1,14 @@
+{
+  "checkpoint": "C:\\Users\\ELECTRO-RIMO\\Downloads\\ChartQA-main\\ChartQA-main\\models_cv2\\resnet18_20261117_010609_069660.pt",
+  "epochs": 20,
+  "device": "cpu",
+  "best_validation_loss": 0.0009146553299082063,
+  "seconds": 678.5204494000063,
+  "counts": {
+    "train": 18256,
+    "val": 1054,
+    "test": 1509
+  },
+  "cache_features": true,
+  "seed": 42
+}

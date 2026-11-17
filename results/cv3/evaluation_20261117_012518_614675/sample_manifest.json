@@ -1,0 +1,122 @@
+[
+  {
+    "image": "ChartQA Dataset/test/png/multi_col_101181.png",
+    "split": "test",
+    "label": "v_bar",
+    "annotator": "official:af8b6f5c08c95085271561c2a3f9d15f2b5a9031"
+  },
+  {
+    "image": "ChartQA Dataset/test/png/two_col_103667.png",
+    "split": "test",
+    "label": "v_bar",
+    "annotator": "official:af8b6f5c08c95085271561c2a3f9d15f2b5a9031"
+  },
+  {
+    "image": "ChartQA Dataset/test/png/two_col_81707.png",
+    "split": "test",
+    "label": "v_bar",
+    "annotator": "official:af8b6f5c08c95085271561c2a3f9d15f2b5a9031"
+  },
+  {
+    "image": "ChartQA Dataset/test/png/multi_col_60369.png",
+    "split": "test",
+    "label": "v_bar",
+    "annotator": "official:af8b6f5c08c95085271561c2a3f9d15f2b5a9031"
+  },
+  {
+    "image": "ChartQA Dataset/test/png/two_col_3752.png",
+    "split": "test",
+    "label": "v_bar",
+    "annotator": "official:af8b6f5c08c95085271561c2a3f9d15f2b5a9031"
+  },
+  {
+    "image": "ChartQA Dataset/test/png/multi_col_40202.png",
+    "split": "test",
+    "label": "h_bar",
+    "annotator": "official:af8b6f5c08c95085271561c2a3f9d15f2b5a9031"
+  },
+  {
+    "image": "ChartQA Dataset/test/png/two_col_4167.png",
+    "split": "test",
+    "label": "h_bar",
+    "annotator": "official:af8b6f5c08c95085271561c2a3f9d15f2b5a9031"
+  },
+  {
+    "image": "ChartQA Dataset/test/png/two_col_42847.png",
+    "split": "test",
+    "label": "h_bar",
+    "annotator": "official:af8b6f5c08c95085271561c2a3f9d15f2b5a9031"
+  },
+  {
+    "image": "ChartQA Dataset/test/png/two_col_61697.png",
+    "split": "test",
+    "label": "h_bar",
+    "annotator": "official:af8b6f5c08c95085271561c2a3f9d15f2b5a9031"
+  },
+  {
+    "image": "ChartQA Dataset/test/png/21881727007008.png",
+    "split": "test",
+    "label": "h_bar",
+    "annotator": "official:af8b6f5c08c95085271561c2a3f9d15f2b5a9031"
+  },
+  {
+    "image": "ChartQA Dataset/test/png/two_col_102453.png",
+    "split": "test",
+    "label": "line",
+    "annotator": "official:af8b6f5c08c95085271561c2a3f9d15f2b5a9031"
+  },
+  {
+    "image": "ChartQA Dataset/test/png/two_col_24637.png",
+    "split": "test",
+    "label": "line",
+    "annotator": "official:af8b6f5c08c95085271561c2a3f9d15f2b5a9031"
+  },
+  {
+    "image": "ChartQA Dataset/test/png/two_col_1716.png",
+    "split": "test",
+    "label": "line",
+    "annotator": "official:af8b6f5c08c95085271561c2a3f9d15f2b5a9031"
+  },
+  {
+    "image": "ChartQA Dataset/test/png/two_col_2888.png",
+    "split": "test",
+    "label": "line",
+    "annotator": "official:af8b6f5c08c95085271561c2a3f9d15f2b5a9031"
+  },
+  {
+    "image": "ChartQA Dataset/test/png/10146.png",
+    "split": "test",
+    "label": "line",
+    "annotator": "official:af8b6f5c08c95085271561c2a3f9d15f2b5a9031"
+  },
+  {
+    "image": "ChartQA Dataset/test/png/two_col_60392.png",
+    "split": "test",
+    "label": "pie",
+    "annotator": "official:af8b6f5c08c95085271561c2a3f9d15f2b5a9031"
+  },
+  {
+    "image": "ChartQA Dataset/test/png/two_col_4223.png",
+    "split": "test",
+    "label": "pie",
+    "annotator": "official:af8b6f5c08c95085271561c2a3f9d15f2b5a9031"
+  },
+  {
+    "image": "ChartQA Dataset/test/png/two_col_81161.png",
+    "split": "test",
+    "label": "pie",
+    "annotator": "official:af8b6f5c08c95085271561c2a3f9d15f2b5a9031"
+  },
+  {
+    "image": "ChartQA Dataset/test/png/two_col_22308.png",
+    "split": "test",
+    "label": "pie",
+    "annotator": "official:af8b6f5c08c95085271561c2a3f9d15f2b5a9031"
+  },
+  {
+    "image": "ChartQA Dataset/test/png/two_col_6419.png",
+    "split": "test",
+    "label": "pie",
+    "annotator": "official:af8b6f5c08c95085271561c2a3f9d15f2b5a9031"
+  }
+]

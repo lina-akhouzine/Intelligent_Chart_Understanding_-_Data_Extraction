@@ -1,0 +1,8 @@
+{
+  "checkpoint": "models_cv2/resnet18_20261117_010609_069660.pt",
+  "trained": true,
+  "epoch": 20,
+  "validation_image": "ChartQA Dataset/val/png/00006834003066.png",
+  "full_model_vs_cached_features": "PASS",
+  "max_logit_difference": 0.0
+}

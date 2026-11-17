@@ -1,0 +1,39 @@
+{
+  "test_correct": 1509,
+  "test_incorrect": 0,
+  "test_direct_forward_rechecks": [
+    {
+      "image": "ChartQA Dataset/test/png/multi_col_10.png",
+      "true_label": "v_bar",
+      "prediction": "v_bar",
+      "split": "test"
+    },
+    {
+      "image": "ChartQA Dataset/test/png/00339007006077.png",
+      "true_label": "h_bar",
+      "prediction": "h_bar",
+      "split": "test"
+    },
+    {
+      "image": "ChartQA Dataset/test/png/00795994017065.png",
+      "true_label": "line",
+      "prediction": "line",
+      "split": "test"
+    },
+    {
+      "image": "ChartQA Dataset/test/png/10600.png",
+      "true_label": "pie",
+      "prediction": "pie",
+      "split": "test"
+    }
+  ],
+  "validation_incorrect": [
+    {
+      "image": "ChartQA Dataset/val/png/multi_col_60411.png",
+      "split": "val",
+      "true_label": "v_bar",
+      "prediction": "h_bar"
+    }
+  ],
+  "note": "No incorrect test examples exist; validation errors shown separately."
+}

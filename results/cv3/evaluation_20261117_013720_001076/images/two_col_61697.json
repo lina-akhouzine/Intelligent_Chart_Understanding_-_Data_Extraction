@@ -1,0 +1,1662 @@
+{
+  "schema_version": 1,
+  "image": "two_col_61697.png",
+  "source": "C:\\Users\\ELECTRO-RIMO\\Downloads\\ChartQA-main\\ChartQA-main\\ChartQA Dataset\\test\\png\\two_col_61697.png",
+  "source_sha256": "5820e3e0201e117c17ed9d118b5d678af5e77127df50f8a32d016d8b1765648f",
+  "width": 800,
+  "height": 557,
+  "engine": "EasyOCR 1.7.2 / en",
+  "chart_type": "h_bar",
+  "chart_type_source": "CV2 checkpoint prediction",
+  "chart_probabilities": {
+    "v_bar": 9.651741493144073e-06,
+    "h_bar": 0.9999885559082031,
+    "line": 1.8350551727053244e-06,
+    "pie": 1.375693603478112e-08
+  },
+  "variants": [
+    "original",
+    "clahe"
+  ],
+  "texts": [
+    {
+      "text": "BlackRock Investment Management (UK)",
+      "bbox": [
+        35.0,
+        40.0,
+        253.0,
+        55.0
+      ],
+      "polygon": [
+        [
+          35.0,
+          40.0
+        ],
+        [
+          253.0,
+          40.0
+        ],
+        [
+          253.0,
+          55.0
+        ],
+        [
+          35.0,
+          55.0
+        ]
+      ],
+      "confidence": 0.9786188578446793,
+      "variant": "original",
+      "variants": [
+        "original",
+        "clahe"
+      ],
+      "alternatives": [
+        {
+          "text": "BlackRock Investment Management (UK)",
+          "confidence": 0.9610546070330616,
+          "variant": "clahe"
+        }
+      ],
+      "role": "title",
+      "role_confidence": 0.6,
+      "role_source": "geometry",
+      "role_reason": "texte large en haut",
+      "annotation_assistance": {
+        "role": "y_category",
+        "iou": 0.55130482306326,
+        "field": "x_axis.major_labels[0]",
+        "source": "official_region"
+      }
+    },
+    {
+      "text": "76.6",
+      "bbox": [
+        647.0,
+        48.0,
+        677.0,
+        62.0
+      ],
+      "polygon": [
+        [
+          647.0,
+          48.0
+        ],
+        [
+          677.0,
+          48.0
+        ],
+        [
+          677.0,
+          62.0
+        ],
+        [
+          647.0,
+          62.0
+        ]
+      ],
+      "confidence": 0.9211113113752281,
+      "variant": "original",
+      "variants": [
+        "original",
+        "clahe"
+      ],
+      "alternatives": [
+        {
+          "text": "76.6",
+          "confidence": 0.9073649270339937,
+          "variant": "clahe"
+        }
+      ],
+      "role": "unknown",
+      "role_confidence": 0.25,
+      "role_source": "geometry",
+      "role_reason": "position ambiguë",
+      "annotation_assistance": null
+    },
+    {
+      "text": "Limited",
+      "bbox": [
+        209.0,
+        55.0,
+        253.0,
+        69.0
+      ],
+      "polygon": [
+        [
+          209.0,
+          55.0
+        ],
+        [
+          253.0,
+          55.0
+        ],
+        [
+          253.0,
+          69.0
+        ],
+        [
+          209.0,
+          69.0
+        ]
+      ],
+      "confidence": 0.9999980174968082,
+      "variant": "original",
+      "variants": [
+        "original",
+        "clahe"
+      ],
+      "alternatives": [
+        {
+          "text": "Limited",
+          "confidence": 0.9999976570415461,
+          "variant": "clahe"
+        }
+      ],
+      "role": "unknown",
+      "role_confidence": 0.25,
+      "role_source": "geometry",
+      "role_reason": "position ambiguë",
+      "annotation_assistance": null
+    },
+    {
+      "text": "Link Fund Solutions Limited",
+      "bbox": [
+        100.0,
+        87.0,
+        253.0,
+        101.0
+      ],
+      "polygon": [
+        [
+          100.0,
+          87.0
+        ],
+        [
+          253.0,
+          87.0
+        ],
+        [
+          253.0,
+          101.0
+        ],
+        [
+          100.0,
+          101.0
+        ]
+      ],
+      "confidence": 0.8276917284102354,
+      "variant": "clahe",
+      "variants": [
+        "clahe",
+        "original"
+      ],
+      "alternatives": [
+        {
+          "text": "Link Fund Solutions Limited",
+          "confidence": 0.7819917494426764,
+          "variant": "original"
+        }
+      ],
+      "role": "unknown",
+      "role_confidence": 0.25,
+      "role_source": "geometry",
+      "role_reason": "position ambiguë",
+      "annotation_assistance": {
+        "role": "y_category",
+        "iou": 0.6528129438646328,
+        "field": "x_axis.major_labels[1]",
+        "source": "official_region"
+      }
+    },
+    {
+      "text": "63.14",
+      "bbox": [
+        580.0,
+        87.0,
+        617.0,
+        101.0
+      ],
+      "polygon": [
+        [
+          580.0,
+          87.0
+        ],
+        [
+          617.0,
+          87.0
+        ],
+        [
+          617.0,
+          101.0
+        ],
+        [
+          580.0,
+          101.0
+        ]
+      ],
+      "confidence": 0.9031841745751477,
+      "variant": "original",
+      "variants": [
+        "original",
+        "clahe"
+      ],
+      "alternatives": [
+        {
+          "text": "63.14",
+          "confidence": 0.8427449466257412,
+          "variant": "clahe"
+        }
+      ],
+      "role": "unknown",
+      "role_confidence": 0.25,
+      "role_source": "geometry",
+      "role_reason": "position ambiguë",
+      "annotation_assistance": null
+    },
+    {
+      "text": "Scottish Widows Unit Trusts Managers",
+      "bbox": [
+        45.0,
+        124.0,
+        253.0,
+        139.0
+      ],
+      "polygon": [
+        [
+          45.0,
+          124.0
+        ],
+        [
+          253.0,
+          124.0
+        ],
+        [
+          253.0,
+          139.0
+        ],
+        [
+          45.0,
+          139.0
+        ]
+      ],
+      "confidence": 0.9772085938652814,
+      "variant": "clahe",
+      "variants": [
+        "clahe",
+        "original"
+      ],
+      "alternatives": [
+        {
+          "text": "Scottish Widows Unit Trusts Managers",
+          "confidence": 0.8461693327699434,
+          "variant": "original"
+        }
+      ],
+      "role": "unknown",
+      "role_confidence": 0.25,
+      "role_source": "geometry",
+      "role_reason": "position ambiguë",
+      "annotation_assistance": {
+        "role": "y_category",
+        "iou": 0.7260911207932692,
+        "field": "x_axis.major_labels[2]",
+        "source": "official_region"
+      }
+    },
+    {
+      "text": "58.37",
+      "bbox": [
+        556.0,
+        124.0,
+        594.0,
+        138.0
+      ],
+      "polygon": [
+        [
+          556.0,
+          124.0
+        ],
+        [
+          594.0,
+          124.0
+        ],
+        [
+          594.0,
+          138.0
+        ],
+        [
+          556.0,
+          138.0
+        ]
+      ],
+      "confidence": 0.9968068609828358,
+      "variant": "original",
+      "variants": [
+        "original",
+        "clahe"
+      ],
+      "alternatives": [
+        {
+          "text": "58.37",
+          "confidence": 0.9947864508665795,
+          "variant": "clahe"
+        }
+      ],
+      "role": "unknown",
+      "role_confidence": 0.25,
+      "role_source": "geometry",
+      "role_reason": "position ambiguë",
+      "annotation_assistance": null
+    },
+    {
+      "text": "Aberdeen Standard Fund Managers",
+      "bbox": [
+        61.0,
+        154.0,
+        253.0,
+        171.0
+      ],
+      "polygon": [
+        [
+          61.0,
+          154.0
+        ],
+        [
+          253.0,
+          154.0
+        ],
+        [
+          253.0,
+          171.0
+        ],
+        [
+          61.0,
+          171.0
+        ]
+      ],
+      "confidence": 0.8618561414431593,
+      "variant": "original",
+      "variants": [
+        "original",
+        "clahe"
+      ],
+      "alternatives": [
+        {
+          "text": "Aberdeen Standard Fund Managers",
+          "confidence": 0.8352540736693234,
+          "variant": "clahe"
+        }
+      ],
+      "role": "unknown",
+      "role_confidence": 0.25,
+      "role_source": "geometry",
+      "role_reason": "position ambiguë",
+      "annotation_assistance": {
+        "role": "y_category",
+        "iou": 0.6171755493003594,
+        "field": "x_axis.major_labels[3]",
+        "source": "official_region"
+      }
+    },
+    {
+      "text": "3",
+      "bbox": [
+        525.0,
+        163.0,
+        563.0,
+        177.0
+      ],
+      "polygon": [
+        [
+          525.0,
+          163.0
+        ],
+        [
+          563.0,
+          163.0
+        ],
+        [
+          563.0,
+          177.0
+        ],
+        [
+          525.0,
+          177.0
+        ]
+      ],
+      "confidence": 0.8984851383875139,
+      "variant": "original",
+      "variants": [
+        "original",
+        "clahe"
+      ],
+      "alternatives": [
+        {
+          "text": "3",
+          "confidence": 0.8935236572718885,
+          "variant": "clahe"
+        }
+      ],
+      "role": "unknown",
+      "role_confidence": 0.25,
+      "role_source": "geometry",
+      "role_reason": "position ambiguë",
+      "annotation_assistance": null
+    },
+    {
+      "text": "Limited",
+      "bbox": [
+        209.0,
+        168.0,
+        253.0,
+        182.0
+      ],
+      "polygon": [
+        [
+          209.0,
+          168.0
+        ],
+        [
+          253.0,
+          168.0
+        ],
+        [
+          253.0,
+          182.0
+        ],
+        [
+          209.0,
+          182.0
+        ]
+      ],
+      "confidence": 0.99999891863478,
+      "variant": "original",
+      "variants": [
+        "original",
+        "clahe"
+      ],
+      "alternatives": [
+        {
+          "text": "[",
+          "confidence": 0.9225770853176449,
+          "variant": "clahe"
+        }
+      ],
+      "role": "unknown",
+      "role_confidence": 0.25,
+      "role_source": "geometry",
+      "role_reason": "position ambiguë",
+      "annotation_assistance": null
+    },
+    {
+      "text": "Legal & Ceneral (Unit Trust) Managers",
+      "bbox": [
+        45.0,
+        193.0,
+        253.0,
+        208.0
+      ],
+      "polygon": [
+        [
+          45.0,
+          193.0
+        ],
+        [
+          253.0,
+          193.0
+        ],
+        [
+          253.0,
+          208.0
+        ],
+        [
+          45.0,
+          208.0
+        ]
+      ],
+      "confidence": 0.986624304686875,
+      "variant": "clahe",
+      "variants": [
+        "clahe",
+        "original"
+      ],
+      "alternatives": [
+        {
+          "text": "'Legal & Ceneral (Unit Trust) Managers",
+          "confidence": 0.7182710117017237,
+          "variant": "original"
+        }
+      ],
+      "role": "unknown",
+      "role_confidence": 0.25,
+      "role_source": "geometry",
+      "role_reason": "position ambiguë",
+      "annotation_assistance": {
+        "role": "y_category",
+        "iou": 0.546019374949153,
+        "field": "x_axis.major_labels[4]",
+        "source": "official_region"
+      }
+    },
+    {
+      "text": "48.88",
+      "bbox": [
+        509.0,
+        200.0,
+        546.0,
+        214.0
+      ],
+      "polygon": [
+        [
+          509.0,
+          200.0
+        ],
+        [
+          546.0,
+          200.0
+        ],
+        [
+          546.0,
+          214.0
+        ],
+        [
+          509.0,
+          214.0
+        ]
+      ],
+      "confidence": 0.9890765004418284,
+      "variant": "original",
+      "variants": [
+        "original",
+        "clahe"
+      ],
+      "alternatives": [
+        {
+          "text": "48.88",
+          "confidence": 0.8567468389983653,
+          "variant": "clahe"
+        }
+      ],
+      "role": "unknown",
+      "role_confidence": 0.25,
+      "role_source": "geometry",
+      "role_reason": "position ambiguë",
+      "annotation_assistance": null
+    },
+    {
+      "text": "Limited",
+      "bbox": [
+        209.0,
+        207.0,
+        253.0,
+        221.0
+      ],
+      "polygon": [
+        [
+          209.0,
+          207.0
+        ],
+        [
+          253.0,
+          207.0
+        ],
+        [
+          253.0,
+          221.0
+        ],
+        [
+          209.0,
+          221.0
+        ]
+      ],
+      "confidence": 0.999998062553713,
+      "variant": "clahe",
+      "variants": [
+        "clahe",
+        "original"
+      ],
+      "alternatives": [
+        {
+          "text": "Limited",
+          "confidence": 0.9999980174968082,
+          "variant": "original"
+        }
+      ],
+      "role": "unknown",
+      "role_confidence": 0.25,
+      "role_source": "geometry",
+      "role_reason": "position ambiguë",
+      "annotation_assistance": null
+    },
+    {
+      "text": "Royal London Unit Trust Managers Ltd",
+      "bbox": [
+        44.0,
+        238.0,
+        253.0,
+        255.0
+      ],
+      "polygon": [
+        [
+          44.0,
+          238.0
+        ],
+        [
+          253.0,
+          238.0
+        ],
+        [
+          253.0,
+          255.0
+        ],
+        [
+          44.0,
+          255.0
+        ]
+      ],
+      "confidence": 0.9720549749139692,
+      "variant": "clahe",
+      "variants": [
+        "clahe",
+        "original"
+      ],
+      "alternatives": [
+        {
+          "text": "Royal London Unit Trust Managers Ltd",
+          "confidence": 0.9054040237456511,
+          "variant": "original"
+        }
+      ],
+      "role": "unknown",
+      "role_confidence": 0.25,
+      "role_source": "geometry",
+      "role_reason": "position ambiguë",
+      "annotation_assistance": {
+        "role": "y_category",
+        "iou": 0.6360645933014354,
+        "field": "x_axis.major_labels[5]",
+        "source": "official_region"
+      }
+    },
+    {
+      "text": "48.11",
+      "bbox": [
+        505.0,
+        240.0,
+        541.0,
+        253.0
+      ],
+      "polygon": [
+        [
+          505.0,
+          240.0
+        ],
+        [
+          541.0,
+          240.0
+        ],
+        [
+          541.0,
+          253.0
+        ],
+        [
+          505.0,
+          253.0
+        ]
+      ],
+      "confidence": 0.6491671529131745,
+      "variant": "clahe",
+      "variants": [
+        "clahe",
+        "original"
+      ],
+      "alternatives": [
+        {
+          "text": "48-11",
+          "confidence": 0.5259762708225428,
+          "variant": "original"
+        }
+      ],
+      "role": "unknown",
+      "role_confidence": 0.25,
+      "role_source": "geometry",
+      "role_reason": "position ambiguë",
+      "annotation_assistance": null
+    },
+    {
+      "text": "Fidelity Worldwide Investment",
+      "bbox": [
+        89.0,
+        275.0,
+        254.0,
+        291.0
+      ],
+      "polygon": [
+        [
+          89.0,
+          275.0
+        ],
+        [
+          254.0,
+          275.0
+        ],
+        [
+          254.0,
+          291.0
+        ],
+        [
+          89.0,
+          291.0
+        ]
+      ],
+      "confidence": 0.8603049414777004,
+      "variant": "original",
+      "variants": [
+        "original",
+        "clahe"
+      ],
+      "alternatives": [
+        {
+          "text": "Fidelity Worldwide Investment",
+          "confidence": 0.7845478306046693,
+          "variant": "clahe"
+        }
+      ],
+      "role": "unknown",
+      "role_confidence": 0.25,
+      "role_source": "geometry",
+      "role_reason": "position ambiguë",
+      "annotation_assistance": {
+        "role": "y_category",
+        "iou": 0.6632102272727273,
+        "field": "x_axis.major_labels[6]",
+        "source": "official_region"
+      }
+    },
+    {
+      "text": "43.33",
+      "bbox": [
+        481.0,
+        276.0,
+        518.0,
+        290.0
+      ],
+      "polygon": [
+        [
+          481.0,
+          276.0
+        ],
+        [
+          518.0,
+          276.0
+        ],
+        [
+          518.0,
+          290.0
+        ],
+        [
+          481.0,
+          290.0
+        ]
+      ],
+      "confidence": 0.9962833364259217,
+      "variant": "clahe",
+      "variants": [
+        "clahe",
+        "original"
+      ],
+      "alternatives": [
+        {
+          "text": "43.33",
+          "confidence": 0.996091379953824,
+          "variant": "original"
+        }
+      ],
+      "role": "unknown",
+      "role_confidence": 0.25,
+      "role_source": "geometry",
+      "role_reason": "position ambiguë",
+      "annotation_assistance": null
+    },
+    {
+      "text": "Baillie Cifford & Co Limited",
+      "bbox": [
+        105.0,
+        313.0,
+        253.0,
+        329.0
+      ],
+      "polygon": [
+        [
+          105.0,
+          313.0
+        ],
+        [
+          253.0,
+          313.0
+        ],
+        [
+          253.0,
+          329.0
+        ],
+        [
+          105.0,
+          329.0
+        ]
+      ],
+      "confidence": 0.9275410496297647,
+      "variant": "clahe",
+      "variants": [
+        "clahe",
+        "original"
+      ],
+      "alternatives": [
+        {
+          "text": "Baillie Cifford & Co Limited",
+          "confidence": 0.8964957740085945,
+          "variant": "original"
+        }
+      ],
+      "role": "unknown",
+      "role_confidence": 0.25,
+      "role_source": "geometry",
+      "role_reason": "position ambiguë",
+      "annotation_assistance": {
+        "role": "y_category",
+        "iou": 0.6651182432432432,
+        "field": "x_axis.major_labels[7]",
+        "source": "official_region"
+      }
+    },
+    {
+      "text": "40.73",
+      "bbox": [
+        468.0,
+        315.0,
+        505.0,
+        327.0
+      ],
+      "polygon": [
+        [
+          468.0,
+          315.0
+        ],
+        [
+          505.0,
+          315.0
+        ],
+        [
+          505.0,
+          327.0
+        ],
+        [
+          468.0,
+          327.0
+        ]
+      ],
+      "confidence": 0.9944889943546974,
+      "variant": "clahe",
+      "variants": [
+        "clahe",
+        "original"
+      ],
+      "alternatives": [
+        {
+          "text": "40.73",
+          "confidence": 0.9940719187404301,
+          "variant": "original"
+        }
+      ],
+      "role": "unknown",
+      "role_confidence": 0.25,
+      "role_source": "geometry",
+      "role_reason": "position ambiguë",
+      "annotation_assistance": null
+    },
+    {
+      "text": "Schroder Unit Trusts Limited",
+      "bbox": [
+        96.0,
+        352.0,
+        253.0,
+        366.0
+      ],
+      "polygon": [
+        [
+          96.0,
+          352.0
+        ],
+        [
+          253.0,
+          352.0
+        ],
+        [
+          253.0,
+          366.0
+        ],
+        [
+          96.0,
+          366.0
+        ]
+      ],
+      "confidence": 0.8480180773949307,
+      "variant": "original",
+      "variants": [
+        "original",
+        "clahe"
+      ],
+      "alternatives": [
+        {
+          "text": "Schroder Unit Trusts Limited",
+          "confidence": 0.831453811791391,
+          "variant": "clahe"
+        }
+      ],
+      "role": "unknown",
+      "role_confidence": 0.25,
+      "role_source": "geometry",
+      "role_reason": "position ambiguë",
+      "annotation_assistance": {
+        "role": "y_category",
+        "iou": 0.7576774340309372,
+        "field": "x_axis.major_labels[8]",
+        "source": "official_region"
+      }
+    },
+    {
+      "text": "39.92",
+      "bbox": [
+        464.0,
+        352.0,
+        502.0,
+        366.0
+      ],
+      "polygon": [
+        [
+          464.0,
+          352.0
+        ],
+        [
+          502.0,
+          352.0
+        ],
+        [
+          502.0,
+          366.0
+        ],
+        [
+          464.0,
+          366.0
+        ]
+      ],
+      "confidence": 0.9926016397625304,
+      "variant": "original",
+      "variants": [
+        "original",
+        "clahe"
+      ],
+      "alternatives": [
+        {
+          "text": "39.92",
+          "confidence": 0.987691945222415,
+          "variant": "clahe"
+        }
+      ],
+      "role": "unknown",
+      "role_confidence": 0.25,
+      "role_source": "geometry",
+      "role_reason": "position ambiguë",
+      "annotation_assistance": null
+    },
+    {
+      "text": "MEC Securities Limited",
+      "bbox": [
+        125.0,
+        389.0,
+        253.0,
+        405.0
+      ],
+      "polygon": [
+        [
+          125.0,
+          389.0
+        ],
+        [
+          253.0,
+          389.0
+        ],
+        [
+          253.0,
+          405.0
+        ],
+        [
+          125.0,
+          405.0
+        ]
+      ],
+      "confidence": 0.7520271267754677,
+      "variant": "clahe",
+      "variants": [
+        "clahe",
+        "original"
+      ],
+      "alternatives": [
+        {
+          "text": "MEC Securities Limited",
+          "confidence": 0.7501577427501537,
+          "variant": "original"
+        }
+      ],
+      "role": "unknown",
+      "role_confidence": 0.25,
+      "role_source": "geometry",
+      "role_reason": "position ambiguë",
+      "annotation_assistance": {
+        "role": "y_category",
+        "iou": 0.6734619140625,
+        "field": "x_axis.major_labels[9]",
+        "source": "official_region"
+      }
+    },
+    {
+      "text": "34.75",
+      "bbox": [
+        439.0,
+        391.0,
+        475.0,
+        405.0
+      ],
+      "polygon": [
+        [
+          439.0,
+          391.0
+        ],
+        [
+          475.0,
+          391.0
+        ],
+        [
+          475.0,
+          405.0
+        ],
+        [
+          439.0,
+          405.0
+        ]
+      ],
+      "confidence": 0.9918863351070187,
+      "variant": "original",
+      "variants": [
+        "original",
+        "clahe"
+      ],
+      "alternatives": [
+        {
+          "text": "34.75",
+          "confidence": 0.9911071947375064,
+          "variant": "clahe"
+        }
+      ],
+      "role": "x_tick",
+      "role_confidence": 0.45,
+      "role_source": "geometry",
+      "role_reason": "texte numérique sous le tracé probable",
+      "annotation_assistance": null
+    },
+    {
+      "text": "10",
+      "bbox": [
+        304.0,
+        425.0,
+        322.0,
+        439.0
+      ],
+      "polygon": [
+        [
+          304.0,
+          425.0
+        ],
+        [
+          322.0,
+          425.0
+        ],
+        [
+          322.0,
+          439.0
+        ],
+        [
+          304.0,
+          439.0
+        ]
+      ],
+      "confidence": 0.9997114748678151,
+      "variant": "clahe",
+      "variants": [
+        "clahe",
+        "original"
+      ],
+      "alternatives": [
+        {
+          "text": "10",
+          "confidence": 0.9996330049705004,
+          "variant": "original"
+        }
+      ],
+      "role": "x_tick",
+      "role_confidence": 0.45,
+      "role_source": "geometry",
+      "role_reason": "texte numérique sous le tracé probable",
+      "annotation_assistance": null
+    },
+    {
+      "text": "20",
+      "bbox": [
+        355.0,
+        425.0,
+        373.0,
+        439.0
+      ],
+      "polygon": [
+        [
+          355.0,
+          425.0
+        ],
+        [
+          373.0,
+          425.0
+        ],
+        [
+          373.0,
+          439.0
+        ],
+        [
+          355.0,
+          439.0
+        ]
+      ],
+      "confidence": 0.9999921606951768,
+      "variant": "clahe",
+      "variants": [
+        "clahe",
+        "original"
+      ],
+      "alternatives": [
+        {
+          "text": "20",
+          "confidence": 0.9994547153631875,
+          "variant": "original"
+        }
+      ],
+      "role": "x_tick",
+      "role_confidence": 0.45,
+      "role_source": "geometry",
+      "role_reason": "texte numérique sous le tracé probable",
+      "annotation_assistance": null
+    },
+    {
+      "text": "30",
+      "bbox": [
+        404.0,
+        425.0,
+        422.0,
+        439.0
+      ],
+      "polygon": [
+        [
+          404.0,
+          425.0
+        ],
+        [
+          422.0,
+          425.0
+        ],
+        [
+          422.0,
+          439.0
+        ],
+        [
+          404.0,
+          439.0
+        ]
+      ],
+      "confidence": 0.999990306238604,
+      "variant": "original",
+      "variants": [
+        "original",
+        "clahe"
+      ],
+      "alternatives": [
+        {
+          "text": "30",
+          "confidence": 0.999988873250124,
+          "variant": "clahe"
+        }
+      ],
+      "role": "x_tick",
+      "role_confidence": 0.45,
+      "role_source": "geometry",
+      "role_reason": "texte numérique sous le tracé probable",
+      "annotation_assistance": null
+    },
+    {
+      "text": "40",
+      "bbox": [
+        453.0,
+        425.0,
+        471.0,
+        439.0
+      ],
+      "polygon": [
+        [
+          453.0,
+          425.0
+        ],
+        [
+          471.0,
+          425.0
+        ],
+        [
+          471.0,
+          439.0
+        ],
+        [
+          453.0,
+          439.0
+        ]
+      ],
+      "confidence": 0.9999993256504904,
+      "variant": "original",
+      "variants": [
+        "original",
+        "clahe"
+      ],
+      "alternatives": [
+        {
+          "text": "40",
+          "confidence": 0.9999993256504904,
+          "variant": "clahe"
+        }
+      ],
+      "role": "x_tick",
+      "role_confidence": 0.45,
+      "role_source": "geometry",
+      "role_reason": "texte numérique sous le tracé probable",
+      "annotation_assistance": null
+    },
+    {
+      "text": "50",
+      "bbox": [
+        504.0,
+        425.0,
+        522.0,
+        439.0
+      ],
+      "polygon": [
+        [
+          504.0,
+          425.0
+        ],
+        [
+          522.0,
+          425.0
+        ],
+        [
+          522.0,
+          439.0
+        ],
+        [
+          504.0,
+          439.0
+        ]
+      ],
+      "confidence": 0.999741396732341,
+      "variant": "original",
+      "variants": [
+        "original",
+        "clahe"
+      ],
+      "alternatives": [
+        {
+          "text": "50",
+          "confidence": 0.9997163634925432,
+          "variant": "clahe"
+        }
+      ],
+      "role": "x_tick",
+      "role_confidence": 0.45,
+      "role_source": "geometry",
+      "role_reason": "texte numérique sous le tracé probable",
+      "annotation_assistance": null
+    },
+    {
+      "text": "60",
+      "bbox": [
+        553.0,
+        425.0,
+        571.0,
+        439.0
+      ],
+      "polygon": [
+        [
+          553.0,
+          425.0
+        ],
+        [
+          571.0,
+          425.0
+        ],
+        [
+          571.0,
+          439.0
+        ],
+        [
+          553.0,
+          439.0
+        ]
+      ],
+      "confidence": 0.9998894084607064,
+      "variant": "clahe",
+      "variants": [
+        "clahe",
+        "original"
+      ],
+      "alternatives": [
+        {
+          "text": "60",
+          "confidence": 0.9998795464318692,
+          "variant": "original"
+        }
+      ],
+      "role": "x_tick",
+      "role_confidence": 0.45,
+      "role_source": "geometry",
+      "role_reason": "texte numérique sous le tracé probable",
+      "annotation_assistance": null
+    },
+    {
+      "text": "70",
+      "bbox": [
+        603.0,
+        425.0,
+        621.0,
+        439.0
+      ],
+      "polygon": [
+        [
+          603.0,
+          425.0
+        ],
+        [
+          621.0,
+          425.0
+        ],
+        [
+          621.0,
+          439.0
+        ],
+        [
+          603.0,
+          439.0
+        ]
+      ],
+      "confidence": 0.9994415156519267,
+      "variant": "original",
+      "variants": [
+        "original",
+        "clahe"
+      ],
+      "alternatives": [
+        {
+          "text": "70",
+          "confidence": 0.9994114278581889,
+          "variant": "clahe"
+        }
+      ],
+      "role": "x_tick",
+      "role_confidence": 0.45,
+      "role_source": "geometry",
+      "role_reason": "texte numérique sous le tracé probable",
+      "annotation_assistance": null
+    },
+    {
+      "text": "80",
+      "bbox": [
+        653.0,
+        425.0,
+        671.0,
+        439.0
+      ],
+      "polygon": [
+        [
+          653.0,
+          425.0
+        ],
+        [
+          671.0,
+          425.0
+        ],
+        [
+          671.0,
+          439.0
+        ],
+        [
+          653.0,
+          439.0
+        ]
+      ],
+      "confidence": 0.9998855310784486,
+      "variant": "original",
+      "variants": [
+        "original",
+        "clahe"
+      ],
+      "alternatives": [
+        {
+          "text": "80",
+          "confidence": 0.9998791249782801,
+          "variant": "clahe"
+        }
+      ],
+      "role": "x_tick",
+      "role_confidence": 0.45,
+      "role_source": "geometry",
+      "role_reason": "texte numérique sous le tracé probable",
+      "annotation_assistance": null
+    },
+    {
+      "text": "Funds value in billion CBP",
+      "bbox": [
+        423.0,
+        445.0,
+        553.0,
+        459.0
+      ],
+      "polygon": [
+        [
+          423.0,
+          445.0
+        ],
+        [
+          553.0,
+          445.0
+        ],
+        [
+          553.0,
+          459.0
+        ],
+        [
+          423.0,
+          459.0
+        ]
+      ],
+      "confidence": 0.9867885765047065,
+      "variant": "clahe",
+      "variants": [
+        "clahe",
+        "original"
+      ],
+      "alternatives": [
+        {
+          "text": "Funds value in billion CBP",
+          "confidence": 0.9682132990377249,
+          "variant": "original"
+        }
+      ],
+      "role": "unknown",
+      "role_confidence": 0.25,
+      "role_source": "geometry",
+      "role_reason": "position ambiguë",
+      "annotation_assistance": {
+        "role": "x_axis_title",
+        "iou": 0.7108613066620879,
+        "field": "y_axis.label",
+        "source": "official_region"
+      }
+    },
+    {
+      "text": "Statista 2021",
+      "bbox": [
+        681.0,
+        488.0,
+        757.0,
+        503.0
+      ],
+      "polygon": [
+        [
+          681.0,
+          488.0
+        ],
+        [
+          757.0,
+          488.0
+        ],
+        [
+          757.0,
+          503.0
+        ],
+        [
+          681.0,
+          503.0
+        ]
+      ],
+      "confidence": 0.9366226284437674,
+      "variant": "original",
+      "variants": [
+        "original",
+        "clahe"
+      ],
+      "alternatives": [
+        {
+          "text": "Statista 2021",
+          "confidence": 0.7860998599804705,
+          "variant": "clahe"
+        }
+      ],
+      "role": "unknown",
+      "role_confidence": 0.25,
+      "role_source": "geometry",
+      "role_reason": "position ambiguë",
+      "annotation_assistance": null
+    },
+    {
+      "text": "Additional Information",
+      "bbox": [
+        37.0,
+        512.0,
+        169.0,
+        527.0
+      ],
+      "polygon": [
+        [
+          37.0,
+          512.0
+        ],
+        [
+          169.0,
+          512.0
+        ],
+        [
+          169.0,
+          527.0
+        ],
+        [
+          37.0,
+          527.0
+        ]
+      ],
+      "confidence": 0.9720923691411211,
+      "variant": "clahe",
+      "variants": [
+        "clahe",
+        "original"
+      ],
+      "alternatives": [
+        {
+          "text": "Additional Information",
+          "confidence": 0.9534830462899256,
+          "variant": "original"
+        }
+      ],
+      "role": "unknown",
+      "role_confidence": 0.25,
+      "role_source": "geometry",
+      "role_reason": "position ambiguë",
+      "annotation_assistance": null
+    },
+    {
+      "text": "Show source",
+      "bbox": [
+        685.0,
+        512.0,
+        762.0,
+        527.0
+      ],
+      "polygon": [
+        [
+          685.0,
+          512.0
+        ],
+        [
+          762.0,
+          512.0
+        ],
+        [
+          762.0,
+          527.0
+        ],
+        [
+          685.0,
+          527.0
+        ]
+      ],
+      "confidence": 0.8684871469294654,
+      "variant": "original",
+      "variants": [
+        "original",
+        "clahe"
+      ],
+      "alternatives": [
+        {
+          "text": "Show source 0",
+          "confidence": 0.784633139577339,
+          "variant": "clahe"
+        }
+      ],
+      "role": "unknown",
+      "role_confidence": 0.25,
+      "role_source": "geometry",
+      "role_reason": "position ambiguë",
+      "annotation_assistance": null
+    }
+  ],
+  "errors": [],
+  "uncertainties": [
+    "y_axis.major_labels: 10 boîtes, 0 valeurs ; aucune valeur complétée",
+    "Hypothèses concurrentes entre variantes : consulter alternatives."
+  ],
+  "seconds": 51.23283850000007,
+  "scope": "Visible text only. Numeric OCR strings are NOT extracted chart data.",
+  "annotation_assistance": "regions/roles only; reference text never fed into OCR",
+  "roles_recomputed_from": "results\\cv3\\evaluation_20261117_012518_614675"
+}
