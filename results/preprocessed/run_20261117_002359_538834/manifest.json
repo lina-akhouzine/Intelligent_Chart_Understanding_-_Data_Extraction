@@ -1,0 +1,11 @@
+[
+  {
+    "source": "C:\\Users\\ELECTRO-RIMO\\Downloads\\ChartQA-main\\ChartQA-main\\ChartQA Dataset\\test\\png\\00339007006077.png",
+    "sha256": "8b67ff05a3b2ff79cb66bbd9c15378a39e1d0581d251bcc5cffa3eba61dcc86a",
+    "width": 850,
+    "height": 600,
+    "output": "C:\\Users\\ELECTRO-RIMO\\Downloads\\ChartQA-main\\ChartQA-main\\results\\preprocessed\\run_20261117_002359_538834\\01_00339007006077",
+    "binary_black_fraction": 0.1132764705882353,
+    "checks": "PNG reload, dimensions, pixel equality, binary values, source hash: OK"
+  }
+]

@@ -1,0 +1,712 @@
+{
+  "image": "00339007006077.png",
+  "source": "C:\\Users\\ELECTRO-RIMO\\Downloads\\ChartQA-main\\ChartQA-main\\ChartQA Dataset\\test\\png\\00339007006077.png",
+  "source_sha256": "8b67ff05a3b2ff79cb66bbd9c15378a39e1d0581d251bcc5cffa3eba61dcc86a",
+  "chart_type": "h_bar",
+  "cv2_chart_type": "h_bar",
+  "orientation_correction": null,
+  "chart_probabilities": {
+    "v_bar": 1.547985266370233e-05,
+    "h_bar": 0.9999613761901855,
+    "line": 2.3058690203470178e-05,
+    "pie": 1.123633239785704e-07
+  },
+  "checkpoint": "C:\\Users\\ELECTRO-RIMO\\Downloads\\ChartQA-main\\ChartQA-main\\models_cv2\\resnet18_20261117_010609_069660.pt",
+  "prediction_inputs": [
+    "image pixels",
+    "CV2 trained checkpoint",
+    "EasyOCR visible text"
+  ],
+  "reference_data_used_for_prediction": false,
+  "ocr_cache": "C:\\Users\\ELECTRO-RIMO\\Downloads\\ChartQA-main\\ChartQA-main\\results\\cv4\\extraction_20261117_020222_056948\\00339007006077\\extraction.json",
+  "ocr_texts": [
+    {
+      "text": "Share of children who are wasted; 2010",
+      "bbox": [
+        12.0,
+        12.0,
+        455.0,
+        42.0
+      ],
+      "confidence": 0.7253556979219982
+    },
+    {
+      "text": "8",
+      "bbox": [
+        773.0,
+        16.0,
+        834.0,
+        31.0
+      ],
+      "confidence": 0.9761770480626097
+    },
+    {
+      "text": "Data",
+      "bbox": [
+        796.0,
+        29.0,
+        825.0,
+        45.0
+      ],
+      "confidence": 0.9999571442604065
+    },
+    {
+      "text": "3",
+      "bbox": [
+        784.0,
+        33.0,
+        796.0,
+        42.0
+      ],
+      "confidence": 0.36296117203713507
+    },
+    {
+      "text": "whose weight is significantly lower than the average for",
+      "bbox": [
+        389.0,
+        42.0,
+        745.0,
+        62.0
+      ],
+      "confidence": 0.664960547717274
+    },
+    {
+      "text": "The share of children younger than five who are 'wasted'",
+      "bbox": [
+        13.0,
+        43.0,
+        377.0,
+        61.0
+      ],
+      "confidence": 0.9453576343530549
+    },
+    {
+      "text": "their height; as a a consequence of acute food shortage or disease",
+      "bbox": [
+        12.0,
+        59.0,
+        443.0,
+        78.0
+      ],
+      "confidence": 0.701402287846684
+    },
+    {
+      "text": "3",
+      "bbox": [
+        789.0,
+        116.0,
+        831.0,
+        133.0
+      ],
+      "confidence": 0.9508687944535019
+    },
+    {
+      "text": "Haiti",
+      "bbox": [
+        40.0,
+        117.0,
+        73.0,
+        133.0
+      ],
+      "confidence": 0.9999351190293095
+    },
+    {
+      "text": "Libya",
+      "bbox": [
+        35.0,
+        203.0,
+        73.0,
+        221.0
+      ],
+      "confidence": 0.999975849622785
+    },
+    {
+      "text": "5.32%",
+      "bbox": [
+        697.0,
+        203.0,
+        739.0,
+        218.0
+      ],
+      "confidence": 0.7141950624209285
+    },
+    {
+      "text": "5.11%",
+      "bbox": [
+        672.0,
+        288.0,
+        714.0,
+        305.0
+      ],
+      "confidence": 0.9977006071069858
+    },
+    {
+      "text": "Morocco",
+      "bbox": [
+        13.0,
+        289.0,
+        73.0,
+        305.0
+      ],
+      "confidence": 0.9997387041514179
+    },
+    {
+      "text": "Lebanon",
+      "bbox": [
+        13.0,
+        375.0,
+        73.0,
+        390.0
+      ],
+      "confidence": 0.95427078382397
+    },
+    {
+      "text": "8",
+      "bbox": [
+        601.0,
+        375.0,
+        637.0,
+        390.0
+      ],
+      "confidence": 0.37247417114555503
+    },
+    {
+      "text": "Colombia",
+      "bbox": [
+        8.0,
+        460.0,
+        73.0,
+        477.0
+      ],
+      "confidence": 0.9724201837888519
+    },
+    {
+      "text": "5",
+      "bbox": [
+        249.0,
+        461.0,
+        290.0,
+        477.0
+      ],
+      "confidence": 0.8885798459044771
+    },
+    {
+      "text": "8",
+      "bbox": [
+        63.0,
+        528.0,
+        90.0,
+        545.0
+      ],
+      "confidence": 0.9994091668484408
+    },
+    {
+      "text": "%",
+      "bbox": [
+        188.0,
+        528.0,
+        206.0,
+        545.0
+      ],
+      "confidence": 0.9869117282045323
+    },
+    {
+      "text": "8",
+      "bbox": [
+        295.0,
+        528.0,
+        322.0,
+        546.0
+      ],
+      "confidence": 0.9981022548598197
+    },
+    {
+      "text": "8",
+      "bbox": [
+        411.0,
+        528.0,
+        438.0,
+        545.0
+      ],
+      "confidence": 0.9989960330588019
+    },
+    {
+      "text": "4%",
+      "bbox": [
+        527.0,
+        528.0,
+        554.0,
+        545.0
+      ],
+      "confidence": 0.9088671843381741
+    },
+    {
+      "text": "8",
+      "bbox": [
+        643.0,
+        528.0,
+        670.0,
+        545.0
+      ],
+      "confidence": 0.6677339223770673
+    },
+    {
+      "text": "6%",
+      "bbox": [
+        759.0,
+        528.0,
+        786.0,
+        545.0
+      ],
+      "confidence": 0.971105039780801
+    },
+    {
+      "text": "Source: Institute for Health Metrics & Evaluation (IHME)",
+      "bbox": [
+        13.0,
+        555.0,
+        327.0,
+        571.0
+      ],
+      "confidence": 0.8290454841101387
+    },
+    {
+      "text": "OurWorldlnData orglhunger-and-undemourishment",
+      "bbox": [
+        493.0,
+        555.0,
+        785.0,
+        573.0
+      ],
+      "confidence": 0.8940705679140944
+    },
+    {
+      "text": "8",
+      "bbox": [
+        791.0,
+        555.0,
+        834.0,
+        570.0
+      ],
+      "confidence": 0.9879023783221363
+    },
+    {
+      "text": "Note: Wasting in children is defined as having a weight less than two standard deviations below the median for their height",
+      "bbox": [
+        12.0,
+        567.0,
+        699.0,
+        588.0
+      ],
+      "confidence": 0.7760914720082442
+    }
+  ],
+  "rows": [
+    {
+      "category": "Libya",
+      "series": null,
+      "series_id": "series_1",
+      "value": 5.315121913325502,
+      "unit": "percent",
+      "bar_bbox": [
+        77,
+        179,
+        694,
+        246
+      ],
+      "color": [
+        214,
+        47,
+        125
+      ],
+      "endpoint_pixel": 694.0,
+      "error": null,
+      "pixel_value_uncertainty": 0.008611129992328829
+    },
+    {
+      "category": "Morocco",
+      "series": null,
+      "series_id": "series_2",
+      "value": 5.09984366351728,
+      "unit": "percent",
+      "bar_bbox": [
+        77,
+        264,
+        669,
+        332
+      ],
+      "color": [
+        39,
+        150,
+        145
+      ],
+      "endpoint_pixel": 669.0,
+      "error": null,
+      "pixel_value_uncertainty": 0.008611129992328829
+    },
+    {
+      "category": "Lebanon",
+      "series": null,
+      "series_id": "series_3",
+      "value": 4.497064564054263,
+      "unit": "percent",
+      "bar_bbox": [
+        77,
+        350,
+        599,
+        418
+      ],
+      "color": [
+        189,
+        83,
+        44
+      ],
+      "endpoint_pixel": 599.0,
+      "error": null,
+      "pixel_value_uncertainty": 0.008611129992328829
+    },
+    {
+      "category": "Colombia",
+      "series": "whose weight is significantly lower than the average for",
+      "series_id": "series_4",
+      "value": 1.4487245467698573,
+      "unit": "percent",
+      "bar_bbox": [
+        77,
+        436,
+        245,
+        504
+      ],
+      "color": [
+        89,
+        105,
+        125
+      ],
+      "endpoint_pixel": 245.0,
+      "error": null,
+      "pixel_value_uncertainty": 0.008611129992328829
+    }
+  ],
+  "bars": [
+    {
+      "bbox": [
+        77,
+        179,
+        694,
+        246
+      ],
+      "color": [
+        214,
+        47,
+        125
+      ],
+      "fill_ratio": 1.0,
+      "series_id": "series_1"
+    },
+    {
+      "bbox": [
+        77,
+        264,
+        669,
+        332
+      ],
+      "color": [
+        39,
+        150,
+        145
+      ],
+      "fill_ratio": 1.0,
+      "series_id": "series_2"
+    },
+    {
+      "bbox": [
+        77,
+        350,
+        599,
+        418
+      ],
+      "color": [
+        189,
+        83,
+        44
+      ],
+      "fill_ratio": 1.0,
+      "series_id": "series_3"
+    },
+    {
+      "bbox": [
+        77,
+        436,
+        245,
+        504
+      ],
+      "color": [
+        89,
+        105,
+        125
+      ],
+      "fill_ratio": 1.0,
+      "series_id": "series_4"
+    }
+  ],
+  "categories": [
+    {
+      "text": "Libya",
+      "confidence": 0.9999796880979371,
+      "bbox": [
+        35.0,
+        204.0,
+        74.0,
+        222.0
+      ],
+      "source": "CV4 targeted OCR, no reference text",
+      "position": 213.0,
+      "row": 54.5
+    },
+    {
+      "text": "Morocco",
+      "confidence": 0.9997918752952049,
+      "bbox": [
+        14.0,
+        290.0,
+        73.0,
+        304.0
+      ],
+      "source": "CV4 targeted OCR, no reference text",
+      "position": 297.0,
+      "row": 43.5
+    },
+    {
+      "text": "Lebanon",
+      "confidence": 0.9191710286840906,
+      "bbox": [
+        14.0,
+        376.0,
+        74.0,
+        391.0
+      ],
+      "source": "CV4 targeted OCR, no reference text",
+      "position": 383.5,
+      "row": 44.0
+    },
+    {
+      "text": "Colombia",
+      "confidence": 0.9649161427323343,
+      "bbox": [
+        8.0,
+        462.0,
+        74.0,
+        477.0
+      ],
+      "source": "CV4 targeted OCR, no reference text",
+      "position": 469.5,
+      "row": 41.0
+    }
+  ],
+  "series": {
+    "series_4": "whose weight is significantly lower than the average for"
+  },
+  "calibration": {
+    "slope": 0.008611129992328829,
+    "intercept": -0.6610023013507056,
+    "unit": "percent",
+    "rmse_ticks": 0.0022757083048747105,
+    "ticks": [
+      {
+        "value": 0.0,
+        "unit": "percent",
+        "position": 77.0,
+        "text": "0%",
+        "bbox": [
+          64.0,
+          529.0,
+          90.0,
+          546.0
+        ]
+      },
+      {
+        "value": 1.0,
+        "unit": "percent",
+        "position": 193.0,
+        "text": "1%",
+        "bbox": [
+          180.0,
+          529.0,
+          206.0,
+          546.0
+        ]
+      },
+      {
+        "value": 2.0,
+        "unit": "percent",
+        "position": 308.5,
+        "text": "2%",
+        "bbox": [
+          295.0,
+          529.0,
+          322.0,
+          546.0
+        ]
+      },
+      {
+        "value": 3.0,
+        "unit": "percent",
+        "position": 425.0,
+        "text": "3%",
+        "bbox": [
+          412.0,
+          529.0,
+          438.0,
+          546.0
+        ]
+      },
+      {
+        "value": 4.0,
+        "unit": "percent",
+        "position": 541.5,
+        "text": "4%",
+        "bbox": [
+          528.0,
+          529.0,
+          555.0,
+          546.0
+        ]
+      },
+      {
+        "value": 5.0,
+        "unit": "percent",
+        "position": 657.5,
+        "text": "5%",
+        "bbox": [
+          644.0,
+          529.0,
+          671.0,
+          546.0
+        ]
+      }
+    ],
+    "rejected_ticks": [],
+    "mapping": "value = slope * pixel_coordinate + intercept",
+    "scale": "linear"
+  },
+  "baseline_pixel": 77.0,
+  "baseline_value": 0.0020547080586141853,
+  "refined_ocr": [
+    {
+      "text": "0%",
+      "confidence": 0.9930255196995286,
+      "bbox": [
+        64.0,
+        529.0,
+        90.0,
+        546.0
+      ],
+      "source": "CV4 targeted OCR, no reference text"
+    },
+    {
+      "text": "1%",
+      "confidence": 0.9934824961828242,
+      "bbox": [
+        180.0,
+        529.0,
+        206.0,
+        546.0
+      ],
+      "source": "CV4 targeted OCR, no reference text"
+    },
+    {
+      "text": "2%",
+      "confidence": 0.5892593134441858,
+      "bbox": [
+        295.0,
+        529.0,
+        322.0,
+        546.0
+      ],
+      "source": "CV4 targeted OCR, no reference text"
+    },
+    {
+      "text": "3%",
+      "confidence": 0.9301064866028282,
+      "bbox": [
+        412.0,
+        529.0,
+        438.0,
+        546.0
+      ],
+      "source": "CV4 targeted OCR, no reference text"
+    },
+    {
+      "text": "4%",
+      "confidence": 0.9965749280000064,
+      "bbox": [
+        528.0,
+        529.0,
+        555.0,
+        546.0
+      ],
+      "source": "CV4 targeted OCR, no reference text"
+    },
+    {
+      "text": "5%",
+      "confidence": 0.7685581792383651,
+      "bbox": [
+        644.0,
+        529.0,
+        671.0,
+        546.0
+      ],
+      "source": "CV4 targeted OCR, no reference text"
+    },
+    {
+      "text": "Libya",
+      "confidence": 0.9999796880979371,
+      "bbox": [
+        35.0,
+        204.0,
+        74.0,
+        222.0
+      ],
+      "source": "CV4 targeted OCR, no reference text"
+    },
+    {
+      "text": "Morocco",
+      "confidence": 0.9997918752952049,
+      "bbox": [
+        14.0,
+        290.0,
+        73.0,
+        304.0
+      ],
+      "source": "CV4 targeted OCR, no reference text"
+    },
+    {
+      "text": "Lebanon",
+      "confidence": 0.9191710286840906,
+      "bbox": [
+        14.0,
+        376.0,
+        74.0,
+        391.0
+      ],
+      "source": "CV4 targeted OCR, no reference text"
+    },
+    {
+      "text": "Colombia",
+      "confidence": 0.9649161427323343,
+      "bbox": [
+        8.0,
+        462.0,
+        74.0,
+        477.0
+      ],
+      "source": "CV4 targeted OCR, no reference text"
+    }
+  ],
+  "errors": [],
+  "uncertainties": [
+    "Noms de séries incomplets : identifiants de couleur conservés sans nom inventé.",
+    "Rectangle plein seulement ; ombres, petites barres et objets non rectangulaires peuvent être manqués."
+  ],
+  "status": "success"
+}

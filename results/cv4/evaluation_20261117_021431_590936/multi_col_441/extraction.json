@@ -1,0 +1,3263 @@
+{
+  "image": "multi_col_441.png",
+  "source": "C:\\Users\\ELECTRO-RIMO\\Downloads\\ChartQA-main\\ChartQA-main\\ChartQA Dataset\\test\\png\\multi_col_441.png",
+  "source_sha256": "d15f5b948782faa04b3b5e046a3c9b2b848b5024f06ee25b73993b630d2b20fd",
+  "chart_type": "v_bar",
+  "cv2_chart_type": "v_bar",
+  "orientation_correction": null,
+  "chart_probabilities": {
+    "v_bar": 1.0,
+    "h_bar": 1.775125824110546e-08,
+    "line": 3.942617965435602e-08,
+    "pie": 9.373080089858377e-09
+  },
+  "checkpoint": "C:\\Users\\ELECTRO-RIMO\\Downloads\\ChartQA-main\\ChartQA-main\\models_cv2\\resnet18_20261117_010609_069660.pt",
+  "prediction_inputs": [
+    "image pixels",
+    "CV2 trained checkpoint",
+    "EasyOCR visible text"
+  ],
+  "reference_data_used_for_prediction": false,
+  "ocr_cache": "C:\\Users\\ELECTRO-RIMO\\Downloads\\ChartQA-main\\ChartQA-main\\results\\cv4\\evaluation_20261117_020522_908279\\multi_col_441\\extraction.json",
+  "ocr_texts": [
+    {
+      "text": "8",
+      "bbox": [
+        59.0,
+        39.0,
+        93.0,
+        53.0
+      ],
+      "confidence": 0.964577563144303
+    },
+    {
+      "text": "8",
+      "bbox": [
+        67.0,
+        105.0,
+        93.0,
+        119.0
+      ],
+      "confidence": 0.996120408308343
+    },
+    {
+      "text": "Intemet",
+      "bbox": [
+        45.0,
+        120.0,
+        53.0,
+        160.0
+      ],
+      "confidence": 0.4351876583525322
+    },
+    {
+      "text": "2",
+      "bbox": [
+        44.0,
+        162.0,
+        52.0,
+        180.0
+      ],
+      "confidence": 0.7833810257168672
+    },
+    {
+      "text": "8",
+      "bbox": [
+        67.0,
+        172.0,
+        93.0,
+        186.0
+      ],
+      "confidence": 0.9773391832693648
+    },
+    {
+      "text": "using",
+      "bbox": [
+        41.0,
+        179.0,
+        56.0,
+        210.0
+      ],
+      "confidence": 0.9887581290622818
+    },
+    {
+      "text": "individuals",
+      "bbox": [
+        44.0,
+        210.0,
+        53.0,
+        264.0
+      ],
+      "confidence": 0.8587344073185798
+    },
+    {
+      "text": "8",
+      "bbox": [
+        65.0,
+        239.0,
+        93.0,
+        253.0
+      ],
+      "confidence": 0.9936816676404447
+    },
+    {
+      "text": "of",
+      "bbox": [
+        41.0,
+        264.0,
+        53.0,
+        278.0
+      ],
+      "confidence": 0.9631332784154653
+    },
+    {
+      "text": "1",
+      "bbox": [
+        40.5661843812271,
+        278.0546270183737,
+        54.4338156187729,
+        308.9453729816263
+      ],
+      "confidence": 0.5213332368231391
+    },
+    {
+      "text": "8",
+      "bbox": [
+        65.0,
+        305.0,
+        93.0,
+        319.0
+      ],
+      "confidence": 0.7215704536024568
+    },
+    {
+      "text": "8",
+      "bbox": [
+        73.0,
+        372.0,
+        93.0,
+        386.0
+      ],
+      "confidence": 0.9959475410318284
+    },
+    {
+      "text": "8",
+      "bbox": [
+        117.0,
+        388.0,
+        149.0,
+        402.0
+      ],
+      "confidence": 0.9298096126536315
+    },
+    {
+      "text": "2010",
+      "bbox": [
+        173.0,
+        388.0,
+        206.0,
+        402.0
+      ],
+      "confidence": 0.9999957084655762
+    },
+    {
+      "text": "2011",
+      "bbox": [
+        231.0,
+        388.0,
+        261.0,
+        402.0
+      ],
+      "confidence": 0.9866635799407959
+    },
+    {
+      "text": "2012",
+      "bbox": [
+        287.0,
+        388.0,
+        318.0,
+        402.0
+      ],
+      "confidence": 0.8633456140145063
+    },
+    {
+      "text": "2013",
+      "bbox": [
+        343.0,
+        388.0,
+        375.0,
+        402.0
+      ],
+      "confidence": 0.999991774559021
+    },
+    {
+      "text": "2014",
+      "bbox": [
+        400.0,
+        388.0,
+        431.0,
+        402.0
+      ],
+      "confidence": 0.9999990463256836
+    },
+    {
+      "text": "2015",
+      "bbox": [
+        457.0,
+        388.0,
+        487.0,
+        402.0
+      ],
+      "confidence": 0.9999969005584717
+    },
+    {
+      "text": "3",
+      "bbox": [
+        513.0,
+        388.0,
+        545.0,
+        402.0
+      ],
+      "confidence": 0.7352118285571443
+    },
+    {
+      "text": "2017",
+      "bbox": [
+        569.0,
+        388.0,
+        601.0,
+        402.0
+      ],
+      "confidence": 0.9999954700469971
+    },
+    {
+      "text": "201,8",
+      "bbox": [
+        627.0,
+        388.0,
+        658.0,
+        402.0
+      ],
+      "confidence": 0.909910357408603
+    },
+    {
+      "text": "2019",
+      "bbox": [
+        683.0,
+        388.0,
+        714.0,
+        402.0
+      ],
+      "confidence": 0.731763476850207
+    },
+    {
+      "text": "Africa",
+      "bbox": [
+        157.0,
+        428.0,
+        198.0,
+        443.0
+      ],
+      "confidence": 0.9999894392509265
+    },
+    {
+      "text": "Arab States",
+      "bbox": [
+        227.0,
+        428.0,
+        299.0,
+        443.0
+      ],
+      "confidence": 0.9999368167156234
+    },
+    {
+      "text": "Asia & Pacific",
+      "bbox": [
+        327.0,
+        428.0,
+        413.0,
+        443.0
+      ],
+      "confidence": 0.9610948372550381
+    },
+    {
+      "text": "8",
+      "bbox": [
+        440.0,
+        428.0,
+        463.0,
+        443.0
+      ],
+      "confidence": 0.9978871788522135
+    },
+    {
+      "text": "Europe",
+      "bbox": [
+        491.0,
+        428.0,
+        538.0,
+        445.0
+      ],
+      "confidence": 0.9999238355108483
+    },
+    {
+      "text": "Americas",
+      "bbox": [
+        565.0,
+        428.0,
+        625.0,
+        443.0
+      ],
+      "confidence": 0.9222394810697532
+    },
+    {
+      "text": "Statista 2021",
+      "bbox": [
+        680.0,
+        488.0,
+        755.0,
+        503.0
+      ],
+      "confidence": 0.9953047456182631
+    },
+    {
+      "text": "Addirional Information",
+      "bbox": [
+        37.0,
+        512.0,
+        168.0,
+        527.0
+      ],
+      "confidence": 0.7636141566499929
+    },
+    {
+      "text": "Show source",
+      "bbox": [
+        685.0,
+        512.0,
+        761.0,
+        527.0
+      ],
+      "confidence": 0.918432806098684
+    }
+  ],
+  "rows": [
+    {
+      "category": "2019",
+      "series": "Europe",
+      "series_id": "series_1",
+      "value": null,
+      "unit": null,
+      "bar_bbox": [
+        707,
+        106,
+        715,
+        380
+      ],
+      "color": [
+        135,
+        188,
+        36
+      ],
+      "endpoint_pixel": 106.0,
+      "error": "calibration_failed",
+      "pixel_value_uncertainty": null
+    },
+    {
+      "category": "2018",
+      "series": "Europe",
+      "series_id": "series_1",
+      "value": null,
+      "unit": null,
+      "bar_bbox": [
+        651,
+        114,
+        659,
+        380
+      ],
+      "color": [
+        135,
+        188,
+        36
+      ],
+      "endpoint_pixel": 114.0,
+      "error": "calibration_failed",
+      "pixel_value_uncertainty": null
+    },
+    {
+      "category": "2017",
+      "series": "Europe",
+      "series_id": "series_1",
+      "value": null,
+      "unit": null,
+      "bar_bbox": [
+        594,
+        123,
+        602,
+        380
+      ],
+      "color": [
+        135,
+        188,
+        36
+      ],
+      "endpoint_pixel": 123.0,
+      "error": "calibration_failed",
+      "pixel_value_uncertainty": null
+    },
+    {
+      "category": "2016",
+      "series": "Europe",
+      "series_id": "series_1",
+      "value": null,
+      "unit": null,
+      "bar_bbox": [
+        538,
+        132,
+        546,
+        380
+      ],
+      "color": [
+        135,
+        188,
+        36
+      ],
+      "endpoint_pixel": 132.0,
+      "error": "calibration_failed",
+      "pixel_value_uncertainty": null
+    },
+    {
+      "category": "2015",
+      "series": "Europe",
+      "series_id": "series_1",
+      "value": null,
+      "unit": null,
+      "bar_bbox": [
+        481,
+        138,
+        489,
+        380
+      ],
+      "color": [
+        135,
+        188,
+        36
+      ],
+      "endpoint_pixel": 138.0,
+      "error": "calibration_failed",
+      "pixel_value_uncertainty": null
+    },
+    {
+      "category": "2014",
+      "series": "Europe",
+      "series_id": "series_1",
+      "value": null,
+      "unit": null,
+      "bar_bbox": [
+        425,
+        142,
+        433,
+        380
+      ],
+      "color": [
+        135,
+        188,
+        36
+      ],
+      "endpoint_pixel": 142.0,
+      "error": "calibration_failed",
+      "pixel_value_uncertainty": null
+    },
+    {
+      "category": "2013",
+      "series": "Europe",
+      "series_id": "series_1",
+      "value": null,
+      "unit": null,
+      "bar_bbox": [
+        368,
+        150,
+        376,
+        380
+      ],
+      "color": [
+        135,
+        188,
+        36
+      ],
+      "endpoint_pixel": 150.0,
+      "error": "calibration_failed",
+      "pixel_value_uncertainty": null
+    },
+    {
+      "category": "2012",
+      "series": "Europe",
+      "series_id": "series_1",
+      "value": null,
+      "unit": null,
+      "bar_bbox": [
+        311,
+        157,
+        319,
+        380
+      ],
+      "color": [
+        135,
+        188,
+        36
+      ],
+      "endpoint_pixel": 157.0,
+      "error": "calibration_failed",
+      "pixel_value_uncertainty": null
+    },
+    {
+      "category": "2011",
+      "series": "Europe",
+      "series_id": "series_1",
+      "value": null,
+      "unit": null,
+      "bar_bbox": [
+        255,
+        166,
+        263,
+        380
+      ],
+      "color": [
+        135,
+        188,
+        36
+      ],
+      "endpoint_pixel": 166.0,
+      "error": "calibration_failed",
+      "pixel_value_uncertainty": null
+    },
+    {
+      "category": "2010",
+      "series": "Europe",
+      "series_id": "series_1",
+      "value": null,
+      "unit": null,
+      "bar_bbox": [
+        198,
+        171,
+        206,
+        380
+      ],
+      "color": [
+        135,
+        188,
+        36
+      ],
+      "endpoint_pixel": 171.0,
+      "error": "calibration_failed",
+      "pixel_value_uncertainty": null
+    },
+    {
+      "category": "2009",
+      "series": "Europe",
+      "series_id": "series_1",
+      "value": null,
+      "unit": null,
+      "bar_bbox": [
+        142,
+        183,
+        150,
+        380
+      ],
+      "color": [
+        135,
+        188,
+        36
+      ],
+      "endpoint_pixel": 183.0,
+      "error": "calibration_failed",
+      "pixel_value_uncertainty": null
+    },
+    {
+      "category": "2019",
+      "series": "Americas",
+      "series_id": "series_2",
+      "value": null,
+      "unit": null,
+      "bar_bbox": [
+        715,
+        126,
+        723,
+        380
+      ],
+      "color": [
+        235,
+        181,
+        35
+      ],
+      "endpoint_pixel": 126.0,
+      "error": "calibration_failed",
+      "pixel_value_uncertainty": null
+    },
+    {
+      "category": "2018",
+      "series": "Americas",
+      "series_id": "series_2",
+      "value": null,
+      "unit": null,
+      "bar_bbox": [
+        659,
+        132,
+        667,
+        380
+      ],
+      "color": [
+        235,
+        181,
+        35
+      ],
+      "endpoint_pixel": 132.0,
+      "error": "calibration_failed",
+      "pixel_value_uncertainty": null
+    },
+    {
+      "category": "2017",
+      "series": "Americas",
+      "series_id": "series_2",
+      "value": null,
+      "unit": null,
+      "bar_bbox": [
+        602,
+        141,
+        610,
+        380
+      ],
+      "color": [
+        235,
+        181,
+        35
+      ],
+      "endpoint_pixel": 141.0,
+      "error": "calibration_failed",
+      "pixel_value_uncertainty": null
+    },
+    {
+      "category": "2016",
+      "series": "Americas",
+      "series_id": "series_2",
+      "value": null,
+      "unit": null,
+      "bar_bbox": [
+        546,
+        153,
+        554,
+        380
+      ],
+      "color": [
+        235,
+        181,
+        35
+      ],
+      "endpoint_pixel": 153.0,
+      "error": "calibration_failed",
+      "pixel_value_uncertainty": null
+    },
+    {
+      "category": "2015",
+      "series": "Americas",
+      "series_id": "series_2",
+      "value": null,
+      "unit": null,
+      "bar_bbox": [
+        489,
+        171,
+        497,
+        380
+      ],
+      "color": [
+        235,
+        181,
+        35
+      ],
+      "endpoint_pixel": 171.0,
+      "error": "calibration_failed",
+      "pixel_value_uncertainty": null
+    },
+    {
+      "category": "2014",
+      "series": "Americas",
+      "series_id": "series_2",
+      "value": null,
+      "unit": null,
+      "bar_bbox": [
+        433,
+        186,
+        441,
+        380
+      ],
+      "color": [
+        235,
+        181,
+        35
+      ],
+      "endpoint_pixel": 186.0,
+      "error": "calibration_failed",
+      "pixel_value_uncertainty": null
+    },
+    {
+      "category": "2013",
+      "series": "Americas",
+      "series_id": "series_2",
+      "value": null,
+      "unit": null,
+      "bar_bbox": [
+        376,
+        194,
+        384,
+        380
+      ],
+      "color": [
+        235,
+        181,
+        35
+      ],
+      "endpoint_pixel": 194.0,
+      "error": "calibration_failed",
+      "pixel_value_uncertainty": null
+    },
+    {
+      "category": "2012",
+      "series": "Americas",
+      "series_id": "series_2",
+      "value": null,
+      "unit": null,
+      "bar_bbox": [
+        320,
+        197,
+        328,
+        380
+      ],
+      "color": [
+        235,
+        181,
+        35
+      ],
+      "endpoint_pixel": 197.0,
+      "error": "calibration_failed",
+      "pixel_value_uncertainty": null
+    },
+    {
+      "category": "2011",
+      "series": "Americas",
+      "series_id": "series_2",
+      "value": null,
+      "unit": null,
+      "bar_bbox": [
+        263,
+        211,
+        271,
+        380
+      ],
+      "color": [
+        235,
+        181,
+        35
+      ],
+      "endpoint_pixel": 211.0,
+      "error": "calibration_failed",
+      "pixel_value_uncertainty": null
+    },
+    {
+      "category": "2010",
+      "series": "Americas",
+      "series_id": "series_2",
+      "value": null,
+      "unit": null,
+      "bar_bbox": [
+        206,
+        218,
+        214,
+        380
+      ],
+      "color": [
+        235,
+        181,
+        35
+      ],
+      "endpoint_pixel": 218.0,
+      "error": "calibration_failed",
+      "pixel_value_uncertainty": null
+    },
+    {
+      "category": "2009",
+      "series": "Americas",
+      "series_id": "series_2",
+      "value": null,
+      "unit": null,
+      "bar_bbox": [
+        150,
+        227,
+        158,
+        380
+      ],
+      "color": [
+        235,
+        181,
+        35
+      ],
+      "endpoint_pixel": 227.0,
+      "error": "calibration_failed",
+      "pixel_value_uncertainty": null
+    },
+    {
+      "category": "2019",
+      "series": "8",
+      "series_id": "series_3",
+      "value": null,
+      "unit": null,
+      "bar_bbox": [
+        699,
+        139,
+        707,
+        380
+      ],
+      "color": [
+        166,
+        11,
+        11
+      ],
+      "endpoint_pixel": 139.0,
+      "error": "calibration_failed",
+      "pixel_value_uncertainty": null
+    },
+    {
+      "category": "2018",
+      "series": "8",
+      "series_id": "series_3",
+      "value": null,
+      "unit": null,
+      "bar_bbox": [
+        643,
+        148,
+        651,
+        380
+      ],
+      "color": [
+        166,
+        11,
+        11
+      ],
+      "endpoint_pixel": 148.0,
+      "error": "calibration_failed",
+      "pixel_value_uncertainty": null
+    },
+    {
+      "category": "2017",
+      "series": "8",
+      "series_id": "series_3",
+      "value": null,
+      "unit": null,
+      "bar_bbox": [
+        586,
+        161,
+        594,
+        380
+      ],
+      "color": [
+        166,
+        11,
+        11
+      ],
+      "endpoint_pixel": 161.0,
+      "error": "calibration_failed",
+      "pixel_value_uncertainty": null
+    },
+    {
+      "category": "2016",
+      "series": "8",
+      "series_id": "series_3",
+      "value": null,
+      "unit": null,
+      "bar_bbox": [
+        529,
+        169,
+        537,
+        380
+      ],
+      "color": [
+        166,
+        11,
+        11
+      ],
+      "endpoint_pixel": 169.0,
+      "error": "calibration_failed",
+      "pixel_value_uncertainty": null
+    },
+    {
+      "category": "2015",
+      "series": "8",
+      "series_id": "series_3",
+      "value": null,
+      "unit": null,
+      "bar_bbox": [
+        473,
+        179,
+        481,
+        380
+      ],
+      "color": [
+        166,
+        11,
+        11
+      ],
+      "endpoint_pixel": 179.0,
+      "error": "calibration_failed",
+      "pixel_value_uncertainty": null
+    },
+    {
+      "category": "2014",
+      "series": "8",
+      "series_id": "series_3",
+      "value": null,
+      "unit": null,
+      "bar_bbox": [
+        416,
+        182,
+        424,
+        380
+      ],
+      "color": [
+        166,
+        11,
+        11
+      ],
+      "endpoint_pixel": 182.0,
+      "error": "calibration_failed",
+      "pixel_value_uncertainty": null
+    },
+    {
+      "category": "2013",
+      "series": "8",
+      "series_id": "series_3",
+      "value": null,
+      "unit": null,
+      "bar_bbox": [
+        360,
+        191,
+        368,
+        380
+      ],
+      "color": [
+        166,
+        11,
+        11
+      ],
+      "endpoint_pixel": 191.0,
+      "error": "calibration_failed",
+      "pixel_value_uncertainty": null
+    },
+    {
+      "category": "2012",
+      "series": "8",
+      "series_id": "series_3",
+      "value": null,
+      "unit": null,
+      "bar_bbox": [
+        303,
+        204,
+        311,
+        380
+      ],
+      "color": [
+        166,
+        11,
+        11
+      ],
+      "endpoint_pixel": 204.0,
+      "error": "calibration_failed",
+      "pixel_value_uncertainty": null
+    },
+    {
+      "category": "2011",
+      "series": "8",
+      "series_id": "series_3",
+      "value": null,
+      "unit": null,
+      "bar_bbox": [
+        247,
+        241,
+        255,
+        380
+      ],
+      "color": [
+        166,
+        11,
+        11
+      ],
+      "endpoint_pixel": 241.0,
+      "error": "calibration_failed",
+      "pixel_value_uncertainty": null
+    },
+    {
+      "category": "2010",
+      "series": "8",
+      "series_id": "series_3",
+      "value": null,
+      "unit": null,
+      "bar_bbox": [
+        190,
+        262,
+        198,
+        380
+      ],
+      "color": [
+        166,
+        11,
+        11
+      ],
+      "endpoint_pixel": 262.0,
+      "error": "calibration_failed",
+      "pixel_value_uncertainty": null
+    },
+    {
+      "category": "2009",
+      "series": "8",
+      "series_id": "series_3",
+      "value": null,
+      "unit": null,
+      "bar_bbox": [
+        134,
+        300,
+        142,
+        380
+      ],
+      "color": [
+        166,
+        11,
+        11
+      ],
+      "endpoint_pixel": 300.0,
+      "error": "calibration_failed",
+      "pixel_value_uncertainty": null
+    },
+    {
+      "category": "2019",
+      "series": "Arab States",
+      "series_id": "series_4",
+      "value": null,
+      "unit": null,
+      "bar_bbox": [
+        683,
+        199,
+        691,
+        380
+      ],
+      "color": [
+        15,
+        40,
+        62
+      ],
+      "endpoint_pixel": 199.0,
+      "error": "calibration_failed",
+      "pixel_value_uncertainty": null
+    },
+    {
+      "category": "2018",
+      "series": "Arab States",
+      "series_id": "series_4",
+      "value": null,
+      "unit": null,
+      "bar_bbox": [
+        626,
+        212,
+        634,
+        380
+      ],
+      "color": [
+        15,
+        40,
+        62
+      ],
+      "endpoint_pixel": 212.0,
+      "error": "calibration_failed",
+      "pixel_value_uncertainty": null
+    },
+    {
+      "category": "2017",
+      "series": "Arab States",
+      "series_id": "series_4",
+      "value": null,
+      "unit": null,
+      "bar_bbox": [
+        570,
+        224,
+        578,
+        380
+      ],
+      "color": [
+        15,
+        40,
+        62
+      ],
+      "endpoint_pixel": 224.0,
+      "error": "calibration_failed",
+      "pixel_value_uncertainty": null
+    },
+    {
+      "category": "2016",
+      "series": "Arab States",
+      "series_id": "series_4",
+      "value": null,
+      "unit": null,
+      "bar_bbox": [
+        513,
+        242,
+        521,
+        380
+      ],
+      "color": [
+        15,
+        40,
+        62
+      ],
+      "endpoint_pixel": 242.0,
+      "error": "calibration_failed",
+      "pixel_value_uncertainty": null
+    },
+    {
+      "category": "2015",
+      "series": "Arab States",
+      "series_id": "series_4",
+      "value": null,
+      "unit": null,
+      "bar_bbox": [
+        457,
+        254,
+        465,
+        380
+      ],
+      "color": [
+        15,
+        40,
+        62
+      ],
+      "endpoint_pixel": 254.0,
+      "error": "calibration_failed",
+      "pixel_value_uncertainty": null
+    },
+    {
+      "category": "2014",
+      "series": "Arab States",
+      "series_id": "series_4",
+      "value": null,
+      "unit": null,
+      "bar_bbox": [
+        400,
+        265,
+        408,
+        380
+      ],
+      "color": [
+        15,
+        40,
+        62
+      ],
+      "endpoint_pixel": 265.0,
+      "error": "calibration_failed",
+      "pixel_value_uncertainty": null
+    },
+    {
+      "category": "2013",
+      "series": "Arab States",
+      "series_id": "series_4",
+      "value": null,
+      "unit": null,
+      "bar_bbox": [
+        344,
+        273,
+        352,
+        380
+      ],
+      "color": [
+        15,
+        40,
+        62
+      ],
+      "endpoint_pixel": 273.0,
+      "error": "calibration_failed",
+      "pixel_value_uncertainty": null
+    },
+    {
+      "category": "2012",
+      "series": "Arab States",
+      "series_id": "series_4",
+      "value": null,
+      "unit": null,
+      "bar_bbox": [
+        287,
+        281,
+        295,
+        380
+      ],
+      "color": [
+        15,
+        40,
+        62
+      ],
+      "endpoint_pixel": 281.0,
+      "error": "calibration_failed",
+      "pixel_value_uncertainty": null
+    },
+    {
+      "category": "2011",
+      "series": "Arab States",
+      "series_id": "series_4",
+      "value": null,
+      "unit": null,
+      "bar_bbox": [
+        231,
+        291,
+        239,
+        380
+      ],
+      "color": [
+        15,
+        40,
+        62
+      ],
+      "endpoint_pixel": 291.0,
+      "error": "calibration_failed",
+      "pixel_value_uncertainty": null
+    },
+    {
+      "category": "2010",
+      "series": "Arab States",
+      "series_id": "series_4",
+      "value": null,
+      "unit": null,
+      "bar_bbox": [
+        174,
+        301,
+        182,
+        380
+      ],
+      "color": [
+        15,
+        40,
+        62
+      ],
+      "endpoint_pixel": 301.0,
+      "error": "calibration_failed",
+      "pixel_value_uncertainty": null
+    },
+    {
+      "category": "2009",
+      "series": "Arab States",
+      "series_id": "series_4",
+      "value": null,
+      "unit": null,
+      "bar_bbox": [
+        117,
+        312,
+        125,
+        380
+      ],
+      "color": [
+        15,
+        40,
+        62
+      ],
+      "endpoint_pixel": 312.0,
+      "error": "calibration_failed",
+      "pixel_value_uncertainty": null
+    },
+    {
+      "category": "2019",
+      "series": "Asia & Pacific",
+      "series_id": "series_5",
+      "value": null,
+      "unit": null,
+      "bar_bbox": [
+        691,
+        233,
+        699,
+        380
+      ],
+      "color": [
+        186,
+        186,
+        186
+      ],
+      "endpoint_pixel": 233.0,
+      "error": "calibration_failed",
+      "pixel_value_uncertainty": null
+    },
+    {
+      "category": "2018",
+      "series": "Asia & Pacific",
+      "series_id": "series_5",
+      "value": null,
+      "unit": null,
+      "bar_bbox": [
+        634,
+        242,
+        642,
+        380
+      ],
+      "color": [
+        186,
+        186,
+        186
+      ],
+      "endpoint_pixel": 242.0,
+      "error": "calibration_failed",
+      "pixel_value_uncertainty": null
+    },
+    {
+      "category": "2017",
+      "series": "Asia & Pacific",
+      "series_id": "series_5",
+      "value": null,
+      "unit": null,
+      "bar_bbox": [
+        578,
+        252,
+        586,
+        380
+      ],
+      "color": [
+        186,
+        186,
+        186
+      ],
+      "endpoint_pixel": 252.0,
+      "error": "calibration_failed",
+      "pixel_value_uncertainty": null
+    },
+    {
+      "category": "2016",
+      "series": "Asia & Pacific",
+      "series_id": "series_5",
+      "value": null,
+      "unit": null,
+      "bar_bbox": [
+        521,
+        259,
+        529,
+        380
+      ],
+      "color": [
+        186,
+        186,
+        186
+      ],
+      "endpoint_pixel": 259.0,
+      "error": "calibration_failed",
+      "pixel_value_uncertainty": null
+    },
+    {
+      "category": "2015",
+      "series": "Asia & Pacific",
+      "series_id": "series_5",
+      "value": null,
+      "unit": null,
+      "bar_bbox": [
+        465,
+        267,
+        473,
+        380
+      ],
+      "color": [
+        186,
+        186,
+        186
+      ],
+      "endpoint_pixel": 267.0,
+      "error": "calibration_failed",
+      "pixel_value_uncertainty": null
+    },
+    {
+      "category": "2014",
+      "series": "Asia & Pacific",
+      "series_id": "series_5",
+      "value": null,
+      "unit": null,
+      "bar_bbox": [
+        408,
+        273,
+        416,
+        380
+      ],
+      "color": [
+        186,
+        186,
+        186
+      ],
+      "endpoint_pixel": 273.0,
+      "error": "calibration_failed",
+      "pixel_value_uncertainty": null
+    },
+    {
+      "category": "2013",
+      "series": "Asia & Pacific",
+      "series_id": "series_5",
+      "value": null,
+      "unit": null,
+      "bar_bbox": [
+        352,
+        280,
+        360,
+        380
+      ],
+      "color": [
+        186,
+        186,
+        186
+      ],
+      "endpoint_pixel": 280.0,
+      "error": "calibration_failed",
+      "pixel_value_uncertainty": null
+    },
+    {
+      "category": "2012",
+      "series": "Asia & Pacific",
+      "series_id": "series_5",
+      "value": null,
+      "unit": null,
+      "bar_bbox": [
+        295,
+        288,
+        303,
+        380
+      ],
+      "color": [
+        186,
+        186,
+        186
+      ],
+      "endpoint_pixel": 288.0,
+      "error": "calibration_failed",
+      "pixel_value_uncertainty": null
+    },
+    {
+      "category": "2011",
+      "series": "Asia & Pacific",
+      "series_id": "series_5",
+      "value": null,
+      "unit": null,
+      "bar_bbox": [
+        239,
+        296,
+        247,
+        380
+      ],
+      "color": [
+        186,
+        186,
+        186
+      ],
+      "endpoint_pixel": 296.0,
+      "error": "calibration_failed",
+      "pixel_value_uncertainty": null
+    },
+    {
+      "category": "2010",
+      "series": "Asia & Pacific",
+      "series_id": "series_5",
+      "value": null,
+      "unit": null,
+      "bar_bbox": [
+        182,
+        306,
+        190,
+        380
+      ],
+      "color": [
+        186,
+        186,
+        186
+      ],
+      "endpoint_pixel": 306.0,
+      "error": "calibration_failed",
+      "pixel_value_uncertainty": null
+    },
+    {
+      "category": "2009",
+      "series": "Asia & Pacific",
+      "series_id": "series_5",
+      "value": null,
+      "unit": null,
+      "bar_bbox": [
+        126,
+        318,
+        134,
+        380
+      ],
+      "color": [
+        186,
+        186,
+        186
+      ],
+      "endpoint_pixel": 318.0,
+      "error": "calibration_failed",
+      "pixel_value_uncertainty": null
+    },
+    {
+      "category": "2019",
+      "series": "Africa",
+      "series_id": "series_6",
+      "value": null,
+      "unit": null,
+      "bar_bbox": [
+        675,
+        286,
+        683,
+        380
+      ],
+      "color": [
+        40,
+        118,
+        221
+      ],
+      "endpoint_pixel": 286.0,
+      "error": "calibration_failed",
+      "pixel_value_uncertainty": null
+    },
+    {
+      "category": "2018",
+      "series": "Africa",
+      "series_id": "series_6",
+      "value": null,
+      "unit": null,
+      "bar_bbox": [
+        618,
+        293,
+        626,
+        380
+      ],
+      "color": [
+        40,
+        118,
+        221
+      ],
+      "endpoint_pixel": 293.0,
+      "error": "calibration_failed",
+      "pixel_value_uncertainty": null
+    },
+    {
+      "category": "2017",
+      "series": "Africa",
+      "series_id": "series_6",
+      "value": null,
+      "unit": null,
+      "bar_bbox": [
+        562,
+        298,
+        570,
+        380
+      ],
+      "color": [
+        40,
+        118,
+        221
+      ],
+      "endpoint_pixel": 298.0,
+      "error": "calibration_failed",
+      "pixel_value_uncertainty": null
+    },
+    {
+      "category": "2016",
+      "series": "Africa",
+      "series_id": "series_6",
+      "value": null,
+      "unit": null,
+      "bar_bbox": [
+        505,
+        307,
+        513,
+        380
+      ],
+      "color": [
+        40,
+        118,
+        221
+      ],
+      "endpoint_pixel": 307.0,
+      "error": "calibration_failed",
+      "pixel_value_uncertainty": null
+    },
+    {
+      "category": "2015",
+      "series": "Africa",
+      "series_id": "series_6",
+      "value": null,
+      "unit": null,
+      "bar_bbox": [
+        449,
+        313,
+        457,
+        380
+      ],
+      "color": [
+        40,
+        118,
+        221
+      ],
+      "endpoint_pixel": 313.0,
+      "error": "calibration_failed",
+      "pixel_value_uncertainty": null
+    },
+    {
+      "category": "2014",
+      "series": "Africa",
+      "series_id": "series_6",
+      "value": null,
+      "unit": null,
+      "bar_bbox": [
+        392,
+        321,
+        400,
+        380
+      ],
+      "color": [
+        40,
+        118,
+        221
+      ],
+      "endpoint_pixel": 321.0,
+      "error": "calibration_failed",
+      "pixel_value_uncertainty": null
+    },
+    {
+      "category": "2013",
+      "series": "Africa",
+      "series_id": "series_6",
+      "value": null,
+      "unit": null,
+      "bar_bbox": [
+        336,
+        327,
+        344,
+        380
+      ],
+      "color": [
+        40,
+        118,
+        221
+      ],
+      "endpoint_pixel": 327.0,
+      "error": "calibration_failed",
+      "pixel_value_uncertainty": null
+    },
+    {
+      "category": "2012",
+      "series": "Africa",
+      "series_id": "series_6",
+      "value": null,
+      "unit": null,
+      "bar_bbox": [
+        279,
+        334,
+        287,
+        380
+      ],
+      "color": [
+        40,
+        118,
+        221
+      ],
+      "endpoint_pixel": 334.0,
+      "error": "calibration_failed",
+      "pixel_value_uncertainty": null
+    },
+    {
+      "category": "2011",
+      "series": "Africa",
+      "series_id": "series_6",
+      "value": null,
+      "unit": null,
+      "bar_bbox": [
+        222,
+        340,
+        230,
+        380
+      ],
+      "color": [
+        40,
+        118,
+        221
+      ],
+      "endpoint_pixel": 340.0,
+      "error": "calibration_failed",
+      "pixel_value_uncertainty": null
+    },
+    {
+      "category": "2010",
+      "series": "Africa",
+      "series_id": "series_6",
+      "value": null,
+      "unit": null,
+      "bar_bbox": [
+        166,
+        348,
+        174,
+        380
+      ],
+      "color": [
+        40,
+        118,
+        221
+      ],
+      "endpoint_pixel": 348.0,
+      "error": "calibration_failed",
+      "pixel_value_uncertainty": null
+    },
+    {
+      "category": "2009",
+      "series": "Africa",
+      "series_id": "series_6",
+      "value": null,
+      "unit": null,
+      "bar_bbox": [
+        109,
+        356,
+        117,
+        380
+      ],
+      "color": [
+        40,
+        118,
+        221
+      ],
+      "endpoint_pixel": 356.0,
+      "error": "calibration_failed",
+      "pixel_value_uncertainty": null
+    }
+  ],
+  "bars": [
+    {
+      "bbox": [
+        707,
+        106,
+        715,
+        380
+      ],
+      "color": [
+        135,
+        188,
+        36
+      ],
+      "fill_ratio": 1.0,
+      "series_id": "series_1"
+    },
+    {
+      "bbox": [
+        651,
+        114,
+        659,
+        380
+      ],
+      "color": [
+        135,
+        188,
+        36
+      ],
+      "fill_ratio": 1.0,
+      "series_id": "series_1"
+    },
+    {
+      "bbox": [
+        594,
+        123,
+        602,
+        380
+      ],
+      "color": [
+        135,
+        188,
+        36
+      ],
+      "fill_ratio": 1.0,
+      "series_id": "series_1"
+    },
+    {
+      "bbox": [
+        538,
+        132,
+        546,
+        380
+      ],
+      "color": [
+        135,
+        188,
+        36
+      ],
+      "fill_ratio": 1.0,
+      "series_id": "series_1"
+    },
+    {
+      "bbox": [
+        481,
+        138,
+        489,
+        380
+      ],
+      "color": [
+        135,
+        188,
+        36
+      ],
+      "fill_ratio": 1.0,
+      "series_id": "series_1"
+    },
+    {
+      "bbox": [
+        425,
+        142,
+        433,
+        380
+      ],
+      "color": [
+        135,
+        188,
+        36
+      ],
+      "fill_ratio": 1.0,
+      "series_id": "series_1"
+    },
+    {
+      "bbox": [
+        368,
+        150,
+        376,
+        380
+      ],
+      "color": [
+        135,
+        188,
+        36
+      ],
+      "fill_ratio": 1.0,
+      "series_id": "series_1"
+    },
+    {
+      "bbox": [
+        311,
+        157,
+        319,
+        380
+      ],
+      "color": [
+        135,
+        188,
+        36
+      ],
+      "fill_ratio": 1.0,
+      "series_id": "series_1"
+    },
+    {
+      "bbox": [
+        255,
+        166,
+        263,
+        380
+      ],
+      "color": [
+        135,
+        188,
+        36
+      ],
+      "fill_ratio": 1.0,
+      "series_id": "series_1"
+    },
+    {
+      "bbox": [
+        198,
+        171,
+        206,
+        380
+      ],
+      "color": [
+        135,
+        188,
+        36
+      ],
+      "fill_ratio": 1.0,
+      "series_id": "series_1"
+    },
+    {
+      "bbox": [
+        142,
+        183,
+        150,
+        380
+      ],
+      "color": [
+        135,
+        188,
+        36
+      ],
+      "fill_ratio": 1.0,
+      "series_id": "series_1"
+    },
+    {
+      "bbox": [
+        715,
+        126,
+        723,
+        380
+      ],
+      "color": [
+        235,
+        181,
+        35
+      ],
+      "fill_ratio": 1.0,
+      "series_id": "series_2"
+    },
+    {
+      "bbox": [
+        659,
+        132,
+        667,
+        380
+      ],
+      "color": [
+        235,
+        181,
+        35
+      ],
+      "fill_ratio": 1.0,
+      "series_id": "series_2"
+    },
+    {
+      "bbox": [
+        602,
+        141,
+        610,
+        380
+      ],
+      "color": [
+        235,
+        181,
+        35
+      ],
+      "fill_ratio": 1.0,
+      "series_id": "series_2"
+    },
+    {
+      "bbox": [
+        546,
+        153,
+        554,
+        380
+      ],
+      "color": [
+        235,
+        181,
+        35
+      ],
+      "fill_ratio": 1.0,
+      "series_id": "series_2"
+    },
+    {
+      "bbox": [
+        489,
+        171,
+        497,
+        380
+      ],
+      "color": [
+        235,
+        181,
+        35
+      ],
+      "fill_ratio": 1.0,
+      "series_id": "series_2"
+    },
+    {
+      "bbox": [
+        433,
+        186,
+        441,
+        380
+      ],
+      "color": [
+        235,
+        181,
+        35
+      ],
+      "fill_ratio": 1.0,
+      "series_id": "series_2"
+    },
+    {
+      "bbox": [
+        376,
+        194,
+        384,
+        380
+      ],
+      "color": [
+        235,
+        181,
+        35
+      ],
+      "fill_ratio": 1.0,
+      "series_id": "series_2"
+    },
+    {
+      "bbox": [
+        320,
+        197,
+        328,
+        380
+      ],
+      "color": [
+        235,
+        181,
+        35
+      ],
+      "fill_ratio": 1.0,
+      "series_id": "series_2"
+    },
+    {
+      "bbox": [
+        263,
+        211,
+        271,
+        380
+      ],
+      "color": [
+        235,
+        181,
+        35
+      ],
+      "fill_ratio": 1.0,
+      "series_id": "series_2"
+    },
+    {
+      "bbox": [
+        206,
+        218,
+        214,
+        380
+      ],
+      "color": [
+        235,
+        181,
+        35
+      ],
+      "fill_ratio": 1.0,
+      "series_id": "series_2"
+    },
+    {
+      "bbox": [
+        150,
+        227,
+        158,
+        380
+      ],
+      "color": [
+        235,
+        181,
+        35
+      ],
+      "fill_ratio": 1.0,
+      "series_id": "series_2"
+    },
+    {
+      "bbox": [
+        699,
+        139,
+        707,
+        380
+      ],
+      "color": [
+        166,
+        11,
+        11
+      ],
+      "fill_ratio": 1.0,
+      "series_id": "series_3"
+    },
+    {
+      "bbox": [
+        643,
+        148,
+        651,
+        380
+      ],
+      "color": [
+        166,
+        11,
+        11
+      ],
+      "fill_ratio": 1.0,
+      "series_id": "series_3"
+    },
+    {
+      "bbox": [
+        586,
+        161,
+        594,
+        380
+      ],
+      "color": [
+        166,
+        11,
+        11
+      ],
+      "fill_ratio": 1.0,
+      "series_id": "series_3"
+    },
+    {
+      "bbox": [
+        529,
+        169,
+        537,
+        380
+      ],
+      "color": [
+        166,
+        11,
+        11
+      ],
+      "fill_ratio": 1.0,
+      "series_id": "series_3"
+    },
+    {
+      "bbox": [
+        473,
+        179,
+        481,
+        380
+      ],
+      "color": [
+        166,
+        11,
+        11
+      ],
+      "fill_ratio": 1.0,
+      "series_id": "series_3"
+    },
+    {
+      "bbox": [
+        416,
+        182,
+        424,
+        380
+      ],
+      "color": [
+        166,
+        11,
+        11
+      ],
+      "fill_ratio": 1.0,
+      "series_id": "series_3"
+    },
+    {
+      "bbox": [
+        360,
+        191,
+        368,
+        380
+      ],
+      "color": [
+        166,
+        11,
+        11
+      ],
+      "fill_ratio": 1.0,
+      "series_id": "series_3"
+    },
+    {
+      "bbox": [
+        303,
+        204,
+        311,
+        380
+      ],
+      "color": [
+        166,
+        11,
+        11
+      ],
+      "fill_ratio": 1.0,
+      "series_id": "series_3"
+    },
+    {
+      "bbox": [
+        247,
+        241,
+        255,
+        380
+      ],
+      "color": [
+        166,
+        11,
+        11
+      ],
+      "fill_ratio": 1.0,
+      "series_id": "series_3"
+    },
+    {
+      "bbox": [
+        190,
+        262,
+        198,
+        380
+      ],
+      "color": [
+        166,
+        11,
+        11
+      ],
+      "fill_ratio": 1.0,
+      "series_id": "series_3"
+    },
+    {
+      "bbox": [
+        134,
+        300,
+        142,
+        380
+      ],
+      "color": [
+        166,
+        11,
+        11
+      ],
+      "fill_ratio": 1.0,
+      "series_id": "series_3"
+    },
+    {
+      "bbox": [
+        683,
+        199,
+        691,
+        380
+      ],
+      "color": [
+        15,
+        40,
+        62
+      ],
+      "fill_ratio": 1.0,
+      "series_id": "series_4"
+    },
+    {
+      "bbox": [
+        626,
+        212,
+        634,
+        380
+      ],
+      "color": [
+        15,
+        40,
+        62
+      ],
+      "fill_ratio": 1.0,
+      "series_id": "series_4"
+    },
+    {
+      "bbox": [
+        570,
+        224,
+        578,
+        380
+      ],
+      "color": [
+        15,
+        40,
+        62
+      ],
+      "fill_ratio": 1.0,
+      "series_id": "series_4"
+    },
+    {
+      "bbox": [
+        513,
+        242,
+        521,
+        380
+      ],
+      "color": [
+        15,
+        40,
+        62
+      ],
+      "fill_ratio": 1.0,
+      "series_id": "series_4"
+    },
+    {
+      "bbox": [
+        457,
+        254,
+        465,
+        380
+      ],
+      "color": [
+        15,
+        40,
+        62
+      ],
+      "fill_ratio": 1.0,
+      "series_id": "series_4"
+    },
+    {
+      "bbox": [
+        400,
+        265,
+        408,
+        380
+      ],
+      "color": [
+        15,
+        40,
+        62
+      ],
+      "fill_ratio": 1.0,
+      "series_id": "series_4"
+    },
+    {
+      "bbox": [
+        344,
+        273,
+        352,
+        380
+      ],
+      "color": [
+        15,
+        40,
+        62
+      ],
+      "fill_ratio": 1.0,
+      "series_id": "series_4"
+    },
+    {
+      "bbox": [
+        287,
+        281,
+        295,
+        380
+      ],
+      "color": [
+        15,
+        40,
+        62
+      ],
+      "fill_ratio": 1.0,
+      "series_id": "series_4"
+    },
+    {
+      "bbox": [
+        231,
+        291,
+        239,
+        380
+      ],
+      "color": [
+        15,
+        40,
+        62
+      ],
+      "fill_ratio": 1.0,
+      "series_id": "series_4"
+    },
+    {
+      "bbox": [
+        174,
+        301,
+        182,
+        380
+      ],
+      "color": [
+        15,
+        40,
+        62
+      ],
+      "fill_ratio": 1.0,
+      "series_id": "series_4"
+    },
+    {
+      "bbox": [
+        117,
+        312,
+        125,
+        380
+      ],
+      "color": [
+        15,
+        40,
+        62
+      ],
+      "fill_ratio": 1.0,
+      "series_id": "series_4"
+    },
+    {
+      "bbox": [
+        691,
+        233,
+        699,
+        380
+      ],
+      "color": [
+        186,
+        186,
+        186
+      ],
+      "fill_ratio": 1.0,
+      "series_id": "series_5"
+    },
+    {
+      "bbox": [
+        634,
+        242,
+        642,
+        380
+      ],
+      "color": [
+        186,
+        186,
+        186
+      ],
+      "fill_ratio": 1.0,
+      "series_id": "series_5"
+    },
+    {
+      "bbox": [
+        578,
+        252,
+        586,
+        380
+      ],
+      "color": [
+        186,
+        186,
+        186
+      ],
+      "fill_ratio": 1.0,
+      "series_id": "series_5"
+    },
+    {
+      "bbox": [
+        521,
+        259,
+        529,
+        380
+      ],
+      "color": [
+        186,
+        186,
+        186
+      ],
+      "fill_ratio": 1.0,
+      "series_id": "series_5"
+    },
+    {
+      "bbox": [
+        465,
+        267,
+        473,
+        380
+      ],
+      "color": [
+        186,
+        186,
+        186
+      ],
+      "fill_ratio": 1.0,
+      "series_id": "series_5"
+    },
+    {
+      "bbox": [
+        408,
+        273,
+        416,
+        380
+      ],
+      "color": [
+        186,
+        186,
+        186
+      ],
+      "fill_ratio": 1.0,
+      "series_id": "series_5"
+    },
+    {
+      "bbox": [
+        352,
+        280,
+        360,
+        380
+      ],
+      "color": [
+        186,
+        186,
+        186
+      ],
+      "fill_ratio": 1.0,
+      "series_id": "series_5"
+    },
+    {
+      "bbox": [
+        295,
+        288,
+        303,
+        380
+      ],
+      "color": [
+        186,
+        186,
+        186
+      ],
+      "fill_ratio": 1.0,
+      "series_id": "series_5"
+    },
+    {
+      "bbox": [
+        239,
+        296,
+        247,
+        380
+      ],
+      "color": [
+        186,
+        186,
+        186
+      ],
+      "fill_ratio": 1.0,
+      "series_id": "series_5"
+    },
+    {
+      "bbox": [
+        182,
+        306,
+        190,
+        380
+      ],
+      "color": [
+        186,
+        186,
+        186
+      ],
+      "fill_ratio": 1.0,
+      "series_id": "series_5"
+    },
+    {
+      "bbox": [
+        126,
+        318,
+        134,
+        380
+      ],
+      "color": [
+        186,
+        186,
+        186
+      ],
+      "fill_ratio": 1.0,
+      "series_id": "series_5"
+    },
+    {
+      "bbox": [
+        675,
+        286,
+        683,
+        380
+      ],
+      "color": [
+        40,
+        118,
+        221
+      ],
+      "fill_ratio": 1.0,
+      "series_id": "series_6"
+    },
+    {
+      "bbox": [
+        618,
+        293,
+        626,
+        380
+      ],
+      "color": [
+        40,
+        118,
+        221
+      ],
+      "fill_ratio": 1.0,
+      "series_id": "series_6"
+    },
+    {
+      "bbox": [
+        562,
+        298,
+        570,
+        380
+      ],
+      "color": [
+        40,
+        118,
+        221
+      ],
+      "fill_ratio": 1.0,
+      "series_id": "series_6"
+    },
+    {
+      "bbox": [
+        505,
+        307,
+        513,
+        380
+      ],
+      "color": [
+        40,
+        118,
+        221
+      ],
+      "fill_ratio": 1.0,
+      "series_id": "series_6"
+    },
+    {
+      "bbox": [
+        449,
+        313,
+        457,
+        380
+      ],
+      "color": [
+        40,
+        118,
+        221
+      ],
+      "fill_ratio": 1.0,
+      "series_id": "series_6"
+    },
+    {
+      "bbox": [
+        392,
+        321,
+        400,
+        380
+      ],
+      "color": [
+        40,
+        118,
+        221
+      ],
+      "fill_ratio": 1.0,
+      "series_id": "series_6"
+    },
+    {
+      "bbox": [
+        336,
+        327,
+        344,
+        380
+      ],
+      "color": [
+        40,
+        118,
+        221
+      ],
+      "fill_ratio": 1.0,
+      "series_id": "series_6"
+    },
+    {
+      "bbox": [
+        279,
+        334,
+        287,
+        380
+      ],
+      "color": [
+        40,
+        118,
+        221
+      ],
+      "fill_ratio": 1.0,
+      "series_id": "series_6"
+    },
+    {
+      "bbox": [
+        222,
+        340,
+        230,
+        380
+      ],
+      "color": [
+        40,
+        118,
+        221
+      ],
+      "fill_ratio": 1.0,
+      "series_id": "series_6"
+    },
+    {
+      "bbox": [
+        166,
+        348,
+        174,
+        380
+      ],
+      "color": [
+        40,
+        118,
+        221
+      ],
+      "fill_ratio": 1.0,
+      "series_id": "series_6"
+    },
+    {
+      "bbox": [
+        109,
+        356,
+        117,
+        380
+      ],
+      "color": [
+        40,
+        118,
+        221
+      ],
+      "fill_ratio": 1.0,
+      "series_id": "series_6"
+    }
+  ],
+  "categories": [
+    {
+      "text": "2009",
+      "confidence": 0.9999728798866272,
+      "bbox": [
+        118.0,
+        390.0,
+        149.0,
+        402.0
+      ],
+      "source": "CV4 targeted OCR, no reference text",
+      "position": 133.5,
+      "row": 396.0
+    },
+    {
+      "text": "2010",
+      "confidence": 0.9999781847000122,
+      "bbox": [
+        175.0,
+        390.0,
+        205.0,
+        402.0
+      ],
+      "source": "CV4 targeted OCR, no reference text",
+      "position": 190.0,
+      "row": 396.0
+    },
+    {
+      "text": "2011",
+      "confidence": 0.9930019974708557,
+      "bbox": [
+        231.0,
+        390.0,
+        260.0,
+        402.0
+      ],
+      "source": "CV4 targeted OCR, no reference text",
+      "position": 245.5,
+      "row": 396.0
+    },
+    {
+      "text": "2012",
+      "confidence": 0.6255834419893359,
+      "bbox": [
+        287.0,
+        390.0,
+        318.0,
+        402.0
+      ],
+      "source": "CV4 targeted OCR, no reference text",
+      "position": 302.5,
+      "row": 396.0
+    },
+    {
+      "text": "2013",
+      "confidence": 0.5636050762858285,
+      "bbox": [
+        344.0,
+        389.0,
+        375.0,
+        402.0
+      ],
+      "source": "CV4 targeted OCR, no reference text",
+      "position": 359.5,
+      "row": 395.5
+    },
+    {
+      "text": "2014",
+      "confidence": 0.9999979734420776,
+      "bbox": [
+        400.0,
+        390.0,
+        431.0,
+        402.0
+      ],
+      "source": "CV4 targeted OCR, no reference text",
+      "position": 415.5,
+      "row": 396.0
+    },
+    {
+      "text": "2015",
+      "confidence": 0.999996542930603,
+      "bbox": [
+        457.0,
+        390.0,
+        488.0,
+        402.0
+      ],
+      "source": "CV4 targeted OCR, no reference text",
+      "position": 472.5,
+      "row": 396.0
+    },
+    {
+      "text": "2016",
+      "confidence": 0.9999961853027344,
+      "bbox": [
+        514.0,
+        390.0,
+        545.0,
+        402.0
+      ],
+      "source": "CV4 targeted OCR, no reference text",
+      "position": 529.5,
+      "row": 396.0
+    },
+    {
+      "text": "2017",
+      "confidence": 0.9999944567680359,
+      "bbox": [
+        570.0,
+        390.0,
+        601.0,
+        402.0
+      ],
+      "source": "CV4 targeted OCR, no reference text",
+      "position": 585.5,
+      "row": 396.0
+    },
+    {
+      "text": "2018",
+      "confidence": 0.9999498128890991,
+      "bbox": [
+        627.0,
+        390.0,
+        658.0,
+        402.0
+      ],
+      "source": "CV4 targeted OCR, no reference text",
+      "position": 642.5,
+      "row": 396.0
+    },
+    {
+      "text": "2019",
+      "confidence": 0.9629475820525236,
+      "bbox": [
+        683.0,
+        390.0,
+        714.0,
+        402.0
+      ],
+      "source": "CV4 targeted OCR, no reference text",
+      "position": 698.5,
+      "row": 396.0
+    }
+  ],
+  "series": {
+    "series_1": "Europe",
+    "series_2": "Americas",
+    "series_3": "8",
+    "series_4": "Arab States",
+    "series_5": "Asia & Pacific",
+    "series_6": "Africa"
+  },
+  "calibration": null,
+  "baseline_pixel": 380.0,
+  "baseline_value": null,
+  "refined_ocr": [
+    {
+      "text": "8025",
+      "confidence": 0.5065811276435852,
+      "bbox": [
+        67.0,
+        107.0,
+        92.0,
+        119.0
+      ],
+      "source": "CV4 targeted OCR, no reference text"
+    },
+    {
+      "text": "1",
+      "confidence": 0.7345484980671699,
+      "bbox": [
+        44.0,
+        120.0,
+        52.0,
+        158.0
+      ],
+      "source": "CV4 targeted OCR, no reference text"
+    },
+    {
+      "text": "4",
+      "confidence": 0.8496864818162067,
+      "bbox": [
+        41.0,
+        162.0,
+        53.0,
+        180.0
+      ],
+      "source": "CV4 targeted OCR, no reference text"
+    },
+    {
+      "text": "6025",
+      "confidence": 0.4575470983982086,
+      "bbox": [
+        67.0,
+        174.0,
+        92.0,
+        186.0
+      ],
+      "source": "CV4 targeted OCR, no reference text"
+    },
+    {
+      "text": "3",
+      "confidence": 0.12089238844987449,
+      "bbox": [
+        43.0,
+        180.0,
+        55.0,
+        210.0
+      ],
+      "source": "CV4 targeted OCR, no reference text"
+    },
+    {
+      "text": "1",
+      "confidence": 0.4671325592212838,
+      "bbox": [
+        41.0,
+        209.0,
+        53.0,
+        264.0
+      ],
+      "source": "CV4 targeted OCR, no reference text"
+    },
+    {
+      "text": "4075",
+      "confidence": 0.2936830222606659,
+      "bbox": [
+        67.0,
+        239.0,
+        93.0,
+        252.0
+      ],
+      "source": "CV4 targeted OCR, no reference text"
+    },
+    {
+      "text": "6",
+      "confidence": 0.9954971810046267,
+      "bbox": [
+        41.0,
+        263.0,
+        53.0,
+        278.0
+      ],
+      "source": "CV4 targeted OCR, no reference text"
+    },
+    {
+      "text": "1",
+      "confidence": 0.6398893022724792,
+      "bbox": [
+        41.0,
+        279.0,
+        53.0,
+        308.0
+      ],
+      "source": "CV4 targeted OCR, no reference text"
+    },
+    {
+      "text": "2025",
+      "confidence": 0.34022754430770874,
+      "bbox": [
+        67.0,
+        307.0,
+        93.0,
+        319.0
+      ],
+      "source": "CV4 targeted OCR, no reference text"
+    },
+    {
+      "text": "035",
+      "confidence": 0.1697924967456843,
+      "bbox": [
+        74.0,
+        374.0,
+        93.0,
+        386.0
+      ],
+      "source": "CV4 targeted OCR, no reference text"
+    },
+    {
+      "text": "2009",
+      "confidence": 0.9999728798866272,
+      "bbox": [
+        118.0,
+        390.0,
+        149.0,
+        402.0
+      ],
+      "source": "CV4 targeted OCR, no reference text"
+    },
+    {
+      "text": "2010",
+      "confidence": 0.9999781847000122,
+      "bbox": [
+        175.0,
+        390.0,
+        205.0,
+        402.0
+      ],
+      "source": "CV4 targeted OCR, no reference text"
+    },
+    {
+      "text": "2011",
+      "confidence": 0.9930019974708557,
+      "bbox": [
+        231.0,
+        390.0,
+        260.0,
+        402.0
+      ],
+      "source": "CV4 targeted OCR, no reference text"
+    },
+    {
+      "text": "2012",
+      "confidence": 0.6255834419893359,
+      "bbox": [
+        287.0,
+        390.0,
+        318.0,
+        402.0
+      ],
+      "source": "CV4 targeted OCR, no reference text"
+    },
+    {
+      "text": "2013",
+      "confidence": 0.5636050762858285,
+      "bbox": [
+        344.0,
+        389.0,
+        375.0,
+        402.0
+      ],
+      "source": "CV4 targeted OCR, no reference text"
+    },
+    {
+      "text": "2014",
+      "confidence": 0.9999979734420776,
+      "bbox": [
+        400.0,
+        390.0,
+        431.0,
+        402.0
+      ],
+      "source": "CV4 targeted OCR, no reference text"
+    },
+    {
+      "text": "2015",
+      "confidence": 0.999996542930603,
+      "bbox": [
+        457.0,
+        390.0,
+        488.0,
+        402.0
+      ],
+      "source": "CV4 targeted OCR, no reference text"
+    },
+    {
+      "text": "2016",
+      "confidence": 0.9999961853027344,
+      "bbox": [
+        514.0,
+        390.0,
+        545.0,
+        402.0
+      ],
+      "source": "CV4 targeted OCR, no reference text"
+    },
+    {
+      "text": "2017",
+      "confidence": 0.9999944567680359,
+      "bbox": [
+        570.0,
+        390.0,
+        601.0,
+        402.0
+      ],
+      "source": "CV4 targeted OCR, no reference text"
+    },
+    {
+      "text": "2018",
+      "confidence": 0.9999498128890991,
+      "bbox": [
+        627.0,
+        390.0,
+        658.0,
+        402.0
+      ],
+      "source": "CV4 targeted OCR, no reference text"
+    },
+    {
+      "text": "2019",
+      "confidence": 0.9629475820525236,
+      "bbox": [
+        683.0,
+        390.0,
+        714.0,
+        402.0
+      ],
+      "source": "CV4 targeted OCR, no reference text"
+    },
+    {
+      "text": "Africa",
+      "confidence": 0.9999799491554914,
+      "bbox": [
+        158.0,
+        430.0,
+        197.0,
+        443.0
+      ],
+      "source": "CV4 targeted OCR, no reference text"
+    },
+    {
+      "text": "Arab States",
+      "confidence": 0.9857793860801588,
+      "bbox": [
+        227.0,
+        430.0,
+        299.0,
+        443.0
+      ],
+      "source": "CV4 targeted OCR, no reference text"
+    },
+    {
+      "text": "Asia & Pacific",
+      "confidence": 0.9487978017230446,
+      "bbox": [
+        328.0,
+        430.0,
+        412.0,
+        443.0
+      ],
+      "source": "CV4 targeted OCR, no reference text"
+    },
+    {
+      "text": "CIS",
+      "confidence": 0.8407200462382787,
+      "bbox": [
+        441.0,
+        430.0,
+        464.0,
+        444.0
+      ],
+      "source": "CV4 targeted OCR, no reference text"
+    },
+    {
+      "text": "Europe",
+      "confidence": 0.999928989548886,
+      "bbox": [
+        492.0,
+        429.0,
+        537.0,
+        445.0
+      ],
+      "source": "CV4 targeted OCR, no reference text"
+    },
+    {
+      "text": "Americas",
+      "confidence": 0.9999730258662606,
+      "bbox": [
+        567.0,
+        430.0,
+        625.0,
+        443.0
+      ],
+      "source": "CV4 targeted OCR, no reference text"
+    }
+  ],
+  "errors": [
+    "Échelle non linéaire, chiffres OCR incohérents ou calibration ambiguë."
+  ],
+  "uncertainties": [
+    "series_1 2019: calibration_failed",
+    "series_1 2018: calibration_failed",
+    "series_1 2017: calibration_failed",
+    "series_1 2016: calibration_failed",
+    "series_1 2015: calibration_failed",
+    "series_1 2014: calibration_failed",
+    "series_1 2013: calibration_failed",
+    "series_1 2012: calibration_failed",
+    "series_1 2011: calibration_failed",
+    "series_1 2010: calibration_failed",
+    "series_1 2009: calibration_failed",
+    "series_2 2019: calibration_failed",
+    "series_2 2018: calibration_failed",
+    "series_2 2017: calibration_failed",
+    "series_2 2016: calibration_failed",
+    "series_2 2015: calibration_failed",
+    "series_2 2014: calibration_failed",
+    "series_2 2013: calibration_failed",
+    "series_2 2012: calibration_failed",
+    "series_2 2011: calibration_failed",
+    "series_2 2010: calibration_failed",
+    "series_2 2009: calibration_failed",
+    "series_3 2019: calibration_failed",
+    "series_3 2018: calibration_failed",
+    "series_3 2017: calibration_failed",
+    "series_3 2016: calibration_failed",
+    "series_3 2015: calibration_failed",
+    "series_3 2014: calibration_failed",
+    "series_3 2013: calibration_failed",
+    "series_3 2012: calibration_failed",
+    "series_3 2011: calibration_failed",
+    "series_3 2010: calibration_failed",
+    "series_3 2009: calibration_failed",
+    "series_4 2019: calibration_failed",
+    "series_4 2018: calibration_failed",
+    "series_4 2017: calibration_failed",
+    "series_4 2016: calibration_failed",
+    "series_4 2015: calibration_failed",
+    "series_4 2014: calibration_failed",
+    "series_4 2013: calibration_failed",
+    "series_4 2012: calibration_failed",
+    "series_4 2011: calibration_failed",
+    "series_4 2010: calibration_failed",
+    "series_4 2009: calibration_failed",
+    "series_5 2019: calibration_failed",
+    "series_5 2018: calibration_failed",
+    "series_5 2017: calibration_failed",
+    "series_5 2016: calibration_failed",
+    "series_5 2015: calibration_failed",
+    "series_5 2014: calibration_failed",
+    "series_5 2013: calibration_failed",
+    "series_5 2012: calibration_failed",
+    "series_5 2011: calibration_failed",
+    "series_5 2010: calibration_failed",
+    "series_5 2009: calibration_failed",
+    "series_6 2019: calibration_failed",
+    "series_6 2018: calibration_failed",
+    "series_6 2017: calibration_failed",
+    "series_6 2016: calibration_failed",
+    "series_6 2015: calibration_failed",
+    "series_6 2014: calibration_failed",
+    "series_6 2013: calibration_failed",
+    "series_6 2012: calibration_failed",
+    "series_6 2011: calibration_failed",
+    "series_6 2010: calibration_failed",
+    "series_6 2009: calibration_failed",
+    "Rectangle plein seulement ; ombres, petites barres et objets non rectangulaires peuvent être manqués."
+  ],
+  "status": "failed"
+}

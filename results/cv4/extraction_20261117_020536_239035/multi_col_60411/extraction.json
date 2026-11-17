@@ -1,0 +1,953 @@
+{
+  "image": "multi_col_60411.png",
+  "source": "C:\\Users\\ELECTRO-RIMO\\Downloads\\ChartQA-main\\ChartQA-main\\ChartQA Dataset\\val\\png\\multi_col_60411.png",
+  "source_sha256": "c26621afad98c35ee6decc513b8c3b41664db0c3240c5c10a4d233f2dd2b6b26",
+  "chart_type": "v_bar",
+  "cv2_chart_type": "h_bar",
+  "orientation_correction": "CV2 h_bar corrigé en v_bar : davantage de rectangles partagent une base Y commune.",
+  "chart_probabilities": {
+    "v_bar": 0.49445074796676636,
+    "h_bar": 0.5055007338523865,
+    "line": 4.763121614814736e-05,
+    "pie": 9.089601462619612e-07
+  },
+  "checkpoint": "C:\\Users\\ELECTRO-RIMO\\Downloads\\ChartQA-main\\ChartQA-main\\models_cv2\\resnet18_20261117_010609_069660.pt",
+  "prediction_inputs": [
+    "image pixels",
+    "CV2 trained checkpoint",
+    "EasyOCR visible text"
+  ],
+  "reference_data_used_for_prediction": false,
+  "ocr_cache": null,
+  "ocr_texts": [
+    {
+      "text": "8",
+      "bbox": [
+        65.0,
+        40.0,
+        90.0,
+        54.0
+      ],
+      "confidence": 0.9961912013708663
+    },
+    {
+      "text": "8",
+      "bbox": [
+        67.0,
+        85.0,
+        90.0,
+        97.0
+      ],
+      "confidence": 0.9094734424585091
+    },
+    {
+      "text": "6.4%",
+      "bbox": [
+        136.0,
+        88.0,
+        166.0,
+        102.0
+      ],
+      "confidence": 0.9273988008499146
+    },
+    {
+      "text": "2.7%",
+      "bbox": [
+        188.0,
+        105.0,
+        219.0,
+        119.0
+      ],
+      "confidence": 0.5265410542488098
+    },
+    {
+      "text": "1.1%",
+      "bbox": [
+        448.0,
+        112.0,
+        478.0,
+        126.0
+      ],
+      "confidence": 0.8722140192985535
+    },
+    {
+      "text": "8",
+      "bbox": [
+        74.0,
+        132.0,
+        89.0,
+        140.0
+      ],
+      "confidence": 0.734796381652373
+    },
+    {
+      "text": "chanye",
+      "bbox": [
+        42.68377223398316,
+        145.03463660697173,
+        55.31622776601684,
+        183.96536339302827
+      ],
+      "confidence": 0.6400247816508661
+    },
+    {
+      "text": "-1-6%",
+      "bbox": [
+        499.0,
+        148.0,
+        537.0,
+        162.0
+      ],
+      "confidence": 0.6541607341388237
+    },
+    {
+      "text": "3",
+      "bbox": [
+        555.0,
+        149.0,
+        590.0,
+        163.0
+      ],
+      "confidence": 0.7229272007435874
+    },
+    {
+      "text": "-5.3%",
+      "bbox": [
+        605.0,
+        164.0,
+        643.0,
+        178.0
+      ],
+      "confidence": 0.8234915088318467
+    },
+    {
+      "text": "3",
+      "bbox": [
+        61.0,
+        173.0,
+        90.0,
+        185.0
+      ],
+      "confidence": 0.6526596680670629
+    },
+    {
+      "text": "year",
+      "bbox": [
+        45.0,
+        182.0,
+        53.0,
+        205.0
+      ],
+      "confidence": 0.40251976251602173
+    },
+    {
+      "text": "-10X",
+      "bbox": [
+        243.0,
+        185.0,
+        277.0,
+        199.0
+      ],
+      "confidence": 0.60909176620519
+    },
+    {
+      "text": "-11.5%",
+      "bbox": [
+        656.0,
+        192.0,
+        701.0,
+        206.0
+      ],
+      "confidence": 0.8386002257220405
+    },
+    {
+      "text": "Mo",
+      "bbox": [
+        45.0,
+        214.0,
+        53.0,
+        232.0
+      ],
+      "confidence": 0.8792872771144201
+    },
+    {
+      "text": "8",
+      "bbox": [
+        62.0,
+        220.0,
+        89.0,
+        229.0
+      ],
+      "confidence": 0.9159828574459574
+    },
+    {
+      "text": "1",
+      "bbox": [
+        42.59726138573399,
+        230.0622512392763,
+        54.40273861426601,
+        258.9377487607237
+      ],
+      "confidence": 0.2717453192445305
+    },
+    {
+      "text": "-26.83",
+      "bbox": [
+        296.0,
+        260.0,
+        335.0,
+        273.0
+      ],
+      "confidence": 0.42269259611887294
+    },
+    {
+      "text": "-3020",
+      "bbox": [
+        62.0,
+        264.0,
+        89.0,
+        273.0
+      ],
+      "confidence": 0.8116559837822117
+    },
+    {
+      "text": "8",
+      "bbox": [
+        65.0,
+        305.0,
+        90.0,
+        318.0
+      ],
+      "confidence": 0.9971776876887475
+    },
+    {
+      "text": "1",
+      "bbox": [
+        349.0,
+        349.0,
+        389.0,
+        363.0
+      ],
+      "confidence": 0.9060277213834844
+    },
+    {
+      "text": "8",
+      "bbox": [
+        65.0,
+        351.0,
+        90.0,
+        363.0
+      ],
+      "confidence": 0.9633279166053832
+    },
+    {
+      "text": "Smartphones",
+      "bbox": [
+        220.0,
+        365.0,
+        294.0,
+        381.0
+      ],
+      "confidence": 0.9969971794882286
+    },
+    {
+      "text": "Personal computing devices",
+      "bbox": [
+        495.0,
+        367.0,
+        647.0,
+        381.0
+      ],
+      "confidence": 0.9927401535775445
+    },
+    {
+      "text": "Forecast February 2019",
+      "bbox": [
+        73.0,
+        404.0,
+        221.0,
+        422.0
+      ],
+      "confidence": 0.986963789374366
+    },
+    {
+      "text": "Forecast November 2019",
+      "bbox": [
+        295.0,
+        405.0,
+        450.0,
+        423.0
+      ],
+      "confidence": 0.9998722129867462
+    },
+    {
+      "text": "Optimistic scenario April 2020",
+      "bbox": [
+        516.0,
+        405.0,
+        705.0,
+        421.0
+      ],
+      "confidence": 0.999337340841207
+    },
+    {
+      "text": "Probable scenario April 2020",
+      "bbox": [
+        73.0,
+        428.0,
+        253.0,
+        445.0
+      ],
+      "confidence": 0.9741402559380284
+    },
+    {
+      "text": "Pessimistic scenario April 2020",
+      "bbox": [
+        295.0,
+        428.0,
+        487.0,
+        445.0
+      ],
+      "confidence": 0.9870481604374041
+    },
+    {
+      "text": "Statista 2021",
+      "bbox": [
+        681.0,
+        488.0,
+        757.0,
+        503.0
+      ],
+      "confidence": 0.9426113432970274
+    },
+    {
+      "text": "Additional Information",
+      "bbox": [
+        37.0,
+        512.0,
+        169.0,
+        527.0
+      ],
+      "confidence": 0.9340258240412116
+    },
+    {
+      "text": "Show source",
+      "bbox": [
+        685.0,
+        512.0,
+        762.0,
+        527.0
+      ],
+      "confidence": 0.8760271031822011
+    }
+  ],
+  "rows": [
+    {
+      "category": "Smartphones",
+      "series": "Pessimistic scenario April 2020",
+      "series_id": "series_1",
+      "value": null,
+      "unit": null,
+      "bar_bbox": [
+        342,
+        137,
+        391,
+        345
+      ],
+      "color": [
+        135,
+        188,
+        36
+      ],
+      "endpoint_pixel": 345.0,
+      "error": "calibration_failed",
+      "pixel_value_uncertainty": null
+    },
+    {
+      "category": "Personal computing devices",
+      "series": "Pessimistic scenario April 2020",
+      "series_id": "series_1",
+      "value": null,
+      "unit": null,
+      "bar_bbox": [
+        654,
+        137,
+        703,
+        188
+      ],
+      "color": [
+        135,
+        188,
+        36
+      ],
+      "endpoint_pixel": 188.0,
+      "error": "calibration_failed",
+      "pixel_value_uncertainty": null
+    },
+    {
+      "category": "Smartphones",
+      "series": "Probable scenario April 2020",
+      "series_id": "series_2",
+      "value": null,
+      "unit": null,
+      "bar_bbox": [
+        288,
+        137,
+        337,
+        255
+      ],
+      "color": [
+        166,
+        11,
+        11
+      ],
+      "endpoint_pixel": 255.0,
+      "error": "calibration_failed",
+      "pixel_value_uncertainty": null
+    },
+    {
+      "category": "Personal computing devices",
+      "series": "Probable scenario April 2020",
+      "series_id": "series_2",
+      "value": null,
+      "unit": null,
+      "bar_bbox": [
+        600,
+        137,
+        649,
+        160
+      ],
+      "color": [
+        166,
+        11,
+        11
+      ],
+      "endpoint_pixel": 160.0,
+      "error": "calibration_failed",
+      "pixel_value_uncertainty": null
+    },
+    {
+      "category": "Smartphones",
+      "series": "Optimistic scenario April 2020",
+      "series_id": "series_3",
+      "value": null,
+      "unit": null,
+      "bar_bbox": [
+        234,
+        137,
+        283,
+        181
+      ],
+      "color": [
+        186,
+        186,
+        186
+      ],
+      "endpoint_pixel": 181.0,
+      "error": "calibration_failed",
+      "pixel_value_uncertainty": null
+    },
+    {
+      "category": "Personal computing devices",
+      "series": "Optimistic scenario April 2020",
+      "series_id": "series_3",
+      "value": null,
+      "unit": null,
+      "bar_bbox": [
+        547,
+        137,
+        596,
+        145
+      ],
+      "color": [
+        186,
+        186,
+        186
+      ],
+      "endpoint_pixel": 145.0,
+      "error": "calibration_failed",
+      "pixel_value_uncertainty": null
+    },
+    {
+      "category": "Smartphones",
+      "series": "Forecast February 2019",
+      "series_id": "series_4",
+      "value": null,
+      "unit": null,
+      "bar_bbox": [
+        127,
+        108,
+        176,
+        136
+      ],
+      "color": [
+        40,
+        118,
+        221
+      ],
+      "endpoint_pixel": 108.0,
+      "error": "calibration_failed",
+      "pixel_value_uncertainty": null
+    },
+    {
+      "category": "Personal computing devices",
+      "series": "Forecast February 2019",
+      "series_id": "series_4",
+      "value": null,
+      "unit": null,
+      "bar_bbox": [
+        439,
+        132,
+        488,
+        136
+      ],
+      "color": [
+        40,
+        118,
+        221
+      ],
+      "endpoint_pixel": 132.0,
+      "error": "calibration_failed",
+      "pixel_value_uncertainty": null
+    },
+    {
+      "category": "Smartphones",
+      "series": "Forecast November 2019",
+      "series_id": "series_5",
+      "value": null,
+      "unit": null,
+      "bar_bbox": [
+        180,
+        125,
+        229,
+        136
+      ],
+      "color": [
+        15,
+        40,
+        62
+      ],
+      "endpoint_pixel": 125.0,
+      "error": "calibration_failed",
+      "pixel_value_uncertainty": null
+    },
+    {
+      "category": "Personal computing devices",
+      "series": "Forecast November 2019",
+      "series_id": "series_5",
+      "value": null,
+      "unit": null,
+      "bar_bbox": [
+        493,
+        137,
+        542,
+        144
+      ],
+      "color": [
+        15,
+        40,
+        62
+      ],
+      "endpoint_pixel": 144.0,
+      "error": "calibration_failed",
+      "pixel_value_uncertainty": null
+    }
+  ],
+  "bars": [
+    {
+      "bbox": [
+        342,
+        137,
+        391,
+        345
+      ],
+      "color": [
+        135,
+        188,
+        36
+      ],
+      "fill_ratio": 1.0,
+      "series_id": "series_1"
+    },
+    {
+      "bbox": [
+        654,
+        137,
+        703,
+        188
+      ],
+      "color": [
+        135,
+        188,
+        36
+      ],
+      "fill_ratio": 1.0,
+      "series_id": "series_1"
+    },
+    {
+      "bbox": [
+        288,
+        137,
+        337,
+        255
+      ],
+      "color": [
+        166,
+        11,
+        11
+      ],
+      "fill_ratio": 1.0,
+      "series_id": "series_2"
+    },
+    {
+      "bbox": [
+        600,
+        137,
+        649,
+        160
+      ],
+      "color": [
+        166,
+        11,
+        11
+      ],
+      "fill_ratio": 1.0,
+      "series_id": "series_2"
+    },
+    {
+      "bbox": [
+        234,
+        137,
+        283,
+        181
+      ],
+      "color": [
+        186,
+        186,
+        186
+      ],
+      "fill_ratio": 1.0,
+      "series_id": "series_3"
+    },
+    {
+      "bbox": [
+        547,
+        137,
+        596,
+        145
+      ],
+      "color": [
+        186,
+        186,
+        186
+      ],
+      "fill_ratio": 1.0,
+      "series_id": "series_3"
+    },
+    {
+      "bbox": [
+        127,
+        108,
+        176,
+        136
+      ],
+      "color": [
+        40,
+        118,
+        221
+      ],
+      "fill_ratio": 1.0,
+      "series_id": "series_4"
+    },
+    {
+      "bbox": [
+        439,
+        132,
+        488,
+        136
+      ],
+      "color": [
+        40,
+        118,
+        221
+      ],
+      "fill_ratio": 1.0,
+      "series_id": "series_4"
+    },
+    {
+      "bbox": [
+        180,
+        125,
+        229,
+        136
+      ],
+      "color": [
+        15,
+        40,
+        62
+      ],
+      "fill_ratio": 1.0,
+      "series_id": "series_5"
+    },
+    {
+      "bbox": [
+        493,
+        137,
+        542,
+        144
+      ],
+      "color": [
+        15,
+        40,
+        62
+      ],
+      "fill_ratio": 1.0,
+      "series_id": "series_5"
+    }
+  ],
+  "categories": [
+    {
+      "text": "Smartphones",
+      "confidence": 0.9986202118041916,
+      "bbox": [
+        220.0,
+        365.0,
+        295.0,
+        381.0
+      ],
+      "source": "CV4 targeted OCR, no reference text",
+      "position": 257.5,
+      "row": 373.0
+    },
+    {
+      "text": "Personal computing devices",
+      "confidence": 0.9949440397756291,
+      "bbox": [
+        495.0,
+        367.0,
+        647.0,
+        381.0
+      ],
+      "source": "CV4 targeted OCR, no reference text",
+      "position": 571.0,
+      "row": 374.0
+    }
+  ],
+  "series": {
+    "series_1": "Pessimistic scenario April 2020",
+    "series_2": "Probable scenario April 2020",
+    "series_3": "Optimistic scenario April 2020",
+    "series_4": "Forecast February 2019",
+    "series_5": "Forecast November 2019"
+  },
+  "calibration": null,
+  "baseline_pixel": 137.0,
+  "baseline_value": null,
+  "refined_ocr": [
+    {
+      "text": "1093",
+      "confidence": 0.7664527002123999,
+      "bbox": [
+        67.0,
+        85.0,
+        90.0,
+        97.0
+      ],
+      "source": "CV4 targeted OCR, no reference text"
+    },
+    {
+      "text": "07o",
+      "confidence": 0.5197882383888554,
+      "bbox": [
+        73.0,
+        131.0,
+        88.0,
+        140.0
+      ],
+      "source": "CV4 targeted OCR, no reference text"
+    },
+    {
+      "text": "-105",
+      "confidence": 0.8890830278396606,
+      "bbox": [
+        60.0,
+        173.0,
+        89.0,
+        185.0
+      ],
+      "source": "CV4 targeted OCR, no reference text"
+    },
+    {
+      "text": "1",
+      "confidence": 0.23052383140778065,
+      "bbox": [
+        45.0,
+        183.0,
+        54.0,
+        205.0
+      ],
+      "source": "CV4 targeted OCR, no reference text"
+    },
+    {
+      "text": "6",
+      "confidence": 0.9809841670018074,
+      "bbox": [
+        45.0,
+        216.0,
+        52.0,
+        232.0
+      ],
+      "source": "CV4 targeted OCR, no reference text"
+    },
+    {
+      "text": "-2020",
+      "confidence": 0.7649910240077026,
+      "bbox": [
+        61.0,
+        220.0,
+        89.0,
+        229.0
+      ],
+      "source": "CV4 targeted OCR, no reference text"
+    },
+    {
+      "text": "3",
+      "confidence": 0.1088770161836159,
+      "bbox": [
+        44.0,
+        236.0,
+        52.0,
+        258.0
+      ],
+      "source": "CV4 targeted OCR, no reference text"
+    },
+    {
+      "text": "3036",
+      "confidence": 0.30898526310920715,
+      "bbox": [
+        66.0,
+        262.0,
+        90.0,
+        274.0
+      ],
+      "source": "CV4 targeted OCR, no reference text"
+    },
+    {
+      "text": "4036",
+      "confidence": 0.3529414236545563,
+      "bbox": [
+        66.0,
+        306.0,
+        90.0,
+        318.0
+      ],
+      "source": "CV4 targeted OCR, no reference text"
+    },
+    {
+      "text": "-502",
+      "confidence": 0.47128579020500183,
+      "bbox": [
+        61.0,
+        351.0,
+        90.0,
+        363.0
+      ],
+      "source": "CV4 targeted OCR, no reference text"
+    },
+    {
+      "text": "1",
+      "confidence": 0.3018817880517055,
+      "bbox": [
+        40.63755373884506,
+        143.03292546273735,
+        55.36244626115495,
+        182.96707453726265
+      ],
+      "source": "CV4 targeted OCR, no reference text"
+    },
+    {
+      "text": "47-12",
+      "confidence": 0.288971468559424,
+      "bbox": [
+        351.0,
+        351.0,
+        388.0,
+        363.0
+      ],
+      "source": "CV4 targeted OCR, no reference text"
+    },
+    {
+      "text": "Smartphones",
+      "confidence": 0.9986202118041916,
+      "bbox": [
+        220.0,
+        365.0,
+        295.0,
+        381.0
+      ],
+      "source": "CV4 targeted OCR, no reference text"
+    },
+    {
+      "text": "Personal computing devices",
+      "confidence": 0.9949440397756291,
+      "bbox": [
+        495.0,
+        367.0,
+        647.0,
+        381.0
+      ],
+      "source": "CV4 targeted OCR, no reference text"
+    },
+    {
+      "text": "recast February 2019",
+      "confidence": 0.9304131463668468,
+      "bbox": [
+        87.0,
+        406.0,
+        221.0,
+        422.0
+      ],
+      "source": "CV4 targeted OCR, no reference text"
+    },
+    {
+      "text": "Forecast November 2019",
+      "confidence": 0.9952525512854997,
+      "bbox": [
+        296.0,
+        407.0,
+        451.0,
+        421.0
+      ],
+      "source": "CV4 targeted OCR, no reference text"
+    },
+    {
+      "text": "Optimistic scenario April 2020",
+      "confidence": 0.9752547400960702,
+      "bbox": [
+        517.0,
+        406.0,
+        705.0,
+        423.0
+      ],
+      "source": "CV4 targeted OCR, no reference text"
+    }
+  ],
+  "errors": [
+    "Échelle non linéaire, chiffres OCR incohérents ou calibration ambiguë."
+  ],
+  "uncertainties": [
+    "series_1 Smartphones: calibration_failed",
+    "series_1 Personal computing devices: calibration_failed",
+    "series_2 Smartphones: calibration_failed",
+    "series_2 Personal computing devices: calibration_failed",
+    "series_3 Smartphones: calibration_failed",
+    "series_3 Personal computing devices: calibration_failed",
+    "series_4 Smartphones: calibration_failed",
+    "series_4 Personal computing devices: calibration_failed",
+    "series_5 Smartphones: calibration_failed",
+    "series_5 Personal computing devices: calibration_failed",
+    "CV2 h_bar corrigé en v_bar : davantage de rectangles partagent une base Y commune.",
+    "Rectangle plein seulement ; ombres, petites barres et objets non rectangulaires peuvent être manqués."
+  ],
+  "status": "failed"
+}

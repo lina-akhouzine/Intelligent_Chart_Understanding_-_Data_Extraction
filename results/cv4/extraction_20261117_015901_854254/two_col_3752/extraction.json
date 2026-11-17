@@ -1,0 +1,529 @@
+{
+  "image": "two_col_3752.png",
+  "source": "C:\\Users\\ELECTRO-RIMO\\Downloads\\ChartQA-main\\ChartQA-main\\ChartQA Dataset\\test\\png\\two_col_3752.png",
+  "source_sha256": "57631a8012bd4e777165ce603549eec4e5a51d54f9387c6b063424f3b0676b73",
+  "chart_type": "v_bar",
+  "chart_probabilities": {
+    "v_bar": 0.9999988079071045,
+    "h_bar": 1.2396179727147683e-06,
+    "line": 1.154136564096575e-09,
+    "pie": 6.285008069539799e-09
+  },
+  "checkpoint": "C:\\Users\\ELECTRO-RIMO\\Downloads\\ChartQA-main\\ChartQA-main\\models_cv2\\resnet18_20261117_010609_069660.pt",
+  "prediction_inputs": [
+    "image pixels",
+    "CV2 trained checkpoint",
+    "EasyOCR visible text"
+  ],
+  "reference_data_used_for_prediction": false,
+  "ocr_cache": "C:\\Users\\ELECTRO-RIMO\\Downloads\\ChartQA-main\\ChartQA-main\\results\\cv3\\evaluation_20261117_014237_828142\\images\\two_col_3752.json",
+  "ocr_texts": [
+    {
+      "text": "25",
+      "bbox": [
+        59.0,
+        40.0,
+        77.0,
+        53.0
+      ],
+      "confidence": 0.9999996628252286
+    },
+    {
+      "text": "20",
+      "bbox": [
+        59.0,
+        117.0,
+        77.0,
+        131.0
+      ],
+      "confidence": 0.9999916549341934
+    },
+    {
+      "text": "9",
+      "bbox": [
+        568.0,
+        122.0,
+        576.0,
+        132.0
+      ],
+      "confidence": 0.9999986886982448
+    },
+    {
+      "text": "millins",
+      "bbox": [
+        41.0,
+        164.0,
+        54.0,
+        205.0
+      ],
+      "confidence": 0.9867373672563403
+    },
+    {
+      "text": "15",
+      "bbox": [
+        60.0,
+        196.0,
+        77.0,
+        209.0
+      ],
+      "confidence": 0.9999399834152334
+    },
+    {
+      "text": "IN",
+      "bbox": [
+        44.0,
+        206.0,
+        52.0,
+        216.0
+      ],
+      "confidence": 0.775291389071094
+    },
+    {
+      "text": "S",
+      "bbox": [
+        45.0,
+        218.0,
+        53.0,
+        228.0
+      ],
+      "confidence": 0.3151099946872513
+    },
+    {
+      "text": "Lise",
+      "bbox": [
+        45.0,
+        229.0,
+        53.0,
+        246.0
+      ],
+      "confidence": 0.6467079520225525
+    },
+    {
+      "text": "12",
+      "bbox": [
+        241.0,
+        229.0,
+        259.0,
+        243.0
+      ],
+      "confidence": 0.999891178571462
+    },
+    {
+      "text": "dde",
+      "bbox": [
+        45.0,
+        248.0,
+        54.0,
+        268.0
+      ],
+      "confidence": 0.9942457256173033
+    },
+    {
+      "text": "Num ber of",
+      "bbox": [
+        41.0,
+        266.0,
+        55.0,
+        323.0
+      ],
+      "confidence": 0.9587865427192387
+    },
+    {
+      "text": "10",
+      "bbox": [
+        60.0,
+        275.0,
+        77.0,
+        287.0
+      ],
+      "confidence": 0.9997788205039201
+    },
+    {
+      "text": "Jul '14*",
+      "bbox": [
+        227.0,
+        447.0,
+        271.0,
+        462.0
+      ],
+      "confidence": 0.7511910141646032
+    },
+    {
+      "text": "Apr '16",
+      "bbox": [
+        545.0,
+        447.0,
+        590.0,
+        462.0
+      ],
+      "confidence": 0.9920934110944035
+    },
+    {
+      "text": "Statista 2021",
+      "bbox": [
+        680.0,
+        488.0,
+        755.0,
+        503.0
+      ],
+      "confidence": 0.9997238359746746
+    },
+    {
+      "text": "Additional Information",
+      "bbox": [
+        37.0,
+        512.0,
+        168.0,
+        527.0
+      ],
+      "confidence": 0.8410806015799449
+    },
+    {
+      "text": "Show source",
+      "bbox": [
+        685.0,
+        512.0,
+        761.0,
+        527.0
+      ],
+      "confidence": 0.918432806098684
+    }
+  ],
+  "rows": [
+    {
+      "category": "Apr '16",
+      "series": null,
+      "series_id": "series_1",
+      "value": 18.85350318471337,
+      "unit": null,
+      "bar_bbox": [
+        459,
+        142,
+        677,
+        439
+      ],
+      "color": [
+        40,
+        118,
+        221
+      ],
+      "endpoint_pixel": 142.0,
+      "error": null,
+      "pixel_value_uncertainty": 0.06369426751592355
+    },
+    {
+      "category": "Jul '14*",
+      "series": null,
+      "series_id": "series_1",
+      "value": 11.847133757961782,
+      "unit": null,
+      "bar_bbox": [
+        141,
+        252,
+        359,
+        439
+      ],
+      "color": [
+        40,
+        118,
+        221
+      ],
+      "endpoint_pixel": 252.0,
+      "error": null,
+      "pixel_value_uncertainty": 0.06369426751592355
+    }
+  ],
+  "bars": [
+    {
+      "bbox": [
+        459,
+        142,
+        677,
+        439
+      ],
+      "color": [
+        40,
+        118,
+        221
+      ],
+      "fill_ratio": 1.0,
+      "series_id": "series_1"
+    },
+    {
+      "bbox": [
+        141,
+        252,
+        359,
+        439
+      ],
+      "color": [
+        40,
+        118,
+        221
+      ],
+      "fill_ratio": 1.0,
+      "series_id": "series_1"
+    }
+  ],
+  "categories": [
+    {
+      "text": "Jul '14*",
+      "confidence": 0.8803169030818636,
+      "bbox": [
+        227.0,
+        447.0,
+        271.0,
+        463.0
+      ],
+      "source": "CV4 targeted OCR, no reference text",
+      "position": 249.0,
+      "row": 455.0
+    },
+    {
+      "text": "Apr '16",
+      "confidence": 0.9847279910365586,
+      "bbox": [
+        547.0,
+        448.0,
+        589.0,
+        462.0
+      ],
+      "source": "CV4 targeted OCR, no reference text",
+      "position": 568.0,
+      "row": 455.0
+    }
+  ],
+  "series": {},
+  "calibration": {
+    "slope": -0.06369426751592355,
+    "intercept": 27.898089171974515,
+    "unit": null,
+    "rmse_ticks": 5.0242958677880805e-15,
+    "ticks": [
+      {
+        "value": 20.0,
+        "unit": null,
+        "position": 124.0,
+        "text": "20",
+        "bbox": [
+          59.0,
+          117.0,
+          77.0,
+          131.0
+        ]
+      },
+      {
+        "value": 15.0,
+        "unit": null,
+        "position": 202.5,
+        "text": "15",
+        "bbox": [
+          60.0,
+          196.0,
+          77.0,
+          209.0
+        ]
+      },
+      {
+        "value": 10.0,
+        "unit": null,
+        "position": 281.0,
+        "text": "10",
+        "bbox": [
+          60.0,
+          275.0,
+          77.0,
+          287.0
+        ]
+      }
+    ],
+    "rejected_ticks": [],
+    "mapping": "value = slope * pixel_coordinate + intercept",
+    "scale": "linear"
+  },
+  "baseline_pixel": 439.0,
+  "baseline_value": -0.063694267515924,
+  "refined_ocr": [
+    {
+      "text": "20",
+      "confidence": 0.9999961224921389,
+      "bbox": [
+        60.0,
+        119.0,
+        77.0,
+        131.0
+      ],
+      "source": "CV4 targeted OCR, no reference text"
+    },
+    {
+      "text": "1",
+      "confidence": 0.5848848698008169,
+      "bbox": [
+        41.0,
+        163.0,
+        53.0,
+        196.0
+      ],
+      "source": "CV4 targeted OCR, no reference text"
+    },
+    {
+      "text": "2",
+      "confidence": 0.2927480205456199,
+      "bbox": [
+        44.0,
+        194.0,
+        52.0,
+        204.0
+      ],
+      "source": "CV4 targeted OCR, no reference text"
+    },
+    {
+      "text": "15",
+      "confidence": 0.9996683204153114,
+      "bbox": [
+        60.0,
+        197.0,
+        77.0,
+        209.0
+      ],
+      "source": "CV4 targeted OCR, no reference text"
+    },
+    {
+      "text": "5",
+      "confidence": 0.9314527364951495,
+      "bbox": [
+        44.0,
+        206.0,
+        52.0,
+        216.0
+      ],
+      "source": "CV4 targeted OCR, no reference text"
+    },
+    {
+      "text": "0",
+      "confidence": 0.2903099373481979,
+      "bbox": [
+        44.0,
+        218.0,
+        52.0,
+        228.0
+      ],
+      "source": "CV4 targeted OCR, no reference text"
+    },
+    {
+      "text": "9",
+      "confidence": 0.3070706458621011,
+      "bbox": [
+        44.0,
+        228.0,
+        52.0,
+        246.0
+      ],
+      "source": "CV4 targeted OCR, no reference text"
+    },
+    {
+      "text": "8",
+      "confidence": 0.9739653193433675,
+      "bbox": [
+        44.0,
+        247.0,
+        53.0,
+        267.0
+      ],
+      "source": "CV4 targeted OCR, no reference text"
+    },
+    {
+      "text": "6",
+      "confidence": 0.9954971810046267,
+      "bbox": [
+        41.0,
+        266.0,
+        53.0,
+        281.0
+      ],
+      "source": "CV4 targeted OCR, no reference text"
+    },
+    {
+      "text": "10",
+      "confidence": 0.999916971718028,
+      "bbox": [
+        60.0,
+        276.0,
+        77.0,
+        288.0
+      ],
+      "source": "CV4 targeted OCR, no reference text"
+    },
+    {
+      "text": "3",
+      "confidence": 0.5235982109754787,
+      "bbox": [
+        41.0,
+        279.0,
+        53.0,
+        300.0
+      ],
+      "source": "CV4 targeted OCR, no reference text"
+    },
+    {
+      "text": "6",
+      "confidence": 0.06896535217946198,
+      "bbox": [
+        43.0,
+        299.0,
+        52.0,
+        322.0
+      ],
+      "source": "CV4 targeted OCR, no reference text"
+    },
+    {
+      "text": "5",
+      "confidence": 0.9984016849628894,
+      "bbox": [
+        69.0,
+        356.0,
+        76.0,
+        365.0
+      ],
+      "source": "CV4 targeted OCR, no reference text"
+    },
+    {
+      "text": "Jul '14*",
+      "confidence": 0.8803169030818636,
+      "bbox": [
+        227.0,
+        447.0,
+        271.0,
+        463.0
+      ],
+      "source": "CV4 targeted OCR, no reference text"
+    },
+    {
+      "text": "Apr '16",
+      "confidence": 0.9847279910365586,
+      "bbox": [
+        547.0,
+        448.0,
+        589.0,
+        462.0
+      ],
+      "source": "CV4 targeted OCR, no reference text"
+    },
+    {
+      "text": "Star",
+      "confidence": 0.5130828619003296,
+      "bbox": [
+        684.0,
+        492.0,
+        706.0,
+        501.0
+      ],
+      "source": "CV4 targeted OCR, no reference text"
+    }
+  ],
+  "errors": [],
+  "uncertainties": [
+    "Rectangle plein seulement ; ombres, petites barres et objets non rectangulaires peuvent être manqués."
+  ],
+  "status": "success"
+}

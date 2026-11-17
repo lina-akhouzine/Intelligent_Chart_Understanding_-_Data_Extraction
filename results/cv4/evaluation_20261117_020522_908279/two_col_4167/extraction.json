@@ -1,0 +1,1410 @@
+{
+  "image": "two_col_4167.png",
+  "source": "C:\\Users\\ELECTRO-RIMO\\Downloads\\ChartQA-main\\ChartQA-main\\ChartQA Dataset\\test\\png\\two_col_4167.png",
+  "source_sha256": "fc3c617b7579e178cef526d07b1cf38cb6e692df85bd2b1a0762d6d4bf5b9c45",
+  "chart_type": "h_bar",
+  "cv2_chart_type": "h_bar",
+  "orientation_correction": null,
+  "chart_probabilities": {
+    "v_bar": 2.2501668354379945e-05,
+    "h_bar": 0.9999774694442749,
+    "line": 5.510238665351608e-08,
+    "pie": 8.426355613266878e-09
+  },
+  "checkpoint": "C:\\Users\\ELECTRO-RIMO\\Downloads\\ChartQA-main\\ChartQA-main\\models_cv2\\resnet18_20261117_010609_069660.pt",
+  "prediction_inputs": [
+    "image pixels",
+    "CV2 trained checkpoint",
+    "EasyOCR visible text"
+  ],
+  "reference_data_used_for_prediction": false,
+  "ocr_cache": "C:\\Users\\ELECTRO-RIMO\\Downloads\\ChartQA-main\\ChartQA-main\\results\\cv3\\evaluation_20261117_014237_828142\\images\\two_col_4167.json",
+  "ocr_texts": [
+    {
+      "text": "Niger",
+      "bbox": [
+        72.0,
+        51.0,
+        105.0,
+        66.0
+      ],
+      "confidence": 0.9999898707110952
+    },
+    {
+      "text": "Madagascar",
+      "bbox": [
+        39.0,
+        93.0,
+        105.0,
+        106.0
+      ],
+      "confidence": 0.999987974523324
+    },
+    {
+      "text": "2",
+      "bbox": [
+        335.0,
+        132.0,
+        362.0,
+        145.0
+      ],
+      "confidence": 0.9528154811904734
+    },
+    {
+      "text": "Mali",
+      "bbox": [
+        79.0,
+        133.0,
+        105.0,
+        147.0
+      ],
+      "confidence": 0.9999922513961792
+    },
+    {
+      "text": "13%",
+      "bbox": [
+        401.0,
+        173.0,
+        427.0,
+        187.0
+      ],
+      "confidence": 0.5577099632880226
+    },
+    {
+      "text": "Sierra Leone",
+      "bbox": [
+        35.0,
+        175.0,
+        105.0,
+        189.0
+      ],
+      "confidence": 0.5980410365661237
+    },
+    {
+      "text": "7",
+      "bbox": [
+        422.0,
+        217.0,
+        446.0,
+        226.0
+      ],
+      "confidence": 0.6486350029042711
+    },
+    {
+      "text": "Burundi",
+      "bbox": [
+        61.0,
+        220.0,
+        104.0,
+        229.0
+      ],
+      "confidence": 0.8478100308436151
+    },
+    {
+      "text": "Ethiopia",
+      "bbox": [
+        57.0,
+        256.0,
+        105.0,
+        273.0
+      ],
+      "confidence": 0.9999270848509526
+    },
+    {
+      "text": "2",
+      "bbox": [
+        464.0,
+        256.0,
+        491.0,
+        270.0
+      ],
+      "confidence": 0.8833093442608266
+    },
+    {
+      "text": "@h",
+      "bbox": [
+        752.0,
+        279.0,
+        769.0,
+        294.0
+      ],
+      "confidence": 0.3196956243940828
+    },
+    {
+      "text": "3",
+      "bbox": [
+        464.0,
+        297.0,
+        491.0,
+        311.0
+      ],
+      "confidence": 0.8857378728155396
+    },
+    {
+      "text": "DC Congo",
+      "bbox": [
+        47.0,
+        299.0,
+        105.0,
+        316.0
+      ],
+      "confidence": 0.9548408298827094
+    },
+    {
+      "text": "193",
+      "bbox": [
+        529.0,
+        340.0,
+        557.0,
+        353.0
+      ],
+      "confidence": 0.5369756432046646
+    },
+    {
+      "text": "East Timor",
+      "bbox": [
+        44.0,
+        341.0,
+        105.0,
+        355.0
+      ],
+      "confidence": 0.998105020167959
+    },
+    {
+      "text": "8",
+      "bbox": [
+        537.0,
+        380.0,
+        557.0,
+        394.0
+      ],
+      "confidence": 0.9059511307896173
+    },
+    {
+      "text": "Uganda",
+      "bbox": [
+        60.0,
+        383.0,
+        105.0,
+        398.0
+      ],
+      "confidence": 0.999930989674896
+    },
+    {
+      "text": "Nigeria",
+      "bbox": [
+        62.0,
+        423.0,
+        105.0,
+        440.0
+      ],
+      "confidence": 0.9999709832357339
+    },
+    {
+      "text": "8",
+      "bbox": [
+        549.0,
+        423.0,
+        578.0,
+        437.0
+      ],
+      "confidence": 0.9456166092684413
+    },
+    {
+      "text": "215",
+      "bbox": [
+        572.0,
+        464.0,
+        599.0,
+        478.0
+      ],
+      "confidence": 0.5738156030833438
+    },
+    {
+      "text": "Senegal",
+      "bbox": [
+        58.0,
+        465.0,
+        105.0,
+        481.0
+      ],
+      "confidence": 0.9999262860731423
+    },
+    {
+      "text": "229",
+      "bbox": [
+        595.0,
+        505.0,
+        622.0,
+        519.0
+      ],
+      "confidence": 0.4750923502286088
+    },
+    {
+      "text": "Benin",
+      "bbox": [
+        73.0,
+        509.0,
+        105.0,
+        521.0
+      ],
+      "confidence": 0.9999403436451803
+    },
+    {
+      "text": "245",
+      "bbox": [
+        637.0,
+        547.0,
+        665.0,
+        561.0
+      ],
+      "confidence": 0.7932609616934361
+    },
+    {
+      "text": "Liberia",
+      "bbox": [
+        64.0,
+        548.0,
+        105.0,
+        562.0
+      ],
+      "confidence": 0.9999507975002504
+    },
+    {
+      "text": "8",
+      "bbox": [
+        105.0,
+        585.0,
+        126.0,
+        599.0
+      ],
+      "confidence": 0.9969796133887598
+    },
+    {
+      "text": "3",
+      "bbox": [
+        155.0,
+        585.0,
+        185.0,
+        599.0
+      ],
+      "confidence": 0.4443246339384963
+    },
+    {
+      "text": "590",
+      "bbox": [
+        215.0,
+        585.0,
+        234.0,
+        599.0
+      ],
+      "confidence": 0.6549518226808966
+    },
+    {
+      "text": "7.590",
+      "bbox": [
+        263.0,
+        585.0,
+        293.0,
+        599.0
+      ],
+      "confidence": 0.8350729309430904
+    },
+    {
+      "text": "2",
+      "bbox": [
+        320.0,
+        585.0,
+        346.0,
+        599.0
+      ],
+      "confidence": 0.9896310155002084
+    },
+    {
+      "text": "12.596",
+      "bbox": [
+        368.0,
+        585.0,
+        405.0,
+        599.0
+      ],
+      "confidence": 0.6490283222951149
+    },
+    {
+      "text": "1590",
+      "bbox": [
+        428.0,
+        585.0,
+        454.0,
+        599.0
+      ],
+      "confidence": 0.49934446811676025
+    },
+    {
+      "text": "17.590",
+      "bbox": [
+        476.0,
+        585.0,
+        513.0,
+        599.0
+      ],
+      "confidence": 0.5639685484487321
+    },
+    {
+      "text": "2036",
+      "bbox": [
+        536.0,
+        585.0,
+        562.0,
+        599.0
+      ],
+      "confidence": 0.8973149657249451
+    },
+    {
+      "text": "22.535",
+      "bbox": [
+        584.0,
+        585.0,
+        622.0,
+        599.0
+      ],
+      "confidence": 0.4360036667874577
+    },
+    {
+      "text": "2596",
+      "bbox": [
+        644.0,
+        585.0,
+        671.0,
+        599.0
+      ],
+      "confidence": 0.7382510900497437
+    },
+    {
+      "text": "27",
+      "bbox": [
+        681.0,
+        585.0,
+        701.0,
+        599.0
+      ],
+      "confidence": 0.9999971340155042
+    },
+    {
+      "text": "Percentage of males aged 15-49",
+      "bbox": [
+        333.0,
+        607.0,
+        495.0,
+        621.0
+      ],
+      "confidence": 0.984936134664032
+    },
+    {
+      "text": "Collapse statistic",
+      "bbox": [
+        327.0,
+        663.0,
+        451.0,
+        689.0
+      ],
+      "confidence": 0.9998842010401102
+    },
+    {
+      "text": "Statista 2021",
+      "bbox": [
+        680.0,
+        708.0,
+        755.0,
+        722.0
+      ],
+      "confidence": 0.9866205153522596
+    },
+    {
+      "text": "Additional Information",
+      "bbox": [
+        37.0,
+        732.0,
+        169.0,
+        746.0
+      ],
+      "confidence": 0.966600432625172
+    },
+    {
+      "text": "Show source 0",
+      "bbox": [
+        685.0,
+        732.0,
+        773.0,
+        746.0
+      ],
+      "confidence": 0.8891435709542284
+    }
+  ],
+  "rows": [
+    {
+      "category": "Niger",
+      "series": null,
+      "series_id": "series_1",
+      "value": null,
+      "unit": null,
+      "bar_bbox": [
+        116,
+        43,
+        202,
+        72
+      ],
+      "color": [
+        40,
+        118,
+        221
+      ],
+      "endpoint_pixel": 202.0,
+      "error": "calibration_failed",
+      "pixel_value_uncertainty": null
+    },
+    {
+      "category": "Madagascar",
+      "series": null,
+      "series_id": "series_1",
+      "value": null,
+      "unit": null,
+      "bar_bbox": [
+        116,
+        85,
+        267,
+        114
+      ],
+      "color": [
+        40,
+        118,
+        221
+      ],
+      "endpoint_pixel": 267.0,
+      "error": "calibration_failed",
+      "pixel_value_uncertainty": null
+    },
+    {
+      "category": "Mali",
+      "series": null,
+      "series_id": "series_1",
+      "value": null,
+      "unit": null,
+      "bar_bbox": [
+        116,
+        126,
+        332,
+        155
+      ],
+      "color": [
+        40,
+        118,
+        221
+      ],
+      "endpoint_pixel": 332.0,
+      "error": "calibration_failed",
+      "pixel_value_uncertainty": null
+    },
+    {
+      "category": "Sierra Leone",
+      "series": null,
+      "series_id": "series_1",
+      "value": null,
+      "unit": null,
+      "bar_bbox": [
+        116,
+        168,
+        397,
+        197
+      ],
+      "color": [
+        40,
+        118,
+        221
+      ],
+      "endpoint_pixel": 397.0,
+      "error": "calibration_failed",
+      "pixel_value_uncertainty": null
+    },
+    {
+      "category": "Burundi",
+      "series": null,
+      "series_id": "series_1",
+      "value": null,
+      "unit": null,
+      "bar_bbox": [
+        116,
+        209,
+        418,
+        238
+      ],
+      "color": [
+        40,
+        118,
+        221
+      ],
+      "endpoint_pixel": 418.0,
+      "error": "calibration_failed",
+      "pixel_value_uncertainty": null
+    },
+    {
+      "category": "Ethiopia",
+      "series": null,
+      "series_id": "series_1",
+      "value": null,
+      "unit": null,
+      "bar_bbox": [
+        116,
+        251,
+        462,
+        280
+      ],
+      "color": [
+        40,
+        118,
+        221
+      ],
+      "endpoint_pixel": 462.0,
+      "error": "calibration_failed",
+      "pixel_value_uncertainty": null
+    },
+    {
+      "category": "DC Congo",
+      "series": null,
+      "series_id": "series_1",
+      "value": null,
+      "unit": null,
+      "bar_bbox": [
+        116,
+        292,
+        462,
+        321
+      ],
+      "color": [
+        40,
+        118,
+        221
+      ],
+      "endpoint_pixel": 462.0,
+      "error": "calibration_failed",
+      "pixel_value_uncertainty": null
+    },
+    {
+      "category": "East Timor",
+      "series": null,
+      "series_id": "series_1",
+      "value": null,
+      "unit": null,
+      "bar_bbox": [
+        116,
+        334,
+        527,
+        363
+      ],
+      "color": [
+        40,
+        118,
+        221
+      ],
+      "endpoint_pixel": 527.0,
+      "error": "calibration_failed",
+      "pixel_value_uncertainty": null
+    },
+    {
+      "category": "Uganda",
+      "series": null,
+      "series_id": "series_1",
+      "value": null,
+      "unit": null,
+      "bar_bbox": [
+        116,
+        375,
+        527,
+        404
+      ],
+      "color": [
+        40,
+        118,
+        221
+      ],
+      "endpoint_pixel": 527.0,
+      "error": "calibration_failed",
+      "pixel_value_uncertainty": null
+    },
+    {
+      "category": "Nigeria",
+      "series": null,
+      "series_id": "series_1",
+      "value": null,
+      "unit": null,
+      "bar_bbox": [
+        116,
+        417,
+        548,
+        446
+      ],
+      "color": [
+        40,
+        118,
+        221
+      ],
+      "endpoint_pixel": 548.0,
+      "error": "calibration_failed",
+      "pixel_value_uncertainty": null
+    },
+    {
+      "category": "Senegal",
+      "series": null,
+      "series_id": "series_1",
+      "value": null,
+      "unit": null,
+      "bar_bbox": [
+        116,
+        458,
+        570,
+        487
+      ],
+      "color": [
+        40,
+        118,
+        221
+      ],
+      "endpoint_pixel": 570.0,
+      "error": "calibration_failed",
+      "pixel_value_uncertainty": null
+    },
+    {
+      "category": "Benin",
+      "series": null,
+      "series_id": "series_1",
+      "value": null,
+      "unit": null,
+      "bar_bbox": [
+        116,
+        500,
+        592,
+        529
+      ],
+      "color": [
+        40,
+        118,
+        221
+      ],
+      "endpoint_pixel": 592.0,
+      "error": "calibration_failed",
+      "pixel_value_uncertainty": null
+    },
+    {
+      "category": "Liberia",
+      "series": null,
+      "series_id": "series_1",
+      "value": null,
+      "unit": null,
+      "bar_bbox": [
+        116,
+        541,
+        635,
+        570
+      ],
+      "color": [
+        40,
+        118,
+        221
+      ],
+      "endpoint_pixel": 635.0,
+      "error": "calibration_failed",
+      "pixel_value_uncertainty": null
+    }
+  ],
+  "bars": [
+    {
+      "bbox": [
+        116,
+        43,
+        202,
+        72
+      ],
+      "color": [
+        40,
+        118,
+        221
+      ],
+      "fill_ratio": 1.0,
+      "series_id": "series_1"
+    },
+    {
+      "bbox": [
+        116,
+        85,
+        267,
+        114
+      ],
+      "color": [
+        40,
+        118,
+        221
+      ],
+      "fill_ratio": 1.0,
+      "series_id": "series_1"
+    },
+    {
+      "bbox": [
+        116,
+        126,
+        332,
+        155
+      ],
+      "color": [
+        40,
+        118,
+        221
+      ],
+      "fill_ratio": 1.0,
+      "series_id": "series_1"
+    },
+    {
+      "bbox": [
+        116,
+        168,
+        397,
+        197
+      ],
+      "color": [
+        40,
+        118,
+        221
+      ],
+      "fill_ratio": 1.0,
+      "series_id": "series_1"
+    },
+    {
+      "bbox": [
+        116,
+        209,
+        418,
+        238
+      ],
+      "color": [
+        40,
+        118,
+        221
+      ],
+      "fill_ratio": 1.0,
+      "series_id": "series_1"
+    },
+    {
+      "bbox": [
+        116,
+        251,
+        462,
+        280
+      ],
+      "color": [
+        40,
+        118,
+        221
+      ],
+      "fill_ratio": 1.0,
+      "series_id": "series_1"
+    },
+    {
+      "bbox": [
+        116,
+        292,
+        462,
+        321
+      ],
+      "color": [
+        40,
+        118,
+        221
+      ],
+      "fill_ratio": 1.0,
+      "series_id": "series_1"
+    },
+    {
+      "bbox": [
+        116,
+        334,
+        527,
+        363
+      ],
+      "color": [
+        40,
+        118,
+        221
+      ],
+      "fill_ratio": 1.0,
+      "series_id": "series_1"
+    },
+    {
+      "bbox": [
+        116,
+        375,
+        527,
+        404
+      ],
+      "color": [
+        40,
+        118,
+        221
+      ],
+      "fill_ratio": 1.0,
+      "series_id": "series_1"
+    },
+    {
+      "bbox": [
+        116,
+        417,
+        548,
+        446
+      ],
+      "color": [
+        40,
+        118,
+        221
+      ],
+      "fill_ratio": 1.0,
+      "series_id": "series_1"
+    },
+    {
+      "bbox": [
+        116,
+        458,
+        570,
+        487
+      ],
+      "color": [
+        40,
+        118,
+        221
+      ],
+      "fill_ratio": 1.0,
+      "series_id": "series_1"
+    },
+    {
+      "bbox": [
+        116,
+        500,
+        592,
+        529
+      ],
+      "color": [
+        40,
+        118,
+        221
+      ],
+      "fill_ratio": 1.0,
+      "series_id": "series_1"
+    },
+    {
+      "bbox": [
+        116,
+        541,
+        635,
+        570
+      ],
+      "color": [
+        40,
+        118,
+        221
+      ],
+      "fill_ratio": 1.0,
+      "series_id": "series_1"
+    }
+  ],
+  "categories": [
+    {
+      "text": "Niger",
+      "confidence": 0.999988431284847,
+      "bbox": [
+        73.0,
+        52.0,
+        105.0,
+        66.0
+      ],
+      "source": "CV4 targeted OCR, no reference text",
+      "position": 59.0,
+      "row": 89.0
+    },
+    {
+      "text": "Madagascar",
+      "confidence": 0.9999695403222538,
+      "bbox": [
+        38.0,
+        92.0,
+        105.0,
+        107.0
+      ],
+      "source": "CV4 targeted OCR, no reference text",
+      "position": 99.5,
+      "row": 71.5
+    },
+    {
+      "text": "Mali",
+      "confidence": 0.6108518214722963,
+      "bbox": [
+        80.0,
+        135.0,
+        105.0,
+        147.0
+      ],
+      "source": "CV4 targeted OCR, no reference text",
+      "position": 141.0,
+      "row": 92.5
+    },
+    {
+      "text": "Sierra Leone",
+      "confidence": 0.9124979016461129,
+      "bbox": [
+        35.0,
+        175.0,
+        104.0,
+        188.0
+      ],
+      "source": "CV4 targeted OCR, no reference text",
+      "position": 181.5,
+      "row": 69.5
+    },
+    {
+      "text": "Burundi",
+      "confidence": 0.9971575433665782,
+      "bbox": [
+        60.0,
+        217.0,
+        105.0,
+        229.0
+      ],
+      "source": "CV4 targeted OCR, no reference text",
+      "position": 223.0,
+      "row": 82.5
+    },
+    {
+      "text": "Ethiopia",
+      "confidence": 0.735436924758403,
+      "bbox": [
+        57.0,
+        257.0,
+        105.0,
+        272.0
+      ],
+      "source": "CV4 targeted OCR, no reference text",
+      "position": 264.5,
+      "row": 81.0
+    },
+    {
+      "text": "DC Congo",
+      "confidence": 0.9986482263040786,
+      "bbox": [
+        47.0,
+        299.0,
+        105.0,
+        315.0
+      ],
+      "source": "CV4 targeted OCR, no reference text",
+      "position": 307.0,
+      "row": 76.0
+    },
+    {
+      "text": "East Timor",
+      "confidence": 0.9869451210431743,
+      "bbox": [
+        44.0,
+        342.0,
+        105.0,
+        355.0
+      ],
+      "source": "CV4 targeted OCR, no reference text",
+      "position": 348.5,
+      "row": 74.5
+    },
+    {
+      "text": "Uganda",
+      "confidence": 0.9789476433515936,
+      "bbox": [
+        60.0,
+        382.0,
+        105.0,
+        399.0
+      ],
+      "source": "CV4 targeted OCR, no reference text",
+      "position": 390.5,
+      "row": 82.5
+    },
+    {
+      "text": "Nigeria",
+      "confidence": 0.9999633319633292,
+      "bbox": [
+        63.0,
+        424.0,
+        105.0,
+        440.0
+      ],
+      "source": "CV4 targeted OCR, no reference text",
+      "position": 432.0,
+      "row": 84.0
+    },
+    {
+      "text": "Senegal",
+      "confidence": 0.9999132642985832,
+      "bbox": [
+        59.0,
+        465.0,
+        105.0,
+        481.0
+      ],
+      "source": "CV4 targeted OCR, no reference text",
+      "position": 473.0,
+      "row": 82.0
+    },
+    {
+      "text": "Benin",
+      "confidence": 0.9999722777068452,
+      "bbox": [
+        72.0,
+        508.0,
+        105.0,
+        521.0
+      ],
+      "source": "CV4 targeted OCR, no reference text",
+      "position": 514.5,
+      "row": 88.5
+    },
+    {
+      "text": "Liberia",
+      "confidence": 0.9999908534406047,
+      "bbox": [
+        65.0,
+        550.0,
+        105.0,
+        562.0
+      ],
+      "source": "CV4 targeted OCR, no reference text",
+      "position": 556.0,
+      "row": 85.0
+    }
+  ],
+  "series": {},
+  "calibration": null,
+  "baseline_pixel": 116.0,
+  "baseline_value": null,
+  "refined_ocr": [
+    {
+      "text": "035",
+      "confidence": 0.1426661090453706,
+      "bbox": [
+        107.0,
+        587.0,
+        125.0,
+        599.0
+      ],
+      "source": "CV4 targeted OCR, no reference text"
+    },
+    {
+      "text": "2-525",
+      "confidence": 0.21442952649154184,
+      "bbox": [
+        156.0,
+        587.0,
+        184.0,
+        599.0
+      ],
+      "source": "CV4 targeted OCR, no reference text"
+    },
+    {
+      "text": "520",
+      "confidence": 0.43386970208606973,
+      "bbox": [
+        215.0,
+        587.0,
+        234.0,
+        599.0
+      ],
+      "source": "CV4 targeted OCR, no reference text"
+    },
+    {
+      "text": "7-570",
+      "confidence": 0.6278564979005397,
+      "bbox": [
+        264.0,
+        587.0,
+        293.0,
+        599.0
+      ],
+      "source": "CV4 targeted OCR, no reference text"
+    },
+    {
+      "text": "107",
+      "confidence": 0.4911807305236435,
+      "bbox": [
+        321.0,
+        587.0,
+        346.0,
+        599.0
+      ],
+      "source": "CV4 targeted OCR, no reference text"
+    },
+    {
+      "text": "12-570",
+      "confidence": 0.6790250761962245,
+      "bbox": [
+        369.0,
+        587.0,
+        405.0,
+        599.0
+      ],
+      "source": "CV4 targeted OCR, no reference text"
+    },
+    {
+      "text": "1570",
+      "confidence": 0.8900106549263,
+      "bbox": [
+        429.0,
+        587.0,
+        454.0,
+        599.0
+      ],
+      "source": "CV4 targeted OCR, no reference text"
+    },
+    {
+      "text": "17.570",
+      "confidence": 0.8477161398222888,
+      "bbox": [
+        477.0,
+        587.0,
+        513.0,
+        599.0
+      ],
+      "source": "CV4 targeted OCR, no reference text"
+    },
+    {
+      "text": "2076",
+      "confidence": 0.6237232089042664,
+      "bbox": [
+        537.0,
+        587.0,
+        562.0,
+        599.0
+      ],
+      "source": "CV4 targeted OCR, no reference text"
+    },
+    {
+      "text": "22.535",
+      "confidence": 0.4330165627859089,
+      "bbox": [
+        586.0,
+        587.0,
+        622.0,
+        600.0
+      ],
+      "source": "CV4 targeted OCR, no reference text"
+    },
+    {
+      "text": "2570",
+      "confidence": 0.4329523817302757,
+      "bbox": [
+        645.0,
+        587.0,
+        671.0,
+        599.0
+      ],
+      "source": "CV4 targeted OCR, no reference text"
+    },
+    {
+      "text": "Kanantada ot malas",
+      "confidence": 0.6188346667699528,
+      "bbox": [
+        331.0,
+        607.0,
+        434.0,
+        620.0
+      ],
+      "source": "CV4 targeted OCR, no reference text"
+    },
+    {
+      "text": "15-49",
+      "confidence": 0.6196297840605953,
+      "bbox": [
+        461.0,
+        607.0,
+        495.0,
+        619.0
+      ],
+      "source": "CV4 targeted OCR, no reference text"
+    },
+    {
+      "text": "adad",
+      "confidence": 0.14864033460617065,
+      "bbox": [
+        432.219131190557,
+        606.538647263358,
+        460.780868809443,
+        620.461352736642
+      ],
+      "source": "CV4 targeted OCR, no reference text"
+    },
+    {
+      "text": "Niger",
+      "confidence": 0.999988431284847,
+      "bbox": [
+        73.0,
+        52.0,
+        105.0,
+        66.0
+      ],
+      "source": "CV4 targeted OCR, no reference text"
+    },
+    {
+      "text": "Madagascar",
+      "confidence": 0.9999695403222538,
+      "bbox": [
+        38.0,
+        92.0,
+        105.0,
+        107.0
+      ],
+      "source": "CV4 targeted OCR, no reference text"
+    },
+    {
+      "text": "Mali",
+      "confidence": 0.6108518214722963,
+      "bbox": [
+        80.0,
+        135.0,
+        105.0,
+        147.0
+      ],
+      "source": "CV4 targeted OCR, no reference text"
+    },
+    {
+      "text": "Sierra Leone",
+      "confidence": 0.9124979016461129,
+      "bbox": [
+        35.0,
+        175.0,
+        104.0,
+        188.0
+      ],
+      "source": "CV4 targeted OCR, no reference text"
+    },
+    {
+      "text": "Burundi",
+      "confidence": 0.9971575433665782,
+      "bbox": [
+        60.0,
+        217.0,
+        105.0,
+        229.0
+      ],
+      "source": "CV4 targeted OCR, no reference text"
+    },
+    {
+      "text": "Ethiopia",
+      "confidence": 0.735436924758403,
+      "bbox": [
+        57.0,
+        257.0,
+        105.0,
+        272.0
+      ],
+      "source": "CV4 targeted OCR, no reference text"
+    },
+    {
+      "text": "DC Congo",
+      "confidence": 0.9986482263040786,
+      "bbox": [
+        47.0,
+        299.0,
+        105.0,
+        315.0
+      ],
+      "source": "CV4 targeted OCR, no reference text"
+    },
+    {
+      "text": "East Timor",
+      "confidence": 0.9869451210431743,
+      "bbox": [
+        44.0,
+        342.0,
+        105.0,
+        355.0
+      ],
+      "source": "CV4 targeted OCR, no reference text"
+    },
+    {
+      "text": "Uganda",
+      "confidence": 0.9789476433515936,
+      "bbox": [
+        60.0,
+        382.0,
+        105.0,
+        399.0
+      ],
+      "source": "CV4 targeted OCR, no reference text"
+    },
+    {
+      "text": "Nigeria",
+      "confidence": 0.9999633319633292,
+      "bbox": [
+        63.0,
+        424.0,
+        105.0,
+        440.0
+      ],
+      "source": "CV4 targeted OCR, no reference text"
+    },
+    {
+      "text": "Senegal",
+      "confidence": 0.9999132642985832,
+      "bbox": [
+        59.0,
+        465.0,
+        105.0,
+        481.0
+      ],
+      "source": "CV4 targeted OCR, no reference text"
+    },
+    {
+      "text": "Benin",
+      "confidence": 0.9999722777068452,
+      "bbox": [
+        72.0,
+        508.0,
+        105.0,
+        521.0
+      ],
+      "source": "CV4 targeted OCR, no reference text"
+    },
+    {
+      "text": "Liberia",
+      "confidence": 0.9999908534406047,
+      "bbox": [
+        65.0,
+        550.0,
+        105.0,
+        562.0
+      ],
+      "source": "CV4 targeted OCR, no reference text"
+    }
+  ],
+  "errors": [
+    "Trop de graduations incompatibles : échelle non linéaire ou OCR insuffisant."
+  ],
+  "uncertainties": [
+    "series_1 Niger: calibration_failed",
+    "series_1 Madagascar: calibration_failed",
+    "series_1 Mali: calibration_failed",
+    "series_1 Sierra Leone: calibration_failed",
+    "series_1 Burundi: calibration_failed",
+    "series_1 Ethiopia: calibration_failed",
+    "series_1 DC Congo: calibration_failed",
+    "series_1 East Timor: calibration_failed",
+    "series_1 Uganda: calibration_failed",
+    "series_1 Nigeria: calibration_failed",
+    "series_1 Senegal: calibration_failed",
+    "series_1 Benin: calibration_failed",
+    "series_1 Liberia: calibration_failed",
+    "Rectangle plein seulement ; ombres, petites barres et objets non rectangulaires peuvent être manqués."
+  ],
+  "status": "failed"
+}

@@ -1,0 +1,16 @@
+﻿category,series,series_id,value,unit,error
+From home,35-44,series_1,,,calibration_failed
+Live event,35-44,series_1,,,calibration_failed
+Don't watch sports,35-44,series_1,,,calibration_failed
+From home,Total,series_2,,,calibration_failed
+Live event,Total,series_2,,,calibration_failed
+Don't watch sports,Total,series_2,,,calibration_failed
+Live event,18-34,series_3,,,calibration_failed
+From home,18-34,series_3,,,calibration_failed
+Don't watch sports,18-34,series_3,,,calibration_failed
+From home,45-54,series_4,,,calibration_failed
+Live event,45-54,series_4,,,calibration_failed
+Don't watch sports,45-54,series_4,,,calibration_failed
+From home,55+,series_5,,,calibration_failed
+Live event,55+,series_5,,,calibration_failed
+Don't watch sports,55+,series_5,,,calibration_failed

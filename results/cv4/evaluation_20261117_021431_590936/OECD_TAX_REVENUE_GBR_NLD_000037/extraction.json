@@ -1,0 +1,417 @@
+{
+  "image": "OECD_TAX_REVENUE_GBR_NLD_000037.png",
+  "source": "C:\\Users\\ELECTRO-RIMO\\Downloads\\ChartQA-main\\ChartQA-main\\ChartQA Dataset\\test\\png\\OECD_TAX_REVENUE_GBR_NLD_000037.png",
+  "source_sha256": "357a56f648b8e2494dbd58592d020283d9089f80c7c7169714b57bd73af18801",
+  "chart_type": "v_bar",
+  "cv2_chart_type": "v_bar",
+  "orientation_correction": null,
+  "chart_probabilities": {
+    "v_bar": 0.9999938011169434,
+    "h_bar": 5.925915957050165e-06,
+    "line": 1.7697421306195338e-09,
+    "pie": 2.533844849494926e-07
+  },
+  "checkpoint": "C:\\Users\\ELECTRO-RIMO\\Downloads\\ChartQA-main\\ChartQA-main\\models_cv2\\resnet18_20261117_010609_069660.pt",
+  "prediction_inputs": [
+    "image pixels",
+    "CV2 trained checkpoint",
+    "EasyOCR visible text"
+  ],
+  "reference_data_used_for_prediction": false,
+  "ocr_cache": "C:\\Users\\ELECTRO-RIMO\\Downloads\\ChartQA-main\\ChartQA-main\\results\\cv4\\evaluation_20261117_020522_908279\\OECD_TAX_REVENUE_GBR_NLD_000037\\extraction.json",
+  "ocr_texts": [
+    {
+      "text": "Tax revenue",
+      "bbox": [
+        0.0,
+        9.0,
+        110.0,
+        27.0
+      ],
+      "confidence": 0.696094061595532
+    },
+    {
+      "text": "1",
+      "bbox": [
+        117.0,
+        12.0,
+        222.0,
+        26.0
+      ],
+      "confidence": 0.6514223373351946
+    },
+    {
+      "text": "Source: Revenue Statistics: Comparative tables",
+      "bbox": [
+        631.0,
+        13.0,
+        858.0,
+        26.0
+      ],
+      "confidence": 0.6261211688653139
+    },
+    {
+      "text": "39.6",
+      "bbox": [
+        625.0,
+        64.0,
+        646.0,
+        73.0
+      ],
+      "confidence": 0.9576703906059265
+    },
+    {
+      "text": "36.7",
+      "bbox": [
+        219.0,
+        87.0,
+        242.0,
+        99.0
+      ],
+      "confidence": 0.8521501788464955
+    },
+    {
+      "text": "35",
+      "bbox": [
+        9.0,
+        104.0,
+        23.0,
+        117.0
+      ],
+      "confidence": 0.5944850318329447
+    },
+    {
+      "text": "3",
+      "bbox": [
+        12.0,
+        150.0,
+        22.0,
+        158.0
+      ],
+      "confidence": 0.9901500317946557
+    },
+    {
+      "text": "K",
+      "bbox": [
+        10.0,
+        193.0,
+        22.0,
+        202.0
+      ],
+      "confidence": 0.8796478136299726
+    },
+    {
+      "text": "20",
+      "bbox": [
+        9.0,
+        235.0,
+        23.0,
+        249.0
+      ],
+      "confidence": 0.9883038175389535
+    },
+    {
+      "text": "6",
+      "bbox": [
+        12.0,
+        282.0,
+        22.0,
+        290.0
+      ],
+      "confidence": 0.44297464548961685
+    },
+    {
+      "text": "5",
+      "bbox": [
+        12.0,
+        326.0,
+        24.0,
+        334.0
+      ],
+      "confidence": 0.8838390286906019
+    },
+    {
+      "text": "United Kingdom",
+      "bbox": [
+        179.47818194971444,
+        446.38371328681694,
+        243.52181805028556,
+        507.0
+      ],
+      "confidence": 0.867320580416664
+    },
+    {
+      "text": "Netherlands",
+      "bbox": [
+        597.6636636030019,
+        447.1652273208427,
+        646.3363363969981,
+        495.8347726791573
+      ],
+      "confidence": 0.4579698776316298
+    }
+  ],
+  "rows": [
+    {
+      "category": "Netherlands",
+      "series": null,
+      "series_id": "series_1",
+      "value": null,
+      "unit": null,
+      "bar_bbox": [
+        500,
+        78,
+        770,
+        425
+      ],
+      "color": [
+        17,
+        144,
+        218
+      ],
+      "endpoint_pixel": 78.0,
+      "error": "endpoint_outside_validated_scale",
+      "pixel_value_uncertainty": 0.1140015150689951
+    },
+    {
+      "category": "United Kingdom",
+      "series": null,
+      "series_id": "series_2",
+      "value": 35.876177768095424,
+      "unit": null,
+      "bar_bbox": [
+        96,
+        103,
+        366,
+        425
+      ],
+      "color": [
+        229,
+        41,
+        47
+      ],
+      "endpoint_pixel": 103.0,
+      "error": null,
+      "pixel_value_uncertainty": 0.1140015150689951
+    }
+  ],
+  "bars": [
+    {
+      "bbox": [
+        500,
+        78,
+        770,
+        425
+      ],
+      "color": [
+        17,
+        144,
+        218
+      ],
+      "fill_ratio": 1.0,
+      "series_id": "series_1"
+    },
+    {
+      "bbox": [
+        96,
+        103,
+        366,
+        425
+      ],
+      "color": [
+        229,
+        41,
+        47
+      ],
+      "fill_ratio": 1.0,
+      "series_id": "series_2"
+    }
+  ],
+  "categories": [
+    {
+      "text": "United Kingdom",
+      "bbox": [
+        179.47818194971444,
+        446.38371328681694,
+        243.52181805028556,
+        507.0
+      ],
+      "confidence": 0.867320580416664,
+      "position": 211.5,
+      "row": 476.69185664340847
+    },
+    {
+      "text": "Netherlands",
+      "bbox": [
+        597.6636636030019,
+        447.1652273208427,
+        646.3363363969981,
+        495.8347726791573
+      ],
+      "confidence": 0.4579698776316298,
+      "position": 622.0,
+      "row": 471.5
+    }
+  ],
+  "series": {},
+  "calibration": {
+    "slope": -0.1140015150689951,
+    "intercept": 47.61833382020192,
+    "unit": null,
+    "rmse_ticks": 0.0565478009172794,
+    "ticks": [
+      {
+        "value": 35.0,
+        "unit": null,
+        "position": 111.5,
+        "text": "35",
+        "bbox": [
+          10.0,
+          107.0,
+          23.0,
+          116.0
+        ]
+      },
+      {
+        "value": 30.0,
+        "unit": null,
+        "position": 154.0,
+        "text": "30",
+        "bbox": [
+          9.0,
+          148.0,
+          24.0,
+          160.0
+        ]
+      },
+      {
+        "value": 25.0,
+        "unit": null,
+        "position": 198.0,
+        "text": "25",
+        "bbox": [
+          10.0,
+          192.0,
+          24.0,
+          204.0
+        ]
+      },
+      {
+        "value": 20.0,
+        "unit": null,
+        "position": 242.0,
+        "text": "20",
+        "bbox": [
+          10.0,
+          236.0,
+          24.0,
+          248.0
+        ]
+      },
+      {
+        "value": 15.0,
+        "unit": null,
+        "position": 286.0,
+        "text": "15",
+        "bbox": [
+          10.0,
+          280.0,
+          24.0,
+          292.0
+        ]
+      },
+      {
+        "value": 10.0,
+        "unit": null,
+        "position": 330.5,
+        "text": "10",
+        "bbox": [
+          11.0,
+          326.0,
+          23.0,
+          335.0
+        ]
+      }
+    ],
+    "rejected_ticks": [],
+    "mapping": "value = slope * pixel_coordinate + intercept",
+    "scale": "linear"
+  },
+  "baseline_pixel": 425.0,
+  "baseline_value": -0.8323100841209978,
+  "refined_ocr": [
+    {
+      "text": "35",
+      "confidence": 0.8945323681577603,
+      "bbox": [
+        10.0,
+        107.0,
+        23.0,
+        116.0
+      ],
+      "source": "CV4 targeted OCR, no reference text"
+    },
+    {
+      "text": "30",
+      "confidence": 0.9996067925496488,
+      "bbox": [
+        9.0,
+        148.0,
+        24.0,
+        160.0
+      ],
+      "source": "CV4 targeted OCR, no reference text"
+    },
+    {
+      "text": "25",
+      "confidence": 0.9990469399496347,
+      "bbox": [
+        10.0,
+        192.0,
+        24.0,
+        204.0
+      ],
+      "source": "CV4 targeted OCR, no reference text"
+    },
+    {
+      "text": "20",
+      "confidence": 0.9992375643753232,
+      "bbox": [
+        10.0,
+        236.0,
+        24.0,
+        248.0
+      ],
+      "source": "CV4 targeted OCR, no reference text"
+    },
+    {
+      "text": "15",
+      "confidence": 0.9978556523097178,
+      "bbox": [
+        10.0,
+        280.0,
+        24.0,
+        292.0
+      ],
+      "source": "CV4 targeted OCR, no reference text"
+    },
+    {
+      "text": "10",
+      "confidence": 0.9990019399816037,
+      "bbox": [
+        11.0,
+        326.0,
+        23.0,
+        335.0
+      ],
+      "source": "CV4 targeted OCR, no reference text"
+    }
+  ],
+  "errors": [],
+  "uncertainties": [
+    "Noms de séries incomplets : identifiants de couleur conservés sans nom inventé.",
+    "series_1 Netherlands: endpoint_outside_validated_scale",
+    "Rectangle plein seulement ; ombres, petites barres et objets non rectangulaires peuvent être manqués."
+  ],
+  "status": "partial"
+}

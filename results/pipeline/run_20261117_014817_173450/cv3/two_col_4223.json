@@ -1,0 +1,295 @@
+{
+  "schema_version": 1,
+  "image": "two_col_4223.png",
+  "source": "C:\\Users\\ELECTRO-RIMO\\Downloads\\ChartQA-main\\ChartQA-main\\ChartQA Dataset\\test\\png\\two_col_4223.png",
+  "source_sha256": "ce82ea32432bb15c66ca9ceab777f974c237dbae295a6afb9e89960a5aa0211a",
+  "width": 800,
+  "height": 557,
+  "engine": "EasyOCR 1.7.2 / en",
+  "chart_type": "pie",
+  "chart_type_source": "CV2 checkpoint prediction",
+  "chart_probabilities": {
+    "v_bar": 2.234052544736187e-06,
+    "h_bar": 5.199964903113141e-09,
+    "line": 7.197297202665709e-10,
+    "pie": 0.9999977350234985
+  },
+  "variants": [
+    "original",
+    "clahe"
+  ],
+  "texts": [
+    {
+      "text": "1",
+      "bbox": [
+        503.0,
+        56.0,
+        567.0,
+        71.0
+      ],
+      "polygon": [
+        [
+          503.0,
+          56.0
+        ],
+        [
+          567.0,
+          56.0
+        ],
+        [
+          567.0,
+          71.0
+        ],
+        [
+          503.0,
+          71.0
+        ]
+      ],
+      "confidence": 0.3852639045658748,
+      "variant": "clahe",
+      "variants": [
+        "clahe",
+        "original"
+      ],
+      "alternatives": [
+        {
+          "text": "Yes 12.78",
+          "confidence": 0.38071057544964565,
+          "variant": "original"
+        }
+      ],
+      "role": "unknown",
+      "role_confidence": 0.25,
+      "role_source": "geometry",
+      "role_reason": "secteur sans axes : tranche ou légende indéterminée"
+    },
+    {
+      "text": "0",
+      "bbox": [
+        753.0,
+        239.0,
+        769.0,
+        254.0
+      ],
+      "polygon": [
+        [
+          753.0,
+          239.0
+        ],
+        [
+          769.0,
+          239.0
+        ],
+        [
+          769.0,
+          254.0
+        ],
+        [
+          753.0,
+          254.0
+        ]
+      ],
+      "confidence": 0.6917708404240699,
+      "variant": "clahe",
+      "variants": [
+        "clahe"
+      ],
+      "alternatives": [],
+      "role": "unknown",
+      "role_confidence": 0.25,
+      "role_source": "geometry",
+      "role_reason": "secteur sans axes : tranche ou légende indéterminée"
+    },
+    {
+      "text": "1",
+      "bbox": [
+        212.0,
+        443.0,
+        271.0,
+        458.0
+      ],
+      "polygon": [
+        [
+          212.0,
+          443.0
+        ],
+        [
+          271.0,
+          443.0
+        ],
+        [
+          271.0,
+          458.0
+        ],
+        [
+          212.0,
+          458.0
+        ]
+      ],
+      "confidence": 0.8849613364124629,
+      "variant": "clahe",
+      "variants": [
+        "clahe",
+        "original"
+      ],
+      "alternatives": [
+        {
+          "text": "1",
+          "confidence": 0.8649689724844087,
+          "variant": "original"
+        }
+      ],
+      "role": "unknown",
+      "role_confidence": 0.25,
+      "role_source": "geometry",
+      "role_reason": "secteur sans axes : tranche ou légende indéterminée"
+    },
+    {
+      "text": "Statista 2021",
+      "bbox": [
+        680.0,
+        488.0,
+        755.0,
+        503.0
+      ],
+      "polygon": [
+        [
+          680.0,
+          488.0
+        ],
+        [
+          755.0,
+          488.0
+        ],
+        [
+          755.0,
+          503.0
+        ],
+        [
+          680.0,
+          503.0
+        ]
+      ],
+      "confidence": 0.9996595570508221,
+      "variant": "clahe",
+      "variants": [
+        "clahe",
+        "original"
+      ],
+      "alternatives": [
+        {
+          "text": "Statista 2021",
+          "confidence": 0.9953047456182631,
+          "variant": "original"
+        }
+      ],
+      "role": "unknown",
+      "role_confidence": 0.25,
+      "role_source": "geometry",
+      "role_reason": "secteur sans axes : tranche ou légende indéterminée"
+    },
+    {
+      "text": "Additional Information",
+      "bbox": [
+        37.0,
+        512.0,
+        169.0,
+        527.0
+      ],
+      "polygon": [
+        [
+          37.0,
+          512.0
+        ],
+        [
+          169.0,
+          512.0
+        ],
+        [
+          169.0,
+          527.0
+        ],
+        [
+          37.0,
+          527.0
+        ]
+      ],
+      "confidence": 0.9894721710373592,
+      "variant": "clahe",
+      "variants": [
+        "clahe",
+        "original"
+      ],
+      "alternatives": [
+        {
+          "text": "Addirional Information",
+          "confidence": 0.7636141566499929,
+          "variant": "original"
+        }
+      ],
+      "role": "unknown",
+      "role_confidence": 0.25,
+      "role_source": "geometry",
+      "role_reason": "secteur sans axes : tranche ou légende indéterminée"
+    },
+    {
+      "text": "Show source",
+      "bbox": [
+        685.0,
+        512.0,
+        761.0,
+        527.0
+      ],
+      "polygon": [
+        [
+          685.0,
+          512.0
+        ],
+        [
+          761.0,
+          512.0
+        ],
+        [
+          761.0,
+          527.0
+        ],
+        [
+          685.0,
+          527.0
+        ]
+      ],
+      "confidence": 0.918432806098684,
+      "variant": "original",
+      "variants": [
+        "original",
+        "clahe"
+      ],
+      "alternatives": [
+        {
+          "text": "Show source 0",
+          "confidence": 0.5306198566872237,
+          "variant": "clahe"
+        }
+      ],
+      "role": "unknown",
+      "role_confidence": 0.25,
+      "role_source": "geometry",
+      "role_reason": "secteur sans axes : tranche ou légende indéterminée"
+    }
+  ],
+  "errors": [],
+  "uncertainties": [
+    "Certains textes ont une confiance OCR inférieure à 0.5.",
+    "Hypothèses concurrentes entre variantes : consulter alternatives."
+  ],
+  "seconds": 12.863212800002657,
+  "scope": "Visible text only. Numeric OCR strings are NOT extracted chart data.",
+  "annotation_assistance": null,
+  "roles_recomputed_from": "results\\cv3\\evaluation_20261117_012518_614675",
+  "pipeline": {
+    "fingerprint": "d93a54dc284d003c987dff5d23470ab4776f129f43313c4536b782c55e5f7687",
+    "cache_source": "C:\\Users\\ELECTRO-RIMO\\Downloads\\ChartQA-main\\ChartQA-main\\results\\pipeline\\run_20261117_014643_738649\\cv3\\two_col_4223.json",
+    "cache_validation": "source/configuration/modèles vérifiés",
+    "checkpoint": "C:\\Users\\ELECTRO-RIMO\\Downloads\\ChartQA-main\\ChartQA-main\\models_cv2\\resnet18_20261117_010609_069660.pt"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "schema_version": 1,
+  "image": "blank.png",
+  "source": "C:\\Users\\ELECTRO-RIMO\\Downloads\\ChartQA-main\\ChartQA-main\\results\\cv3\\tests_20261117_013731_931165\\blank.png",
+  "source_sha256": "9dbcbe8adb656509901bf3ab824e460a2fe8c82ae39c696611710bfb412c09f5",
+  "width": 400,
+  "height": 300,
+  "engine": "EasyOCR 1.7.2 / en",
+  "chart_type": null,
+  "chart_type_source": null,
+  "chart_probabilities": null,
+  "variants": [
+    "original",
+    "clahe"
+  ],
+  "texts": [],
+  "errors": [],
+  "uncertainties": [
+    "Aucun texte détecté ; cela ne prouve pas l’absence de texte."
+  ],
+  "seconds": 2.5132699999958277,
+  "scope": "Visible text only. Numeric OCR strings are NOT extracted chart data.",
+  "annotation_assistance": null
+}

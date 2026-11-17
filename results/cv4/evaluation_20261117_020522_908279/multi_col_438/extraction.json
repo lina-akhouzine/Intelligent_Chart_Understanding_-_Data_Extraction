@@ -1,0 +1,1668 @@
+{
+  "image": "multi_col_438.png",
+  "source": "C:\\Users\\ELECTRO-RIMO\\Downloads\\ChartQA-main\\ChartQA-main\\ChartQA Dataset\\test\\png\\multi_col_438.png",
+  "source_sha256": "d644634ab976bb2d2ae29ec6517add10e398a7fcd377e9749cb1857fee13dd99",
+  "chart_type": "v_bar",
+  "cv2_chart_type": "v_bar",
+  "orientation_correction": null,
+  "chart_probabilities": {
+    "v_bar": 1.0,
+    "h_bar": 3.3843461366700467e-10,
+    "line": 1.1232115064430115e-11,
+    "pie": 3.6472450060109907e-11
+  },
+  "checkpoint": "C:\\Users\\ELECTRO-RIMO\\Downloads\\ChartQA-main\\ChartQA-main\\models_cv2\\resnet18_20261117_010609_069660.pt",
+  "prediction_inputs": [
+    "image pixels",
+    "CV2 trained checkpoint",
+    "EasyOCR visible text"
+  ],
+  "reference_data_used_for_prediction": false,
+  "ocr_cache": null,
+  "ocr_texts": [
+    {
+      "text": "35",
+      "bbox": [
+        59.0,
+        40.0,
+        77.0,
+        53.0
+      ],
+      "confidence": 0.9999962910793456
+    },
+    {
+      "text": "30.4",
+      "bbox": [
+        667.0,
+        72.0,
+        697.0,
+        86.0
+      ],
+      "confidence": 0.8642207384109497
+    },
+    {
+      "text": "30",
+      "bbox": [
+        101.0,
+        73.0,
+        119.0,
+        87.0
+      ],
+      "confidence": 0.9999731947095736
+    },
+    {
+      "text": "30.3",
+      "bbox": [
+        413.0,
+        73.0,
+        442.0,
+        87.0
+      ],
+      "confidence": 0.9972829222679138
+    },
+    {
+      "text": "30.3",
+      "bbox": [
+        476.0,
+        73.0,
+        505.0,
+        87.0
+      ],
+      "confidence": 0.9975878596305847
+    },
+    {
+      "text": "30",
+      "bbox": [
+        545.0,
+        73.0,
+        565.0,
+        87.0
+      ],
+      "confidence": 0.9999595392651772
+    },
+    {
+      "text": "8",
+      "bbox": [
+        285.0,
+        75.0,
+        315.0,
+        89.0
+      ],
+      "confidence": 0.7000532625397682
+    },
+    {
+      "text": "30.2",
+      "bbox": [
+        349.0,
+        75.0,
+        378.0,
+        89.0
+      ],
+      "confidence": 0.9992992877960205
+    },
+    {
+      "text": "30.2",
+      "bbox": [
+        604.0,
+        75.0,
+        633.0,
+        89.0
+      ],
+      "confidence": 0.9992992877960205
+    },
+    {
+      "text": "2",
+      "bbox": [
+        159.0,
+        77.0,
+        186.0,
+        89.0
+      ],
+      "confidence": 0.9147011444254396
+    },
+    {
+      "text": "30-1",
+      "bbox": [
+        223.0,
+        77.0,
+        250.0,
+        89.0
+      ],
+      "confidence": 0.9319241642951965
+    },
+    {
+      "text": "30",
+      "bbox": [
+        59.0,
+        87.0,
+        77.0,
+        101.0
+      ],
+      "confidence": 0.9999868502085879
+    },
+    {
+      "text": "28.8",
+      "bbox": [
+        693.0,
+        88.0,
+        723.0,
+        101.0
+      ],
+      "confidence": 0.9879276156425476
+    },
+    {
+      "text": "3",
+      "bbox": [
+        629.0,
+        91.0,
+        659.0,
+        105.0
+      ],
+      "confidence": 0.9982932941790388
+    },
+    {
+      "text": "28.3",
+      "bbox": [
+        503.0,
+        92.0,
+        533.0,
+        106.0
+      ],
+      "confidence": 0.9941736459732056
+    },
+    {
+      "text": "128.4",
+      "bbox": [
+        565.0,
+        92.0,
+        595.0,
+        105.0
+      ],
+      "confidence": 0.9879917781057254
+    },
+    {
+      "text": "28",
+      "bbox": [
+        191.0,
+        93.0,
+        210.0,
+        106.0
+      ],
+      "confidence": 1.0
+    },
+    {
+      "text": "28",
+      "bbox": [
+        253.0,
+        93.0,
+        273.0,
+        106.0
+      ],
+      "confidence": 0.9998989648272146
+    },
+    {
+      "text": "28",
+      "bbox": [
+        317.0,
+        93.0,
+        337.0,
+        106.0
+      ],
+      "confidence": 0.9795882568560282
+    },
+    {
+      "text": "28.2",
+      "bbox": [
+        376.0,
+        93.0,
+        405.0,
+        107.0
+      ],
+      "confidence": 0.9904710054397583
+    },
+    {
+      "text": "3",
+      "bbox": [
+        439.0,
+        93.0,
+        469.0,
+        107.0
+      ],
+      "confidence": 0.8723399954042179
+    },
+    {
+      "text": "27.7",
+      "bbox": [
+        121.0,
+        97.0,
+        150.0,
+        111.0
+      ],
+      "confidence": 0.9769578576087952
+    },
+    {
+      "text": "25",
+      "bbox": [
+        59.0,
+        135.0,
+        77.0,
+        149.0
+      ],
+      "confidence": 0.9999996628252286
+    },
+    {
+      "text": "1",
+      "bbox": [
+        45.0,
+        165.0,
+        53.0,
+        193.0
+      ],
+      "confidence": 0.7827166600630484
+    },
+    {
+      "text": "20",
+      "bbox": [
+        59.0,
+        181.0,
+        77.0,
+        195.0
+      ],
+      "confidence": 0.9999912334667646
+    },
+    {
+      "text": "In",
+      "bbox": [
+        45.0,
+        194.0,
+        53.0,
+        204.0
+      ],
+      "confidence": 0.6974027656588291
+    },
+    {
+      "text": "age",
+      "bbox": [
+        45.0,
+        206.0,
+        54.0,
+        225.0
+      ],
+      "confidence": 0.9950916046137692
+    },
+    {
+      "text": "Medun",
+      "bbox": [
+        40.66035553622244,
+        225.03463660697173,
+        54.33964446377756,
+        263.96536339302827
+      ],
+      "confidence": 0.797236751475775
+    },
+    {
+      "text": "15",
+      "bbox": [
+        59.0,
+        229.0,
+        77.0,
+        243.0
+      ],
+      "confidence": 0.9998059614237738
+    },
+    {
+      "text": "10",
+      "bbox": [
+        59.0,
+        276.0,
+        77.0,
+        290.0
+      ],
+      "confidence": 0.9995051475741233
+    },
+    {
+      "text": "2010",
+      "bbox": [
+        107.0,
+        388.0,
+        138.0,
+        402.0
+      ],
+      "confidence": 0.9964861153761371
+    },
+    {
+      "text": "2011",
+      "bbox": [
+        169.0,
+        388.0,
+        201.0,
+        402.0
+      ],
+      "confidence": 0.9398679045499999
+    },
+    {
+      "text": "2012",
+      "bbox": [
+        233.0,
+        388.0,
+        265.0,
+        402.0
+      ],
+      "confidence": 0.9999983906745911
+    },
+    {
+      "text": "2013",
+      "bbox": [
+        297.0,
+        388.0,
+        329.0,
+        402.0
+      ],
+      "confidence": 0.9999920725822449
+    },
+    {
+      "text": "2014",
+      "bbox": [
+        361.0,
+        388.0,
+        393.0,
+        402.0
+      ],
+      "confidence": 0.9999946355819702
+    },
+    {
+      "text": "2015",
+      "bbox": [
+        424.0,
+        388.0,
+        457.0,
+        402.0
+      ],
+      "confidence": 0.9999988675117493
+    },
+    {
+      "text": "2016",
+      "bbox": [
+        488.0,
+        388.0,
+        521.0,
+        402.0
+      ],
+      "confidence": 0.9999954700469971
+    },
+    {
+      "text": "2017",
+      "bbox": [
+        552.0,
+        388.0,
+        583.0,
+        402.0
+      ],
+      "confidence": 0.9723924970512334
+    },
+    {
+      "text": "2018",
+      "bbox": [
+        616.0,
+        388.0,
+        647.0,
+        402.0
+      ],
+      "confidence": 0.9993333220481873
+    },
+    {
+      "text": "2019",
+      "bbox": [
+        679.0,
+        388.0,
+        711.0,
+        402.0
+      ],
+      "confidence": 0.8833980266212332
+    },
+    {
+      "text": "Grooms",
+      "bbox": [
+        332.0,
+        428.0,
+        383.0,
+        443.0
+      ],
+      "confidence": 0.9998691812113075
+    },
+    {
+      "text": "Brides",
+      "bbox": [
+        411.0,
+        428.0,
+        451.0,
+        443.0
+      ],
+      "confidence": 0.8963970362373641
+    },
+    {
+      "text": "Statista 2021",
+      "bbox": [
+        680.0,
+        488.0,
+        755.0,
+        503.0
+      ],
+      "confidence": 0.9953047456182631
+    },
+    {
+      "text": "Addirional Information",
+      "bbox": [
+        37.0,
+        512.0,
+        168.0,
+        527.0
+      ],
+      "confidence": 0.7636141566499929
+    },
+    {
+      "text": "Show source",
+      "bbox": [
+        685.0,
+        512.0,
+        761.0,
+        527.0
+      ],
+      "confidence": 0.918432806098684
+    }
+  ],
+  "rows": [
+    {
+      "category": "2015",
+      "series": "Grooms",
+      "series_id": "series_1",
+      "value": 30.120082920416625,
+      "unit": null,
+      "bar_bbox": [
+        416,
+        93,
+        440,
+        380
+      ],
+      "color": [
+        40,
+        118,
+        221
+      ],
+      "endpoint_pixel": 93.0,
+      "error": null,
+      "pixel_value_uncertainty": 0.10516735767013846
+    },
+    {
+      "category": "2016",
+      "series": "Grooms",
+      "series_id": "series_1",
+      "value": 30.120082920416625,
+      "unit": null,
+      "bar_bbox": [
+        479,
+        93,
+        503,
+        380
+      ],
+      "color": [
+        40,
+        118,
+        221
+      ],
+      "endpoint_pixel": 93.0,
+      "error": null,
+      "pixel_value_uncertainty": 0.10516735767013846
+    },
+    {
+      "category": "2019",
+      "series": "Grooms",
+      "series_id": "series_1",
+      "value": 30.22525027808676,
+      "unit": null,
+      "bar_bbox": [
+        670,
+        92,
+        694,
+        380
+      ],
+      "color": [
+        40,
+        118,
+        221
+      ],
+      "endpoint_pixel": 92.0,
+      "error": null,
+      "pixel_value_uncertainty": 0.10516735767013846
+    },
+    {
+      "category": "2011",
+      "series": "Grooms",
+      "series_id": "series_1",
+      "value": 29.909748205076347,
+      "unit": null,
+      "bar_bbox": [
+        161,
+        95,
+        185,
+        380
+      ],
+      "color": [
+        40,
+        118,
+        221
+      ],
+      "endpoint_pixel": 95.0,
+      "error": null,
+      "pixel_value_uncertainty": 0.10516735767013846
+    },
+    {
+      "category": "2012",
+      "series": "Grooms",
+      "series_id": "series_1",
+      "value": 29.909748205076347,
+      "unit": null,
+      "bar_bbox": [
+        225,
+        95,
+        249,
+        380
+      ],
+      "color": [
+        40,
+        118,
+        221
+      ],
+      "endpoint_pixel": 95.0,
+      "error": null,
+      "pixel_value_uncertainty": 0.10516735767013846
+    },
+    {
+      "category": "2013",
+      "series": "Grooms",
+      "series_id": "series_1",
+      "value": 30.014915562746488,
+      "unit": null,
+      "bar_bbox": [
+        289,
+        94,
+        313,
+        380
+      ],
+      "color": [
+        40,
+        118,
+        221
+      ],
+      "endpoint_pixel": 94.0,
+      "error": null,
+      "pixel_value_uncertainty": 0.10516735767013846
+    },
+    {
+      "category": "2014",
+      "series": "Grooms",
+      "series_id": "series_1",
+      "value": 30.014915562746488,
+      "unit": null,
+      "bar_bbox": [
+        352,
+        94,
+        376,
+        380
+      ],
+      "color": [
+        40,
+        118,
+        221
+      ],
+      "endpoint_pixel": 94.0,
+      "error": null,
+      "pixel_value_uncertainty": 0.10516735767013846
+    },
+    {
+      "category": "2018",
+      "series": "Grooms",
+      "series_id": "series_1",
+      "value": 30.014915562746488,
+      "unit": null,
+      "bar_bbox": [
+        607,
+        94,
+        631,
+        380
+      ],
+      "color": [
+        40,
+        118,
+        221
+      ],
+      "endpoint_pixel": 94.0,
+      "error": null,
+      "pixel_value_uncertainty": 0.10516735767013846
+    },
+    {
+      "category": "2010",
+      "series": "Grooms",
+      "series_id": "series_1",
+      "value": 29.804580847406207,
+      "unit": null,
+      "bar_bbox": [
+        98,
+        96,
+        122,
+        380
+      ],
+      "color": [
+        40,
+        118,
+        221
+      ],
+      "endpoint_pixel": 96.0,
+      "error": null,
+      "pixel_value_uncertainty": 0.10516735767013846
+    },
+    {
+      "category": "2017",
+      "series": "Grooms",
+      "series_id": "series_1",
+      "value": 29.804580847406207,
+      "unit": null,
+      "bar_bbox": [
+        543,
+        96,
+        567,
+        380
+      ],
+      "color": [
+        40,
+        118,
+        221
+      ],
+      "endpoint_pixel": 96.0,
+      "error": null,
+      "pixel_value_uncertainty": 0.10516735767013846
+    },
+    {
+      "category": "2019",
+      "series": "Brides",
+      "series_id": "series_2",
+      "value": 28.647739913034684,
+      "unit": null,
+      "bar_bbox": [
+        697,
+        107,
+        721,
+        380
+      ],
+      "color": [
+        15,
+        40,
+        62
+      ],
+      "endpoint_pixel": 107.0,
+      "error": null,
+      "pixel_value_uncertainty": 0.10516735767013846
+    },
+    {
+      "category": "2017",
+      "series": "Brides",
+      "series_id": "series_2",
+      "value": 28.22707048235413,
+      "unit": null,
+      "bar_bbox": [
+        569,
+        111,
+        593,
+        380
+      ],
+      "color": [
+        15,
+        40,
+        62
+      ],
+      "endpoint_pixel": 111.0,
+      "error": null,
+      "pixel_value_uncertainty": 0.10516735767013846
+    },
+    {
+      "category": "2018",
+      "series": "Brides",
+      "series_id": "series_2",
+      "value": 28.33223784002427,
+      "unit": null,
+      "bar_bbox": [
+        633,
+        110,
+        657,
+        380
+      ],
+      "color": [
+        15,
+        40,
+        62
+      ],
+      "endpoint_pixel": 110.0,
+      "error": null,
+      "pixel_value_uncertainty": 0.10516735767013846
+    },
+    {
+      "category": "2014",
+      "series": "Brides",
+      "series_id": "series_2",
+      "value": 28.016735767013856,
+      "unit": null,
+      "bar_bbox": [
+        379,
+        113,
+        403,
+        380
+      ],
+      "color": [
+        15,
+        40,
+        62
+      ],
+      "endpoint_pixel": 113.0,
+      "error": null,
+      "pixel_value_uncertainty": 0.10516735767013846
+    },
+    {
+      "category": "2015",
+      "series": "Brides",
+      "series_id": "series_2",
+      "value": 28.016735767013856,
+      "unit": null,
+      "bar_bbox": [
+        442,
+        113,
+        466,
+        380
+      ],
+      "color": [
+        15,
+        40,
+        62
+      ],
+      "endpoint_pixel": 113.0,
+      "error": null,
+      "pixel_value_uncertainty": 0.10516735767013846
+    },
+    {
+      "category": "2016",
+      "series": "Brides",
+      "series_id": "series_2",
+      "value": 28.121903124683993,
+      "unit": null,
+      "bar_bbox": [
+        506,
+        112,
+        530,
+        380
+      ],
+      "color": [
+        15,
+        40,
+        62
+      ],
+      "endpoint_pixel": 112.0,
+      "error": null,
+      "pixel_value_uncertainty": 0.10516735767013846
+    },
+    {
+      "category": "2011",
+      "series": "Brides",
+      "series_id": "series_2",
+      "value": 27.80640105167358,
+      "unit": null,
+      "bar_bbox": [
+        188,
+        115,
+        212,
+        380
+      ],
+      "color": [
+        15,
+        40,
+        62
+      ],
+      "endpoint_pixel": 115.0,
+      "error": null,
+      "pixel_value_uncertainty": 0.10516735767013846
+    },
+    {
+      "category": "2012",
+      "series": "Brides",
+      "series_id": "series_2",
+      "value": 27.80640105167358,
+      "unit": null,
+      "bar_bbox": [
+        251,
+        115,
+        275,
+        380
+      ],
+      "color": [
+        15,
+        40,
+        62
+      ],
+      "endpoint_pixel": 115.0,
+      "error": null,
+      "pixel_value_uncertainty": 0.10516735767013846
+    },
+    {
+      "category": "2013",
+      "series": "Brides",
+      "series_id": "series_2",
+      "value": 27.80640105167358,
+      "unit": null,
+      "bar_bbox": [
+        315,
+        115,
+        339,
+        380
+      ],
+      "color": [
+        15,
+        40,
+        62
+      ],
+      "endpoint_pixel": 115.0,
+      "error": null,
+      "pixel_value_uncertainty": 0.10516735767013846
+    },
+    {
+      "category": "2010",
+      "series": "Brides",
+      "series_id": "series_2",
+      "value": 27.5960663363333,
+      "unit": null,
+      "bar_bbox": [
+        124,
+        117,
+        148,
+        380
+      ],
+      "color": [
+        15,
+        40,
+        62
+      ],
+      "endpoint_pixel": 117.0,
+      "error": null,
+      "pixel_value_uncertainty": 0.10516735767013846
+    }
+  ],
+  "bars": [
+    {
+      "bbox": [
+        416,
+        93,
+        440,
+        380
+      ],
+      "color": [
+        40,
+        118,
+        221
+      ],
+      "fill_ratio": 1.0,
+      "series_id": "series_1"
+    },
+    {
+      "bbox": [
+        479,
+        93,
+        503,
+        380
+      ],
+      "color": [
+        40,
+        118,
+        221
+      ],
+      "fill_ratio": 1.0,
+      "series_id": "series_1"
+    },
+    {
+      "bbox": [
+        670,
+        92,
+        694,
+        380
+      ],
+      "color": [
+        40,
+        118,
+        221
+      ],
+      "fill_ratio": 1.0,
+      "series_id": "series_1"
+    },
+    {
+      "bbox": [
+        161,
+        95,
+        185,
+        380
+      ],
+      "color": [
+        40,
+        118,
+        221
+      ],
+      "fill_ratio": 1.0,
+      "series_id": "series_1"
+    },
+    {
+      "bbox": [
+        225,
+        95,
+        249,
+        380
+      ],
+      "color": [
+        40,
+        118,
+        221
+      ],
+      "fill_ratio": 1.0,
+      "series_id": "series_1"
+    },
+    {
+      "bbox": [
+        289,
+        94,
+        313,
+        380
+      ],
+      "color": [
+        40,
+        118,
+        221
+      ],
+      "fill_ratio": 1.0,
+      "series_id": "series_1"
+    },
+    {
+      "bbox": [
+        352,
+        94,
+        376,
+        380
+      ],
+      "color": [
+        40,
+        118,
+        221
+      ],
+      "fill_ratio": 1.0,
+      "series_id": "series_1"
+    },
+    {
+      "bbox": [
+        607,
+        94,
+        631,
+        380
+      ],
+      "color": [
+        40,
+        118,
+        221
+      ],
+      "fill_ratio": 1.0,
+      "series_id": "series_1"
+    },
+    {
+      "bbox": [
+        98,
+        96,
+        122,
+        380
+      ],
+      "color": [
+        40,
+        118,
+        221
+      ],
+      "fill_ratio": 1.0,
+      "series_id": "series_1"
+    },
+    {
+      "bbox": [
+        543,
+        96,
+        567,
+        380
+      ],
+      "color": [
+        40,
+        118,
+        221
+      ],
+      "fill_ratio": 1.0,
+      "series_id": "series_1"
+    },
+    {
+      "bbox": [
+        697,
+        107,
+        721,
+        380
+      ],
+      "color": [
+        15,
+        40,
+        62
+      ],
+      "fill_ratio": 1.0,
+      "series_id": "series_2"
+    },
+    {
+      "bbox": [
+        569,
+        111,
+        593,
+        380
+      ],
+      "color": [
+        15,
+        40,
+        62
+      ],
+      "fill_ratio": 1.0,
+      "series_id": "series_2"
+    },
+    {
+      "bbox": [
+        633,
+        110,
+        657,
+        380
+      ],
+      "color": [
+        15,
+        40,
+        62
+      ],
+      "fill_ratio": 1.0,
+      "series_id": "series_2"
+    },
+    {
+      "bbox": [
+        379,
+        113,
+        403,
+        380
+      ],
+      "color": [
+        15,
+        40,
+        62
+      ],
+      "fill_ratio": 1.0,
+      "series_id": "series_2"
+    },
+    {
+      "bbox": [
+        442,
+        113,
+        466,
+        380
+      ],
+      "color": [
+        15,
+        40,
+        62
+      ],
+      "fill_ratio": 1.0,
+      "series_id": "series_2"
+    },
+    {
+      "bbox": [
+        506,
+        112,
+        530,
+        380
+      ],
+      "color": [
+        15,
+        40,
+        62
+      ],
+      "fill_ratio": 1.0,
+      "series_id": "series_2"
+    },
+    {
+      "bbox": [
+        188,
+        115,
+        212,
+        380
+      ],
+      "color": [
+        15,
+        40,
+        62
+      ],
+      "fill_ratio": 1.0,
+      "series_id": "series_2"
+    },
+    {
+      "bbox": [
+        251,
+        115,
+        275,
+        380
+      ],
+      "color": [
+        15,
+        40,
+        62
+      ],
+      "fill_ratio": 1.0,
+      "series_id": "series_2"
+    },
+    {
+      "bbox": [
+        315,
+        115,
+        339,
+        380
+      ],
+      "color": [
+        15,
+        40,
+        62
+      ],
+      "fill_ratio": 1.0,
+      "series_id": "series_2"
+    },
+    {
+      "bbox": [
+        124,
+        117,
+        148,
+        380
+      ],
+      "color": [
+        15,
+        40,
+        62
+      ],
+      "fill_ratio": 1.0,
+      "series_id": "series_2"
+    }
+  ],
+  "categories": [
+    {
+      "text": "2010",
+      "confidence": 0.9999781847000122,
+      "bbox": [
+        108.0,
+        390.0,
+        138.0,
+        402.0
+      ],
+      "source": "CV4 targeted OCR, no reference text",
+      "position": 123.0,
+      "row": 396.0
+    },
+    {
+      "text": "2011",
+      "confidence": 0.9884613752365112,
+      "bbox": [
+        171.0,
+        390.0,
+        200.0,
+        402.0
+      ],
+      "source": "CV4 targeted OCR, no reference text",
+      "position": 185.5,
+      "row": 396.0
+    },
+    {
+      "text": "2012",
+      "confidence": 0.9999984502792358,
+      "bbox": [
+        234.0,
+        390.0,
+        265.0,
+        402.0
+      ],
+      "source": "CV4 targeted OCR, no reference text",
+      "position": 249.5,
+      "row": 396.0
+    },
+    {
+      "text": "2013",
+      "confidence": 0.9999576807022095,
+      "bbox": [
+        298.0,
+        390.0,
+        329.0,
+        402.0
+      ],
+      "source": "CV4 targeted OCR, no reference text",
+      "position": 313.5,
+      "row": 396.0
+    },
+    {
+      "text": "2014",
+      "confidence": 0.99997478723526,
+      "bbox": [
+        362.0,
+        390.0,
+        393.0,
+        402.0
+      ],
+      "source": "CV4 targeted OCR, no reference text",
+      "position": 377.5,
+      "row": 396.0
+    },
+    {
+      "text": "2015",
+      "confidence": 0.9999974966049194,
+      "bbox": [
+        425.0,
+        390.0,
+        456.0,
+        402.0
+      ],
+      "source": "CV4 targeted OCR, no reference text",
+      "position": 440.5,
+      "row": 396.0
+    },
+    {
+      "text": "2016",
+      "confidence": 0.9971464732490818,
+      "bbox": [
+        489.0,
+        389.0,
+        520.0,
+        402.0
+      ],
+      "source": "CV4 targeted OCR, no reference text",
+      "position": 504.5,
+      "row": 395.5
+    },
+    {
+      "text": "2017",
+      "confidence": 0.9999982118606567,
+      "bbox": [
+        552.0,
+        390.0,
+        583.0,
+        402.0
+      ],
+      "source": "CV4 targeted OCR, no reference text",
+      "position": 567.5,
+      "row": 396.0
+    },
+    {
+      "text": "2018",
+      "confidence": 0.9999605417251587,
+      "bbox": [
+        616.0,
+        389.0,
+        647.0,
+        402.0
+      ],
+      "source": "CV4 targeted OCR, no reference text",
+      "position": 631.5,
+      "row": 395.5
+    },
+    {
+      "text": "2019",
+      "confidence": 0.9999983310699463,
+      "bbox": [
+        680.0,
+        390.0,
+        711.0,
+        402.0
+      ],
+      "source": "CV4 targeted OCR, no reference text",
+      "position": 695.5,
+      "row": 396.0
+    }
+  ],
+  "series": {
+    "series_1": "Grooms",
+    "series_2": "Brides"
+  },
+  "calibration": {
+    "slope": -0.10516735767013846,
+    "intercept": 39.9006471837395,
+    "unit": null,
+    "rmse_ticks": 0.025139915883188015,
+    "ticks": [
+      {
+        "value": 30.0,
+        "unit": null,
+        "position": 94.0,
+        "text": "30",
+        "bbox": [
+          60.0,
+          88.0,
+          77.0,
+          100.0
+        ]
+      },
+      {
+        "value": 25.0,
+        "unit": null,
+        "position": 142.0,
+        "text": "25",
+        "bbox": [
+          60.0,
+          136.0,
+          77.0,
+          148.0
+        ]
+      },
+      {
+        "value": 20.0,
+        "unit": null,
+        "position": 189.0,
+        "text": "20",
+        "bbox": [
+          60.0,
+          183.0,
+          77.0,
+          195.0
+        ]
+      },
+      {
+        "value": 15.0,
+        "unit": null,
+        "position": 237.0,
+        "text": "15",
+        "bbox": [
+          60.0,
+          231.0,
+          77.0,
+          243.0
+        ]
+      },
+      {
+        "value": 10.0,
+        "unit": null,
+        "position": 284.0,
+        "text": "10",
+        "bbox": [
+          60.0,
+          278.0,
+          77.0,
+          290.0
+        ]
+      },
+      {
+        "value": 5.0,
+        "unit": null,
+        "position": 332.0,
+        "text": "5",
+        "bbox": [
+          68.0,
+          327.0,
+          76.0,
+          337.0
+        ]
+      }
+    ],
+    "rejected_ticks": [],
+    "mapping": "value = slope * pixel_coordinate + intercept",
+    "scale": "linear"
+  },
+  "baseline_pixel": 380.0,
+  "baseline_value": -0.06294873091311359,
+  "refined_ocr": [
+    {
+      "text": "30",
+      "confidence": 0.9999408263374898,
+      "bbox": [
+        60.0,
+        88.0,
+        77.0,
+        100.0
+      ],
+      "source": "CV4 targeted OCR, no reference text"
+    },
+    {
+      "text": "25",
+      "confidence": 0.9999992413568111,
+      "bbox": [
+        60.0,
+        136.0,
+        77.0,
+        148.0
+      ],
+      "source": "CV4 targeted OCR, no reference text"
+    },
+    {
+      "text": "1",
+      "confidence": 0.9044855273674699,
+      "bbox": [
+        44.0,
+        164.0,
+        53.0,
+        192.0
+      ],
+      "source": "CV4 targeted OCR, no reference text"
+    },
+    {
+      "text": "20",
+      "confidence": 0.9999961224921389,
+      "bbox": [
+        60.0,
+        183.0,
+        77.0,
+        195.0
+      ],
+      "source": "CV4 targeted OCR, no reference text"
+    },
+    {
+      "text": "5",
+      "confidence": 0.9314527364951495,
+      "bbox": [
+        44.0,
+        193.0,
+        52.0,
+        203.0
+      ],
+      "source": "CV4 targeted OCR, no reference text"
+    },
+    {
+      "text": "8",
+      "confidence": 0.7962389840318771,
+      "bbox": [
+        43.0,
+        206.0,
+        55.0,
+        226.0
+      ],
+      "source": "CV4 targeted OCR, no reference text"
+    },
+    {
+      "text": "15",
+      "confidence": 0.9996683204153114,
+      "bbox": [
+        60.0,
+        231.0,
+        77.0,
+        243.0
+      ],
+      "source": "CV4 targeted OCR, no reference text"
+    },
+    {
+      "text": "1",
+      "confidence": 0.5586971758960004,
+      "bbox": [
+        41.0,
+        225.0,
+        53.0,
+        263.0
+      ],
+      "source": "CV4 targeted OCR, no reference text"
+    },
+    {
+      "text": "10",
+      "confidence": 0.999916971718028,
+      "bbox": [
+        60.0,
+        278.0,
+        77.0,
+        290.0
+      ],
+      "source": "CV4 targeted OCR, no reference text"
+    },
+    {
+      "text": "5",
+      "confidence": 0.6707455800494466,
+      "bbox": [
+        68.0,
+        327.0,
+        76.0,
+        337.0
+      ],
+      "source": "CV4 targeted OCR, no reference text"
+    },
+    {
+      "text": "2010",
+      "confidence": 0.9999781847000122,
+      "bbox": [
+        108.0,
+        390.0,
+        138.0,
+        402.0
+      ],
+      "source": "CV4 targeted OCR, no reference text"
+    },
+    {
+      "text": "2011",
+      "confidence": 0.9884613752365112,
+      "bbox": [
+        171.0,
+        390.0,
+        200.0,
+        402.0
+      ],
+      "source": "CV4 targeted OCR, no reference text"
+    },
+    {
+      "text": "2012",
+      "confidence": 0.9999984502792358,
+      "bbox": [
+        234.0,
+        390.0,
+        265.0,
+        402.0
+      ],
+      "source": "CV4 targeted OCR, no reference text"
+    },
+    {
+      "text": "2013",
+      "confidence": 0.9999576807022095,
+      "bbox": [
+        298.0,
+        390.0,
+        329.0,
+        402.0
+      ],
+      "source": "CV4 targeted OCR, no reference text"
+    },
+    {
+      "text": "2014",
+      "confidence": 0.99997478723526,
+      "bbox": [
+        362.0,
+        390.0,
+        393.0,
+        402.0
+      ],
+      "source": "CV4 targeted OCR, no reference text"
+    },
+    {
+      "text": "2015",
+      "confidence": 0.9999974966049194,
+      "bbox": [
+        425.0,
+        390.0,
+        456.0,
+        402.0
+      ],
+      "source": "CV4 targeted OCR, no reference text"
+    },
+    {
+      "text": "2016",
+      "confidence": 0.9971464732490818,
+      "bbox": [
+        489.0,
+        389.0,
+        520.0,
+        402.0
+      ],
+      "source": "CV4 targeted OCR, no reference text"
+    },
+    {
+      "text": "2017",
+      "confidence": 0.9999982118606567,
+      "bbox": [
+        552.0,
+        390.0,
+        583.0,
+        402.0
+      ],
+      "source": "CV4 targeted OCR, no reference text"
+    },
+    {
+      "text": "2018",
+      "confidence": 0.9999605417251587,
+      "bbox": [
+        616.0,
+        389.0,
+        647.0,
+        402.0
+      ],
+      "source": "CV4 targeted OCR, no reference text"
+    },
+    {
+      "text": "2019",
+      "confidence": 0.9999983310699463,
+      "bbox": [
+        680.0,
+        390.0,
+        711.0,
+        402.0
+      ],
+      "source": "CV4 targeted OCR, no reference text"
+    },
+    {
+      "text": "Grooms",
+      "confidence": 0.6268845050022112,
+      "bbox": [
+        332.0,
+        430.0,
+        383.0,
+        443.0
+      ],
+      "source": "CV4 targeted OCR, no reference text"
+    },
+    {
+      "text": "Brides",
+      "confidence": 0.9999681716755732,
+      "bbox": [
+        412.0,
+        430.0,
+        452.0,
+        443.0
+      ],
+      "source": "CV4 targeted OCR, no reference text"
+    }
+  ],
+  "errors": [],
+  "uncertainties": [
+    "Rectangle plein seulement ; ombres, petites barres et objets non rectangulaires peuvent être manqués."
+  ],
+  "status": "success"
+}

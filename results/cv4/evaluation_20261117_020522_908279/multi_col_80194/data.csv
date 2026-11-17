@@ -1,0 +1,16 @@
+﻿category,series,series_id,value,unit,error
+From home,35-44,series_1,5521.410234828718,,
+Live event,35-44,series_1,3794.367056645062,,
+Don't watch sports,35-44,series_1,,,endpoint_outside_validated_scale
+From home,Total,series_2,5521.410234828718,,
+Live event,Total,series_2,3502.472434980219,,
+Don't watch sports,Total,series_2,,,endpoint_outside_validated_scale
+Live event,18-34,series_3,5326.813820385489,,
+From home,18-34,series_3,3988.963471088291,,
+Don't watch sports,18-34,series_3,,,endpoint_outside_validated_scale
+From home,45-54,series_4,5813.304856493561,,
+Live event,45-54,series_4,2991.6568470667435,,
+Don't watch sports,45-54,series_4,,,endpoint_outside_validated_scale
+From home,55+,series_5,6543.041410655669,,
+Live event,55+,series_5,1970.0256712397922,,
+Don't watch sports,55+,series_5,,,endpoint_outside_validated_scale

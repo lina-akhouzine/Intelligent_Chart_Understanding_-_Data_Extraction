@@ -1,0 +1,516 @@
+{
+  "schema_version": 1,
+  "image": "two_col_60392.png",
+  "source": "C:\\Users\\ELECTRO-RIMO\\Downloads\\ChartQA-main\\ChartQA-main\\ChartQA Dataset\\test\\png\\two_col_60392.png",
+  "source_sha256": "a28fcd647c39256ae94f807c284003ca9cfdf9bebb78ae305bcfb5927c4cc4bc",
+  "width": 800,
+  "height": 557,
+  "engine": "EasyOCR 1.7.2 / en",
+  "chart_type": "pie",
+  "chart_type_source": "CV2 checkpoint prediction",
+  "chart_probabilities": {
+    "v_bar": 2.2145534295248126e-09,
+    "h_bar": 7.3144801326918696e-09,
+    "line": 3.2998997978594957e-10,
+    "pie": 1.0
+  },
+  "variants": [
+    "original",
+    "clahe"
+  ],
+  "texts": [
+    {
+      "text": "don*t keep myself updated 2%",
+      "bbox": [
+        159.0,
+        56.0,
+        343.0,
+        74.0
+      ],
+      "polygon": [
+        [
+          159.0,
+          56.0
+        ],
+        [
+          343.0,
+          56.0
+        ],
+        [
+          343.0,
+          74.0
+        ],
+        [
+          159.0,
+          74.0
+        ]
+      ],
+      "confidence": 0.5584162393493952,
+      "variant": "clahe",
+      "variants": [
+        "clahe",
+        "original"
+      ],
+      "alternatives": [
+        {
+          "text": "1",
+          "confidence": 0.509253174164602,
+          "variant": "original"
+        }
+      ],
+      "role": "title",
+      "role_confidence": 0.6,
+      "role_source": "geometry",
+      "role_reason": "texte large en haut",
+      "annotation_assistance": {
+        "role": "other",
+        "iou": 0.8511627906976744,
+        "field": "models[6].text_label",
+        "source": "official_region"
+      }
+    },
+    {
+      "text": "Other 4%",
+      "bbox": [
+        196.0,
+        85.0,
+        254.0,
+        99.0
+      ],
+      "polygon": [
+        [
+          196.0,
+          85.0
+        ],
+        [
+          254.0,
+          85.0
+        ],
+        [
+          254.0,
+          99.0
+        ],
+        [
+          196.0,
+          99.0
+        ]
+      ],
+      "confidence": 0.9207449363399561,
+      "variant": "clahe",
+      "variants": [
+        "clahe",
+        "original"
+      ],
+      "alternatives": [
+        {
+          "text": "Other 4%",
+          "confidence": 0.8934854900025622,
+          "variant": "original"
+        }
+      ],
+      "role": "unknown",
+      "role_confidence": 0.25,
+      "role_source": "geometry",
+      "role_reason": "secteur sans axes : tranche ou légende indéterminée",
+      "annotation_assistance": {
+        "role": "other",
+        "iou": 0.8275862068965517,
+        "field": "models[5].text_label",
+        "source": "official_region"
+      }
+    },
+    {
+      "text": "Newspapers 626",
+      "bbox": [
+        121.0,
+        111.0,
+        218.0,
+        130.0
+      ],
+      "polygon": [
+        [
+          121.0,
+          111.0
+        ],
+        [
+          218.0,
+          111.0
+        ],
+        [
+          218.0,
+          130.0
+        ],
+        [
+          121.0,
+          130.0
+        ]
+      ],
+      "confidence": 0.592098650142482,
+      "variant": "clahe",
+      "variants": [
+        "clahe",
+        "original"
+      ],
+      "alternatives": [
+        {
+          "text": "Newspapers 626",
+          "confidence": 0.5744745372494614,
+          "variant": "original"
+        }
+      ],
+      "role": "unknown",
+      "role_confidence": 0.25,
+      "role_source": "geometry",
+      "role_reason": "secteur sans axes : tranche ou légende indéterminée",
+      "annotation_assistance": {
+        "role": "other",
+        "iou": 0.7216494845360825,
+        "field": "models[4].text_label",
+        "source": "official_region"
+      }
+    },
+    {
+      "text": "1",
+      "bbox": [
+        73.0,
+        140.0,
+        195.0,
+        157.0
+      ],
+      "polygon": [
+        [
+          73.0,
+          140.0
+        ],
+        [
+          195.0,
+          140.0
+        ],
+        [
+          195.0,
+          157.0
+        ],
+        [
+          73.0,
+          157.0
+        ]
+      ],
+      "confidence": 0.45583988636608197,
+      "variant": "original",
+      "variants": [
+        "original",
+        "clahe"
+      ],
+      "alternatives": [
+        {
+          "text": "Friends & family 726",
+          "confidence": 0.4345016195978484,
+          "variant": "clahe"
+        }
+      ],
+      "role": "unknown",
+      "role_confidence": 0.25,
+      "role_source": "geometry",
+      "role_reason": "secteur sans axes : tranche ou légende indéterminée",
+      "annotation_assistance": {
+        "role": "other",
+        "iou": 0.9257473481195757,
+        "field": "models[3].text_label",
+        "source": "official_region"
+      }
+    },
+    {
+      "text": "Internet 355",
+      "bbox": [
+        593.0,
+        160.0,
+        673.0,
+        175.0
+      ],
+      "polygon": [
+        [
+          593.0,
+          160.0
+        ],
+        [
+          673.0,
+          160.0
+        ],
+        [
+          673.0,
+          175.0
+        ],
+        [
+          593.0,
+          175.0
+        ]
+      ],
+      "confidence": 0.6740134907716617,
+      "variant": "clahe",
+      "variants": [
+        "clahe",
+        "original"
+      ],
+      "alternatives": [
+        {
+          "text": "Internet 355",
+          "confidence": 0.6153712720693653,
+          "variant": "original"
+        }
+      ],
+      "role": "unknown",
+      "role_confidence": 0.25,
+      "role_source": "geometry",
+      "role_reason": "secteur sans axes : tranche ou légende indéterminée",
+      "annotation_assistance": {
+        "role": "other",
+        "iou": 0.845,
+        "field": "models[0].text_label",
+        "source": "official_region"
+      }
+    },
+    {
+      "text": "Television 21%",
+      "bbox": [
+        73.0,
+        301.0,
+        166.0,
+        317.0
+      ],
+      "polygon": [
+        [
+          73.0,
+          301.0
+        ],
+        [
+          166.0,
+          301.0
+        ],
+        [
+          166.0,
+          317.0
+        ],
+        [
+          73.0,
+          317.0
+        ]
+      ],
+      "confidence": 0.5911547157989817,
+      "variant": "clahe",
+      "variants": [
+        "clahe",
+        "original"
+      ],
+      "alternatives": [
+        {
+          "text": "Television 21%",
+          "confidence": 0.5055077687565659,
+          "variant": "original"
+        }
+      ],
+      "role": "unknown",
+      "role_confidence": 0.25,
+      "role_source": "geometry",
+      "role_reason": "secteur sans axes : tranche ou légende indéterminée",
+      "annotation_assistance": {
+        "role": "other",
+        "iou": 0.8561827956989247,
+        "field": "models[2].text_label",
+        "source": "official_region"
+      }
+    },
+    {
+      "text": "Social media 269",
+      "bbox": [
+        451.0,
+        443.0,
+        559.0,
+        458.0
+      ],
+      "polygon": [
+        [
+          451.0,
+          443.0
+        ],
+        [
+          559.0,
+          443.0
+        ],
+        [
+          559.0,
+          458.0
+        ],
+        [
+          451.0,
+          458.0
+        ]
+      ],
+      "confidence": 0.6858447233560893,
+      "variant": "clahe",
+      "variants": [
+        "clahe",
+        "original"
+      ],
+      "alternatives": [
+        {
+          "text": "Social media 269",
+          "confidence": 0.6593058981266202,
+          "variant": "original"
+        }
+      ],
+      "role": "unknown",
+      "role_confidence": 0.25,
+      "role_source": "geometry",
+      "role_reason": "secteur sans axes : tranche ou légende indéterminée",
+      "annotation_assistance": {
+        "role": "other",
+        "iou": 0.8506172839506173,
+        "field": "models[1].text_label",
+        "source": "official_region"
+      }
+    },
+    {
+      "text": "Statista 2021",
+      "bbox": [
+        681.0,
+        488.0,
+        757.0,
+        503.0
+      ],
+      "polygon": [
+        [
+          681.0,
+          488.0
+        ],
+        [
+          757.0,
+          488.0
+        ],
+        [
+          757.0,
+          503.0
+        ],
+        [
+          681.0,
+          503.0
+        ]
+      ],
+      "confidence": 0.9995992584275541,
+      "variant": "clahe",
+      "variants": [
+        "clahe",
+        "original"
+      ],
+      "alternatives": [
+        {
+          "text": "Statista 2021",
+          "confidence": 0.9929290980442758,
+          "variant": "original"
+        }
+      ],
+      "role": "unknown",
+      "role_confidence": 0.25,
+      "role_source": "geometry",
+      "role_reason": "secteur sans axes : tranche ou légende indéterminée",
+      "annotation_assistance": null
+    },
+    {
+      "text": "Additional Information",
+      "bbox": [
+        39.0,
+        512.0,
+        169.0,
+        527.0
+      ],
+      "polygon": [
+        [
+          39.0,
+          512.0
+        ],
+        [
+          169.0,
+          512.0
+        ],
+        [
+          169.0,
+          527.0
+        ],
+        [
+          39.0,
+          527.0
+        ]
+      ],
+      "confidence": 0.8352090586380406,
+      "variant": "clahe",
+      "variants": [
+        "clahe",
+        "original"
+      ],
+      "alternatives": [
+        {
+          "text": "Addirional Information",
+          "confidence": 0.7170720258575336,
+          "variant": "original"
+        }
+      ],
+      "role": "unknown",
+      "role_confidence": 0.25,
+      "role_source": "geometry",
+      "role_reason": "secteur sans axes : tranche ou légende indéterminée",
+      "annotation_assistance": null
+    },
+    {
+      "text": "Show source",
+      "bbox": [
+        685.0,
+        512.0,
+        762.0,
+        527.0
+      ],
+      "polygon": [
+        [
+          685.0,
+          512.0
+        ],
+        [
+          762.0,
+          512.0
+        ],
+        [
+          762.0,
+          527.0
+        ],
+        [
+          685.0,
+          527.0
+        ]
+      ],
+      "confidence": 0.9440108293303475,
+      "variant": "original",
+      "variants": [
+        "original",
+        "clahe"
+      ],
+      "alternatives": [
+        {
+          "text": "Show source 0",
+          "confidence": 0.9219774553457821,
+          "variant": "clahe"
+        }
+      ],
+      "role": "unknown",
+      "role_confidence": 0.25,
+      "role_source": "geometry",
+      "role_reason": "secteur sans axes : tranche ou légende indéterminée",
+      "annotation_assistance": null
+    }
+  ],
+  "errors": [],
+  "uncertainties": [
+    "Certains textes ont une confiance OCR inférieure à 0.5.",
+    "Hypothèses concurrentes entre variantes : consulter alternatives."
+  ],
+  "seconds": 14.429425399983302,
+  "scope": "Visible text only. Numeric OCR strings are NOT extracted chart data.",
+  "annotation_assistance": "regions/roles only; reference text never fed into OCR"
+}

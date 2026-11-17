@@ -1,0 +1,13 @@
+{
+  "image": "C:\\Users\\ELECTRO-RIMO\\Downloads\\ChartQA-main\\ChartQA-main\\ChartQA Dataset\\test\\png\\two_col_4223.png",
+  "prediction": "pie",
+  "probabilities": {
+    "v_bar": 2.234052544736187e-06,
+    "h_bar": 5.199964903113141e-09,
+    "line": 7.197297202665709e-10,
+    "pie": 0.9999977350234985
+  },
+  "checkpoint": "C:\\Users\\ELECTRO-RIMO\\Downloads\\ChartQA-main\\ChartQA-main\\models_cv2\\resnet18_20261117_010609_069660.pt",
+  "trained": true,
+  "epoch": 20
+}

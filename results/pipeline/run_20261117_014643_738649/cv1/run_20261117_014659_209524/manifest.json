@@ -1,0 +1,11 @@
+[
+  {
+    "source": "C:\\Users\\ELECTRO-RIMO\\Downloads\\ChartQA-main\\ChartQA-main\\ChartQA Dataset\\test\\png\\two_col_4223.png",
+    "sha256": "ce82ea32432bb15c66ca9ceab777f974c237dbae295a6afb9e89960a5aa0211a",
+    "width": 800,
+    "height": 557,
+    "output": "C:\\Users\\ELECTRO-RIMO\\Downloads\\ChartQA-main\\ChartQA-main\\results\\pipeline\\run_20261117_014643_738649\\cv1\\run_20261117_014659_209524\\01_two_col_4223",
+    "binary_black_fraction": 0.042192549371633754,
+    "checks": "PNG reload, dimensions, pixel equality, binary values, source hash: OK"
+  }
+]

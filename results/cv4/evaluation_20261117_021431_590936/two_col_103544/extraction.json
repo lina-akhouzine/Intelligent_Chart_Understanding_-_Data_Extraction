@@ -1,0 +1,1584 @@
+{
+  "image": "two_col_103544.png",
+  "source": "C:\\Users\\ELECTRO-RIMO\\Downloads\\ChartQA-main\\ChartQA-main\\ChartQA Dataset\\test\\png\\two_col_103544.png",
+  "source_sha256": "c5701cf236ec40ecf227aef8e6c3f5b6e9a7bd0d4450df0e25aa2d4b94855ab6",
+  "chart_type": "v_bar",
+  "cv2_chart_type": "v_bar",
+  "orientation_correction": null,
+  "chart_probabilities": {
+    "v_bar": 0.9990955591201782,
+    "h_bar": 0.0009034769027493894,
+    "line": 5.261013029667083e-07,
+    "pie": 4.3311007402735413e-07
+  },
+  "checkpoint": "C:\\Users\\ELECTRO-RIMO\\Downloads\\ChartQA-main\\ChartQA-main\\models_cv2\\resnet18_20261117_010609_069660.pt",
+  "prediction_inputs": [
+    "image pixels",
+    "CV2 trained checkpoint",
+    "EasyOCR visible text"
+  ],
+  "reference_data_used_for_prediction": false,
+  "ocr_cache": "C:\\Users\\ELECTRO-RIMO\\Downloads\\ChartQA-main\\ChartQA-main\\results\\cv4\\evaluation_20261117_020522_908279\\two_col_103544\\extraction.json",
+  "ocr_texts": [
+    {
+      "text": "1",
+      "bbox": [
+        60.0,
+        39.0,
+        126.0,
+        54.0
+      ],
+      "confidence": 0.7808980077050229
+    },
+    {
+      "text": "10 00o 000",
+      "bbox": [
+        60.0,
+        113.0,
+        126.0,
+        127.0
+      ],
+      "confidence": 0.6044198520641499
+    },
+    {
+      "text": "departurs",
+      "bbox": [
+        44.0,
+        121.0,
+        53.0,
+        176.0
+      ],
+      "confidence": 0.5114397176542019
+    },
+    {
+      "text": "1",
+      "bbox": [
+        40.72527887210262,
+        175.03463660697173,
+        55.27472112789738,
+        213.96536339302827
+      ],
+      "confidence": 0.918395428208644
+    },
+    {
+      "text": "7 500 00o",
+      "bbox": [
+        68.0,
+        188.0,
+        127.0,
+        202.0
+      ],
+      "confidence": 0.5743469232656556
+    },
+    {
+      "text": "scheduled",
+      "bbox": [
+        41.0,
+        215.0,
+        53.0,
+        267.0
+      ],
+      "confidence": 0.9250896632030586
+    },
+    {
+      "text": "1",
+      "bbox": [
+        68.0,
+        263.0,
+        126.0,
+        277.0
+      ],
+      "confidence": 0.6068673491562926
+    },
+    {
+      "text": "9",
+      "bbox": [
+        45.0,
+        268.0,
+        53.0,
+        290.0
+      ],
+      "confidence": 0.5140016611824336
+    },
+    {
+      "text": "Num ber of",
+      "bbox": [
+        41.0,
+        290.0,
+        55.0,
+        347.0
+      ],
+      "confidence": 0.9587865427192387
+    },
+    {
+      "text": "2 500 000",
+      "bbox": [
+        68.0,
+        337.0,
+        126.0,
+        351.0
+      ],
+      "confidence": 0.6626066267342877
+    },
+    {
+      "text": "2012",
+      "bbox": [
+        453.719631200671,
+        427.11401933283423,
+        490.280368799329,
+        464.88598066716577
+      ],
+      "confidence": 0.9995065927505493
+    },
+    {
+      "text": "2018",
+      "bbox": [
+        649.7196312006711,
+        427.11401933283423,
+        686.2803687993289,
+        464.88598066716577
+      ],
+      "confidence": 0.9999311566352844
+    },
+    {
+      "text": "2019",
+      "bbox": [
+        681.7196312006711,
+        427.11401933283423,
+        718.2803687993289,
+        464.88598066716577
+      ],
+      "confidence": 0.9993399977684021
+    },
+    {
+      "text": "8",
+      "bbox": [
+        192.71963120067105,
+        427.1318963302978,
+        229.28036879932895,
+        464.8681036697022
+      ],
+      "confidence": 0.9897173506406034
+    },
+    {
+      "text": "2010",
+      "bbox": [
+        388.719631200671,
+        427.1318963302978,
+        425.280368799329,
+        464.8681036697022
+      ],
+      "confidence": 0.9929323792457581
+    },
+    {
+      "text": "2014",
+      "bbox": [
+        518.7196312006711,
+        427.1318963302978,
+        555.2803687993289,
+        464.8681036697022
+      ],
+      "confidence": 0.9997705221176147
+    },
+    {
+      "text": "2016",
+      "bbox": [
+        584.7196312006711,
+        427.1318963302978,
+        621.2803687993289,
+        464.8681036697022
+      ],
+      "confidence": 0.9683280808682726
+    },
+    {
+      "text": "2011",
+      "bbox": [
+        420.719631200671,
+        428.11401933283423,
+        457.280368799329,
+        465.88598066716577
+      ],
+      "confidence": 0.991568386554718
+    },
+    {
+      "text": "2015",
+      "bbox": [
+        551.7805784783006,
+        428.11401933283423,
+        588.2194215216994,
+        465.88598066716577
+      ],
+      "confidence": 0.9998502135276794
+    },
+    {
+      "text": "1995",
+      "bbox": [
+        160.71963120067105,
+        428.12041315302315,
+        196.28036879932895,
+        464.87958684697685
+      ],
+      "confidence": 0.9999343156814575
+    },
+    {
+      "text": "2007",
+      "bbox": [
+        290.719631200671,
+        428.12041315302315,
+        327.280368799329,
+        464.87958684697685
+      ],
+      "confidence": 0.9998142123222351
+    },
+    {
+      "text": "2",
+      "bbox": [
+        128.71963120067105,
+        428.12734164486193,
+        163.28036879932895,
+        463.87265835513807
+      ],
+      "confidence": 0.7909749051328987
+    },
+    {
+      "text": "2009",
+      "bbox": [
+        356.719631200671,
+        428.12734164486193,
+        391.280368799329,
+        463.87265835513807
+      ],
+      "confidence": 0.9953475594520569
+    },
+    {
+      "text": "2013",
+      "bbox": [
+        486.78057847830064,
+        428.1318963302978,
+        523.2194215216994,
+        465.8681036697022
+      ],
+      "confidence": 0.9390970468521118
+    },
+    {
+      "text": "2006",
+      "bbox": [
+        258.78057847830064,
+        428.1391832143658,
+        294.21942152169936,
+        464.8608167856342
+      ],
+      "confidence": 0.9989835987590965
+    },
+    {
+      "text": "2008",
+      "bbox": [
+        323.78057847830064,
+        428.1391832143658,
+        359.21942152169936,
+        464.8608167856342
+      ],
+      "confidence": 0.9995719790458679
+    },
+    {
+      "text": "2017",
+      "bbox": [
+        616.7805784783006,
+        428.1391832143658,
+        652.2194215216994,
+        464.8608167856342
+      ],
+      "confidence": 0.9999744296073914
+    },
+    {
+      "text": "2005",
+      "bbox": [
+        224.5857864376269,
+        428.16768533019564,
+        261.4142135623731,
+        463.83231466980436
+      ],
+      "confidence": 0.8863243460655212
+    },
+    {
+      "text": "Statista 2021",
+      "bbox": [
+        681.0,
+        488.0,
+        757.0,
+        503.0
+      ],
+      "confidence": 0.9366004071909034
+    },
+    {
+      "text": "Additional Information",
+      "bbox": [
+        37.0,
+        512.0,
+        168.0,
+        527.0
+      ],
+      "confidence": 0.9387540781665618
+    },
+    {
+      "text": "Show source",
+      "bbox": [
+        685.0,
+        512.0,
+        762.0,
+        527.0
+      ],
+      "confidence": 0.8743158824320638
+    }
+  ],
+  "rows": [
+    {
+      "category": "8",
+      "series": null,
+      "series_id": "series_1",
+      "value": null,
+      "unit": null,
+      "bar_bbox": [
+        308,
+        85,
+        331,
+        420
+      ],
+      "color": [
+        40,
+        118,
+        221
+      ],
+      "endpoint_pixel": 85.0,
+      "error": "ambiguous_multiple_bars_for_cell",
+      "pixel_value_uncertainty": null
+    },
+    {
+      "category": "2005",
+      "series": null,
+      "series_id": "series_1",
+      "value": null,
+      "unit": null,
+      "bar_bbox": [
+        243,
+        86,
+        266,
+        420
+      ],
+      "color": [
+        40,
+        118,
+        221
+      ],
+      "endpoint_pixel": 86.0,
+      "error": "calibration_failed",
+      "pixel_value_uncertainty": null
+    },
+    {
+      "category": "2006",
+      "series": null,
+      "series_id": "series_1",
+      "value": null,
+      "unit": null,
+      "bar_bbox": [
+        276,
+        93,
+        299,
+        420
+      ],
+      "color": [
+        40,
+        118,
+        221
+      ],
+      "endpoint_pixel": 93.0,
+      "error": "calibration_failed",
+      "pixel_value_uncertainty": null
+    },
+    {
+      "category": "2008",
+      "series": null,
+      "series_id": "series_1",
+      "value": null,
+      "unit": null,
+      "bar_bbox": [
+        341,
+        101,
+        364,
+        420
+      ],
+      "color": [
+        40,
+        118,
+        221
+      ],
+      "endpoint_pixel": 101.0,
+      "error": "calibration_failed",
+      "pixel_value_uncertainty": null
+    },
+    {
+      "category": "2009",
+      "series": null,
+      "series_id": "series_1",
+      "value": null,
+      "unit": null,
+      "bar_bbox": [
+        373,
+        123,
+        396,
+        420
+      ],
+      "color": [
+        40,
+        118,
+        221
+      ],
+      "endpoint_pixel": 123.0,
+      "error": "calibration_failed",
+      "pixel_value_uncertainty": null
+    },
+    {
+      "category": "2010",
+      "series": null,
+      "series_id": "series_1",
+      "value": null,
+      "unit": null,
+      "bar_bbox": [
+        406,
+        125,
+        429,
+        420
+      ],
+      "color": [
+        40,
+        118,
+        221
+      ],
+      "endpoint_pixel": 125.0,
+      "error": "calibration_failed",
+      "pixel_value_uncertainty": null
+    },
+    {
+      "category": "2011",
+      "series": null,
+      "series_id": "series_1",
+      "value": null,
+      "unit": null,
+      "bar_bbox": [
+        439,
+        127,
+        462,
+        420
+      ],
+      "color": [
+        40,
+        118,
+        221
+      ],
+      "endpoint_pixel": 127.0,
+      "error": "calibration_failed",
+      "pixel_value_uncertainty": null
+    },
+    {
+      "category": "2012",
+      "series": null,
+      "series_id": "series_1",
+      "value": null,
+      "unit": null,
+      "bar_bbox": [
+        471,
+        135,
+        494,
+        420
+      ],
+      "color": [
+        40,
+        118,
+        221
+      ],
+      "endpoint_pixel": 135.0,
+      "error": "calibration_failed",
+      "pixel_value_uncertainty": null
+    },
+    {
+      "category": "2019",
+      "series": null,
+      "series_id": "series_1",
+      "value": null,
+      "unit": null,
+      "bar_bbox": [
+        700,
+        139,
+        723,
+        420
+      ],
+      "color": [
+        40,
+        118,
+        221
+      ],
+      "endpoint_pixel": 139.0,
+      "error": "calibration_failed",
+      "pixel_value_uncertainty": null
+    },
+    {
+      "category": "2018",
+      "series": null,
+      "series_id": "series_1",
+      "value": null,
+      "unit": null,
+      "bar_bbox": [
+        667,
+        146,
+        690,
+        420
+      ],
+      "color": [
+        40,
+        118,
+        221
+      ],
+      "endpoint_pixel": 146.0,
+      "error": "calibration_failed",
+      "pixel_value_uncertainty": null
+    },
+    {
+      "category": "2000",
+      "series": null,
+      "series_id": "series_1",
+      "value": null,
+      "unit": null,
+      "bar_bbox": [
+        210,
+        150,
+        233,
+        420
+      ],
+      "color": [
+        40,
+        118,
+        221
+      ],
+      "endpoint_pixel": 150.0,
+      "error": "calibration_failed",
+      "pixel_value_uncertainty": null
+    },
+    {
+      "category": "2016",
+      "series": null,
+      "series_id": "series_1",
+      "value": null,
+      "unit": null,
+      "bar_bbox": [
+        602,
+        153,
+        625,
+        420
+      ],
+      "color": [
+        40,
+        118,
+        221
+      ],
+      "endpoint_pixel": 153.0,
+      "error": "calibration_failed",
+      "pixel_value_uncertainty": null
+    },
+    {
+      "category": "8",
+      "series": null,
+      "series_id": "series_1",
+      "value": null,
+      "unit": null,
+      "bar_bbox": [
+        634,
+        152,
+        657,
+        420
+      ],
+      "color": [
+        40,
+        118,
+        221
+      ],
+      "endpoint_pixel": 152.0,
+      "error": "ambiguous_multiple_bars_for_cell",
+      "pixel_value_uncertainty": null
+    },
+    {
+      "category": "2013",
+      "series": null,
+      "series_id": "series_1",
+      "value": null,
+      "unit": null,
+      "bar_bbox": [
+        504,
+        155,
+        527,
+        420
+      ],
+      "color": [
+        40,
+        118,
+        221
+      ],
+      "endpoint_pixel": 155.0,
+      "error": "calibration_failed",
+      "pixel_value_uncertainty": null
+    },
+    {
+      "category": "2014",
+      "series": null,
+      "series_id": "series_1",
+      "value": null,
+      "unit": null,
+      "bar_bbox": [
+        536,
+        158,
+        559,
+        420
+      ],
+      "color": [
+        40,
+        118,
+        221
+      ],
+      "endpoint_pixel": 158.0,
+      "error": "calibration_failed",
+      "pixel_value_uncertainty": null
+    },
+    {
+      "category": "2015",
+      "series": null,
+      "series_id": "series_1",
+      "value": null,
+      "unit": null,
+      "bar_bbox": [
+        569,
+        158,
+        592,
+        420
+      ],
+      "color": [
+        40,
+        118,
+        221
+      ],
+      "endpoint_pixel": 158.0,
+      "error": "calibration_failed",
+      "pixel_value_uncertainty": null
+    },
+    {
+      "category": "1995",
+      "series": null,
+      "series_id": "series_1",
+      "value": null,
+      "unit": null,
+      "bar_bbox": [
+        178,
+        175,
+        201,
+        420
+      ],
+      "color": [
+        40,
+        118,
+        221
+      ],
+      "endpoint_pixel": 175.0,
+      "error": "calibration_failed",
+      "pixel_value_uncertainty": null
+    },
+    {
+      "category": "1991",
+      "series": null,
+      "series_id": "series_1",
+      "value": null,
+      "unit": null,
+      "bar_bbox": [
+        145,
+        215,
+        168,
+        420
+      ],
+      "color": [
+        40,
+        118,
+        221
+      ],
+      "endpoint_pixel": 215.0,
+      "error": "calibration_failed",
+      "pixel_value_uncertainty": null
+    }
+  ],
+  "bars": [
+    {
+      "bbox": [
+        308,
+        85,
+        331,
+        420
+      ],
+      "color": [
+        40,
+        118,
+        221
+      ],
+      "fill_ratio": 1.0,
+      "series_id": "series_1"
+    },
+    {
+      "bbox": [
+        243,
+        86,
+        266,
+        420
+      ],
+      "color": [
+        40,
+        118,
+        221
+      ],
+      "fill_ratio": 1.0,
+      "series_id": "series_1"
+    },
+    {
+      "bbox": [
+        276,
+        93,
+        299,
+        420
+      ],
+      "color": [
+        40,
+        118,
+        221
+      ],
+      "fill_ratio": 1.0,
+      "series_id": "series_1"
+    },
+    {
+      "bbox": [
+        341,
+        101,
+        364,
+        420
+      ],
+      "color": [
+        40,
+        118,
+        221
+      ],
+      "fill_ratio": 1.0,
+      "series_id": "series_1"
+    },
+    {
+      "bbox": [
+        373,
+        123,
+        396,
+        420
+      ],
+      "color": [
+        40,
+        118,
+        221
+      ],
+      "fill_ratio": 1.0,
+      "series_id": "series_1"
+    },
+    {
+      "bbox": [
+        406,
+        125,
+        429,
+        420
+      ],
+      "color": [
+        40,
+        118,
+        221
+      ],
+      "fill_ratio": 1.0,
+      "series_id": "series_1"
+    },
+    {
+      "bbox": [
+        439,
+        127,
+        462,
+        420
+      ],
+      "color": [
+        40,
+        118,
+        221
+      ],
+      "fill_ratio": 1.0,
+      "series_id": "series_1"
+    },
+    {
+      "bbox": [
+        471,
+        135,
+        494,
+        420
+      ],
+      "color": [
+        40,
+        118,
+        221
+      ],
+      "fill_ratio": 1.0,
+      "series_id": "series_1"
+    },
+    {
+      "bbox": [
+        700,
+        139,
+        723,
+        420
+      ],
+      "color": [
+        40,
+        118,
+        221
+      ],
+      "fill_ratio": 1.0,
+      "series_id": "series_1"
+    },
+    {
+      "bbox": [
+        667,
+        146,
+        690,
+        420
+      ],
+      "color": [
+        40,
+        118,
+        221
+      ],
+      "fill_ratio": 1.0,
+      "series_id": "series_1"
+    },
+    {
+      "bbox": [
+        210,
+        150,
+        233,
+        420
+      ],
+      "color": [
+        40,
+        118,
+        221
+      ],
+      "fill_ratio": 1.0,
+      "series_id": "series_1"
+    },
+    {
+      "bbox": [
+        602,
+        153,
+        625,
+        420
+      ],
+      "color": [
+        40,
+        118,
+        221
+      ],
+      "fill_ratio": 1.0,
+      "series_id": "series_1"
+    },
+    {
+      "bbox": [
+        634,
+        152,
+        657,
+        420
+      ],
+      "color": [
+        40,
+        118,
+        221
+      ],
+      "fill_ratio": 1.0,
+      "series_id": "series_1"
+    },
+    {
+      "bbox": [
+        504,
+        155,
+        527,
+        420
+      ],
+      "color": [
+        40,
+        118,
+        221
+      ],
+      "fill_ratio": 1.0,
+      "series_id": "series_1"
+    },
+    {
+      "bbox": [
+        536,
+        158,
+        559,
+        420
+      ],
+      "color": [
+        40,
+        118,
+        221
+      ],
+      "fill_ratio": 1.0,
+      "series_id": "series_1"
+    },
+    {
+      "bbox": [
+        569,
+        158,
+        592,
+        420
+      ],
+      "color": [
+        40,
+        118,
+        221
+      ],
+      "fill_ratio": 1.0,
+      "series_id": "series_1"
+    },
+    {
+      "bbox": [
+        178,
+        175,
+        201,
+        420
+      ],
+      "color": [
+        40,
+        118,
+        221
+      ],
+      "fill_ratio": 1.0,
+      "series_id": "series_1"
+    },
+    {
+      "bbox": [
+        145,
+        215,
+        168,
+        420
+      ],
+      "color": [
+        40,
+        118,
+        221
+      ],
+      "fill_ratio": 1.0,
+      "series_id": "series_1"
+    }
+  ],
+  "categories": [
+    {
+      "text": "1991",
+      "confidence": 0.8059366284891988,
+      "bbox": [
+        129.71963120067105,
+        430.12734164486193,
+        164.28036879932895,
+        465.87265835513807
+      ],
+      "source": "CV4 targeted OCR, no reference text",
+      "position": 147.0,
+      "row": 448.0
+    },
+    {
+      "text": "1995",
+      "confidence": 0.999887228012085,
+      "bbox": [
+        161.71963120067105,
+        429.1470668457554,
+        197.28036879932895,
+        464.8529331542446
+      ],
+      "source": "CV4 targeted OCR, no reference text",
+      "position": 179.5,
+      "row": 447.0
+    },
+    {
+      "text": "2000",
+      "confidence": 0.9576064348220825,
+      "bbox": [
+        194.7805784783006,
+        429.1391832143658,
+        230.2194215216994,
+        465.8608167856342
+      ],
+      "source": "CV4 targeted OCR, no reference text",
+      "position": 212.5,
+      "row": 447.5
+    },
+    {
+      "text": "2005",
+      "confidence": 0.9997230172157288,
+      "bbox": [
+        226.7805784783006,
+        429.1391832143658,
+        262.21942152169936,
+        465.8608167856342
+      ],
+      "source": "CV4 targeted OCR, no reference text",
+      "position": 244.5,
+      "row": 447.5
+    },
+    {
+      "text": "2006",
+      "confidence": 0.9999286532402039,
+      "bbox": [
+        259.78057847830064,
+        428.1391832143658,
+        295.21942152169936,
+        464.8608167856342
+      ],
+      "source": "CV4 targeted OCR, no reference text",
+      "position": 277.5,
+      "row": 446.5
+    },
+    {
+      "text": "8",
+      "confidence": 0.9924408540457286,
+      "bbox": [
+        291.1470668457554,
+        429.10263340389895,
+        326.8529331542446,
+        465.89736659610105
+      ],
+      "source": "CV4 targeted OCR, no reference text",
+      "position": 309.0,
+      "row": 447.5
+    },
+    {
+      "text": "2008",
+      "confidence": 0.999498188495636,
+      "bbox": [
+        324.78057847830064,
+        428.1318963302978,
+        361.21942152169936,
+        465.8681036697022
+      ],
+      "source": "CV4 targeted OCR, no reference text",
+      "position": 343.0,
+      "row": 447.0
+    },
+    {
+      "text": "2009",
+      "confidence": 0.99896639585495,
+      "bbox": [
+        357.78057847830064,
+        429.1391832143658,
+        393.21942152169936,
+        465.8608167856342
+      ],
+      "source": "CV4 targeted OCR, no reference text",
+      "position": 375.5,
+      "row": 447.5
+    },
+    {
+      "text": "2010",
+      "confidence": 0.9997650980949402,
+      "bbox": [
+        389.719631200671,
+        429.12041315302315,
+        425.280368799329,
+        465.87958684697685
+      ],
+      "source": "CV4 targeted OCR, no reference text",
+      "position": 407.5,
+      "row": 447.5
+    },
+    {
+      "text": "2011",
+      "confidence": 0.7874628305435181,
+      "bbox": [
+        422.6546544120074,
+        429.12041315302315,
+        457.3453455879926,
+        465.87958684697685
+      ],
+      "source": "CV4 targeted OCR, no reference text",
+      "position": 440.0,
+      "row": 447.5
+    },
+    {
+      "text": "2012",
+      "confidence": 0.9999334216117859,
+      "bbox": [
+        454.78057847830064,
+        428.1318963302978,
+        491.21942152169936,
+        465.8681036697022
+      ],
+      "source": "CV4 targeted OCR, no reference text",
+      "position": 473.0,
+      "row": 447.0
+    },
+    {
+      "text": "2013",
+      "confidence": 0.9996720552444458,
+      "bbox": [
+        487.78057847830064,
+        429.1391832143658,
+        523.2194215216994,
+        465.8608167856342
+      ],
+      "source": "CV4 targeted OCR, no reference text",
+      "position": 505.5,
+      "row": 447.5
+    },
+    {
+      "text": "2014",
+      "confidence": 0.9999774694442749,
+      "bbox": [
+        520.7805784783006,
+        429.1391832143658,
+        556.2194215216994,
+        465.8608167856342
+      ],
+      "source": "CV4 targeted OCR, no reference text",
+      "position": 538.5,
+      "row": 447.5
+    },
+    {
+      "text": "2015",
+      "confidence": 0.9999825954437256,
+      "bbox": [
+        552.7196312006711,
+        429.12041315302315,
+        588.2803687993289,
+        465.87958684697685
+      ],
+      "source": "CV4 targeted OCR, no reference text",
+      "position": 570.5,
+      "row": 447.5
+    },
+    {
+      "text": "2016",
+      "confidence": 0.9999691247940063,
+      "bbox": [
+        585.7805784783006,
+        429.1391832143658,
+        621.2194215216994,
+        465.8608167856342
+      ],
+      "source": "CV4 targeted OCR, no reference text",
+      "position": 603.5,
+      "row": 447.5
+    },
+    {
+      "text": "8",
+      "confidence": 0.802672180880112,
+      "bbox": [
+        617.1588364362494,
+        429.10263340389895,
+        653.8411635637506,
+        465.89736659610105
+      ],
+      "source": "CV4 targeted OCR, no reference text",
+      "position": 635.5,
+      "row": 447.5
+    },
+    {
+      "text": "2018",
+      "confidence": 0.9999632239341736,
+      "bbox": [
+        650.7805784783006,
+        428.1318963302978,
+        687.2194215216994,
+        465.8681036697022
+      ],
+      "source": "CV4 targeted OCR, no reference text",
+      "position": 669.0,
+      "row": 447.0
+    },
+    {
+      "text": "2019",
+      "confidence": 0.9999619126319885,
+      "bbox": [
+        682.7805784783006,
+        428.1318963302978,
+        719.2194215216994,
+        465.8681036697022
+      ],
+      "source": "CV4 targeted OCR, no reference text",
+      "position": 701.0,
+      "row": 447.0
+    }
+  ],
+  "series": {},
+  "calibration": null,
+  "baseline_pixel": 420.0,
+  "baseline_value": null,
+  "refined_ocr": [
+    {
+      "text": "42 9oo oou",
+      "confidence": 0.03261081286516791,
+      "bbox": [
+        61.0,
+        45.0,
+        126.0,
+        52.0
+      ],
+      "source": "CV4 targeted OCR, no reference text"
+    },
+    {
+      "text": "10 00o 000",
+      "confidence": 0.6029013236744911,
+      "bbox": [
+        60.0,
+        114.0,
+        126.0,
+        127.0
+      ],
+      "source": "CV4 targeted OCR, no reference text"
+    },
+    {
+      "text": "1",
+      "confidence": 0.8834077166273211,
+      "bbox": [
+        41.0,
+        176.0,
+        53.0,
+        214.0
+      ],
+      "source": "CV4 targeted OCR, no reference text"
+    },
+    {
+      "text": "7 500 000",
+      "confidence": 0.5579594751728677,
+      "bbox": [
+        67.0,
+        189.0,
+        126.0,
+        202.0
+      ],
+      "source": "CV4 targeted OCR, no reference text"
+    },
+    {
+      "text": "7",
+      "confidence": 0.45010607305551176,
+      "bbox": [
+        42.0,
+        214.0,
+        51.0,
+        265.0
+      ],
+      "source": "CV4 targeted OCR, no reference text"
+    },
+    {
+      "text": "5 00o 000",
+      "confidence": 0.38285302904217955,
+      "bbox": [
+        67.0,
+        263.0,
+        126.0,
+        276.0
+      ],
+      "source": "CV4 targeted OCR, no reference text"
+    },
+    {
+      "text": "9",
+      "confidence": 0.21549834283089186,
+      "bbox": [
+        43.0,
+        266.0,
+        52.0,
+        291.0
+      ],
+      "source": "CV4 targeted OCR, no reference text"
+    },
+    {
+      "text": "6",
+      "confidence": 0.9954971810046267,
+      "bbox": [
+        41.0,
+        290.0,
+        53.0,
+        305.0
+      ],
+      "source": "CV4 targeted OCR, no reference text"
+    },
+    {
+      "text": "1",
+      "confidence": 0.3720595875269197,
+      "bbox": [
+        41.0,
+        303.0,
+        53.0,
+        347.0
+      ],
+      "source": "CV4 targeted OCR, no reference text"
+    },
+    {
+      "text": "2 500 000",
+      "confidence": 0.6115540183405932,
+      "bbox": [
+        67.0,
+        338.0,
+        126.0,
+        351.0
+      ],
+      "source": "CV4 targeted OCR, no reference text"
+    },
+    {
+      "text": "1",
+      "confidence": 0.28361912811250534,
+      "bbox": [
+        40.76594616142498,
+        119.01557242449152,
+        54.23405383857502,
+        176.98442757550848
+      ],
+      "source": "CV4 targeted OCR, no reference text"
+    },
+    {
+      "text": "G-a-ista 2021",
+      "confidence": 0.2460142611336415,
+      "bbox": [
+        683.0,
+        490.0,
+        755.0,
+        501.0
+      ],
+      "source": "CV4 targeted OCR, no reference text"
+    },
+    {
+      "text": "1995",
+      "confidence": 0.999887228012085,
+      "bbox": [
+        161.71963120067105,
+        429.1470668457554,
+        197.28036879932895,
+        464.8529331542446
+      ],
+      "source": "CV4 targeted OCR, no reference text"
+    },
+    {
+      "text": "2000",
+      "confidence": 0.9576064348220825,
+      "bbox": [
+        194.7805784783006,
+        429.1391832143658,
+        230.2194215216994,
+        465.8608167856342
+      ],
+      "source": "CV4 targeted OCR, no reference text"
+    },
+    {
+      "text": "2005",
+      "confidence": 0.9997230172157288,
+      "bbox": [
+        226.7805784783006,
+        429.1391832143658,
+        262.21942152169936,
+        465.8608167856342
+      ],
+      "source": "CV4 targeted OCR, no reference text"
+    },
+    {
+      "text": "2006",
+      "confidence": 0.9999286532402039,
+      "bbox": [
+        259.78057847830064,
+        428.1391832143658,
+        295.21942152169936,
+        464.8608167856342
+      ],
+      "source": "CV4 targeted OCR, no reference text"
+    },
+    {
+      "text": "8",
+      "confidence": 0.9924408540457286,
+      "bbox": [
+        291.1470668457554,
+        429.10263340389895,
+        326.8529331542446,
+        465.89736659610105
+      ],
+      "source": "CV4 targeted OCR, no reference text"
+    },
+    {
+      "text": "2008",
+      "confidence": 0.999498188495636,
+      "bbox": [
+        324.78057847830064,
+        428.1318963302978,
+        361.21942152169936,
+        465.8681036697022
+      ],
+      "source": "CV4 targeted OCR, no reference text"
+    },
+    {
+      "text": "2009",
+      "confidence": 0.99896639585495,
+      "bbox": [
+        357.78057847830064,
+        429.1391832143658,
+        393.21942152169936,
+        465.8608167856342
+      ],
+      "source": "CV4 targeted OCR, no reference text"
+    },
+    {
+      "text": "2010",
+      "confidence": 0.9997650980949402,
+      "bbox": [
+        389.719631200671,
+        429.12041315302315,
+        425.280368799329,
+        465.87958684697685
+      ],
+      "source": "CV4 targeted OCR, no reference text"
+    },
+    {
+      "text": "2012",
+      "confidence": 0.9999334216117859,
+      "bbox": [
+        454.78057847830064,
+        428.1318963302978,
+        491.21942152169936,
+        465.8681036697022
+      ],
+      "source": "CV4 targeted OCR, no reference text"
+    },
+    {
+      "text": "2013",
+      "confidence": 0.9996720552444458,
+      "bbox": [
+        487.78057847830064,
+        429.1391832143658,
+        523.2194215216994,
+        465.8608167856342
+      ],
+      "source": "CV4 targeted OCR, no reference text"
+    },
+    {
+      "text": "2014",
+      "confidence": 0.9999774694442749,
+      "bbox": [
+        520.7805784783006,
+        429.1391832143658,
+        556.2194215216994,
+        465.8608167856342
+      ],
+      "source": "CV4 targeted OCR, no reference text"
+    },
+    {
+      "text": "2015",
+      "confidence": 0.9999825954437256,
+      "bbox": [
+        552.7196312006711,
+        429.12041315302315,
+        588.2803687993289,
+        465.87958684697685
+      ],
+      "source": "CV4 targeted OCR, no reference text"
+    },
+    {
+      "text": "2016",
+      "confidence": 0.9999691247940063,
+      "bbox": [
+        585.7805784783006,
+        429.1391832143658,
+        621.2194215216994,
+        465.8608167856342
+      ],
+      "source": "CV4 targeted OCR, no reference text"
+    },
+    {
+      "text": "8",
+      "confidence": 0.802672180880112,
+      "bbox": [
+        617.1588364362494,
+        429.10263340389895,
+        653.8411635637506,
+        465.89736659610105
+      ],
+      "source": "CV4 targeted OCR, no reference text"
+    },
+    {
+      "text": "2018",
+      "confidence": 0.9999632239341736,
+      "bbox": [
+        650.7805784783006,
+        428.1318963302978,
+        687.2194215216994,
+        465.8681036697022
+      ],
+      "source": "CV4 targeted OCR, no reference text"
+    },
+    {
+      "text": "2019",
+      "confidence": 0.9999619126319885,
+      "bbox": [
+        682.7805784783006,
+        428.1318963302978,
+        719.2194215216994,
+        465.8681036697022
+      ],
+      "source": "CV4 targeted OCR, no reference text"
+    },
+    {
+      "text": "1991",
+      "confidence": 0.8059366284891988,
+      "bbox": [
+        129.71963120067105,
+        430.12734164486193,
+        164.28036879932895,
+        465.87265835513807
+      ],
+      "source": "CV4 targeted OCR, no reference text"
+    },
+    {
+      "text": "2011",
+      "confidence": 0.7874628305435181,
+      "bbox": [
+        422.6546544120074,
+        429.12041315302315,
+        457.3453455879926,
+        465.87958684697685
+      ],
+      "source": "CV4 targeted OCR, no reference text"
+    }
+  ],
+  "errors": [
+    "Échelle non linéaire, chiffres OCR incohérents ou calibration ambiguë."
+  ],
+  "uncertainties": [
+    "series_1 8: calibration_failed",
+    "series_1 2005: calibration_failed",
+    "series_1 2006: calibration_failed",
+    "series_1 2008: calibration_failed",
+    "series_1 2009: calibration_failed",
+    "series_1 2010: calibration_failed",
+    "series_1 2011: calibration_failed",
+    "series_1 2012: calibration_failed",
+    "series_1 2019: calibration_failed",
+    "series_1 2018: calibration_failed",
+    "series_1 2000: calibration_failed",
+    "series_1 2016: calibration_failed",
+    "series_1 8: calibration_failed",
+    "series_1 2013: calibration_failed",
+    "series_1 2014: calibration_failed",
+    "series_1 2015: calibration_failed",
+    "series_1 1995: calibration_failed",
+    "series_1 1991: calibration_failed",
+    "Plusieurs rectangles pour une même catégorie/série : valeurs laissées manquantes.",
+    "Rectangle plein seulement ; ombres, petites barres et objets non rectangulaires peuvent être manqués."
+  ],
+  "status": "failed"
+}

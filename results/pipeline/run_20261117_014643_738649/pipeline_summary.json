@@ -1,0 +1,82 @@
+{
+  "python": "C:\\Users\\ELECTRO-RIMO\\Downloads\\ChartQA-main\\ChartQA-main\\.venv\\Scripts\\python.exe",
+  "output": "C:\\Users\\ELECTRO-RIMO\\Downloads\\ChartQA-main\\ChartQA-main\\results\\pipeline\\run_20261117_014643_738649",
+  "network_allowed": false,
+  "training_allowed": false,
+  "steps": [
+    {
+      "status": "OK",
+      "stage": "Inventaire",
+      "message": "51 fichiers Python analysés sans exécuter leurs points d’entrée."
+    },
+    {
+      "status": "IGNORÉ",
+      "stage": "Hors pipeline",
+      "message": "Entraînements, téléchargements, évaluations de corpus et modèles NLP/legacy."
+    },
+    {
+      "status": "OK",
+      "stage": "Précontrôles",
+      "message": "Image two_col_4223.png, modèle entraîné époque 20, poids OCR locaux ; réseau bloqué."
+    },
+    {
+      "status": "OK",
+      "stage": "CV1",
+      "message": "Prétraitement et comparaison sauvegardés : C:\\Users\\ELECTRO-RIMO\\Downloads\\ChartQA-main\\ChartQA-main\\results\\pipeline\\run_20261117_014643_738649\\cv1\\run_20261117_014659_209524"
+    },
+    {
+      "status": "OK",
+      "stage": "CV2",
+      "message": "pie ; inférence avec les poids existants, aucun entraînement."
+    },
+    {
+      "status": "RÉUTILISÉ",
+      "stage": "CV3",
+      "message": "C:\\Users\\ELECTRO-RIMO\\Downloads\\ChartQA-main\\ChartQA-main\\results\\cv3\\evaluation_20261117_013720_001076\\images\\two_col_4223.json (cache historique : paramètres de code non versionnés)"
+    },
+    {
+      "status": "OK",
+      "stage": "CV3",
+      "message": "6 textes ; JSON et visualisation : C:\\Users\\ELECTRO-RIMO\\Downloads\\ChartQA-main\\ChartQA-main\\results\\pipeline\\run_20261117_014643_738649\\cv3"
+    },
+    {
+      "status": "AVERTISSEMENT",
+      "stage": "CV3",
+      "message": "2 incertitudes conservées dans le JSON."
+    }
+  ],
+  "image": "C:\\Users\\ELECTRO-RIMO\\Downloads\\ChartQA-main\\ChartQA-main\\ChartQA Dataset\\test\\png\\two_col_4223.png",
+  "source_sha256": "ce82ea32432bb15c66ca9ceab777f974c237dbae295a6afb9e89960a5aa0211a",
+  "checkpoint": "C:\\Users\\ELECTRO-RIMO\\Downloads\\ChartQA-main\\ChartQA-main\\models_cv2\\resnet18_20261117_010609_069660.pt",
+  "fingerprint": "d93a54dc284d003c987dff5d23470ab4776f129f43313c4536b782c55e5f7687",
+  "dependencies": {
+    "modules": {
+      "preprocessing.py": "a7d1f7c130cdf86b380f7f812537bdb736d7f00f15424097afb5e8feaead4d3c",
+      "chart_classifier.py": "128725eef609511fceeb6b5f078e67afc960775e8af7b1993d5db3410f4bfc33",
+      "ocr_extraction.py": "7dd7f587c64a5419a83a4191cd146bfc6f69b3b412fc7fc4d69d6c8b5ecab7b4",
+      "chart_text_parser.py": "4bb737713aead48d8acb136d31cf0c8813581ce05a1aee9d3a7fa57675c02d77"
+    },
+    "checkpoint_sha256": "54af38f88113704517b46fca68a46f703c30b68e981a170dbe503eccf8f641b5",
+    "ocr_assets": {
+      "craft_mlt_25k.pth": "4a5efbfb48b4081100544e75e1e2b57f8de3d84f213004b14b85fd4b3748db17",
+      "english_g2.pth": "e2272681d9d67a04e2dff396b6e95077bc19001f8f6d3593c307b9852e1c29e8"
+    },
+    "versions": {
+      "cv2": "4.13.0",
+      "numpy": "2.3.0",
+      "PIL": "11.2.1",
+      "matplotlib": "3.10.7",
+      "torch": "2.12.0+cpu",
+      "torchvision": "0.27.0+cpu",
+      "easyocr": "1.7.2"
+    },
+    "variants": [
+      "original",
+      "clahe"
+    ]
+  },
+  "cv1_output": "C:\\Users\\ELECTRO-RIMO\\Downloads\\ChartQA-main\\ChartQA-main\\results\\pipeline\\run_20261117_014643_738649\\cv1\\run_20261117_014659_209524",
+  "ocr_output": "C:\\Users\\ELECTRO-RIMO\\Downloads\\ChartQA-main\\ChartQA-main\\results\\pipeline\\run_20261117_014643_738649\\cv3\\two_col_4223.json",
+  "texts": 6,
+  "status": "SUCCESS"
+}

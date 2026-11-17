@@ -1,0 +1,1182 @@
+{
+  "image": "multi_col_80194.png",
+  "source": "C:\\Users\\ELECTRO-RIMO\\Downloads\\ChartQA-main\\ChartQA-main\\ChartQA Dataset\\test\\png\\multi_col_80194.png",
+  "source_sha256": "3f0e48311b735ce6b27ce06bbe08456ecc48c4e8d4682a6970c721dcb74b35ca",
+  "chart_type": "v_bar",
+  "cv2_chart_type": "v_bar",
+  "orientation_correction": null,
+  "chart_probabilities": {
+    "v_bar": 0.9999997615814209,
+    "h_bar": 2.3577685226428002e-07,
+    "line": 1.3118107988763228e-10,
+    "pie": 1.9222918368200226e-08
+  },
+  "checkpoint": "C:\\Users\\ELECTRO-RIMO\\Downloads\\ChartQA-main\\ChartQA-main\\models_cv2\\resnet18_20261117_010609_069660.pt",
+  "prediction_inputs": [
+    "image pixels",
+    "CV2 trained checkpoint",
+    "EasyOCR visible text"
+  ],
+  "reference_data_used_for_prediction": false,
+  "ocr_cache": null,
+  "ocr_texts": [
+    {
+      "text": "8",
+      "bbox": [
+        60.0,
+        40.0,
+        86.0,
+        53.0
+      ],
+      "confidence": 0.9967345474834168
+    },
+    {
+      "text": "8",
+      "bbox": [
+        263.0,
+        88.0,
+        290.0,
+        101.0
+      ],
+      "confidence": 0.8741547856363105
+    },
+    {
+      "text": "5",
+      "bbox": [
+        227.0,
+        117.0,
+        254.0,
+        131.0
+      ],
+      "confidence": 0.42445425189158925
+    },
+    {
+      "text": "8",
+      "bbox": [
+        59.0,
+        123.0,
+        86.0,
+        137.0
+      ],
+      "confidence": 0.8917801567855044
+    },
+    {
+      "text": "558",
+      "bbox": [
+        117.0,
+        129.0,
+        145.0,
+        143.0
+      ],
+      "confidence": 0.8229802862024148
+    },
+    {
+      "text": "5",
+      "bbox": [
+        191.0,
+        129.0,
+        218.0,
+        143.0
+      ],
+      "confidence": 0.8548245490974296
+    },
+    {
+      "text": "3",
+      "bbox": [
+        364.0,
+        137.0,
+        391.0,
+        151.0
+      ],
+      "confidence": 0.5964078022850039
+    },
+    {
+      "text": "respondents",
+      "bbox": [
+        44.0,
+        162.0,
+        53.0,
+        222.0
+      ],
+      "confidence": 0.8928971627031546
+    },
+    {
+      "text": "408",
+      "bbox": [
+        155.0,
+        192.0,
+        182.0,
+        206.0
+      ],
+      "confidence": 0.22383828314521956
+    },
+    {
+      "text": "3",
+      "bbox": [
+        400.0,
+        200.0,
+        427.0,
+        214.0
+      ],
+      "confidence": 0.432418206195409
+    },
+    {
+      "text": "8",
+      "bbox": [
+        59.0,
+        205.0,
+        85.0,
+        219.0
+      ],
+      "confidence": 0.8776705215795779
+    },
+    {
+      "text": "5",
+      "bbox": [
+        328.0,
+        212.0,
+        355.0,
+        226.0
+      ],
+      "confidence": 0.6245172061799309
+    },
+    {
+      "text": "of",
+      "bbox": [
+        41.0,
+        223.0,
+        53.0,
+        237.0
+      ],
+      "confidence": 0.9631332784154653
+    },
+    {
+      "text": "3",
+      "bbox": [
+        436.0,
+        233.0,
+        463.0,
+        247.0
+      ],
+      "confidence": 0.8762186109561618
+    },
+    {
+      "text": "1",
+      "bbox": [
+        40.539682835545,
+        236.05131670194947,
+        55.460317164455,
+        267.9486832980505
+      ],
+      "confidence": 0.4157432213045844
+    },
+    {
+      "text": "8",
+      "bbox": [
+        472.0,
+        275.0,
+        499.0,
+        289.0
+      ],
+      "confidence": 0.9848085277036809
+    },
+    {
+      "text": "8",
+      "bbox": [
+        59.0,
+        288.0,
+        86.0,
+        302.0
+      ],
+      "confidence": 0.7333679980274646
+    },
+    {
+      "text": "13%",
+      "bbox": [
+        683.0,
+        304.0,
+        709.0,
+        318.0
+      ],
+      "confidence": 0.45616844428900477
+    },
+    {
+      "text": "2",
+      "bbox": [
+        539.0,
+        316.0,
+        565.0,
+        330.0
+      ],
+      "confidence": 0.9601792506242788
+    },
+    {
+      "text": "3",
+      "bbox": [
+        645.0,
+        316.0,
+        673.0,
+        330.0
+      ],
+      "confidence": 0.581321518826261
+    },
+    {
+      "text": "4",
+      "bbox": [
+        579.0,
+        329.0,
+        599.0,
+        343.0
+      ],
+      "confidence": 0.558765342713631
+    },
+    {
+      "text": "R",
+      "bbox": [
+        613.0,
+        329.0,
+        634.0,
+        343.0
+      ],
+      "confidence": 0.7666392106623334
+    },
+    {
+      "text": "8",
+      "bbox": [
+        67.0,
+        372.0,
+        86.0,
+        386.0
+      ],
+      "confidence": 0.9995183332756064
+    },
+    {
+      "text": "Don't watch sports",
+      "bbox": [
+        571.0,
+        388.0,
+        674.0,
+        404.0
+      ],
+      "confidence": 0.939715520432305
+    },
+    {
+      "text": "From home",
+      "bbox": [
+        171.0,
+        389.0,
+        235.0,
+        402.0
+      ],
+      "confidence": 0.998409433325479
+    },
+    {
+      "text": "Live event",
+      "bbox": [
+        384.0,
+        389.0,
+        442.0,
+        402.0
+      ],
+      "confidence": 0.9993299834047945
+    },
+    {
+      "text": "Total",
+      "bbox": [
+        240.0,
+        428.0,
+        275.0,
+        443.0
+      ],
+      "confidence": 0.9999643341868937
+    },
+    {
+      "text": "18-34",
+      "bbox": [
+        303.0,
+        428.0,
+        346.0,
+        443.0
+      ],
+      "confidence": 0.9999800612829286
+    },
+    {
+      "text": "35-44",
+      "bbox": [
+        373.0,
+        428.0,
+        417.0,
+        443.0
+      ],
+      "confidence": 0.9999668398617765
+    },
+    {
+      "text": "45-54",
+      "bbox": [
+        444.0,
+        428.0,
+        487.0,
+        443.0
+      ],
+      "confidence": 0.9999695054725404
+    },
+    {
+      "text": "55+",
+      "bbox": [
+        515.0,
+        428.0,
+        543.0,
+        443.0
+      ],
+      "confidence": 0.9999128674060787
+    },
+    {
+      "text": "Statista 2021",
+      "bbox": [
+        680.0,
+        488.0,
+        755.0,
+        503.0
+      ],
+      "confidence": 0.9953047456182631
+    },
+    {
+      "text": "Addirional Information",
+      "bbox": [
+        37.0,
+        512.0,
+        168.0,
+        527.0
+      ],
+      "confidence": 0.7636141566499929
+    },
+    {
+      "text": "Show source",
+      "bbox": [
+        685.0,
+        512.0,
+        761.0,
+        527.0
+      ],
+      "confidence": 0.918432806098684
+    }
+  ],
+  "rows": [
+    {
+      "category": "From home",
+      "series": "35-44",
+      "series_id": "series_1",
+      "value": 5521.410234828718,
+      "unit": null,
+      "bar_bbox": [
+        187,
+        152,
+        220,
+        380
+      ],
+      "color": [
+        186,
+        186,
+        186
+      ],
+      "endpoint_pixel": 152.0,
+      "error": null,
+      "pixel_value_uncertainty": 24.324551805403598
+    },
+    {
+      "category": "Live event",
+      "series": "35-44",
+      "series_id": "series_1",
+      "value": 3794.367056645062,
+      "unit": null,
+      "bar_bbox": [
+        396,
+        223,
+        429,
+        380
+      ],
+      "color": [
+        186,
+        186,
+        186
+      ],
+      "endpoint_pixel": 223.0,
+      "error": null,
+      "pixel_value_uncertainty": 24.324551805403598
+    },
+    {
+      "category": "Don't watch sports",
+      "series": "35-44",
+      "series_id": "series_1",
+      "value": null,
+      "unit": null,
+      "bar_bbox": [
+        606,
+        352,
+        639,
+        380
+      ],
+      "color": [
+        186,
+        186,
+        186
+      ],
+      "endpoint_pixel": 352.0,
+      "error": "endpoint_outside_validated_scale",
+      "pixel_value_uncertainty": 24.324551805403598
+    },
+    {
+      "category": "From home",
+      "series": "Total",
+      "series_id": "series_2",
+      "value": 5521.410234828718,
+      "unit": null,
+      "bar_bbox": [
+        114,
+        152,
+        147,
+        380
+      ],
+      "color": [
+        40,
+        118,
+        221
+      ],
+      "endpoint_pixel": 152.0,
+      "error": null,
+      "pixel_value_uncertainty": 24.324551805403598
+    },
+    {
+      "category": "Live event",
+      "series": "Total",
+      "series_id": "series_2",
+      "value": 3502.472434980219,
+      "unit": null,
+      "bar_bbox": [
+        324,
+        235,
+        357,
+        380
+      ],
+      "color": [
+        40,
+        118,
+        221
+      ],
+      "endpoint_pixel": 235.0,
+      "error": null,
+      "pixel_value_uncertainty": 24.324551805403598
+    },
+    {
+      "category": "Don't watch sports",
+      "series": "Total",
+      "series_id": "series_2",
+      "value": null,
+      "unit": null,
+      "bar_bbox": [
+        534,
+        339,
+        567,
+        380
+      ],
+      "color": [
+        40,
+        118,
+        221
+      ],
+      "endpoint_pixel": 339.0,
+      "error": "endpoint_outside_validated_scale",
+      "pixel_value_uncertainty": 24.324551805403598
+    },
+    {
+      "category": "Live event",
+      "series": "18-34",
+      "series_id": "series_3",
+      "value": 5326.813820385489,
+      "unit": null,
+      "bar_bbox": [
+        360,
+        160,
+        393,
+        380
+      ],
+      "color": [
+        15,
+        40,
+        62
+      ],
+      "endpoint_pixel": 160.0,
+      "error": null,
+      "pixel_value_uncertainty": 24.324551805403598
+    },
+    {
+      "category": "From home",
+      "series": "18-34",
+      "series_id": "series_3",
+      "value": 3988.963471088291,
+      "unit": null,
+      "bar_bbox": [
+        151,
+        215,
+        184,
+        380
+      ],
+      "color": [
+        15,
+        40,
+        62
+      ],
+      "endpoint_pixel": 215.0,
+      "error": null,
+      "pixel_value_uncertainty": 24.324551805403598
+    },
+    {
+      "category": "Don't watch sports",
+      "series": "18-34",
+      "series_id": "series_3",
+      "value": null,
+      "unit": null,
+      "bar_bbox": [
+        570,
+        352,
+        603,
+        380
+      ],
+      "color": [
+        15,
+        40,
+        62
+      ],
+      "endpoint_pixel": 352.0,
+      "error": "endpoint_outside_validated_scale",
+      "pixel_value_uncertainty": 24.324551805403598
+    },
+    {
+      "category": "From home",
+      "series": "45-54",
+      "series_id": "series_4",
+      "value": 5813.304856493561,
+      "unit": null,
+      "bar_bbox": [
+        223,
+        140,
+        256,
+        380
+      ],
+      "color": [
+        166,
+        11,
+        11
+      ],
+      "endpoint_pixel": 140.0,
+      "error": null,
+      "pixel_value_uncertainty": 24.324551805403598
+    },
+    {
+      "category": "Live event",
+      "series": "45-54",
+      "series_id": "series_4",
+      "value": 2991.6568470667435,
+      "unit": null,
+      "bar_bbox": [
+        432,
+        256,
+        465,
+        380
+      ],
+      "color": [
+        166,
+        11,
+        11
+      ],
+      "endpoint_pixel": 256.0,
+      "error": null,
+      "pixel_value_uncertainty": 24.324551805403598
+    },
+    {
+      "category": "Don't watch sports",
+      "series": "45-54",
+      "series_id": "series_4",
+      "value": null,
+      "unit": null,
+      "bar_bbox": [
+        642,
+        339,
+        675,
+        380
+      ],
+      "color": [
+        166,
+        11,
+        11
+      ],
+      "endpoint_pixel": 339.0,
+      "error": "endpoint_outside_validated_scale",
+      "pixel_value_uncertainty": 24.324551805403598
+    },
+    {
+      "category": "From home",
+      "series": "55+",
+      "series_id": "series_5",
+      "value": 6543.041410655669,
+      "unit": null,
+      "bar_bbox": [
+        259,
+        110,
+        292,
+        380
+      ],
+      "color": [
+        135,
+        188,
+        36
+      ],
+      "endpoint_pixel": 110.0,
+      "error": null,
+      "pixel_value_uncertainty": 24.324551805403598
+    },
+    {
+      "category": "Live event",
+      "series": "55+",
+      "series_id": "series_5",
+      "value": 1970.0256712397922,
+      "unit": null,
+      "bar_bbox": [
+        468,
+        298,
+        501,
+        380
+      ],
+      "color": [
+        135,
+        188,
+        36
+      ],
+      "endpoint_pixel": 298.0,
+      "error": null,
+      "pixel_value_uncertainty": 24.324551805403598
+    },
+    {
+      "category": "Don't watch sports",
+      "series": "55+",
+      "series_id": "series_5",
+      "value": null,
+      "unit": null,
+      "bar_bbox": [
+        678,
+        327,
+        711,
+        380
+      ],
+      "color": [
+        135,
+        188,
+        36
+      ],
+      "endpoint_pixel": 327.0,
+      "error": "endpoint_outside_validated_scale",
+      "pixel_value_uncertainty": 24.324551805403598
+    }
+  ],
+  "bars": [
+    {
+      "bbox": [
+        187,
+        152,
+        220,
+        380
+      ],
+      "color": [
+        186,
+        186,
+        186
+      ],
+      "fill_ratio": 1.0,
+      "series_id": "series_1"
+    },
+    {
+      "bbox": [
+        396,
+        223,
+        429,
+        380
+      ],
+      "color": [
+        186,
+        186,
+        186
+      ],
+      "fill_ratio": 1.0,
+      "series_id": "series_1"
+    },
+    {
+      "bbox": [
+        606,
+        352,
+        639,
+        380
+      ],
+      "color": [
+        186,
+        186,
+        186
+      ],
+      "fill_ratio": 1.0,
+      "series_id": "series_1"
+    },
+    {
+      "bbox": [
+        114,
+        152,
+        147,
+        380
+      ],
+      "color": [
+        40,
+        118,
+        221
+      ],
+      "fill_ratio": 1.0,
+      "series_id": "series_2"
+    },
+    {
+      "bbox": [
+        324,
+        235,
+        357,
+        380
+      ],
+      "color": [
+        40,
+        118,
+        221
+      ],
+      "fill_ratio": 1.0,
+      "series_id": "series_2"
+    },
+    {
+      "bbox": [
+        534,
+        339,
+        567,
+        380
+      ],
+      "color": [
+        40,
+        118,
+        221
+      ],
+      "fill_ratio": 1.0,
+      "series_id": "series_2"
+    },
+    {
+      "bbox": [
+        360,
+        160,
+        393,
+        380
+      ],
+      "color": [
+        15,
+        40,
+        62
+      ],
+      "fill_ratio": 1.0,
+      "series_id": "series_3"
+    },
+    {
+      "bbox": [
+        151,
+        215,
+        184,
+        380
+      ],
+      "color": [
+        15,
+        40,
+        62
+      ],
+      "fill_ratio": 1.0,
+      "series_id": "series_3"
+    },
+    {
+      "bbox": [
+        570,
+        352,
+        603,
+        380
+      ],
+      "color": [
+        15,
+        40,
+        62
+      ],
+      "fill_ratio": 1.0,
+      "series_id": "series_3"
+    },
+    {
+      "bbox": [
+        223,
+        140,
+        256,
+        380
+      ],
+      "color": [
+        166,
+        11,
+        11
+      ],
+      "fill_ratio": 1.0,
+      "series_id": "series_4"
+    },
+    {
+      "bbox": [
+        432,
+        256,
+        465,
+        380
+      ],
+      "color": [
+        166,
+        11,
+        11
+      ],
+      "fill_ratio": 1.0,
+      "series_id": "series_4"
+    },
+    {
+      "bbox": [
+        642,
+        339,
+        675,
+        380
+      ],
+      "color": [
+        166,
+        11,
+        11
+      ],
+      "fill_ratio": 1.0,
+      "series_id": "series_4"
+    },
+    {
+      "bbox": [
+        259,
+        110,
+        292,
+        380
+      ],
+      "color": [
+        135,
+        188,
+        36
+      ],
+      "fill_ratio": 1.0,
+      "series_id": "series_5"
+    },
+    {
+      "bbox": [
+        468,
+        298,
+        501,
+        380
+      ],
+      "color": [
+        135,
+        188,
+        36
+      ],
+      "fill_ratio": 1.0,
+      "series_id": "series_5"
+    },
+    {
+      "bbox": [
+        678,
+        327,
+        711,
+        380
+      ],
+      "color": [
+        135,
+        188,
+        36
+      ],
+      "fill_ratio": 1.0,
+      "series_id": "series_5"
+    }
+  ],
+  "categories": [
+    {
+      "text": "From home",
+      "confidence": 0.9639528830037423,
+      "bbox": [
+        171.0,
+        390.0,
+        235.0,
+        402.0
+      ],
+      "source": "CV4 targeted OCR, no reference text",
+      "position": 203.0,
+      "row": 396.0
+    },
+    {
+      "text": "Live event",
+      "confidence": 0.6157777901352972,
+      "bbox": [
+        384.0,
+        390.0,
+        441.0,
+        402.0
+      ],
+      "source": "CV4 targeted OCR, no reference text",
+      "position": 412.5,
+      "row": 396.0
+    },
+    {
+      "text": "Don't watch sports",
+      "confidence": 0.6953324381671692,
+      "bbox": [
+        571.0,
+        390.0,
+        674.0,
+        403.0
+      ],
+      "source": "CV4 targeted OCR, no reference text",
+      "position": 622.5,
+      "row": 396.5
+    }
+  ],
+  "series": {
+    "series_1": "35-44",
+    "series_2": "Total",
+    "series_3": "18-34",
+    "series_4": "45-54",
+    "series_5": "55+"
+  },
+  "calibration": {
+    "slope": -24.324551805403598,
+    "intercept": 9218.742109250064,
+    "unit": null,
+    "rmse_ticks": 8.91845050239624,
+    "ticks": [
+      {
+        "value": 6075.0,
+        "unit": null,
+        "position": 129.5,
+        "text": "6075",
+        "bbox": [
+          60.0,
+          123.0,
+          85.0,
+          136.0
+        ]
+      },
+      {
+        "value": 4025.0,
+        "unit": null,
+        "position": 213.0,
+        "text": "4025",
+        "bbox": [
+          60.0,
+          207.0,
+          85.0,
+          219.0
+        ]
+      },
+      {
+        "value": 2025.0,
+        "unit": null,
+        "position": 296.0,
+        "text": "2025",
+        "bbox": [
+          60.0,
+          290.0,
+          85.0,
+          302.0
+        ]
+      }
+    ],
+    "rejected_ticks": [],
+    "mapping": "value = slope * pixel_coordinate + intercept",
+    "scale": "linear"
+  },
+  "baseline_pixel": 380.0,
+  "baseline_value": -24.587576803302,
+  "refined_ocr": [
+    {
+      "text": "6075",
+      "confidence": 0.45403027534484863,
+      "bbox": [
+        60.0,
+        123.0,
+        85.0,
+        136.0
+      ],
+      "source": "CV4 targeted OCR, no reference text"
+    },
+    {
+      "text": "4025",
+      "confidence": 0.3909379839897156,
+      "bbox": [
+        60.0,
+        207.0,
+        85.0,
+        219.0
+      ],
+      "source": "CV4 targeted OCR, no reference text"
+    },
+    {
+      "text": "6",
+      "confidence": 0.7887504417383912,
+      "bbox": [
+        41.0,
+        223.0,
+        53.0,
+        237.0
+      ],
+      "source": "CV4 targeted OCR, no reference text"
+    },
+    {
+      "text": "1",
+      "confidence": 0.6398893022724792,
+      "bbox": [
+        41.0,
+        238.0,
+        53.0,
+        267.0
+      ],
+      "source": "CV4 targeted OCR, no reference text"
+    },
+    {
+      "text": "2025",
+      "confidence": 0.4461013972759247,
+      "bbox": [
+        60.0,
+        290.0,
+        85.0,
+        302.0
+      ],
+      "source": "CV4 targeted OCR, no reference text"
+    },
+    {
+      "text": "035",
+      "confidence": 0.1426661090453706,
+      "bbox": [
+        67.0,
+        374.0,
+        85.0,
+        386.0
+      ],
+      "source": "CV4 targeted OCR, no reference text"
+    },
+    {
+      "text": "1",
+      "confidence": 0.6645382626012442,
+      "bbox": [
+        40.835601012694646,
+        159.01275887928733,
+        53.164398987305354,
+        222.98724112071264
+      ],
+      "source": "CV4 targeted OCR, no reference text"
+    },
+    {
+      "text": "From home",
+      "confidence": 0.9639528830037423,
+      "bbox": [
+        171.0,
+        390.0,
+        235.0,
+        402.0
+      ],
+      "source": "CV4 targeted OCR, no reference text"
+    },
+    {
+      "text": "Live event",
+      "confidence": 0.6157777901352972,
+      "bbox": [
+        384.0,
+        390.0,
+        441.0,
+        402.0
+      ],
+      "source": "CV4 targeted OCR, no reference text"
+    },
+    {
+      "text": "Don't watch sports",
+      "confidence": 0.6953324381671692,
+      "bbox": [
+        571.0,
+        390.0,
+        674.0,
+        403.0
+      ],
+      "source": "CV4 targeted OCR, no reference text"
+    },
+    {
+      "text": "Total",
+      "confidence": 0.9997916007700975,
+      "bbox": [
+        240.0,
+        430.0,
+        275.0,
+        443.0
+      ],
+      "source": "CV4 targeted OCR, no reference text"
+    },
+    {
+      "text": "18-34",
+      "confidence": 0.9999903505197903,
+      "bbox": [
+        304.0,
+        430.0,
+        346.0,
+        443.0
+      ],
+      "source": "CV4 targeted OCR, no reference text"
+    },
+    {
+      "text": "35-44",
+      "confidence": 0.5709455065566534,
+      "bbox": [
+        374.0,
+        430.0,
+        417.0,
+        443.0
+      ],
+      "source": "CV4 targeted OCR, no reference text"
+    },
+    {
+      "text": "45-54",
+      "confidence": 0.8708648678127412,
+      "bbox": [
+        445.0,
+        430.0,
+        487.0,
+        443.0
+      ],
+      "source": "CV4 targeted OCR, no reference text"
+    },
+    {
+      "text": "55+",
+      "confidence": 0.9653655290603638,
+      "bbox": [
+        516.0,
+        430.0,
+        544.0,
+        443.0
+      ],
+      "source": "CV4 targeted OCR, no reference text"
+    }
+  ],
+  "errors": [],
+  "uncertainties": [
+    "series_1 Don't watch sports: endpoint_outside_validated_scale",
+    "series_2 Don't watch sports: endpoint_outside_validated_scale",
+    "series_3 Don't watch sports: endpoint_outside_validated_scale",
+    "series_4 Don't watch sports: endpoint_outside_validated_scale",
+    "series_5 Don't watch sports: endpoint_outside_validated_scale",
+    "Rectangle plein seulement ; ombres, petites barres et objets non rectangulaires peuvent être manqués."
+  ],
+  "status": "partial"
+}

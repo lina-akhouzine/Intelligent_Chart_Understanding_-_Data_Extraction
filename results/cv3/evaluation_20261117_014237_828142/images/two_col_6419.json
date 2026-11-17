@@ -1,0 +1,466 @@
+{
+  "schema_version": 1,
+  "image": "two_col_6419.png",
+  "source": "C:\\Users\\ELECTRO-RIMO\\Downloads\\ChartQA-main\\ChartQA-main\\ChartQA Dataset\\test\\png\\two_col_6419.png",
+  "source_sha256": "2c32e0d12d9556f3e9a9191f7c18c3ab7b2a361f615768d2d392f4bfd5f6cb8b",
+  "width": 800,
+  "height": 557,
+  "engine": "EasyOCR 1.7.2 / en",
+  "chart_type": "pie",
+  "chart_type_source": "CV2 checkpoint prediction",
+  "chart_probabilities": {
+    "v_bar": 7.066624618801143e-08,
+    "h_bar": 3.652699476219823e-09,
+    "line": 2.2940229577050886e-11,
+    "pie": 0.9999998807907104
+  },
+  "variants": [
+    "original",
+    "clahe"
+  ],
+  "texts": [
+    {
+      "text": "Bed & bathroom 222",
+      "bbox": [
+        553.0,
+        80.0,
+        681.0,
+        94.0
+      ],
+      "polygon": [
+        [
+          553.0,
+          80.0
+        ],
+        [
+          681.0,
+          80.0
+        ],
+        [
+          681.0,
+          94.0
+        ],
+        [
+          553.0,
+          94.0
+        ]
+      ],
+      "confidence": 0.9060597996797147,
+      "variant": "original",
+      "variants": [
+        "original",
+        "clahe"
+      ],
+      "alternatives": [
+        {
+          "text": "Bed & bathroom 222",
+          "confidence": 0.6869674763298855,
+          "variant": "clahe"
+        }
+      ],
+      "role": "unknown",
+      "role_confidence": 0.25,
+      "role_source": "geometry",
+      "role_reason": "secteur sans axes : tranche ou légende indéterminée",
+      "annotation_assistance": {
+        "role": "other",
+        "iou": 0.84375,
+        "field": "models[1].text_label",
+        "source": "official_region"
+      }
+    },
+    {
+      "text": "Other 347",
+      "bbox": [
+        108.0,
+        140.0,
+        174.0,
+        154.0
+      ],
+      "polygon": [
+        [
+          108.0,
+          140.0
+        ],
+        [
+          174.0,
+          140.0
+        ],
+        [
+          174.0,
+          154.0
+        ],
+        [
+          108.0,
+          154.0
+        ]
+      ],
+      "confidence": 0.6180343597557264,
+      "variant": "original",
+      "variants": [
+        "original",
+        "clahe"
+      ],
+      "alternatives": [
+        {
+          "text": "Other 342",
+          "confidence": 0.5763175561167589,
+          "variant": "clahe"
+        }
+      ],
+      "role": "unknown",
+      "role_confidence": 0.25,
+      "role_source": "geometry",
+      "role_reason": "secteur sans axes : tranche ou légende indéterminée",
+      "annotation_assistance": {
+        "role": "other",
+        "iou": 0.8311688311688312,
+        "field": "models[0].text_label",
+        "source": "official_region"
+      }
+    },
+    {
+      "text": "Living room 195",
+      "bbox": [
+        610.0,
+        319.0,
+        714.0,
+        337.0
+      ],
+      "polygon": [
+        [
+          610.0,
+          319.0
+        ],
+        [
+          714.0,
+          319.0
+        ],
+        [
+          714.0,
+          337.0
+        ],
+        [
+          610.0,
+          337.0
+        ]
+      ],
+      "confidence": 0.771713787080857,
+      "variant": "clahe",
+      "variants": [
+        "clahe",
+        "original"
+      ],
+      "alternatives": [
+        {
+          "text": "Living room 195",
+          "confidence": 0.7638397875467857,
+          "variant": "original"
+        }
+      ],
+      "role": "unknown",
+      "role_confidence": 0.25,
+      "role_source": "geometry",
+      "role_reason": "secteur sans axes : tranche ou légende indéterminée",
+      "annotation_assistance": {
+        "role": "other",
+        "iou": 0.8092948717948718,
+        "field": "models[2].text_label",
+        "source": "official_region"
+      }
+    },
+    {
+      "text": "IKEA food 526",
+      "bbox": [
+        116.0,
+        375.0,
+        199.0,
+        389.0
+      ],
+      "polygon": [
+        [
+          116.0,
+          375.0
+        ],
+        [
+          199.0,
+          375.0
+        ],
+        [
+          199.0,
+          389.0
+        ],
+        [
+          116.0,
+          389.0
+        ]
+      ],
+      "confidence": 0.4568561909671881,
+      "variant": "clahe",
+      "variants": [
+        "clahe",
+        "original"
+      ],
+      "alternatives": [
+        {
+          "text": "IKEA food 526",
+          "confidence": 0.45058513652860954,
+          "variant": "original"
+        }
+      ],
+      "role": "unknown",
+      "role_confidence": 0.25,
+      "role_source": "geometry",
+      "role_reason": "secteur sans axes : tranche ou légende indéterminée",
+      "annotation_assistance": {
+        "role": "other",
+        "iou": 0.8364888123924269,
+        "field": "models[5].text_label",
+        "source": "official_region"
+      }
+    },
+    {
+      "text": "1",
+      "bbox": [
+        135.0,
+        415.0,
+        250.0,
+        430.0
+      ],
+      "polygon": [
+        [
+          135.0,
+          415.0
+        ],
+        [
+          250.0,
+          415.0
+        ],
+        [
+          250.0,
+          430.0
+        ],
+        [
+          135.0,
+          430.0
+        ]
+      ],
+      "confidence": 0.3005499159473999,
+      "variant": "clahe",
+      "variants": [
+        "clahe",
+        "original"
+      ],
+      "alternatives": [
+        {
+          "text": "1",
+          "confidence": 0.29395042890632794,
+          "variant": "original"
+        }
+      ],
+      "role": "unknown",
+      "role_confidence": 0.25,
+      "role_source": "geometry",
+      "role_reason": "secteur sans axes : tranche ou légende indéterminée",
+      "annotation_assistance": {
+        "role": "other",
+        "iou": 0.9171014492753623,
+        "field": "models[4].text_label",
+        "source": "official_region"
+      }
+    },
+    {
+      "text": "Kitchen & dining 15%",
+      "bbox": [
+        441.0,
+        443.0,
+        573.0,
+        460.0
+      ],
+      "polygon": [
+        [
+          441.0,
+          443.0
+        ],
+        [
+          573.0,
+          443.0
+        ],
+        [
+          573.0,
+          460.0
+        ],
+        [
+          441.0,
+          460.0
+        ]
+      ],
+      "confidence": 0.835361708852558,
+      "variant": "original",
+      "variants": [
+        "original",
+        "clahe"
+      ],
+      "alternatives": [
+        {
+          "text": "Kitchen & dining 15%",
+          "confidence": 0.6558989161983296,
+          "variant": "clahe"
+        }
+      ],
+      "role": "unknown",
+      "role_confidence": 0.25,
+      "role_source": "geometry",
+      "role_reason": "secteur sans axes : tranche ou légende indéterminée",
+      "annotation_assistance": {
+        "role": "other",
+        "iou": 0.8110516934046346,
+        "field": "models[3].text_label",
+        "source": "official_region"
+      }
+    },
+    {
+      "text": "Statista 2021",
+      "bbox": [
+        681.0,
+        488.0,
+        757.0,
+        503.0
+      ],
+      "polygon": [
+        [
+          681.0,
+          488.0
+        ],
+        [
+          757.0,
+          488.0
+        ],
+        [
+          757.0,
+          503.0
+        ],
+        [
+          681.0,
+          503.0
+        ]
+      ],
+      "confidence": 0.9932226749723742,
+      "variant": "original",
+      "variants": [
+        "original",
+        "clahe"
+      ],
+      "alternatives": [
+        {
+          "text": "Statista 2021",
+          "confidence": 0.9609642698255942,
+          "variant": "clahe"
+        }
+      ],
+      "role": "unknown",
+      "role_confidence": 0.25,
+      "role_source": "geometry",
+      "role_reason": "secteur sans axes : tranche ou légende indéterminée",
+      "annotation_assistance": null
+    },
+    {
+      "text": "Additional Information",
+      "bbox": [
+        39.0,
+        512.0,
+        169.0,
+        527.0
+      ],
+      "polygon": [
+        [
+          39.0,
+          512.0
+        ],
+        [
+          169.0,
+          512.0
+        ],
+        [
+          169.0,
+          527.0
+        ],
+        [
+          39.0,
+          527.0
+        ]
+      ],
+      "confidence": 0.8063614594626868,
+      "variant": "clahe",
+      "variants": [
+        "clahe",
+        "original"
+      ],
+      "alternatives": [
+        {
+          "text": "Addirional Information",
+          "confidence": 0.7563305944992438,
+          "variant": "original"
+        }
+      ],
+      "role": "unknown",
+      "role_confidence": 0.25,
+      "role_source": "geometry",
+      "role_reason": "secteur sans axes : tranche ou légende indéterminée",
+      "annotation_assistance": null
+    },
+    {
+      "text": "Show source 0",
+      "bbox": [
+        685.0,
+        512.0,
+        775.0,
+        527.0
+      ],
+      "polygon": [
+        [
+          685.0,
+          512.0
+        ],
+        [
+          775.0,
+          512.0
+        ],
+        [
+          775.0,
+          527.0
+        ],
+        [
+          685.0,
+          527.0
+        ]
+      ],
+      "confidence": 0.9481208935560048,
+      "variant": "clahe",
+      "variants": [
+        "clahe",
+        "original"
+      ],
+      "alternatives": [
+        {
+          "text": "Show source",
+          "confidence": 0.9441792262146728,
+          "variant": "original"
+        }
+      ],
+      "role": "unknown",
+      "role_confidence": 0.25,
+      "role_source": "geometry",
+      "role_reason": "secteur sans axes : tranche ou légende indéterminée",
+      "annotation_assistance": null
+    }
+  ],
+  "errors": [],
+  "uncertainties": [
+    "Certains textes ont une confiance OCR inférieure à 0.5.",
+    "Hypothèses concurrentes entre variantes : consulter alternatives."
+  ],
+  "seconds": 13.013247499999125,
+  "scope": "Visible text only. Numeric OCR strings are NOT extracted chart data.",
+  "annotation_assistance": "regions/roles only; reference text never fed into OCR"
+}

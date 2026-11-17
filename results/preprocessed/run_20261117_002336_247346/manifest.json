@@ -1,0 +1,47 @@
+[
+  {
+    "source": "C:\\Users\\ELECTRO-RIMO\\Downloads\\ChartQA-main\\ChartQA-main\\ChartQA Dataset\\test\\png\\00339007006077.png",
+    "sha256": "8b67ff05a3b2ff79cb66bbd9c15378a39e1d0581d251bcc5cffa3eba61dcc86a",
+    "width": 850,
+    "height": 600,
+    "output": "C:\\Users\\ELECTRO-RIMO\\Downloads\\ChartQA-main\\ChartQA-main\\results\\preprocessed\\run_20261117_002336_247346\\01_00339007006077",
+    "binary_black_fraction": 0.1132764705882353,
+    "checks": "PNG reload, dimensions, pixel equality, binary values, source hash: OK"
+  },
+  {
+    "source": "C:\\Users\\ELECTRO-RIMO\\Downloads\\ChartQA-main\\ChartQA-main\\ChartQA Dataset\\train\\png\\multi_col_60554.png",
+    "sha256": "55bb5ea0e0a5916ee0830f3424f14b0b232c31f9ee654dd265f94751d14e4a7c",
+    "width": 800,
+    "height": 557,
+    "output": "C:\\Users\\ELECTRO-RIMO\\Downloads\\ChartQA-main\\ChartQA-main\\results\\preprocessed\\run_20261117_002336_247346\\02_multi_col_60554",
+    "binary_black_fraction": 0.06435816876122083,
+    "checks": "PNG reload, dimensions, pixel equality, binary values, source hash: OK"
+  },
+  {
+    "source": "C:\\Users\\ELECTRO-RIMO\\Downloads\\ChartQA-main\\ChartQA-main\\ChartQA Dataset\\train\\png\\two_col_22358.png",
+    "sha256": "5fa0bd89b10a9aa298668757d7799cd4f099060ef9ac44fb5e5b20bb90a2efa3",
+    "width": 800,
+    "height": 557,
+    "output": "C:\\Users\\ELECTRO-RIMO\\Downloads\\ChartQA-main\\ChartQA-main\\results\\preprocessed\\run_20261117_002336_247346\\03_two_col_22358",
+    "binary_black_fraction": 0.1382383303411131,
+    "checks": "PNG reload, dimensions, pixel equality, binary values, source hash: OK"
+  },
+  {
+    "source": "C:\\Users\\ELECTRO-RIMO\\Downloads\\ChartQA-main\\ChartQA-main\\ChartQA Dataset\\train\\png\\two_col_5693.png",
+    "sha256": "88d811b78f0573ae383bbd54ba8db1779e243732d75f7a735bb257f3334b86d3",
+    "width": 800,
+    "height": 776,
+    "output": "C:\\Users\\ELECTRO-RIMO\\Downloads\\ChartQA-main\\ChartQA-main\\results\\preprocessed\\run_20261117_002336_247346\\04_two_col_5693",
+    "binary_black_fraction": 0.09975193298969072,
+    "checks": "PNG reload, dimensions, pixel equality, binary values, source hash: OK"
+  },
+  {
+    "source": "C:\\Users\\ELECTRO-RIMO\\Downloads\\ChartQA-main\\ChartQA-main\\ChartQA Dataset\\val\\png\\two_col_978.png",
+    "sha256": "4750d477c9703adc0e1eb19d876bcc97e70186faeac8a9eb8f4973b504176eec",
+    "width": 800,
+    "height": 607,
+    "output": "C:\\Users\\ELECTRO-RIMO\\Downloads\\ChartQA-main\\ChartQA-main\\results\\preprocessed\\run_20261117_002336_247346\\05_two_col_978",
+    "binary_black_fraction": 0.046140856672158156,
+    "checks": "PNG reload, dimensions, pixel equality, binary values, source hash: OK"
+  }
+]

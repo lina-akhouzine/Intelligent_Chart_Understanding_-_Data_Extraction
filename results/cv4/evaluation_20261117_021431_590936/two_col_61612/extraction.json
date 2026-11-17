@@ -1,0 +1,721 @@
+{
+  "image": "two_col_61612.png",
+  "source": "C:\\Users\\ELECTRO-RIMO\\Downloads\\ChartQA-main\\ChartQA-main\\ChartQA Dataset\\test\\png\\two_col_61612.png",
+  "source_sha256": "306d7fce05696a5ccb1c64b20199d20802ef4b47065d99559eb3e214df09208d",
+  "chart_type": "v_bar",
+  "cv2_chart_type": "v_bar",
+  "orientation_correction": null,
+  "chart_probabilities": {
+    "v_bar": 1.0,
+    "h_bar": 4.499912886757329e-09,
+    "line": 2.4942231613422905e-10,
+    "pie": 8.784388771942986e-10
+  },
+  "checkpoint": "C:\\Users\\ELECTRO-RIMO\\Downloads\\ChartQA-main\\ChartQA-main\\models_cv2\\resnet18_20261117_010609_069660.pt",
+  "prediction_inputs": [
+    "image pixels",
+    "CV2 trained checkpoint",
+    "EasyOCR visible text"
+  ],
+  "reference_data_used_for_prediction": false,
+  "ocr_cache": "C:\\Users\\ELECTRO-RIMO\\Downloads\\ChartQA-main\\ChartQA-main\\results\\cv4\\evaluation_20261117_020522_908279\\two_col_61612\\extraction.json",
+  "ocr_texts": [
+    {
+      "text": "25",
+      "bbox": [
+        60.0,
+        40.0,
+        78.0,
+        53.0
+      ],
+      "confidence": 0.9999964596665606
+    },
+    {
+      "text": "20",
+      "bbox": [
+        60.0,
+        117.0,
+        78.0,
+        131.0
+      ],
+      "confidence": 0.999988873250124
+    },
+    {
+      "text": "19.14",
+      "bbox": [
+        136.0,
+        120.0,
+        173.0,
+        134.0
+      ],
+      "confidence": 0.5348500203265224
+    },
+    {
+      "text": "15.92",
+      "bbox": [
+        263.0,
+        171.0,
+        299.0,
+        185.0
+      ],
+      "confidence": 0.9739350124678423
+    },
+    {
+      "text": "1",
+      "bbox": [
+        389.0,
+        195.0,
+        426.0,
+        209.0
+      ],
+      "confidence": 0.6803968328756902
+    },
+    {
+      "text": "dollars",
+      "bbox": [
+        41.0,
+        196.0,
+        54.0,
+        231.0
+      ],
+      "confidence": 0.9971432020720928
+    },
+    {
+      "text": "15",
+      "bbox": [
+        60.0,
+        196.0,
+        78.0,
+        209.0
+      ],
+      "confidence": 0.9999586963383006
+    },
+    {
+      "text": "13.2",
+      "bbox": [
+        523.0,
+        213.0,
+        551.0,
+        227.0
+      ],
+      "confidence": 0.9995162487030029
+    },
+    {
+      "text": "12.47",
+      "bbox": [
+        645.0,
+        224.0,
+        681.0,
+        238.0
+      ],
+      "confidence": 0.5556937627220615
+    },
+    {
+      "text": "3",
+      "bbox": [
+        41.0,
+        233.0,
+        53.0,
+        253.0
+      ],
+      "confidence": 0.9864207925966753
+    },
+    {
+      "text": "F",
+      "bbox": [
+        44.0,
+        254.0,
+        52.0,
+        264.0
+      ],
+      "confidence": 0.5957294962045445
+    },
+    {
+      "text": "1",
+      "bbox": [
+        41.58334528950679,
+        265.07152330911475,
+        53.41665471049321,
+        291.92847669088525
+      ],
+      "confidence": 0.9565738615312966
+    },
+    {
+      "text": "10",
+      "bbox": [
+        60.0,
+        275.0,
+        78.0,
+        287.0
+      ],
+      "confidence": 0.9999716774352768
+    },
+    {
+      "text": "Helsinki, Finland",
+      "bbox": [
+        362.0,
+        446.0,
+        454.0,
+        462.0
+      ],
+      "confidence": 0.7494664535016164
+    },
+    {
+      "text": "Oslo, Nonvay",
+      "bbox": [
+        117.0,
+        447.0,
+        193.0,
+        462.0
+      ],
+      "confidence": 0.7428530820365669
+    },
+    {
+      "text": "Reykjavik, Iceland",
+      "bbox": [
+        232.0,
+        447.0,
+        330.0,
+        462.0
+      ],
+      "confidence": 0.8458760048371337
+    },
+    {
+      "text": "Stockholm, Sweden",
+      "bbox": [
+        482.0,
+        448.0,
+        590.0,
+        462.0
+      ],
+      "confidence": 0.9846788043012416
+    },
+    {
+      "text": "Copenhagen, Denmark",
+      "bbox": [
+        601.0,
+        448.0,
+        727.0,
+        463.0
+      ],
+      "confidence": 0.7642979068403064
+    },
+    {
+      "text": "Statista 2021",
+      "bbox": [
+        681.0,
+        488.0,
+        757.0,
+        503.0
+      ],
+      "confidence": 0.9366004071909034
+    },
+    {
+      "text": "Additional Information",
+      "bbox": [
+        37.0,
+        512.0,
+        169.0,
+        527.0
+      ],
+      "confidence": 0.9541188406686363
+    },
+    {
+      "text": "Show source",
+      "bbox": [
+        685.0,
+        512.0,
+        762.0,
+        527.0
+      ],
+      "confidence": 0.8743158824320638
+    }
+  ],
+  "rows": [
+    {
+      "category": "Norway",
+      "series": null,
+      "series_id": "series_1",
+      "value": 19.00254280247905,
+      "unit": null,
+      "bar_bbox": [
+        111,
+        140,
+        199,
+        439
+      ],
+      "color": [
+        40,
+        118,
+        221
+      ],
+      "endpoint_pixel": 140.0,
+      "error": null,
+      "pixel_value_uncertainty": 0.06393799159485226
+    },
+    {
+      "category": "Reykjavik Iceland",
+      "series": null,
+      "series_id": "series_1",
+      "value": 15.805643222736434,
+      "unit": null,
+      "bar_bbox": [
+        238,
+        190,
+        326,
+        439
+      ],
+      "color": [
+        40,
+        118,
+        221
+      ],
+      "endpoint_pixel": 190.0,
+      "error": null,
+      "pixel_value_uncertainty": 0.06393799159485226
+    },
+    {
+      "category": "Helsinki, Finland",
+      "series": null,
+      "series_id": "series_1",
+      "value": 14.271131424459979,
+      "unit": null,
+      "bar_bbox": [
+        365,
+        214,
+        453,
+        439
+      ],
+      "color": [
+        40,
+        118,
+        221
+      ],
+      "endpoint_pixel": 214.0,
+      "error": null,
+      "pixel_value_uncertainty": 0.06393799159485226
+    },
+    {
+      "category": "Stockholm, Sweden",
+      "series": null,
+      "series_id": "series_1",
+      "value": 13.056309584157786,
+      "unit": null,
+      "bar_bbox": [
+        493,
+        233,
+        581,
+        439
+      ],
+      "color": [
+        40,
+        118,
+        221
+      ],
+      "endpoint_pixel": 233.0,
+      "error": null,
+      "pixel_value_uncertainty": 0.06393799159485226
+    },
+    {
+      "category": "Copenhagen, Denmark",
+      "series": null,
+      "series_id": "series_1",
+      "value": 12.352991676614412,
+      "unit": null,
+      "bar_bbox": [
+        620,
+        244,
+        708,
+        439
+      ],
+      "color": [
+        40,
+        118,
+        221
+      ],
+      "endpoint_pixel": 244.0,
+      "error": null,
+      "pixel_value_uncertainty": 0.06393799159485226
+    }
+  ],
+  "bars": [
+    {
+      "bbox": [
+        111,
+        140,
+        199,
+        439
+      ],
+      "color": [
+        40,
+        118,
+        221
+      ],
+      "fill_ratio": 1.0,
+      "series_id": "series_1"
+    },
+    {
+      "bbox": [
+        238,
+        190,
+        326,
+        439
+      ],
+      "color": [
+        40,
+        118,
+        221
+      ],
+      "fill_ratio": 1.0,
+      "series_id": "series_1"
+    },
+    {
+      "bbox": [
+        365,
+        214,
+        453,
+        439
+      ],
+      "color": [
+        40,
+        118,
+        221
+      ],
+      "fill_ratio": 1.0,
+      "series_id": "series_1"
+    },
+    {
+      "bbox": [
+        493,
+        233,
+        581,
+        439
+      ],
+      "color": [
+        40,
+        118,
+        221
+      ],
+      "fill_ratio": 1.0,
+      "series_id": "series_1"
+    },
+    {
+      "bbox": [
+        620,
+        244,
+        708,
+        439
+      ],
+      "color": [
+        40,
+        118,
+        221
+      ],
+      "fill_ratio": 1.0,
+      "series_id": "series_1"
+    }
+  ],
+  "categories": [
+    {
+      "text": "05l0,",
+      "confidence": 0.6730232661966156,
+      "bbox": [
+        117.03376506039876,
+        447.1862665287933,
+        148.96623493960124,
+        462.8137334712067
+      ],
+      "source": "CV4 targeted OCR, no reference text",
+      "position": 133.0,
+      "row": 455.0
+    },
+    {
+      "text": "Norway",
+      "confidence": 0.6507914823313959,
+      "bbox": [
+        148.0,
+        448.0,
+        192.0,
+        463.0
+      ],
+      "source": "CV4 targeted OCR, no reference text",
+      "position": 170.0,
+      "row": 455.5
+    },
+    {
+      "text": "Reykjavik Iceland",
+      "confidence": 0.9441145786391587,
+      "bbox": [
+        233.0,
+        449.0,
+        330.0,
+        463.0
+      ],
+      "source": "CV4 targeted OCR, no reference text",
+      "position": 281.5,
+      "row": 456.0
+    },
+    {
+      "text": "Helsinki, Finland",
+      "confidence": 0.5693049249869808,
+      "bbox": [
+        362.0,
+        447.0,
+        455.0,
+        463.0
+      ],
+      "source": "CV4 targeted OCR, no reference text",
+      "position": 408.5,
+      "row": 455.0
+    },
+    {
+      "text": "Stockholm, Sweden",
+      "confidence": 0.8576062797643802,
+      "bbox": [
+        481.0,
+        447.0,
+        589.0,
+        463.0
+      ],
+      "source": "CV4 targeted OCR, no reference text",
+      "position": 535.0,
+      "row": 455.0
+    },
+    {
+      "text": "Copenhagen, Denmark",
+      "confidence": 0.9793752689948949,
+      "bbox": [
+        600.0,
+        447.0,
+        726.0,
+        463.0
+      ],
+      "source": "CV4 targeted OCR, no reference text",
+      "position": 663.0,
+      "row": 455.0
+    }
+  ],
+  "series": {},
+  "calibration": {
+    "slope": -0.06393799159485226,
+    "intercept": 27.953861625758364,
+    "unit": null,
+    "rmse_ticks": 0.017510226039659335,
+    "ticks": [
+      {
+        "value": 25.0,
+        "unit": null,
+        "position": 46.5,
+        "text": "25",
+        "bbox": [
+          60.0,
+          40.0,
+          78.0,
+          53.0
+        ]
+      },
+      {
+        "value": 20.0,
+        "unit": null,
+        "position": 124.0,
+        "text": "20",
+        "bbox": [
+          60.0,
+          117.0,
+          78.0,
+          131.0
+        ]
+      },
+      {
+        "value": 15.0,
+        "unit": null,
+        "position": 202.5,
+        "text": "15",
+        "bbox": [
+          60.0,
+          196.0,
+          78.0,
+          209.0
+        ]
+      },
+      {
+        "value": 10.0,
+        "unit": null,
+        "position": 281.0,
+        "text": "10",
+        "bbox": [
+          60.0,
+          275.0,
+          78.0,
+          287.0
+        ]
+      }
+    ],
+    "rejected_ticks": [],
+    "mapping": "value = slope * pixel_coordinate + intercept",
+    "scale": "linear"
+  },
+  "baseline_pixel": 439.0,
+  "baseline_value": -0.11491668438177882,
+  "refined_ocr": [
+    {
+      "text": "20",
+      "confidence": 0.9999912334667646,
+      "bbox": [
+        61.0,
+        119.0,
+        77.0,
+        131.0
+      ],
+      "source": "CV4 targeted OCR, no reference text"
+    },
+    {
+      "text": "15",
+      "confidence": 0.9999597078505775,
+      "bbox": [
+        60.0,
+        197.0,
+        77.0,
+        209.0
+      ],
+      "source": "CV4 targeted OCR, no reference text"
+    },
+    {
+      "text": "9",
+      "confidence": 0.6900329474256672,
+      "bbox": [
+        41.0,
+        195.0,
+        53.0,
+        231.0
+      ],
+      "source": "CV4 targeted OCR, no reference text"
+    },
+    {
+      "text": "3",
+      "confidence": 0.9974626920791394,
+      "bbox": [
+        43.0,
+        235.0,
+        52.0,
+        251.0
+      ],
+      "source": "CV4 targeted OCR, no reference text"
+    },
+    {
+      "text": "5",
+      "confidence": 0.5164651662746564,
+      "bbox": [
+        44.0,
+        254.0,
+        52.0,
+        263.0
+      ],
+      "source": "CV4 targeted OCR, no reference text"
+    },
+    {
+      "text": "2",
+      "confidence": 0.5412392464697859,
+      "bbox": [
+        41.0,
+        265.0,
+        53.0,
+        292.0
+      ],
+      "source": "CV4 targeted OCR, no reference text"
+    },
+    {
+      "text": "10",
+      "confidence": 0.9999955324369808,
+      "bbox": [
+        61.0,
+        276.0,
+        77.0,
+        288.0
+      ],
+      "source": "CV4 targeted OCR, no reference text"
+    },
+    {
+      "text": "Norway",
+      "confidence": 0.6507914823313959,
+      "bbox": [
+        148.0,
+        448.0,
+        192.0,
+        463.0
+      ],
+      "source": "CV4 targeted OCR, no reference text"
+    },
+    {
+      "text": "Reykjavik Iceland",
+      "confidence": 0.9441145786391587,
+      "bbox": [
+        233.0,
+        449.0,
+        330.0,
+        463.0
+      ],
+      "source": "CV4 targeted OCR, no reference text"
+    },
+    {
+      "text": "Helsinki, Finland",
+      "confidence": 0.5693049249869808,
+      "bbox": [
+        362.0,
+        447.0,
+        455.0,
+        463.0
+      ],
+      "source": "CV4 targeted OCR, no reference text"
+    },
+    {
+      "text": "Stockholm, Sweden",
+      "confidence": 0.8576062797643802,
+      "bbox": [
+        481.0,
+        447.0,
+        589.0,
+        463.0
+      ],
+      "source": "CV4 targeted OCR, no reference text"
+    },
+    {
+      "text": "Copenhagen, Denmark",
+      "confidence": 0.9793752689948949,
+      "bbox": [
+        600.0,
+        447.0,
+        726.0,
+        463.0
+      ],
+      "source": "CV4 targeted OCR, no reference text"
+    },
+    {
+      "text": "S-a-is-a",
+      "confidence": 0.48416978685534157,
+      "bbox": [
+        681.0,
+        489.0,
+        727.0,
+        501.0
+      ],
+      "source": "CV4 targeted OCR, no reference text"
+    },
+    {
+      "text": "05l0,",
+      "confidence": 0.6730232661966156,
+      "bbox": [
+        117.03376506039876,
+        447.1862665287933,
+        148.96623493960124,
+        462.8137334712067
+      ],
+      "source": "CV4 targeted OCR, no reference text"
+    }
+  ],
+  "errors": [],
+  "uncertainties": [
+    "Rectangle plein seulement ; ombres, petites barres et objets non rectangulaires peuvent être manqués."
+  ],
+  "status": "success"
+}

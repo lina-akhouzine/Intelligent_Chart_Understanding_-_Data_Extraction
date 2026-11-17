@@ -1,0 +1,96 @@
+{
+  "metrics_directory": "results\\cv4\\evaluation_20261117_021742_633345",
+  "predictions_directory": "results/cv4/evaluation_20261117_021431_590936",
+  "overall": {
+    "images": 25,
+    "matched_values": 91,
+    "reference_values": 324,
+    "missing_values": 233,
+    "extra_values": 5,
+    "MAE": 11.913704942730185,
+    "RMSE": 35.727779184394784,
+    "MAPE_nonzero_percent": 0.5864106788612085,
+    "MAPE_nonzero_pairs": 91,
+    "category_match_rate": 0.8493150684931506,
+    "value_coverage": 0.2808641975308642,
+    "images_with_any_extracted_value": 12,
+    "images_with_paired_values": 11,
+    "any_extraction_rate": 0.48,
+    "paired_extraction_rate": 0.44,
+    "complete_reference_coverage_rate": 0.2
+  },
+  "by_type": {
+    "h_bar": {
+      "images": 5,
+      "matched_values": 6,
+      "reference_values": 48,
+      "missing_values": 42,
+      "extra_values": 1,
+      "MAE": 0.1960446235182142,
+      "RMSE": 0.20805157362256996,
+      "MAPE_nonzero_percent": 0.40432665607220447,
+      "MAPE_nonzero_pairs": 6,
+      "category_match_rate": 0.65,
+      "value_coverage": 0.125,
+      "images_with_any_extracted_value": 1,
+      "images_with_paired_values": 1,
+      "any_extraction_rate": 0.2,
+      "paired_extraction_rate": 0.2,
+      "complete_reference_coverage_rate": 0.0
+    },
+    "v_bar": {
+      "images": 20,
+      "matched_values": 85,
+      "reference_values": 276,
+      "missing_values": 191,
+      "extra_values": 4,
+      "MAE": 12.740833906439262,
+      "RMSE": 36.96721806636153,
+      "MAPE_nonzero_percent": 0.5992636687051383,
+      "MAPE_nonzero_pairs": 85,
+      "category_match_rate": 0.8938547486033519,
+      "value_coverage": 0.3079710144927536,
+      "images_with_any_extracted_value": 11,
+      "images_with_paired_values": 10,
+      "any_extraction_rate": 0.55,
+      "paired_extraction_rate": 0.5,
+      "complete_reference_coverage_rate": 0.25
+    }
+  },
+  "additional_random_v_bar": {
+    "images": 15,
+    "matched_values": 77,
+    "reference_values": 233,
+    "missing_values": 156,
+    "extra_values": 3,
+    "MAE": 12.616008563017028,
+    "RMSE": 38.390023835370044,
+    "MAPE_nonzero_percent": 0.562814329291662,
+    "MAPE_nonzero_pairs": 77,
+    "category_match_rate": 0.9533333333333334,
+    "value_coverage": 0.33047210300429186,
+    "images_with_any_extracted_value": 8,
+    "images_with_paired_values": 7,
+    "any_extraction_rate": 0.5333333333333333,
+    "paired_extraction_rate": 0.4666666666666667,
+    "complete_reference_coverage_rate": 0.26666666666666666
+  },
+  "protocol": {
+    "prediction_inputs": "pixels + CV2 prediction + OCR ONLY; no annotations/tables",
+    "sampling": "5 development pilot v_bar + seeded random v_bar; optional 5 exploratory h_bar",
+    "matching": "normalized exact text or unique similarity >=0.92; no numerical matching",
+    "warning": "Exploratory development evaluation: these images were inspected to refine rejection controls; NOT an untouched held-out benchmark. Pooled MAE/RMSE mix native units.",
+    "MAPE": "matched pairs only, references !=0; percentage points remain native percentage units"
+  },
+  "tests": "results\\cv4\\tests_20261117_021840_299199\\test_report.json",
+  "test_status": "PASS",
+  "diagnostics": {
+    "negative_real_case": "multi_col_60411.png: CV2 h_bar corrected geometrically to v_bar; calibration failed, no values",
+    "percent_real_case": "00339007006077.png: h_bar, 4 automatically extracted percent values",
+    "unsupported_real_cases": [
+      "10146.png (line)",
+      "two_col_4223.png (pie)"
+    ]
+  },
+  "warning": "Exploratory, development-inspected sample; NOT untouched held-out performance. Initial pre-guard results are superseded."
+}

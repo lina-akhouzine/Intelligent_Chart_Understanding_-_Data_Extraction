@@ -1,0 +1,29 @@
+{
+  "image": "10146.png",
+  "source": "C:\\Users\\ELECTRO-RIMO\\Downloads\\ChartQA-main\\ChartQA-main\\ChartQA Dataset\\test\\png\\10146.png",
+  "source_sha256": "30bf3d08cf75e923cd94e6bacd9433e9fe737b18ae1874c1fbdb0fa0ebdf049a",
+  "chart_type": "line",
+  "cv2_chart_type": "line",
+  "orientation_correction": null,
+  "chart_probabilities": {
+    "v_bar": 3.45574679982974e-10,
+    "h_bar": 1.9710550969165297e-09,
+    "line": 1.0,
+    "pie": 3.207079268818802e-09
+  },
+  "checkpoint": "C:\\Users\\ELECTRO-RIMO\\Downloads\\ChartQA-main\\ChartQA-main\\models_cv2\\resnet18_20261117_010609_069660.pt",
+  "prediction_inputs": [
+    "image pixels",
+    "CV2 trained checkpoint",
+    "EasyOCR visible text"
+  ],
+  "reference_data_used_for_prediction": false,
+  "status": "unsupported",
+  "rows": [],
+  "bars": [],
+  "errors": [
+    "line: extraction non activée/implémentée."
+  ],
+  "uncertainties": [],
+  "calibration": null
+}

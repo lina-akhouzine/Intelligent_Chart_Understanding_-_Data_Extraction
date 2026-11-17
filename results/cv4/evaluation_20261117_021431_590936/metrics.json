@@ -1,0 +1,3024 @@
+{
+  "protocol": {
+    "prediction_inputs": "pixels + CV2 prediction + OCR ONLY; no annotations/tables",
+    "sampling": "5 development pilot v_bar + seeded random v_bar; optional 5 exploratory h_bar",
+    "matching": "normalized exact text or unique similarity >=0.92; no numerical matching",
+    "warning": "Exploratory internal evaluation; pilot images also used for development. Pooled MAE/RMSE mix native units.",
+    "MAPE": "matched pairs only, references !=0; percentage points remain native percentage units"
+  },
+  "overall": {
+    "images": 25,
+    "matched_values": 91,
+    "reference_values": 324,
+    "missing_values": 233,
+    "extra_values": 5,
+    "MAE": 11.913704942730185,
+    "RMSE": 35.727779184394784,
+    "MAPE_nonzero_percent": 0.5864106788612085,
+    "MAPE_nonzero_pairs": 91,
+    "category_match_rate": 0.8493150684931506,
+    "value_coverage": 0.2808641975308642,
+    "images_with_any_extracted_value": 12,
+    "images_with_paired_values": 11,
+    "any_extraction_rate": 0.48,
+    "paired_extraction_rate": 0.44,
+    "complete_reference_coverage_rate": 0.2
+  },
+  "by_type": {
+    "h_bar": {
+      "images": 5,
+      "matched_values": 6,
+      "reference_values": 48,
+      "missing_values": 42,
+      "extra_values": 1,
+      "MAE": 0.1960446235182142,
+      "RMSE": 0.20805157362256996,
+      "MAPE_nonzero_percent": 0.40432665607220447,
+      "MAPE_nonzero_pairs": 6,
+      "category_match_rate": 0.65,
+      "value_coverage": 0.125,
+      "images_with_any_extracted_value": 1,
+      "images_with_paired_values": 1,
+      "any_extraction_rate": 0.2,
+      "paired_extraction_rate": 0.2,
+      "complete_reference_coverage_rate": 0.0
+    },
+    "v_bar": {
+      "images": 20,
+      "matched_values": 85,
+      "reference_values": 276,
+      "missing_values": 191,
+      "extra_values": 4,
+      "MAE": 12.740833906439262,
+      "RMSE": 36.96721806636153,
+      "MAPE_nonzero_percent": 0.5992636687051383,
+      "MAPE_nonzero_pairs": 85,
+      "category_match_rate": 0.8938547486033519,
+      "value_coverage": 0.3079710144927536,
+      "images_with_any_extracted_value": 11,
+      "images_with_paired_values": 10,
+      "any_extraction_rate": 0.55,
+      "paired_extraction_rate": 0.5,
+      "complete_reference_coverage_rate": 0.25
+    }
+  },
+  "additional_random_v_bar": {
+    "images": 15,
+    "matched_values": 77,
+    "reference_values": 233,
+    "missing_values": 156,
+    "extra_values": 3,
+    "MAE": 12.616008563017028,
+    "RMSE": 38.390023835370044,
+    "MAPE_nonzero_percent": 0.562814329291662,
+    "MAPE_nonzero_pairs": 77,
+    "category_match_rate": 0.9533333333333334,
+    "value_coverage": 0.33047210300429186,
+    "images_with_any_extracted_value": 8,
+    "images_with_paired_values": 7,
+    "any_extraction_rate": 0.5333333333333333,
+    "paired_extraction_rate": 0.4666666666666667,
+    "complete_reference_coverage_rate": 0.26666666666666666
+  },
+  "per_image": [
+    {
+      "image": "multi_col_101181.png",
+      "sample_role": "development_pilot",
+      "reference_type": "v_bar",
+      "predicted_type": "v_bar",
+      "status": "failed",
+      "errors": [
+        "Barres empilées détectées : extraction refusée, pas de décomposition implémentée."
+      ],
+      "extracted_values": 0,
+      "prediction_folder": "C:\\Users\\ELECTRO-RIMO\\Downloads\\ChartQA-main\\ChartQA-main\\results\\cv4\\evaluation_20261117_021431_590936\\multi_col_101181",
+      "evaluation": {
+        "reference_file": "C:\\Users\\ELECTRO-RIMO\\Downloads\\ChartQA-main\\ChartQA-main\\ChartQA Dataset\\test\\tables\\multi_col_101181.csv",
+        "reference_values": 20,
+        "reference_categories": 10,
+        "matched_categories": 0,
+        "matched": [],
+        "missing": [
+          {
+            "category": "2018/19",
+            "series": "Boys",
+            "reference": 100185.0,
+            "reason": "no_prediction"
+          },
+          {
+            "category": "2018/19",
+            "series": "Girls",
+            "reference": 71740.0,
+            "reason": "no_prediction"
+          },
+          {
+            "category": "2017/18",
+            "series": "Boys",
+            "reference": 102897.0,
+            "reason": "no_prediction"
+          },
+          {
+            "category": "2017/18",
+            "series": "Girls",
+            "reference": 71464.0,
+            "reason": "no_prediction"
+          },
+          {
+            "category": "2016/17",
+            "series": "Boys",
+            "reference": 102642.0,
+            "reason": "no_prediction"
+          },
+          {
+            "category": "2016/17",
+            "series": "Girls",
+            "reference": 71779.0,
+            "reason": "no_prediction"
+          },
+          {
+            "category": "2015/16",
+            "series": "Boys",
+            "reference": 102165.0,
+            "reason": "no_prediction"
+          },
+          {
+            "category": "2015/16",
+            "series": "Girls",
+            "reference": 70474.0,
+            "reason": "no_prediction"
+          },
+          {
+            "category": "2014/15",
+            "series": "Boys",
+            "reference": 102190.0,
+            "reason": "no_prediction"
+          },
+          {
+            "category": "2014/15",
+            "series": "Girls",
+            "reference": 69747.0,
+            "reason": "no_prediction"
+          },
+          {
+            "category": "2013/14",
+            "series": "Boys",
+            "reference": 103408.0,
+            "reason": "no_prediction"
+          },
+          {
+            "category": "2013/14",
+            "series": "Girls",
+            "reference": 69086.0,
+            "reason": "no_prediction"
+          },
+          {
+            "category": "2012/13",
+            "series": "Boys",
+            "reference": 103745.0,
+            "reason": "no_prediction"
+          },
+          {
+            "category": "2012/13",
+            "series": "Girls",
+            "reference": 68977.0,
+            "reason": "no_prediction"
+          },
+          {
+            "category": "2011/12",
+            "series": "Boys",
+            "reference": 102760.0,
+            "reason": "no_prediction"
+          },
+          {
+            "category": "2011/12",
+            "series": "Girls",
+            "reference": 68803.0,
+            "reason": "no_prediction"
+          },
+          {
+            "category": "2010/11",
+            "series": "Boys",
+            "reference": 98038.0,
+            "reason": "no_prediction"
+          },
+          {
+            "category": "2010/11",
+            "series": "Girls",
+            "reference": 65523.0,
+            "reason": "no_prediction"
+          },
+          {
+            "category": "2009/10",
+            "series": "Boys",
+            "reference": 102184.0,
+            "reason": "no_prediction"
+          },
+          {
+            "category": "2009/10",
+            "series": "Girls",
+            "reference": 68472.0,
+            "reason": "no_prediction"
+          }
+        ],
+        "extra": [],
+        "ambiguous_reference_cells_excluded": 0,
+        "single_series_fallback": false
+      }
+    },
+    {
+      "image": "two_col_103667.png",
+      "sample_role": "development_pilot",
+      "reference_type": "v_bar",
+      "predicted_type": "v_bar",
+      "status": "failed",
+      "errors": [
+        "Calibration en contradiction avec plusieurs pourcentages visibles ; chiffres/symbole % OCR ambigus."
+      ],
+      "extracted_values": 0,
+      "prediction_folder": "C:\\Users\\ELECTRO-RIMO\\Downloads\\ChartQA-main\\ChartQA-main\\results\\cv4\\evaluation_20261117_021431_590936\\two_col_103667",
+      "evaluation": {
+        "reference_file": "C:\\Users\\ELECTRO-RIMO\\Downloads\\ChartQA-main\\ChartQA-main\\ChartQA Dataset\\test\\tables\\two_col_103667.csv",
+        "reference_values": 6,
+        "reference_categories": 6,
+        "matched_categories": 6,
+        "matched": [],
+        "missing": [
+          {
+            "category": "2020*",
+            "series": "Growth rate",
+            "reference": 5.5,
+            "reason": "no_prediction"
+          },
+          {
+            "category": "2016",
+            "series": "Growth rate",
+            "reference": 5.8,
+            "reason": "no_prediction"
+          },
+          {
+            "category": "2015",
+            "series": "Growth rate",
+            "reference": 5.9,
+            "reason": "no_prediction"
+          },
+          {
+            "category": "2014",
+            "series": "Growth rate",
+            "reference": 6.4,
+            "reason": "no_prediction"
+          },
+          {
+            "category": "2013",
+            "series": "Growth rate",
+            "reference": 4.7,
+            "reason": "no_prediction"
+          },
+          {
+            "category": "2012",
+            "series": "Growth rate",
+            "reference": 4.5,
+            "reason": "no_prediction"
+          }
+        ],
+        "extra": [],
+        "ambiguous_reference_cells_excluded": 0,
+        "single_series_fallback": true
+      }
+    },
+    {
+      "image": "two_col_81707.png",
+      "sample_role": "development_pilot",
+      "reference_type": "v_bar",
+      "predicted_type": "v_bar",
+      "status": "partial",
+      "errors": [],
+      "extracted_values": 5,
+      "prediction_folder": "C:\\Users\\ELECTRO-RIMO\\Downloads\\ChartQA-main\\ChartQA-main\\results\\cv4\\evaluation_20261117_021431_590936\\two_col_81707",
+      "evaluation": {
+        "reference_file": "C:\\Users\\ELECTRO-RIMO\\Downloads\\ChartQA-main\\ChartQA-main\\ChartQA Dataset\\test\\tables\\two_col_81707.csv",
+        "reference_values": 7,
+        "reference_categories": 7,
+        "matched_categories": 6,
+        "matched": [
+          {
+            "predicted_category": "2019",
+            "predicted_series": "series_1",
+            "prediction": 3556.829970053434,
+            "category": "2019",
+            "series": "Investment volume in million euros",
+            "category_matching": "exact",
+            "reference": 3582.0,
+            "error": -25.170029946566046
+          },
+          {
+            "predicted_category": "2016",
+            "predicted_series": "series_1",
+            "prediction": 3020.43412734141,
+            "category": "2016",
+            "series": "Investment volume in million euros",
+            "category_matching": "exact",
+            "reference": 3041.0,
+            "error": -20.565872658589797
+          },
+          {
+            "predicted_category": "2015",
+            "predicted_series": "series_1",
+            "prediction": 1840.3632733749573,
+            "category": "2015",
+            "series": "Investment volume in million euros",
+            "category_matching": "exact",
+            "reference": 1864.0,
+            "error": -23.636726625042684
+          },
+          {
+            "predicted_category": "2014",
+            "predicted_series": "series_1",
+            "prediction": 2116.2239924839987,
+            "category": "2014",
+            "series": "Investment volume in million euros",
+            "category_matching": "exact",
+            "reference": 2148.0,
+            "error": -31.7760075160013
+          }
+        ],
+        "missing": [
+          {
+            "category": "2018",
+            "series": "Investment volume in million euros",
+            "reference": 3634.0,
+            "reason": "no_prediction"
+          },
+          {
+            "category": "2017",
+            "series": "Investment volume in million euros",
+            "reference": 5186.0,
+            "reason": "no_prediction"
+          },
+          {
+            "category": "2013",
+            "series": "Investment volume in million euros",
+            "reference": 1546.0,
+            "reason": "no_prediction"
+          }
+        ],
+        "extra": [
+          {
+            "predicted_category": "201,8",
+            "predicted_series": "series_1",
+            "prediction": 3602.8067565716074,
+            "category": null,
+            "series": "Investment volume in million euros",
+            "category_matching": null,
+            "reason": "category_or_series_not_uniquely_matched"
+          }
+        ],
+        "ambiguous_reference_cells_excluded": 0,
+        "single_series_fallback": true
+      }
+    },
+    {
+      "image": "multi_col_60369.png",
+      "sample_role": "development_pilot",
+      "reference_type": "v_bar",
+      "predicted_type": "v_bar",
+      "status": "partial",
+      "errors": [],
+      "extracted_values": 2,
+      "prediction_folder": "C:\\Users\\ELECTRO-RIMO\\Downloads\\ChartQA-main\\ChartQA-main\\results\\cv4\\evaluation_20261117_021431_590936\\multi_col_60369",
+      "evaluation": {
+        "reference_file": "C:\\Users\\ELECTRO-RIMO\\Downloads\\ChartQA-main\\ChartQA-main\\ChartQA Dataset\\test\\tables\\multi_col_60369.csv",
+        "reference_values": 8,
+        "reference_categories": 4,
+        "matched_categories": 3,
+        "matched": [
+          {
+            "predicted_category": "2013 (Foster Farms chicken)",
+            "predicted_series": "Illnesses",
+            "prediction": 629.564183959092,
+            "category": "2013 (Foster Farms chicken)",
+            "series": "Illnesses",
+            "category_matching": "exact",
+            "reference": 634.0,
+            "error": -4.43581604090798
+          },
+          {
+            "predicted_category": "2009 (PCA peanut butter)",
+            "predicted_series": "Illnesses",
+            "prediction": 708.3300755289367,
+            "category": "2009 (PCA peanut butter)",
+            "series": "Illnesses",
+            "category_matching": "exact",
+            "reference": 714.0,
+            "error": -5.669924471063268
+          }
+        ],
+        "missing": [
+          {
+            "category": "2015 (Mexican cucumbers)",
+            "series": "Illnesses",
+            "reference": 907.0,
+            "reason": "no_prediction"
+          },
+          {
+            "category": "2015 (Mexican cucumbers)",
+            "series": "Deaths",
+            "reference": 1.0,
+            "reason": "no_prediction"
+          },
+          {
+            "category": "2013 (Foster Farms chicken)",
+            "series": "Deaths",
+            "reference": 0.0,
+            "reason": "no_prediction"
+          },
+          {
+            "category": "2011 (Cargill ground turkey)",
+            "series": "Illnesses",
+            "reference": 136.0,
+            "reason": "no_prediction"
+          },
+          {
+            "category": "2011 (Cargill ground turkey)",
+            "series": "Deaths",
+            "reference": 1.0,
+            "reason": "no_prediction"
+          },
+          {
+            "category": "2009 (PCA peanut butter)",
+            "series": "Deaths",
+            "reference": 9.0,
+            "reason": "no_prediction"
+          }
+        ],
+        "extra": [],
+        "ambiguous_reference_cells_excluded": 0,
+        "single_series_fallback": false
+      }
+    },
+    {
+      "image": "two_col_3752.png",
+      "sample_role": "development_pilot",
+      "reference_type": "v_bar",
+      "predicted_type": "v_bar",
+      "status": "success",
+      "errors": [],
+      "extracted_values": 2,
+      "prediction_folder": "C:\\Users\\ELECTRO-RIMO\\Downloads\\ChartQA-main\\ChartQA-main\\results\\cv4\\evaluation_20261117_021431_590936\\two_col_3752",
+      "evaluation": {
+        "reference_file": "C:\\Users\\ELECTRO-RIMO\\Downloads\\ChartQA-main\\ChartQA-main\\ChartQA Dataset\\test\\tables\\two_col_3752.csv",
+        "reference_values": 2,
+        "reference_categories": 2,
+        "matched_categories": 2,
+        "matched": [
+          {
+            "predicted_category": "Apr '16",
+            "predicted_series": "series_1",
+            "prediction": 18.874666819289345,
+            "category": "Apr '16",
+            "series": "Number of app users in millions",
+            "category_matching": "exact",
+            "reference": 19.0,
+            "error": -0.1253331807106548
+          },
+          {
+            "predicted_category": "Jul '14*",
+            "predicted_series": "series_1",
+            "prediction": 11.841487743855595,
+            "category": "Jul '14*",
+            "series": "Number of app users in millions",
+            "category_matching": "exact",
+            "reference": 12.0,
+            "error": -0.15851225614440523
+          }
+        ],
+        "missing": [],
+        "extra": [],
+        "ambiguous_reference_cells_excluded": 0,
+        "single_series_fallback": true
+      }
+    },
+    {
+      "image": "two_col_61612.png",
+      "sample_role": "additional_random_test_images",
+      "reference_type": "v_bar",
+      "predicted_type": "v_bar",
+      "status": "success",
+      "errors": [],
+      "extracted_values": 5,
+      "prediction_folder": "C:\\Users\\ELECTRO-RIMO\\Downloads\\ChartQA-main\\ChartQA-main\\results\\cv4\\evaluation_20261117_021431_590936\\two_col_61612",
+      "evaluation": {
+        "reference_file": "C:\\Users\\ELECTRO-RIMO\\Downloads\\ChartQA-main\\ChartQA-main\\ChartQA Dataset\\test\\tables\\two_col_61612.csv",
+        "reference_values": 5,
+        "reference_categories": 5,
+        "matched_categories": 3,
+        "matched": [
+          {
+            "predicted_category": "Helsinki, Finland",
+            "predicted_series": "series_1",
+            "prediction": 14.271131424459979,
+            "category": "Helsinki, Finland",
+            "series": "Price in U.S. dollars",
+            "category_matching": "exact",
+            "reference": 14.42,
+            "error": -0.1488685755400212
+          },
+          {
+            "predicted_category": "Stockholm, Sweden",
+            "predicted_series": "series_1",
+            "prediction": 13.056309584157786,
+            "category": "Stockholm, Sweden",
+            "series": "Price in U.S. dollars",
+            "category_matching": "exact",
+            "reference": 13.2,
+            "error": -0.14369041584221343
+          },
+          {
+            "predicted_category": "Copenhagen, Denmark",
+            "predicted_series": "series_1",
+            "prediction": 12.352991676614412,
+            "category": "Copenhagen, Denmark",
+            "series": "Price in U.S. dollars",
+            "category_matching": "exact",
+            "reference": 12.47,
+            "error": -0.11700832338558875
+          }
+        ],
+        "missing": [
+          {
+            "category": "Oslo, Norway",
+            "series": "Price in U.S. dollars",
+            "reference": 19.14,
+            "reason": "no_prediction"
+          },
+          {
+            "category": "Reykjavík, Iceland",
+            "series": "Price in U.S. dollars",
+            "reference": 15.92,
+            "reason": "no_prediction"
+          }
+        ],
+        "extra": [
+          {
+            "predicted_category": "Norway",
+            "predicted_series": "series_1",
+            "prediction": 19.00254280247905,
+            "category": null,
+            "series": "Price in U.S. dollars",
+            "category_matching": null,
+            "reason": "category_or_series_not_uniquely_matched"
+          },
+          {
+            "predicted_category": "Reykjavik Iceland",
+            "predicted_series": "series_1",
+            "prediction": 15.805643222736434,
+            "category": null,
+            "series": "Price in U.S. dollars",
+            "category_matching": null,
+            "reason": "category_or_series_not_uniquely_matched"
+          }
+        ],
+        "ambiguous_reference_cells_excluded": 0,
+        "single_series_fallback": true
+      }
+    },
+    {
+      "image": "two_col_4215.png",
+      "sample_role": "additional_random_test_images",
+      "reference_type": "v_bar",
+      "predicted_type": "v_bar",
+      "status": "partial",
+      "errors": [],
+      "extracted_values": 14,
+      "prediction_folder": "C:\\Users\\ELECTRO-RIMO\\Downloads\\ChartQA-main\\ChartQA-main\\results\\cv4\\evaluation_20261117_021431_590936\\two_col_4215",
+      "evaluation": {
+        "reference_file": "C:\\Users\\ELECTRO-RIMO\\Downloads\\ChartQA-main\\ChartQA-main\\ChartQA Dataset\\test\\tables\\two_col_4215.csv",
+        "reference_values": 15,
+        "reference_categories": 15,
+        "matched_categories": 14,
+        "matched": [
+          {
+            "predicted_category": "2020*",
+            "predicted_series": "series_1",
+            "prediction": 257.41489759655843,
+            "category": "2020*",
+            "series": "Millions of passengers",
+            "category_matching": "exact",
+            "reference": 259.0,
+            "error": -1.5851024034415673
+          },
+          {
+            "predicted_category": "2018",
+            "predicted_series": "series_1",
+            "prediction": 242.88903955858967,
+            "category": "2018",
+            "series": "Millions of passengers",
+            "category_matching": "exact",
+            "reference": 244.0,
+            "error": -1.1109604414103273
+          },
+          {
+            "predicted_category": "2017",
+            "predicted_series": "series_1",
+            "prediction": 230.65673805293176,
+            "category": "2017",
+            "series": "Millions of passengers",
+            "category_matching": "exact",
+            "reference": 232.0,
+            "error": -1.3432619470682425
+          },
+          {
+            "predicted_category": "2016",
+            "predicted_series": "series_1",
+            "prediction": 218.42443654727384,
+            "category": "2016",
+            "series": "Millions of passengers",
+            "category_matching": "exact",
+            "reference": 220.0,
+            "error": -1.5755634527261577
+          },
+          {
+            "predicted_category": "2015",
+            "predicted_series": "series_1",
+            "prediction": 206.9566538857196,
+            "category": "2015",
+            "series": "Millions of passengers",
+            "category_matching": "exact",
+            "reference": 208.0,
+            "error": -1.0433461142804106
+          },
+          {
+            "predicted_category": "2014",
+            "predicted_series": "series_1",
+            "prediction": 195.4888712241653,
+            "category": "2014",
+            "series": "Millions of passengers",
+            "category_matching": "exact",
+            "reference": 197.0,
+            "error": -1.5111287758346919
+          },
+          {
+            "predicted_category": "2013",
+            "predicted_series": "series_1",
+            "prediction": 184.78560740671463,
+            "category": "2013",
+            "series": "Millions of passengers",
+            "category_matching": "exact",
+            "reference": 186.0,
+            "error": -1.2143925932853676
+          },
+          {
+            "predicted_category": "2012",
+            "predicted_series": "series_1",
+            "prediction": 177.14041896567844,
+            "category": "2012",
+            "series": "Millions of passengers",
+            "category_matching": "exact",
+            "reference": 178.0,
+            "error": -0.8595810343215646
+          },
+          {
+            "predicted_category": "2011",
+            "predicted_series": "series_1",
+            "prediction": 164.90811746002055,
+            "category": "2011",
+            "series": "Millions of passengers",
+            "category_matching": "exact",
+            "reference": 166.0,
+            "error": -1.0918825399794514
+          },
+          {
+            "predicted_category": "2010",
+            "predicted_series": "series_1",
+            "prediction": 156.49841017488072,
+            "category": "2010",
+            "series": "Millions of passengers",
+            "category_matching": "exact",
+            "reference": 158.0,
+            "error": -1.5015898251192823
+          },
+          {
+            "predicted_category": "2009",
+            "predicted_series": "series_1",
+            "prediction": 145.79514635743007,
+            "category": "2009",
+            "series": "Millions of passengers",
+            "category_matching": "exact",
+            "reference": 147.0,
+            "error": -1.2048536425699297
+          },
+          {
+            "predicted_category": "2008",
+            "predicted_series": "series_1",
+            "prediction": 154.20485364256987,
+            "category": "2008",
+            "series": "Millions of passengers",
+            "category_matching": "exact",
+            "reference": 155.0,
+            "error": -0.7951463574301272
+          },
+          {
+            "predicted_category": "2007",
+            "predicted_series": "series_1",
+            "prediction": 148.85322173384455,
+            "category": "2007",
+            "series": "Millions of passengers",
+            "category_matching": "exact",
+            "reference": 150.0,
+            "error": -1.1467782661554509
+          },
+          {
+            "predicted_category": "2006",
+            "predicted_series": "series_1",
+            "prediction": 142.7370709810156,
+            "category": "2006",
+            "series": "Millions of passengers",
+            "category_matching": "exact",
+            "reference": 144.0,
+            "error": -1.2629290189844085
+          }
+        ],
+        "missing": [
+          {
+            "category": "2019*",
+            "series": "Millions of passengers",
+            "reference": 252.0,
+            "reason": "no_prediction"
+          }
+        ],
+        "extra": [],
+        "ambiguous_reference_cells_excluded": 0,
+        "single_series_fallback": true
+      }
+    },
+    {
+      "image": "multi_col_40786.png",
+      "sample_role": "additional_random_test_images",
+      "reference_type": "v_bar",
+      "predicted_type": "v_bar",
+      "status": "failed",
+      "errors": [
+        "Symboles % visuellement probables mais non reconnus par OCR : calibration refusée, aucun chiffre corrigé."
+      ],
+      "extracted_values": 0,
+      "prediction_folder": "C:\\Users\\ELECTRO-RIMO\\Downloads\\ChartQA-main\\ChartQA-main\\results\\cv4\\evaluation_20261117_021431_590936\\multi_col_40786",
+      "evaluation": {
+        "reference_file": "C:\\Users\\ELECTRO-RIMO\\Downloads\\ChartQA-main\\ChartQA-main\\ChartQA Dataset\\test\\tables\\multi_col_40786.csv",
+        "reference_values": 8,
+        "reference_categories": 2,
+        "matched_categories": 2,
+        "matched": [],
+        "missing": [
+          {
+            "category": "Once a week or more (net)",
+            "series": "Hispanics",
+            "reference": 33.0,
+            "reason": "no_prediction"
+          },
+          {
+            "category": "Once a week or more (net)",
+            "series": "White, non-Hispanic",
+            "reference": 33.0,
+            "reason": "no_prediction"
+          },
+          {
+            "category": "Once a week or more (net)",
+            "series": "African Americans",
+            "reference": 28.0,
+            "reason": "no_prediction"
+          },
+          {
+            "category": "Once a week or more (net)",
+            "series": "Asians",
+            "reference": 34.0,
+            "reason": "no_prediction"
+          },
+          {
+            "category": "Once a month or more (net)",
+            "series": "Hispanics",
+            "reference": 70.0,
+            "reason": "no_prediction"
+          },
+          {
+            "category": "Once a month or more (net)",
+            "series": "White, non-Hispanic",
+            "reference": 76.0,
+            "reason": "no_prediction"
+          },
+          {
+            "category": "Once a month or more (net)",
+            "series": "African Americans",
+            "reference": 71.0,
+            "reason": "no_prediction"
+          },
+          {
+            "category": "Once a month or more (net)",
+            "series": "Asians",
+            "reference": 70.0,
+            "reason": "no_prediction"
+          }
+        ],
+        "extra": [],
+        "ambiguous_reference_cells_excluded": 0,
+        "single_series_fallback": false
+      }
+    },
+    {
+      "image": "two_col_1809.png",
+      "sample_role": "additional_random_test_images",
+      "reference_type": "v_bar",
+      "predicted_type": "v_bar",
+      "status": "partial",
+      "errors": [],
+      "extracted_values": 7,
+      "prediction_folder": "C:\\Users\\ELECTRO-RIMO\\Downloads\\ChartQA-main\\ChartQA-main\\results\\cv4\\evaluation_20261117_021431_590936\\two_col_1809",
+      "evaluation": {
+        "reference_file": "C:\\Users\\ELECTRO-RIMO\\Downloads\\ChartQA-main\\ChartQA-main\\ChartQA Dataset\\test\\tables\\two_col_1809.csv",
+        "reference_values": 8,
+        "reference_categories": 8,
+        "matched_categories": 8,
+        "matched": [
+          {
+            "predicted_category": "2020",
+            "predicted_series": "series_1",
+            "prediction": 27493.26756923985,
+            "category": "2020",
+            "series": "R&D expediture (in million U.S. dollars)",
+            "category_matching": "exact",
+            "reference": 27573.0,
+            "error": -79.73243076014842
+          },
+          {
+            "predicted_category": "2019",
+            "predicted_series": "series_1",
+            "prediction": 25881.81217800548,
+            "category": "2019",
+            "series": "R&D expediture (in million U.S. dollars)",
+            "category_matching": "exact",
+            "reference": 26018.0,
+            "error": -136.18782199452107
+          },
+          {
+            "predicted_category": "2018",
+            "predicted_series": "series_1",
+            "prediction": 21316.021902841418,
+            "category": "2018",
+            "series": "R&D expediture (in million U.S. dollars)",
+            "category_matching": "exact",
+            "reference": 21419.0,
+            "error": -102.97809715858239
+          },
+          {
+            "predicted_category": "2017",
+            "predicted_series": "series_1",
+            "prediction": 16481.655729138296,
+            "category": "2017",
+            "series": "R&D expediture (in million U.S. dollars)",
+            "category_matching": "exact",
+            "reference": 16625.0,
+            "error": -143.344270861704
+          },
+          {
+            "predicted_category": "2016",
+            "predicted_series": "series_1",
+            "prediction": 13795.896743747671,
+            "category": "2016",
+            "series": "R&D expediture (in million U.S. dollars)",
+            "category_matching": "exact",
+            "reference": 13948.0,
+            "error": -152.10325625232872
+          },
+          {
+            "predicted_category": "2015",
+            "predicted_series": "series_1",
+            "prediction": 12184.441352513299,
+            "category": "2015",
+            "series": "R&D expediture (in million U.S. dollars)",
+            "category_matching": "exact",
+            "reference": 12282.0,
+            "error": -97.55864748670137
+          },
+          {
+            "predicted_category": "2014",
+            "predicted_series": "series_1",
+            "prediction": 9677.732966148717,
+            "category": "2014",
+            "series": "R&D expediture (in million U.S. dollars)",
+            "category_matching": "exact",
+            "reference": 9832.0,
+            "error": -154.2670338512835
+          }
+        ],
+        "missing": [
+          {
+            "category": "2013",
+            "series": "R&D expediture (in million U.S. dollars)",
+            "reference": 7137.0,
+            "reason": "no_prediction"
+          }
+        ],
+        "extra": [],
+        "ambiguous_reference_cells_excluded": 0,
+        "single_series_fallback": true
+      }
+    },
+    {
+      "image": "multi_col_441.png",
+      "sample_role": "additional_random_test_images",
+      "reference_type": "v_bar",
+      "predicted_type": "v_bar",
+      "status": "failed",
+      "errors": [
+        "Échelle non linéaire, chiffres OCR incohérents ou calibration ambiguë."
+      ],
+      "extracted_values": 0,
+      "prediction_folder": "C:\\Users\\ELECTRO-RIMO\\Downloads\\ChartQA-main\\ChartQA-main\\results\\cv4\\evaluation_20261117_021431_590936\\multi_col_441",
+      "evaluation": {
+        "reference_file": "C:\\Users\\ELECTRO-RIMO\\Downloads\\ChartQA-main\\ChartQA-main\\ChartQA Dataset\\test\\tables\\multi_col_441.csv",
+        "reference_values": 66,
+        "reference_categories": 11,
+        "matched_categories": 11,
+        "matched": [],
+        "missing": [
+          {
+            "category": "2019",
+            "series": "Africa",
+            "reference": 28.6,
+            "reason": "no_prediction"
+          },
+          {
+            "category": "2019",
+            "series": "Arab States",
+            "reference": 54.6,
+            "reason": "no_prediction"
+          },
+          {
+            "category": "2019",
+            "series": "Asia & Pacific",
+            "reference": 44.5,
+            "reason": "no_prediction"
+          },
+          {
+            "category": "2019",
+            "series": "CIS",
+            "reference": 72.8,
+            "reason": "no_prediction"
+          },
+          {
+            "category": "2019",
+            "series": "Europe",
+            "reference": 82.5,
+            "reason": "no_prediction"
+          },
+          {
+            "category": "2019",
+            "series": "Americas",
+            "reference": 76.7,
+            "reason": "no_prediction"
+          },
+          {
+            "category": "2018",
+            "series": "Africa",
+            "reference": 26.3,
+            "reason": "no_prediction"
+          },
+          {
+            "category": "2018",
+            "series": "Arab States",
+            "reference": 50.9,
+            "reason": "no_prediction"
+          },
+          {
+            "category": "2018",
+            "series": "Asia & Pacific",
+            "reference": 41.7,
+            "reason": "no_prediction"
+          },
+          {
+            "category": "2018",
+            "series": "CIS",
+            "reference": 69.9,
+            "reason": "no_prediction"
+          },
+          {
+            "category": "2018",
+            "series": "Europe",
+            "reference": 80.1,
+            "reason": "no_prediction"
+          },
+          {
+            "category": "2018",
+            "series": "Americas",
+            "reference": 74.7,
+            "reason": "no_prediction"
+          },
+          {
+            "category": "2017",
+            "series": "Africa",
+            "reference": 24.8,
+            "reason": "no_prediction"
+          },
+          {
+            "category": "2017",
+            "series": "Arab States",
+            "reference": 47.2,
+            "reason": "no_prediction"
+          },
+          {
+            "category": "2017",
+            "series": "Asia & Pacific",
+            "reference": 38.6,
+            "reason": "no_prediction"
+          },
+          {
+            "category": "2017",
+            "series": "CIS",
+            "reference": 66.1,
+            "reason": "no_prediction"
+          },
+          {
+            "category": "2017",
+            "series": "Europe",
+            "reference": 77.4,
+            "reason": "no_prediction"
+          },
+          {
+            "category": "2017",
+            "series": "Americas",
+            "reference": 72.2,
+            "reason": "no_prediction"
+          },
+          {
+            "category": "2016",
+            "series": "Africa",
+            "reference": 22.3,
+            "reason": "no_prediction"
+          },
+          {
+            "category": "2016",
+            "series": "Arab States",
+            "reference": 41.7,
+            "reason": "no_prediction"
+          },
+          {
+            "category": "2016",
+            "series": "Asia & Pacific",
+            "reference": 36.7,
+            "reason": "no_prediction"
+          },
+          {
+            "category": "2016",
+            "series": "CIS",
+            "reference": 63.6,
+            "reason": "no_prediction"
+          },
+          {
+            "category": "2016",
+            "series": "Europe",
+            "reference": 74.9,
+            "reason": "no_prediction"
+          },
+          {
+            "category": "2016",
+            "series": "Americas",
+            "reference": 68.6,
+            "reason": "no_prediction"
+          },
+          {
+            "category": "2015",
+            "series": "Africa",
+            "reference": 20.3,
+            "reason": "no_prediction"
+          },
+          {
+            "category": "2015",
+            "series": "Arab States",
+            "reference": 38.2,
+            "reason": "no_prediction"
+          },
+          {
+            "category": "2015",
+            "series": "Asia & Pacific",
+            "reference": 34.2,
+            "reason": "no_prediction"
+          },
+          {
+            "category": "2015",
+            "series": "CIS",
+            "reference": 60.6,
+            "reason": "no_prediction"
+          },
+          {
+            "category": "2015",
+            "series": "Europe",
+            "reference": 72.9,
+            "reason": "no_prediction"
+          },
+          {
+            "category": "2015",
+            "series": "Americas",
+            "reference": 63.0,
+            "reason": "no_prediction"
+          },
+          {
+            "category": "2014",
+            "series": "Africa",
+            "reference": 18.1,
+            "reason": "no_prediction"
+          },
+          {
+            "category": "2014",
+            "series": "Arab States",
+            "reference": 34.8,
+            "reason": "no_prediction"
+          },
+          {
+            "category": "2014",
+            "series": "Asia & Pacific",
+            "reference": 32.3,
+            "reason": "no_prediction"
+          },
+          {
+            "category": "2014",
+            "series": "CIS",
+            "reference": 59.9,
+            "reason": "no_prediction"
+          },
+          {
+            "category": "2014",
+            "series": "Europe",
+            "reference": 71.9,
+            "reason": "no_prediction"
+          },
+          {
+            "category": "2014",
+            "series": "Americas",
+            "reference": 58.7,
+            "reason": "no_prediction"
+          },
+          {
+            "category": "2013",
+            "series": "Africa",
+            "reference": 16.1,
+            "reason": "no_prediction"
+          },
+          {
+            "category": "2013",
+            "series": "Arab States",
+            "reference": 32.4,
+            "reason": "no_prediction"
+          },
+          {
+            "category": "2013",
+            "series": "Asia & Pacific",
+            "reference": 30.4,
+            "reason": "no_prediction"
+          },
+          {
+            "category": "2013",
+            "series": "CIS",
+            "reference": 57.1,
+            "reason": "no_prediction"
+          },
+          {
+            "category": "2013",
+            "series": "Europe",
+            "reference": 69.4,
+            "reason": "no_prediction"
+          },
+          {
+            "category": "2013",
+            "series": "Americas",
+            "reference": 56.2,
+            "reason": "no_prediction"
+          },
+          {
+            "category": "2012",
+            "series": "Africa",
+            "reference": 14.2,
+            "reason": "no_prediction"
+          },
+          {
+            "category": "2012",
+            "series": "Arab States",
+            "reference": 30.0,
+            "reason": "no_prediction"
+          },
+          {
+            "category": "2012",
+            "series": "Asia & Pacific",
+            "reference": 27.8,
+            "reason": "no_prediction"
+          },
+          {
+            "category": "2012",
+            "series": "CIS",
+            "reference": 53.3,
+            "reason": "no_prediction"
+          },
+          {
+            "category": "2012",
+            "series": "Europe",
+            "reference": 67.3,
+            "reason": "no_prediction"
+          },
+          {
+            "category": "2012",
+            "series": "Americas",
+            "reference": 55.2,
+            "reason": "no_prediction"
+          },
+          {
+            "category": "2011",
+            "series": "Africa",
+            "reference": 12.2,
+            "reason": "no_prediction"
+          },
+          {
+            "category": "2011",
+            "series": "Arab States",
+            "reference": 26.9,
+            "reason": "no_prediction"
+          },
+          {
+            "category": "2011",
+            "series": "Asia & Pacific",
+            "reference": 25.4,
+            "reason": "no_prediction"
+          },
+          {
+            "category": "2011",
+            "series": "CIS",
+            "reference": 42.0,
+            "reason": "no_prediction"
+          },
+          {
+            "category": "2011",
+            "series": "Europe",
+            "reference": 64.7,
+            "reason": "no_prediction"
+          },
+          {
+            "category": "2011",
+            "series": "Americas",
+            "reference": 51.1,
+            "reason": "no_prediction"
+          },
+          {
+            "category": "2010",
+            "series": "Africa",
+            "reference": 9.9,
+            "reason": "no_prediction"
+          },
+          {
+            "category": "2010",
+            "series": "Arab States",
+            "reference": 24.0,
+            "reason": "no_prediction"
+          },
+          {
+            "category": "2010",
+            "series": "Asia & Pacific",
+            "reference": 22.6,
+            "reason": "no_prediction"
+          },
+          {
+            "category": "2010",
+            "series": "CIS",
+            "reference": 35.6,
+            "reason": "no_prediction"
+          },
+          {
+            "category": "2010",
+            "series": "Europe",
+            "reference": 63.2,
+            "reason": "no_prediction"
+          },
+          {
+            "category": "2010",
+            "series": "Americas",
+            "reference": 48.8,
+            "reason": "no_prediction"
+          },
+          {
+            "category": "2009",
+            "series": "Africa",
+            "reference": 7.6,
+            "reason": "no_prediction"
+          },
+          {
+            "category": "2009",
+            "series": "Arab States",
+            "reference": 20.6,
+            "reason": "no_prediction"
+          },
+          {
+            "category": "2009",
+            "series": "Asia & Pacific",
+            "reference": 19.0,
+            "reason": "no_prediction"
+          },
+          {
+            "category": "2009",
+            "series": "CIS",
+            "reference": 24.3,
+            "reason": "no_prediction"
+          },
+          {
+            "category": "2009",
+            "series": "Europe",
+            "reference": 59.6,
+            "reason": "no_prediction"
+          },
+          {
+            "category": "2009",
+            "series": "Americas",
+            "reference": 46.3,
+            "reason": "no_prediction"
+          }
+        ],
+        "extra": [],
+        "ambiguous_reference_cells_excluded": 0,
+        "single_series_fallback": false
+      }
+    },
+    {
+      "image": "two_col_1378.png",
+      "sample_role": "additional_random_test_images",
+      "reference_type": "v_bar",
+      "predicted_type": "v_bar",
+      "status": "failed",
+      "errors": [
+        "Échelle non linéaire, chiffres OCR incohérents ou calibration ambiguë."
+      ],
+      "extracted_values": 0,
+      "prediction_folder": "C:\\Users\\ELECTRO-RIMO\\Downloads\\ChartQA-main\\ChartQA-main\\results\\cv4\\evaluation_20261117_021431_590936\\two_col_1378",
+      "evaluation": {
+        "reference_file": "C:\\Users\\ELECTRO-RIMO\\Downloads\\ChartQA-main\\ChartQA-main\\ChartQA Dataset\\test\\tables\\two_col_1378.csv",
+        "reference_values": 4,
+        "reference_categories": 4,
+        "matched_categories": 4,
+        "matched": [],
+        "missing": [
+          {
+            "category": "Computer Science",
+            "series": "Average salary in U.S. dollars",
+            "reference": 85373.0,
+            "reason": "no_prediction"
+          },
+          {
+            "category": "Engineering",
+            "series": "Average salary in U.S. dollars",
+            "reference": 80320.0,
+            "reason": "no_prediction"
+          },
+          {
+            "category": "Business",
+            "series": "Average salary in U.S. dollars",
+            "reference": 75461.0,
+            "reason": "no_prediction"
+          },
+          {
+            "category": "Math & Sciences",
+            "series": "Average salary in U.S. dollars",
+            "reference": 73992.0,
+            "reason": "no_prediction"
+          }
+        ],
+        "extra": [],
+        "ambiguous_reference_cells_excluded": 0,
+        "single_series_fallback": true
+      }
+    },
+    {
+      "image": "multi_col_80194.png",
+      "sample_role": "additional_random_test_images",
+      "reference_type": "v_bar",
+      "predicted_type": "v_bar",
+      "status": "failed",
+      "errors": [
+        "Symboles % visuellement probables mais non reconnus par OCR : calibration refusée, aucun chiffre corrigé."
+      ],
+      "extracted_values": 0,
+      "prediction_folder": "C:\\Users\\ELECTRO-RIMO\\Downloads\\ChartQA-main\\ChartQA-main\\results\\cv4\\evaluation_20261117_021431_590936\\multi_col_80194",
+      "evaluation": {
+        "reference_file": "C:\\Users\\ELECTRO-RIMO\\Downloads\\ChartQA-main\\ChartQA-main\\ChartQA Dataset\\test\\tables\\multi_col_80194.csv",
+        "reference_values": 15,
+        "reference_categories": 3,
+        "matched_categories": 3,
+        "matched": [],
+        "missing": [
+          {
+            "category": "From home",
+            "series": "Total",
+            "reference": 55.0,
+            "reason": "no_prediction"
+          },
+          {
+            "category": "From home",
+            "series": "18-34",
+            "reference": 40.0,
+            "reason": "no_prediction"
+          },
+          {
+            "category": "From home",
+            "series": "35-44",
+            "reference": 55.0,
+            "reason": "no_prediction"
+          },
+          {
+            "category": "From home",
+            "series": "45-54",
+            "reference": 58.0,
+            "reason": "no_prediction"
+          },
+          {
+            "category": "From home",
+            "series": "55+",
+            "reference": 65.0,
+            "reason": "no_prediction"
+          },
+          {
+            "category": "Live event",
+            "series": "Total",
+            "reference": 35.0,
+            "reason": "no_prediction"
+          },
+          {
+            "category": "Live event",
+            "series": "18-34",
+            "reference": 53.0,
+            "reason": "no_prediction"
+          },
+          {
+            "category": "Live event",
+            "series": "35-44",
+            "reference": 38.0,
+            "reason": "no_prediction"
+          },
+          {
+            "category": "Live event",
+            "series": "45-54",
+            "reference": 30.0,
+            "reason": "no_prediction"
+          },
+          {
+            "category": "Live event",
+            "series": "55+",
+            "reference": 20.0,
+            "reason": "no_prediction"
+          },
+          {
+            "category": "Don't watch sports",
+            "series": "Total",
+            "reference": 10.0,
+            "reason": "no_prediction"
+          },
+          {
+            "category": "Don't watch sports",
+            "series": "18-34",
+            "reference": 7.0,
+            "reason": "no_prediction"
+          },
+          {
+            "category": "Don't watch sports",
+            "series": "35-44",
+            "reference": 7.0,
+            "reason": "no_prediction"
+          },
+          {
+            "category": "Don't watch sports",
+            "series": "45-54",
+            "reference": 10.0,
+            "reason": "no_prediction"
+          },
+          {
+            "category": "Don't watch sports",
+            "series": "55+",
+            "reference": 13.0,
+            "reason": "no_prediction"
+          }
+        ],
+        "extra": [],
+        "ambiguous_reference_cells_excluded": 0,
+        "single_series_fallback": false
+      }
+    },
+    {
+      "image": "OECD_TAX_REVENUE_GBR_NLD_000037.png",
+      "sample_role": "additional_random_test_images",
+      "reference_type": "v_bar",
+      "predicted_type": "v_bar",
+      "status": "partial",
+      "errors": [],
+      "extracted_values": 1,
+      "prediction_folder": "C:\\Users\\ELECTRO-RIMO\\Downloads\\ChartQA-main\\ChartQA-main\\results\\cv4\\evaluation_20261117_021431_590936\\OECD_TAX_REVENUE_GBR_NLD_000037",
+      "evaluation": {
+        "reference_file": "C:\\Users\\ELECTRO-RIMO\\Downloads\\ChartQA-main\\ChartQA-main\\ChartQA Dataset\\test\\tables\\OECD_TAX_REVENUE_GBR_NLD_000037.csv",
+        "reference_values": 2,
+        "reference_categories": 2,
+        "matched_categories": 2,
+        "matched": [],
+        "missing": [
+          {
+            "category": "United Kingdom",
+            "series": "Tax revenue",
+            "reference": 36.7,
+            "reason": "no_prediction"
+          },
+          {
+            "category": "Netherlands",
+            "series": "Tax revenue",
+            "reference": 39.6,
+            "reason": "no_prediction"
+          }
+        ],
+        "extra": [
+          {
+            "predicted_category": "United Kingdom",
+            "predicted_series": "series_2",
+            "prediction": 35.876177768095424,
+            "category": "United Kingdom",
+            "series": null,
+            "category_matching": "exact",
+            "reason": "category_or_series_not_uniquely_matched"
+          }
+        ],
+        "ambiguous_reference_cells_excluded": 0,
+        "single_series_fallback": false
+      }
+    },
+    {
+      "image": "two_col_21194.png",
+      "sample_role": "additional_random_test_images",
+      "reference_type": "v_bar",
+      "predicted_type": "v_bar",
+      "status": "failed",
+      "errors": [
+        "Échelle non linéaire, chiffres OCR incohérents ou calibration ambiguë."
+      ],
+      "extracted_values": 0,
+      "prediction_folder": "C:\\Users\\ELECTRO-RIMO\\Downloads\\ChartQA-main\\ChartQA-main\\results\\cv4\\evaluation_20261117_021431_590936\\two_col_21194",
+      "evaluation": {
+        "reference_file": "C:\\Users\\ELECTRO-RIMO\\Downloads\\ChartQA-main\\ChartQA-main\\ChartQA Dataset\\test\\tables\\two_col_21194.csv",
+        "reference_values": 17,
+        "reference_categories": 17,
+        "matched_categories": 16,
+        "matched": [],
+        "missing": [
+          {
+            "category": "2019*",
+            "series": "GVA in million GBP",
+            "reference": 10408.0,
+            "reason": "no_prediction"
+          },
+          {
+            "category": "2018",
+            "series": "GVA in million GBP",
+            "reference": 9775.0,
+            "reason": "no_prediction"
+          },
+          {
+            "category": "2017",
+            "series": "GVA in million GBP",
+            "reference": 10419.0,
+            "reason": "no_prediction"
+          },
+          {
+            "category": "2016",
+            "series": "GVA in million GBP",
+            "reference": 8306.0,
+            "reason": "no_prediction"
+          },
+          {
+            "category": "2015",
+            "series": "GVA in million GBP",
+            "reference": 8792.0,
+            "reason": "no_prediction"
+          },
+          {
+            "category": "2014",
+            "series": "GVA in million GBP",
+            "reference": 9836.0,
+            "reason": "no_prediction"
+          },
+          {
+            "category": "2013",
+            "series": "GVA in million GBP",
+            "reference": 9400.0,
+            "reason": "no_prediction"
+          },
+          {
+            "category": "2012",
+            "series": "GVA in million GBP",
+            "reference": 8649.0,
+            "reason": "no_prediction"
+          },
+          {
+            "category": "2011",
+            "series": "GVA in million GBP",
+            "reference": 8676.0,
+            "reason": "no_prediction"
+          },
+          {
+            "category": "2010",
+            "series": "GVA in million GBP",
+            "reference": 6891.0,
+            "reason": "no_prediction"
+          },
+          {
+            "category": "2009",
+            "series": "GVA in million GBP",
+            "reference": 6832.0,
+            "reason": "no_prediction"
+          },
+          {
+            "category": "2008",
+            "series": "GVA in million GBP",
+            "reference": 6959.0,
+            "reason": "no_prediction"
+          },
+          {
+            "category": "2007",
+            "series": "GVA in million GBP",
+            "reference": 5397.0,
+            "reason": "no_prediction"
+          },
+          {
+            "category": "2006",
+            "series": "GVA in million GBP",
+            "reference": 4941.0,
+            "reason": "no_prediction"
+          },
+          {
+            "category": "2005",
+            "series": "GVA in million GBP",
+            "reference": 5092.0,
+            "reason": "no_prediction"
+          },
+          {
+            "category": "2004",
+            "series": "GVA in million GBP",
+            "reference": 7025.0,
+            "reason": "no_prediction"
+          },
+          {
+            "category": "2003",
+            "series": "GVA in million GBP",
+            "reference": 7179.0,
+            "reason": "no_prediction"
+          }
+        ],
+        "extra": [],
+        "ambiguous_reference_cells_excluded": 0,
+        "single_series_fallback": true
+      }
+    },
+    {
+      "image": "multi_col_438.png",
+      "sample_role": "additional_random_test_images",
+      "reference_type": "v_bar",
+      "predicted_type": "v_bar",
+      "status": "success",
+      "errors": [],
+      "extracted_values": 20,
+      "prediction_folder": "C:\\Users\\ELECTRO-RIMO\\Downloads\\ChartQA-main\\ChartQA-main\\results\\cv4\\evaluation_20261117_021431_590936\\multi_col_438",
+      "evaluation": {
+        "reference_file": "C:\\Users\\ELECTRO-RIMO\\Downloads\\ChartQA-main\\ChartQA-main\\ChartQA Dataset\\test\\tables\\multi_col_438.csv",
+        "reference_values": 20,
+        "reference_categories": 10,
+        "matched_categories": 10,
+        "matched": [
+          {
+            "predicted_category": "2019",
+            "predicted_series": "Grooms",
+            "prediction": 30.22525027808676,
+            "category": "2019",
+            "series": "Grooms",
+            "category_matching": "exact",
+            "reference": 30.4,
+            "error": -0.174749721913237
+          },
+          {
+            "predicted_category": "2019",
+            "predicted_series": "Brides",
+            "prediction": 28.647739913034684,
+            "category": "2019",
+            "series": "Brides",
+            "category_matching": "exact",
+            "reference": 28.8,
+            "error": -0.1522600869653168
+          },
+          {
+            "predicted_category": "2018",
+            "predicted_series": "Grooms",
+            "prediction": 30.014915562746488,
+            "category": "2018",
+            "series": "Grooms",
+            "category_matching": "exact",
+            "reference": 30.2,
+            "error": -0.18508443725351142
+          },
+          {
+            "predicted_category": "2018",
+            "predicted_series": "Brides",
+            "prediction": 28.33223784002427,
+            "category": "2018",
+            "series": "Brides",
+            "category_matching": "exact",
+            "reference": 28.5,
+            "error": -0.16776215997573019
+          },
+          {
+            "predicted_category": "2017",
+            "predicted_series": "Grooms",
+            "prediction": 29.804580847406207,
+            "category": "2017",
+            "series": "Grooms",
+            "category_matching": "exact",
+            "reference": 30.0,
+            "error": -0.19541915259379294
+          },
+          {
+            "predicted_category": "2017",
+            "predicted_series": "Brides",
+            "prediction": 28.22707048235413,
+            "category": "2017",
+            "series": "Brides",
+            "category_matching": "exact",
+            "reference": 28.4,
+            "error": -0.17292951764586917
+          },
+          {
+            "predicted_category": "2016",
+            "predicted_series": "Grooms",
+            "prediction": 30.120082920416625,
+            "category": "2016",
+            "series": "Grooms",
+            "category_matching": "exact",
+            "reference": 30.3,
+            "error": -0.179917079583376
+          },
+          {
+            "predicted_category": "2016",
+            "predicted_series": "Brides",
+            "prediction": 28.121903124683993,
+            "category": "2016",
+            "series": "Brides",
+            "category_matching": "exact",
+            "reference": 28.3,
+            "error": -0.17809687531600815
+          },
+          {
+            "predicted_category": "2015",
+            "predicted_series": "Grooms",
+            "prediction": 30.120082920416625,
+            "category": "2015",
+            "series": "Grooms",
+            "category_matching": "exact",
+            "reference": 30.3,
+            "error": -0.179917079583376
+          },
+          {
+            "predicted_category": "2015",
+            "predicted_series": "Brides",
+            "prediction": 28.016735767013856,
+            "category": "2015",
+            "series": "Brides",
+            "category_matching": "exact",
+            "reference": 28.2,
+            "error": -0.18326423298614358
+          },
+          {
+            "predicted_category": "2014",
+            "predicted_series": "Grooms",
+            "prediction": 30.014915562746488,
+            "category": "2014",
+            "series": "Grooms",
+            "category_matching": "exact",
+            "reference": 30.2,
+            "error": -0.18508443725351142
+          },
+          {
+            "predicted_category": "2014",
+            "predicted_series": "Brides",
+            "prediction": 28.016735767013856,
+            "category": "2014",
+            "series": "Brides",
+            "category_matching": "exact",
+            "reference": 28.2,
+            "error": -0.18326423298614358
+          },
+          {
+            "predicted_category": "2013",
+            "predicted_series": "Grooms",
+            "prediction": 30.014915562746488,
+            "category": "2013",
+            "series": "Grooms",
+            "category_matching": "exact",
+            "reference": 30.2,
+            "error": -0.18508443725351142
+          },
+          {
+            "predicted_category": "2013",
+            "predicted_series": "Brides",
+            "prediction": 27.80640105167358,
+            "category": "2013",
+            "series": "Brides",
+            "category_matching": "exact",
+            "reference": 28.0,
+            "error": -0.19359894832642155
+          },
+          {
+            "predicted_category": "2012",
+            "predicted_series": "Grooms",
+            "prediction": 29.909748205076347,
+            "category": "2012",
+            "series": "Grooms",
+            "category_matching": "exact",
+            "reference": 30.1,
+            "error": -0.19025179492365396
+          },
+          {
+            "predicted_category": "2012",
+            "predicted_series": "Brides",
+            "prediction": 27.80640105167358,
+            "category": "2012",
+            "series": "Brides",
+            "category_matching": "exact",
+            "reference": 28.0,
+            "error": -0.19359894832642155
+          },
+          {
+            "predicted_category": "2011",
+            "predicted_series": "Grooms",
+            "prediction": 29.909748205076347,
+            "category": "2011",
+            "series": "Grooms",
+            "category_matching": "exact",
+            "reference": 30.1,
+            "error": -0.19025179492365396
+          },
+          {
+            "predicted_category": "2011",
+            "predicted_series": "Brides",
+            "prediction": 27.80640105167358,
+            "category": "2011",
+            "series": "Brides",
+            "category_matching": "exact",
+            "reference": 28.0,
+            "error": -0.19359894832642155
+          },
+          {
+            "predicted_category": "2010",
+            "predicted_series": "Grooms",
+            "prediction": 29.804580847406207,
+            "category": "2010",
+            "series": "Grooms",
+            "category_matching": "exact",
+            "reference": 30.0,
+            "error": -0.19541915259379294
+          },
+          {
+            "predicted_category": "2010",
+            "predicted_series": "Brides",
+            "prediction": 27.5960663363333,
+            "category": "2010",
+            "series": "Brides",
+            "category_matching": "exact",
+            "reference": 27.7,
+            "error": -0.1039336636666981
+          }
+        ],
+        "missing": [],
+        "extra": [],
+        "ambiguous_reference_cells_excluded": 0,
+        "single_series_fallback": false
+      }
+    },
+    {
+      "image": "two_col_2898.png",
+      "sample_role": "additional_random_test_images",
+      "reference_type": "v_bar",
+      "predicted_type": "v_bar",
+      "status": "failed",
+      "errors": [
+        "Échelle non linéaire, chiffres OCR incohérents ou calibration ambiguë."
+      ],
+      "extracted_values": 0,
+      "prediction_folder": "C:\\Users\\ELECTRO-RIMO\\Downloads\\ChartQA-main\\ChartQA-main\\results\\cv4\\evaluation_20261117_021431_590936\\two_col_2898",
+      "evaluation": {
+        "reference_file": "C:\\Users\\ELECTRO-RIMO\\Downloads\\ChartQA-main\\ChartQA-main\\ChartQA Dataset\\test\\tables\\two_col_2898.csv",
+        "reference_values": 22,
+        "reference_categories": 22,
+        "matched_categories": 21,
+        "matched": [],
+        "missing": [
+          {
+            "category": "2100",
+            "series": "World population in billions",
+            "reference": 10.87,
+            "reason": "no_prediction"
+          },
+          {
+            "category": "2095",
+            "series": "World population in billions",
+            "reference": 10.85,
+            "reason": "no_prediction"
+          },
+          {
+            "category": "2090",
+            "series": "World population in billions",
+            "reference": 10.81,
+            "reason": "no_prediction"
+          },
+          {
+            "category": "2085",
+            "series": "World population in billions",
+            "reference": 10.75,
+            "reason": "no_prediction"
+          },
+          {
+            "category": "2080",
+            "series": "World population in billions",
+            "reference": 10.67,
+            "reason": "no_prediction"
+          },
+          {
+            "category": "2075",
+            "series": "World population in billions",
+            "reference": 10.58,
+            "reason": "no_prediction"
+          },
+          {
+            "category": "2070",
+            "series": "World population in billions",
+            "reference": 10.46,
+            "reason": "no_prediction"
+          },
+          {
+            "category": "2065",
+            "series": "World population in billions",
+            "reference": 10.32,
+            "reason": "no_prediction"
+          },
+          {
+            "category": "2060",
+            "series": "World population in billions",
+            "reference": 10.15,
+            "reason": "no_prediction"
+          },
+          {
+            "category": "2055",
+            "series": "World population in billions",
+            "reference": 9.96,
+            "reason": "no_prediction"
+          },
+          {
+            "category": "2050",
+            "series": "World population in billions",
+            "reference": 9.74,
+            "reason": "no_prediction"
+          },
+          {
+            "category": "2045",
+            "series": "World population in billions",
+            "reference": 9.48,
+            "reason": "no_prediction"
+          },
+          {
+            "category": "2040",
+            "series": "World population in billions",
+            "reference": 9.2,
+            "reason": "no_prediction"
+          },
+          {
+            "category": "2035",
+            "series": "World population in billions",
+            "reference": 8.89,
+            "reason": "no_prediction"
+          },
+          {
+            "category": "2030",
+            "series": "World population in billions",
+            "reference": 8.55,
+            "reason": "no_prediction"
+          },
+          {
+            "category": "2025",
+            "series": "World population in billions",
+            "reference": 8.18,
+            "reason": "no_prediction"
+          },
+          {
+            "category": "2020",
+            "series": "World population in billions",
+            "reference": 7.79,
+            "reason": "no_prediction"
+          },
+          {
+            "category": "2019",
+            "series": "World population in billions",
+            "reference": 7.71,
+            "reason": "no_prediction"
+          },
+          {
+            "category": "2018",
+            "series": "World population in billions",
+            "reference": 7.63,
+            "reason": "no_prediction"
+          },
+          {
+            "category": "2017",
+            "series": "World population in billions",
+            "reference": 7.55,
+            "reason": "no_prediction"
+          },
+          {
+            "category": "2016",
+            "series": "World population in billions",
+            "reference": 7.46,
+            "reason": "no_prediction"
+          },
+          {
+            "category": "2015",
+            "series": "World population in billions",
+            "reference": 7.38,
+            "reason": "no_prediction"
+          }
+        ],
+        "extra": [],
+        "ambiguous_reference_cells_excluded": 0,
+        "single_series_fallback": true
+      }
+    },
+    {
+      "image": "two_col_3697.png",
+      "sample_role": "additional_random_test_images",
+      "reference_type": "v_bar",
+      "predicted_type": "v_bar",
+      "status": "success",
+      "errors": [],
+      "extracted_values": 14,
+      "prediction_folder": "C:\\Users\\ELECTRO-RIMO\\Downloads\\ChartQA-main\\ChartQA-main\\results\\cv4\\evaluation_20261117_021431_590936\\two_col_3697",
+      "evaluation": {
+        "reference_file": "C:\\Users\\ELECTRO-RIMO\\Downloads\\ChartQA-main\\ChartQA-main\\ChartQA Dataset\\test\\tables\\two_col_3697.csv",
+        "reference_values": 14,
+        "reference_categories": 14,
+        "matched_categories": 14,
+        "matched": [
+          {
+            "predicted_category": "2020",
+            "predicted_series": "series_1",
+            "prediction": 114.6628143673255,
+            "category": "2020",
+            "series": "Average ticket price in U.S. dollars",
+            "category_matching": "exact",
+            "reference": 115.31,
+            "error": -0.6471856326745069
+          },
+          {
+            "predicted_category": "2019",
+            "predicted_series": "series_1",
+            "prediction": 114.6628143673255,
+            "category": "2019",
+            "series": "Average ticket price in U.S. dollars",
+            "category_matching": "exact",
+            "reference": 115.31,
+            "error": -0.6471856326745069
+          },
+          {
+            "predicted_category": "2018",
+            "predicted_series": "series_1",
+            "prediction": 114.6628143673255,
+            "category": "2018",
+            "series": "Average ticket price in U.S. dollars",
+            "category_matching": "exact",
+            "reference": 115.31,
+            "error": -0.6471856326745069
+          },
+          {
+            "predicted_category": "2016",
+            "predicted_series": "series_1",
+            "prediction": 122.70257403637797,
+            "category": "2016",
+            "series": "Average ticket price in U.S. dollars",
+            "category_matching": "exact",
+            "reference": 123.4,
+            "error": -0.6974259636220381
+          },
+          {
+            "predicted_category": "2015",
+            "predicted_series": "series_1",
+            "prediction": 122.70257403637797,
+            "category": "2015",
+            "series": "Average ticket price in U.S. dollars",
+            "category_matching": "exact",
+            "reference": 123.4,
+            "error": -0.6974259636220381
+          },
+          {
+            "predicted_category": "2014",
+            "predicted_series": "series_1",
+            "prediction": 111.21720308058872,
+            "category": "2014",
+            "series": "Average ticket price in U.S. dollars",
+            "category_matching": "exact",
+            "reference": 111.69,
+            "error": -0.4727969194112802
+          },
+          {
+            "predicted_category": "2013",
+            "predicted_series": "series_1",
+            "prediction": 111.21720308058872,
+            "category": "2013",
+            "series": "Average ticket price in U.S. dollars",
+            "category_matching": "exact",
+            "reference": 111.69,
+            "error": -0.4727969194112802
+          },
+          {
+            "predicted_category": "2012",
+            "predicted_series": "series_1",
+            "prediction": 111.21720308058872,
+            "category": "2012",
+            "series": "Average ticket price in U.S. dollars",
+            "category_matching": "exact",
+            "reference": 111.69,
+            "error": -0.4727969194112802
+          },
+          {
+            "predicted_category": "2011",
+            "predicted_series": "series_1",
+            "prediction": 111.21720308058872,
+            "category": "2011",
+            "series": "Average ticket price in U.S. dollars",
+            "category_matching": "exact",
+            "reference": 111.69,
+            "error": -0.4727969194112802
+          },
+          {
+            "predicted_category": "2010",
+            "predicted_series": "series_1",
+            "prediction": 111.21720308058872,
+            "category": "2010",
+            "series": "Average ticket price in U.S. dollars",
+            "category_matching": "exact",
+            "reference": 111.69,
+            "error": -0.4727969194112802
+          },
+          {
+            "predicted_category": "2009",
+            "predicted_series": "series_1",
+            "prediction": 88.24646116901023,
+            "category": "2009",
+            "series": "Average ticket price in U.S. dollars",
+            "category_matching": "exact",
+            "reference": 88.63,
+            "error": -0.3835388309897638
+          },
+          {
+            "predicted_category": "2008",
+            "predicted_series": "series_1",
+            "prediction": 87.48076977195761,
+            "category": "2008",
+            "series": "Average ticket price in U.S. dollars",
+            "category_matching": "exact",
+            "reference": 88.06,
+            "error": -0.5792302280423911
+          },
+          {
+            "predicted_category": "2007",
+            "predicted_series": "series_1",
+            "prediction": 80.58954719848407,
+            "category": "2007",
+            "series": "Average ticket price in U.S. dollars",
+            "category_matching": "exact",
+            "reference": 81.29,
+            "error": -0.7004528015159366
+          },
+          {
+            "predicted_category": "2006",
+            "predicted_series": "series_1",
+            "prediction": 75.99539881616838,
+            "category": "2006",
+            "series": "Average ticket price in U.S. dollars",
+            "category_matching": "exact",
+            "reference": 76.59,
+            "error": -0.5946011838316281
+          }
+        ],
+        "missing": [],
+        "extra": [],
+        "ambiguous_reference_cells_excluded": 0,
+        "single_series_fallback": true
+      }
+    },
+    {
+      "image": "two_col_42809.png",
+      "sample_role": "additional_random_test_images",
+      "reference_type": "v_bar",
+      "predicted_type": "v_bar",
+      "status": "success",
+      "errors": [],
+      "extracted_values": 7,
+      "prediction_folder": "C:\\Users\\ELECTRO-RIMO\\Downloads\\ChartQA-main\\ChartQA-main\\results\\cv4\\evaluation_20261117_021431_590936\\two_col_42809",
+      "evaluation": {
+        "reference_file": "C:\\Users\\ELECTRO-RIMO\\Downloads\\ChartQA-main\\ChartQA-main\\ChartQA Dataset\\test\\tables\\two_col_42809.csv",
+        "reference_values": 7,
+        "reference_categories": 7,
+        "matched_categories": 7,
+        "matched": [
+          {
+            "predicted_category": "2021",
+            "predicted_series": "series_1",
+            "prediction": 5006.246745654752,
+            "category": "2021",
+            "series": "Annual revenue in million euros",
+            "category_matching": "exact",
+            "reference": 5014.0,
+            "error": -7.753254345248024
+          },
+          {
+            "predicted_category": "2020",
+            "predicted_series": "series_1",
+            "prediction": 5524.562120858798,
+            "category": "2020",
+            "series": "Annual revenue in million euros",
+            "category_matching": "exact",
+            "reference": 5529.0,
+            "error": -4.437879141201847
+          },
+          {
+            "predicted_category": "2019",
+            "predicted_series": "series_1",
+            "prediction": 5846.275112364757,
+            "category": "2019",
+            "series": "Annual revenue in million euros",
+            "category_matching": "exact",
+            "reference": 5857.0,
+            "error": -10.724887635243249
+          },
+          {
+            "predicted_category": "2018",
+            "predicted_series": "series_1",
+            "prediction": 6167.988103870716,
+            "category": "2018",
+            "series": "Annual revenue in million euros",
+            "category_matching": "exact",
+            "reference": 6174.0,
+            "error": -6.011896129283741
+          },
+          {
+            "predicted_category": "2017",
+            "predicted_series": "series_1",
+            "prediction": 6060.750440035396,
+            "category": "2017",
+            "series": "Annual revenue in million euros",
+            "category_matching": "exact",
+            "reference": 6071.0,
+            "error": -10.249559964603577
+          },
+          {
+            "predicted_category": "2016",
+            "predicted_series": "series_1",
+            "prediction": 5810.52922441965,
+            "category": "2016",
+            "series": "Annual revenue in million euros",
+            "category_matching": "exact",
+            "reference": 5828.0,
+            "error": -17.470775580350164
+          },
+          {
+            "predicted_category": "2015",
+            "predicted_series": "series_1",
+            "prediction": 5810.52922441965,
+            "category": "2015",
+            "series": "Annual revenue in million euros",
+            "category_matching": "exact",
+            "reference": 5828.0,
+            "error": -17.470775580350164
+          }
+        ],
+        "missing": [],
+        "extra": [],
+        "ambiguous_reference_cells_excluded": 0,
+        "single_series_fallback": true
+      }
+    },
+    {
+      "image": "two_col_103544.png",
+      "sample_role": "additional_random_test_images",
+      "reference_type": "v_bar",
+      "predicted_type": "v_bar",
+      "status": "failed",
+      "errors": [
+        "Échelle non linéaire, chiffres OCR incohérents ou calibration ambiguë."
+      ],
+      "extracted_values": 0,
+      "prediction_folder": "C:\\Users\\ELECTRO-RIMO\\Downloads\\ChartQA-main\\ChartQA-main\\results\\cv4\\evaluation_20261117_021431_590936\\two_col_103544",
+      "evaluation": {
+        "reference_file": "C:\\Users\\ELECTRO-RIMO\\Downloads\\ChartQA-main\\ChartQA-main\\ChartQA Dataset\\test\\tables\\two_col_103544.csv",
+        "reference_values": 18,
+        "reference_categories": 18,
+        "matched_categories": 16,
+        "matched": [],
+        "missing": [
+          {
+            "category": "2019",
+            "series": "Number of total scheduled aircraft departures",
+            "reference": 9464482.0,
+            "reason": "no_prediction"
+          },
+          {
+            "category": "2018",
+            "series": "Number of total scheduled aircraft departures",
+            "reference": 9214722.0,
+            "reason": "no_prediction"
+          },
+          {
+            "category": "2017",
+            "series": "Number of total scheduled aircraft departures",
+            "reference": 9019930.0,
+            "reason": "no_prediction"
+          },
+          {
+            "category": "2016",
+            "series": "Number of total scheduled aircraft departures",
+            "reference": 8983379.0,
+            "reason": "no_prediction"
+          },
+          {
+            "category": "2015",
+            "series": "Number of total scheduled aircraft departures",
+            "reference": 8802767.0,
+            "reason": "no_prediction"
+          },
+          {
+            "category": "2014",
+            "series": "Number of total scheduled aircraft departures",
+            "reference": 8819945.0,
+            "reason": "no_prediction"
+          },
+          {
+            "category": "2013",
+            "series": "Number of total scheduled aircraft departures",
+            "reference": 8916584.0,
+            "reason": "no_prediction"
+          },
+          {
+            "category": "2012",
+            "series": "Number of total scheduled aircraft departures",
+            "reference": 9581585.0,
+            "reason": "no_prediction"
+          },
+          {
+            "category": "2011",
+            "series": "Number of total scheduled aircraft departures",
+            "reference": 9864878.0,
+            "reason": "no_prediction"
+          },
+          {
+            "category": "2010",
+            "series": "Number of total scheduled aircraft departures",
+            "reference": 9921657.0,
+            "reason": "no_prediction"
+          },
+          {
+            "category": "2009",
+            "series": "Number of total scheduled aircraft departures",
+            "reference": 9990734.0,
+            "reason": "no_prediction"
+          },
+          {
+            "category": "2008",
+            "series": "Number of total scheduled aircraft departures",
+            "reference": 10732522.0,
+            "reason": "no_prediction"
+          },
+          {
+            "category": "2007",
+            "series": "Number of total scheduled aircraft departures",
+            "reference": 11273979.0,
+            "reason": "no_prediction"
+          },
+          {
+            "category": "2006",
+            "series": "Number of total scheduled aircraft departures",
+            "reference": 10981541.0,
+            "reason": "no_prediction"
+          },
+          {
+            "category": "2005",
+            "series": "Number of total scheduled aircraft departures",
+            "reference": 11220400.0,
+            "reason": "no_prediction"
+          },
+          {
+            "category": "2000",
+            "series": "Number of total scheduled aircraft departures",
+            "reference": 9097556.0,
+            "reason": "no_prediction"
+          },
+          {
+            "category": "1995",
+            "series": "Number of total scheduled aircraft departures",
+            "reference": 8252834.0,
+            "reason": "no_prediction"
+          },
+          {
+            "category": "1991",
+            "series": "Number of total scheduled aircraft departures",
+            "reference": 6893779.0,
+            "reason": "no_prediction"
+          }
+        ],
+        "extra": [],
+        "ambiguous_reference_cells_excluded": 0,
+        "single_series_fallback": true
+      }
+    },
+    {
+      "image": "two_col_3275.png",
+      "sample_role": "additional_random_test_images",
+      "reference_type": "v_bar",
+      "predicted_type": "v_bar",
+      "status": "success",
+      "errors": [],
+      "extracted_values": 12,
+      "prediction_folder": "C:\\Users\\ELECTRO-RIMO\\Downloads\\ChartQA-main\\ChartQA-main\\results\\cv4\\evaluation_20261117_021431_590936\\two_col_3275",
+      "evaluation": {
+        "reference_file": "C:\\Users\\ELECTRO-RIMO\\Downloads\\ChartQA-main\\ChartQA-main\\ChartQA Dataset\\test\\tables\\two_col_3275.csv",
+        "reference_values": 12,
+        "reference_categories": 12,
+        "matched_categories": 12,
+        "matched": [
+          {
+            "predicted_category": "2020",
+            "predicted_series": "series_1",
+            "prediction": 58.928571428571416,
+            "category": "2020",
+            "series": "Revenue in trillion Korean won",
+            "category_matching": "exact",
+            "reference": 59.17,
+            "error": -0.24142857142858531
+          },
+          {
+            "predicted_category": "2019",
+            "predicted_series": "series_1",
+            "prediction": 58.03571428571428,
+            "category": "2019",
+            "series": "Revenue in trillion Korean won",
+            "category_matching": "exact",
+            "reference": 58.15,
+            "error": -0.11428571428572099
+          },
+          {
+            "predicted_category": "2018",
+            "predicted_series": "series_1",
+            "prediction": 53.928571428571416,
+            "category": "2018",
+            "series": "Revenue in trillion Korean won",
+            "category_matching": "exact",
+            "reference": 54.17,
+            "error": -0.24142857142858531
+          },
+          {
+            "predicted_category": "2017",
+            "predicted_series": "series_1",
+            "prediction": 53.39285714285714,
+            "category": "2017",
+            "series": "Revenue in trillion Korean won",
+            "category_matching": "exact",
+            "reference": 53.54,
+            "error": -0.14714285714286035
+          },
+          {
+            "predicted_category": "2016",
+            "predicted_series": "series_1",
+            "prediction": 52.49999999999999,
+            "category": "2016",
+            "series": "Revenue in trillion Korean won",
+            "category_matching": "exact",
+            "reference": 52.71,
+            "error": -0.21000000000000796
+          },
+          {
+            "predicted_category": "2015",
+            "predicted_series": "series_1",
+            "prediction": 49.28571428571428,
+            "category": "2015",
+            "series": "Revenue in trillion Korean won",
+            "category_matching": "exact",
+            "reference": 49.52,
+            "error": -0.23428571428572553
+          },
+          {
+            "predicted_category": "2014",
+            "predicted_series": "series_1",
+            "prediction": 46.96428571428571,
+            "category": "2014",
+            "series": "Revenue in trillion Korean won",
+            "category_matching": "exact",
+            "reference": 47.1,
+            "error": -0.13571428571429323
+          },
+          {
+            "predicted_category": "2013",
+            "predicted_series": "series_1",
+            "prediction": 47.499999999999986,
+            "category": "2013",
+            "series": "Revenue in trillion Korean won",
+            "category_matching": "exact",
+            "reference": 47.6,
+            "error": -0.10000000000001563
+          },
+          {
+            "predicted_category": "2012",
+            "predicted_series": "series_1",
+            "prediction": 47.14285714285713,
+            "category": "2012",
+            "series": "Revenue in trillion Korean won",
+            "category_matching": "exact",
+            "reference": 47.24,
+            "error": -0.0971428571428703
+          },
+          {
+            "predicted_category": "2011",
+            "predicted_series": "series_1",
+            "prediction": 43.03571428571428,
+            "category": "2011",
+            "series": "Revenue in trillion Korean won",
+            "category_matching": "exact",
+            "reference": 43.19,
+            "error": -0.15428571428572013
+          },
+          {
+            "predicted_category": "2010",
+            "predicted_series": "series_1",
+            "prediction": 35.7142857142857,
+            "category": "2010",
+            "series": "Revenue in trillion Korean won",
+            "category_matching": "exact",
+            "reference": 35.83,
+            "error": -0.1157142857142972
+          },
+          {
+            "predicted_category": "2009",
+            "predicted_series": "series_1",
+            "prediction": 29.107142857142847,
+            "category": "2009",
+            "series": "Revenue in trillion Korean won",
+            "category_matching": "exact",
+            "reference": 29.26,
+            "error": -0.15285714285715457
+          }
+        ],
+        "missing": [],
+        "extra": [],
+        "ambiguous_reference_cells_excluded": 0,
+        "single_series_fallback": true
+      }
+    },
+    {
+      "image": "multi_col_40202.png",
+      "sample_role": "horizontal_exploratory",
+      "reference_type": "h_bar",
+      "predicted_type": "h_bar",
+      "status": "failed",
+      "errors": [
+        "Barres empilées détectées : extraction refusée, pas de décomposition implémentée."
+      ],
+      "extracted_values": 0,
+      "prediction_folder": "C:\\Users\\ELECTRO-RIMO\\Downloads\\ChartQA-main\\ChartQA-main\\results\\cv4\\evaluation_20261117_021431_590936\\multi_col_40202",
+      "evaluation": {
+        "reference_file": "C:\\Users\\ELECTRO-RIMO\\Downloads\\ChartQA-main\\ChartQA-main\\ChartQA Dataset\\test\\tables\\multi_col_40202.csv",
+        "reference_values": 16,
+        "reference_categories": 8,
+        "matched_categories": 0,
+        "matched": [],
+        "missing": [
+          {
+            "category": "Cinematography",
+            "series": "Male",
+            "reference": 100.0,
+            "reason": "no_prediction"
+          },
+          {
+            "category": "Cinematography",
+            "series": "Female",
+            "reference": 0.0,
+            "reason": "no_prediction"
+          },
+          {
+            "category": "Film Editing",
+            "series": "Male",
+            "reference": 80.0,
+            "reason": "no_prediction"
+          },
+          {
+            "category": "Film Editing",
+            "series": "Female",
+            "reference": 20.0,
+            "reason": "no_prediction"
+          },
+          {
+            "category": "Writing (adapted screenplay)",
+            "series": "Male",
+            "reference": 71.0,
+            "reason": "no_prediction"
+          },
+          {
+            "category": "Writing (adapted screenplay)",
+            "series": "Female",
+            "reference": 29.0,
+            "reason": "no_prediction"
+          },
+          {
+            "category": "Best Picture",
+            "series": "Male",
+            "reference": 70.0,
+            "reason": "no_prediction"
+          },
+          {
+            "category": "Best Picture",
+            "series": "Female",
+            "reference": 30.0,
+            "reason": "no_prediction"
+          },
+          {
+            "category": "Best Director",
+            "series": "Male",
+            "reference": 60.0,
+            "reason": "no_prediction"
+          },
+          {
+            "category": "Best Director",
+            "series": "Female",
+            "reference": 40.0,
+            "reason": "no_prediction"
+          },
+          {
+            "category": "Writing (original screenplay)",
+            "series": "Male",
+            "reference": 60.0,
+            "reason": "no_prediction"
+          },
+          {
+            "category": "Writing (original screenplay)",
+            "series": "Female",
+            "reference": 40.0,
+            "reason": "no_prediction"
+          },
+          {
+            "category": "Documentary (short subject)",
+            "series": "Male",
+            "reference": 60.0,
+            "reason": "no_prediction"
+          },
+          {
+            "category": "Documentary (short subject)",
+            "series": "Female",
+            "reference": 40.0,
+            "reason": "no_prediction"
+          },
+          {
+            "category": "Documentary (feature)",
+            "series": "Male",
+            "reference": 46.0,
+            "reason": "no_prediction"
+          },
+          {
+            "category": "Documentary (feature)",
+            "series": "Female",
+            "reference": 54.0,
+            "reason": "no_prediction"
+          }
+        ],
+        "extra": [],
+        "ambiguous_reference_cells_excluded": 0,
+        "single_series_fallback": false
+      }
+    },
+    {
+      "image": "two_col_4167.png",
+      "sample_role": "horizontal_exploratory",
+      "reference_type": "h_bar",
+      "predicted_type": "h_bar",
+      "status": "failed",
+      "errors": [
+        "Trop de graduations incompatibles : échelle non linéaire ou OCR insuffisant."
+      ],
+      "extracted_values": 0,
+      "prediction_folder": "C:\\Users\\ELECTRO-RIMO\\Downloads\\ChartQA-main\\ChartQA-main\\results\\cv4\\evaluation_20261117_021431_590936\\two_col_4167",
+      "evaluation": {
+        "reference_file": "C:\\Users\\ELECTRO-RIMO\\Downloads\\ChartQA-main\\ChartQA-main\\ChartQA Dataset\\test\\tables\\two_col_4167.csv",
+        "reference_values": 13,
+        "reference_categories": 13,
+        "matched_categories": 13,
+        "matched": [],
+        "missing": [
+          {
+            "category": "Niger",
+            "series": "Percentage of males aged 15-49",
+            "reference": 4.0,
+            "reason": "no_prediction"
+          },
+          {
+            "category": "Madagascar",
+            "series": "Percentage of males aged 15-49",
+            "reference": 7.0,
+            "reason": "no_prediction"
+          },
+          {
+            "category": "Mali",
+            "series": "Percentage of males aged 15-49",
+            "reference": 10.0,
+            "reason": "no_prediction"
+          },
+          {
+            "category": "Sierra Leone",
+            "series": "Percentage of males aged 15-49",
+            "reference": 13.0,
+            "reason": "no_prediction"
+          },
+          {
+            "category": "Burundi",
+            "series": "Percentage of males aged 15-49",
+            "reference": 14.0,
+            "reason": "no_prediction"
+          },
+          {
+            "category": "Ethiopia",
+            "series": "Percentage of males aged 15-49",
+            "reference": 16.0,
+            "reason": "no_prediction"
+          },
+          {
+            "category": "DC Congo",
+            "series": "Percentage of males aged 15-49",
+            "reference": 16.0,
+            "reason": "no_prediction"
+          },
+          {
+            "category": "East Timor",
+            "series": "Percentage of males aged 15-49",
+            "reference": 19.0,
+            "reason": "no_prediction"
+          },
+          {
+            "category": "Uganda",
+            "series": "Percentage of males aged 15-49",
+            "reference": 19.0,
+            "reason": "no_prediction"
+          },
+          {
+            "category": "Nigeria",
+            "series": "Percentage of males aged 15-49",
+            "reference": 20.0,
+            "reason": "no_prediction"
+          },
+          {
+            "category": "Senegal",
+            "series": "Percentage of males aged 15-49",
+            "reference": 21.0,
+            "reason": "no_prediction"
+          },
+          {
+            "category": "Benin",
+            "series": "Percentage of males aged 15-49",
+            "reference": 22.0,
+            "reason": "no_prediction"
+          },
+          {
+            "category": "Liberia",
+            "series": "Percentage of males aged 15-49",
+            "reference": 24.0,
+            "reason": "no_prediction"
+          }
+        ],
+        "extra": [],
+        "ambiguous_reference_cells_excluded": 0,
+        "single_series_fallback": true
+      }
+    },
+    {
+      "image": "two_col_42847.png",
+      "sample_role": "horizontal_exploratory",
+      "reference_type": "h_bar",
+      "predicted_type": "h_bar",
+      "status": "failed",
+      "errors": [
+        "Symboles % visuellement probables mais non reconnus par OCR : calibration refusée, aucun chiffre corrigé."
+      ],
+      "extracted_values": 0,
+      "prediction_folder": "C:\\Users\\ELECTRO-RIMO\\Downloads\\ChartQA-main\\ChartQA-main\\results\\cv4\\evaluation_20261117_021431_590936\\two_col_42847",
+      "evaluation": {
+        "reference_file": "C:\\Users\\ELECTRO-RIMO\\Downloads\\ChartQA-main\\ChartQA-main\\ChartQA Dataset\\test\\tables\\two_col_42847.csv",
+        "reference_values": 6,
+        "reference_categories": 6,
+        "matched_categories": 5,
+        "matched": [],
+        "missing": [
+          {
+            "category": "Hershey",
+            "series": "Market share",
+            "reference": 37.4,
+            "reason": "no_prediction"
+          },
+          {
+            "category": "Ferrero",
+            "series": "Market share",
+            "reference": 21.4,
+            "reason": "no_prediction"
+          },
+          {
+            "category": "Mars",
+            "series": "Market share",
+            "reference": 20.9,
+            "reason": "no_prediction"
+          },
+          {
+            "category": "Perfetti Van Melle",
+            "series": "Market share",
+            "reference": 14.6,
+            "reason": "no_prediction"
+          },
+          {
+            "category": "Johnson & Johnson",
+            "series": "Market share",
+            "reference": 5.1,
+            "reason": "no_prediction"
+          },
+          {
+            "category": "All other",
+            "series": "Market share",
+            "reference": 0.7,
+            "reason": "no_prediction"
+          }
+        ],
+        "extra": [],
+        "ambiguous_reference_cells_excluded": 0,
+        "single_series_fallback": true
+      }
+    },
+    {
+      "image": "two_col_61697.png",
+      "sample_role": "horizontal_exploratory",
+      "reference_type": "h_bar",
+      "predicted_type": "h_bar",
+      "status": "partial",
+      "errors": [],
+      "extracted_values": 7,
+      "prediction_folder": "C:\\Users\\ELECTRO-RIMO\\Downloads\\ChartQA-main\\ChartQA-main\\results\\cv4\\evaluation_20261117_021431_590936\\two_col_61697",
+      "evaluation": {
+        "reference_file": "C:\\Users\\ELECTRO-RIMO\\Downloads\\ChartQA-main\\ChartQA-main\\ChartQA Dataset\\test\\tables\\two_col_61697.csv",
+        "reference_values": 10,
+        "reference_categories": 10,
+        "matched_categories": 6,
+        "matched": [
+          {
+            "predicted_category": "Link Fund Solutions Limited",
+            "predicted_series": "series_1",
+            "prediction": 62.86616517603666,
+            "category": "Link Fund Solutions Limited",
+            "series": "Funds value in billion GBP",
+            "category_matching": "exact",
+            "reference": 63.14,
+            "error": -0.273834823963341
+          },
+          {
+            "predicted_category": "Scottish Widows Unit Trusts Managers",
+            "predicted_series": "series_1",
+            "prediction": 58.245821687082696,
+            "category": "Scottish Widows Unit Trusts Managers",
+            "series": "Funds value in billion GBP",
+            "category_matching": "exact",
+            "reference": 58.37,
+            "error": -0.12417831291730153
+          },
+          {
+            "predicted_category": "Royal London Unit Trust Managers Ltd",
+            "predicted_series": "series_1",
+            "prediction": 47.79982771205634,
+            "category": "Royal London Unit Trust Managers Ltd",
+            "series": "Funds value in billion GBP",
+            "category_matching": "exact",
+            "reference": 48.11,
+            "error": -0.3101722879436579
+          },
+          {
+            "predicted_category": "Fidelity Worldwide Investment",
+            "predicted_series": "series_1",
+            "prediction": 43.17948422310238,
+            "category": "Fidelity Worldwide Investment",
+            "series": "Funds value in billion GBP",
+            "category_matching": "exact",
+            "reference": 43.33,
+            "error": -0.1505157768976204
+          },
+          {
+            "predicted_category": "Baillie Cifford & Co Limited",
+            "predicted_series": "series_1",
+            "prediction": 40.56798572934579,
+            "category": "Baillie Gifford & Co Limited",
+            "series": "Funds value in billion GBP",
+            "category_matching": "fuzzy_text_only",
+            "reference": 40.73,
+            "error": -0.16201427065420404
+          },
+          {
+            "predicted_category": "Schroder Unit Trusts Limited",
+            "predicted_series": "series_1",
+            "prediction": 39.76444773126684,
+            "category": "Schroder Unit Trusts Limited",
+            "series": "Funds value in billion GBP",
+            "category_matching": "exact",
+            "reference": 39.92,
+            "error": -0.1555522687331603
+          }
+        ],
+        "missing": [
+          {
+            "category": "BlackRock Investment Management (UK) Limited",
+            "series": "Funds value in billion GBP",
+            "reference": 76.6,
+            "reason": "no_prediction"
+          },
+          {
+            "category": "Aberdeen Standard Fund Managers Limited",
+            "series": "Funds value in billion GBP",
+            "reference": 52.26,
+            "reason": "no_prediction"
+          },
+          {
+            "category": "Legal & General (Unit Trust) Managers Limited",
+            "series": "Funds value in billion GBP",
+            "reference": 48.88,
+            "reason": "no_prediction"
+          },
+          {
+            "category": "M&G Securities Limited",
+            "series": "Funds value in billion GBP",
+            "reference": 34.75,
+            "reason": "no_prediction"
+          }
+        ],
+        "extra": [
+          {
+            "predicted_category": "Mec Securities Limited",
+            "predicted_series": "series_1",
+            "prediction": 34.54145074375367,
+            "category": null,
+            "series": "Funds value in billion GBP",
+            "category_matching": null,
+            "reason": "category_or_series_not_uniquely_matched"
+          }
+        ],
+        "ambiguous_reference_cells_excluded": 0,
+        "single_series_fallback": true
+      }
+    },
+    {
+      "image": "21881727007008.png",
+      "sample_role": "horizontal_exploratory",
+      "reference_type": "h_bar",
+      "predicted_type": "h_bar",
+      "status": "failed",
+      "errors": [
+        "Moins de trois graduations numériques distinctes localisées."
+      ],
+      "extracted_values": 0,
+      "prediction_folder": "C:\\Users\\ELECTRO-RIMO\\Downloads\\ChartQA-main\\ChartQA-main\\results\\cv4\\evaluation_20261117_021431_590936\\21881727007008",
+      "evaluation": {
+        "reference_file": "C:\\Users\\ELECTRO-RIMO\\Downloads\\ChartQA-main\\ChartQA-main\\ChartQA Dataset\\test\\tables\\21881727007008.csv",
+        "reference_values": 3,
+        "reference_categories": 3,
+        "matched_categories": 2,
+        "matched": [],
+        "missing": [
+          {
+            "category": "Algeria",
+            "series": "Share of primary energy from fossil fuels, 1993",
+            "reference": 99.67,
+            "reason": "no_prediction"
+          },
+          {
+            "category": "Indonesia",
+            "series": "Share of primary energy from fossil fuels, 1993",
+            "reference": 96.4,
+            "reason": "no_prediction"
+          },
+          {
+            "category": "Portugal",
+            "series": "Share of primary energy from fossil fuels, 1993",
+            "reference": 87.63,
+            "reason": "no_prediction"
+          }
+        ],
+        "extra": [],
+        "ambiguous_reference_cells_excluded": 0,
+        "single_series_fallback": false
+      }
+    }
+  ]
+}

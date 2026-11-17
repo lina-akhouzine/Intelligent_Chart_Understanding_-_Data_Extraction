@@ -1,0 +1,982 @@
+{
+  "image": "two_col_81707.png",
+  "source": "C:\\Users\\ELECTRO-RIMO\\Downloads\\ChartQA-main\\ChartQA-main\\ChartQA Dataset\\test\\png\\two_col_81707.png",
+  "source_sha256": "c668e84e3a3da0932fe258e4f79cf9f9abcb86e805cecf6ee3125d270a514f17",
+  "chart_type": "v_bar",
+  "chart_probabilities": {
+    "v_bar": 1.0,
+    "h_bar": 7.78600794948403e-11,
+    "line": 4.691872584894341e-11,
+    "pie": 5.2285148433028894e-11
+  },
+  "checkpoint": "C:\\Users\\ELECTRO-RIMO\\Downloads\\ChartQA-main\\ChartQA-main\\models_cv2\\resnet18_20261117_010609_069660.pt",
+  "prediction_inputs": [
+    "image pixels",
+    "CV2 trained checkpoint",
+    "EasyOCR visible text"
+  ],
+  "reference_data_used_for_prediction": false,
+  "ocr_cache": "C:\\Users\\ELECTRO-RIMO\\Downloads\\ChartQA-main\\ChartQA-main\\results\\cv3\\evaluation_20261117_014237_828142\\images\\two_col_81707.json",
+  "ocr_texts": [
+    {
+      "text": "8",
+      "bbox": [
+        61.0,
+        39.0,
+        95.0,
+        53.0
+      ],
+      "confidence": 0.9831342254001498
+    },
+    {
+      "text": "5 186",
+      "bbox": [
+        491.0,
+        79.0,
+        526.0,
+        93.0
+      ],
+      "confidence": 0.9991248380605767
+    },
+    {
+      "text": "8",
+      "bbox": [
+        61.0,
+        104.0,
+        95.0,
+        118.0
+      ],
+      "confidence": 0.819192609158236
+    },
+    {
+      "text": "1",
+      "bbox": [
+        46.0,
+        158.0,
+        53.0,
+        186.0
+      ],
+      "confidence": 0.735844473505157
+    },
+    {
+      "text": "8",
+      "bbox": [
+        71.0,
+        169.0,
+        95.0,
+        183.0
+      ],
+      "confidence": 0.9905056886833705
+    },
+    {
+      "text": "4",
+      "bbox": [
+        62.0,
+        173.0,
+        70.0,
+        181.0
+      ],
+      "confidence": 0.32936338130645026
+    },
+    {
+      "text": "3 634",
+      "bbox": [
+        577.0,
+        180.0,
+        614.0,
+        194.0
+      ],
+      "confidence": 0.9577920821983535
+    },
+    {
+      "text": "3 582",
+      "bbox": [
+        668.0,
+        184.0,
+        703.0,
+        197.0
+      ],
+      "confidence": 0.9642143979842626
+    },
+    {
+      "text": "uoi",
+      "bbox": [
+        42.692179714585336,
+        186.0384760523592,
+        54.307820285414664,
+        222.9615239476408
+      ],
+      "confidence": 0.7765669058864775
+    },
+    {
+      "text": "million",
+      "bbox": [
+        44.0,
+        188.0,
+        53.0,
+        222.0
+      ],
+      "confidence": 0.9420819004212071
+    },
+    {
+      "text": "3 041",
+      "bbox": [
+        400.0,
+        219.0,
+        435.0,
+        231.0
+      ],
+      "confidence": 0.9965144665957275
+    },
+    {
+      "text": "07",
+      "bbox": [
+        45.0,
+        224.0,
+        53.0,
+        233.0
+      ],
+      "confidence": 0.4715551435947418
+    },
+    {
+      "text": "Kolume",
+      "bbox": [
+        41.66035553622244,
+        235.03463660697173,
+        55.33964446377756,
+        273.96536339302827
+      ],
+      "confidence": 0.5708474143759736
+    },
+    {
+      "text": "8",
+      "bbox": [
+        61.0,
+        236.0,
+        95.0,
+        249.0
+      ],
+      "confidence": 0.93076612347636
+    },
+    {
+      "text": "1",
+      "bbox": [
+        45.0,
+        237.0,
+        53.0,
+        273.0
+      ],
+      "confidence": 0.7466062494011716
+    },
+    {
+      "text": "ent",
+      "bbox": [
+        46.0,
+        274.0,
+        53.0,
+        292.0
+      ],
+      "confidence": 0.579453416350108
+    },
+    {
+      "text": "2 148",
+      "bbox": [
+        225.0,
+        277.0,
+        261.0,
+        291.0
+      ],
+      "confidence": 0.9999262158499427
+    },
+    {
+      "text": "Investm",
+      "bbox": [
+        45.0,
+        292.0,
+        53.0,
+        329.0
+      ],
+      "confidence": 0.8853212515833127
+    },
+    {
+      "text": "864",
+      "bbox": [
+        324.0,
+        296.0,
+        349.0,
+        310.0
+      ],
+      "confidence": 0.9999969716779362
+    },
+    {
+      "text": "8",
+      "bbox": [
+        61.0,
+        300.0,
+        95.0,
+        314.0
+      ],
+      "confidence": 0.9574784807001357
+    },
+    {
+      "text": "546",
+      "bbox": [
+        147.0,
+        316.0,
+        173.0,
+        330.0
+      ],
+      "confidence": 0.9999899514815137
+    },
+    {
+      "text": "8",
+      "bbox": [
+        71.0,
+        365.0,
+        95.0,
+        379.0
+      ],
+      "confidence": 0.9898021477475574
+    },
+    {
+      "text": "S",
+      "bbox": [
+        62.0,
+        369.0,
+        69.0,
+        377.0
+      ],
+      "confidence": 0.028566328882803305
+    },
+    {
+      "text": "2013",
+      "bbox": [
+        136.0,
+        447.0,
+        169.0,
+        461.0
+      ],
+      "confidence": 0.9999959468841553
+    },
+    {
+      "text": "2015",
+      "bbox": [
+        313.0,
+        447.0,
+        345.0,
+        461.0
+      ],
+      "confidence": 0.9999973177909851
+    },
+    {
+      "text": "2016",
+      "bbox": [
+        401.0,
+        447.0,
+        434.0,
+        461.0
+      ],
+      "confidence": 0.9999952912330627
+    },
+    {
+      "text": "2017",
+      "bbox": [
+        491.0,
+        447.0,
+        522.0,
+        461.0
+      ],
+      "confidence": 0.9986600031148852
+    },
+    {
+      "text": "3",
+      "bbox": [
+        579.0,
+        447.0,
+        611.0,
+        461.0
+      ],
+      "confidence": 0.8916117536819037
+    },
+    {
+      "text": "2019",
+      "bbox": [
+        667.0,
+        447.0,
+        699.0,
+        461.0
+      ],
+      "confidence": 0.9999992251396179
+    },
+    {
+      "text": "2014",
+      "bbox": [
+        225.0,
+        448.0,
+        257.0,
+        461.0
+      ],
+      "confidence": 0.9999989867210388
+    },
+    {
+      "text": "Statista 2021",
+      "bbox": [
+        681.0,
+        488.0,
+        757.0,
+        503.0
+      ],
+      "confidence": 0.9927930057980568
+    },
+    {
+      "text": "Additional Information",
+      "bbox": [
+        39.0,
+        512.0,
+        169.0,
+        527.0
+      ],
+      "confidence": 0.8365758256238041
+    },
+    {
+      "text": "Show source",
+      "bbox": [
+        685.0,
+        512.0,
+        762.0,
+        527.0
+      ],
+      "confidence": 0.9369248891348572
+    }
+  ],
+  "rows": [
+    {
+      "category": "2017",
+      "series": null,
+      "series_id": "series_1",
+      "value": null,
+      "unit": null,
+      "bar_bbox": [
+        477,
+        101,
+        538,
+        439
+      ],
+      "color": [
+        40,
+        118,
+        221
+      ],
+      "endpoint_pixel": 101.0,
+      "error": "endpoint_outside_validated_scale",
+      "pixel_value_uncertainty": 15.325595506057827
+    },
+    {
+      "category": "201,8",
+      "series": null,
+      "series_id": "series_1",
+      "value": 3602.8067565716074,
+      "unit": null,
+      "bar_bbox": [
+        565,
+        203,
+        626,
+        439
+      ],
+      "color": [
+        40,
+        118,
+        221
+      ],
+      "endpoint_pixel": 203.0,
+      "error": null,
+      "pixel_value_uncertainty": 15.325595506057827
+    },
+    {
+      "category": "2019",
+      "series": null,
+      "series_id": "series_1",
+      "value": 3556.829970053434,
+      "unit": null,
+      "bar_bbox": [
+        654,
+        206,
+        715,
+        439
+      ],
+      "color": [
+        40,
+        118,
+        221
+      ],
+      "endpoint_pixel": 206.0,
+      "error": null,
+      "pixel_value_uncertainty": 15.325595506057827
+    },
+    {
+      "category": "2016",
+      "series": null,
+      "series_id": "series_1",
+      "value": 3020.43412734141,
+      "unit": null,
+      "bar_bbox": [
+        388,
+        241,
+        449,
+        439
+      ],
+      "color": [
+        40,
+        118,
+        221
+      ],
+      "endpoint_pixel": 241.0,
+      "error": null,
+      "pixel_value_uncertainty": 15.325595506057827
+    },
+    {
+      "category": "2014",
+      "series": null,
+      "series_id": "series_1",
+      "value": 2116.2239924839987,
+      "unit": null,
+      "bar_bbox": [
+        211,
+        300,
+        272,
+        439
+      ],
+      "color": [
+        40,
+        118,
+        221
+      ],
+      "endpoint_pixel": 300.0,
+      "error": null,
+      "pixel_value_uncertainty": 15.325595506057827
+    },
+    {
+      "category": "2015",
+      "series": null,
+      "series_id": "series_1",
+      "value": 1840.3632733749573,
+      "unit": null,
+      "bar_bbox": [
+        300,
+        318,
+        361,
+        439
+      ],
+      "color": [
+        40,
+        118,
+        221
+      ],
+      "endpoint_pixel": 318.0,
+      "error": null,
+      "pixel_value_uncertainty": 15.325595506057827
+    },
+    {
+      "category": "2013",
+      "series": null,
+      "series_id": "series_1",
+      "value": null,
+      "unit": null,
+      "bar_bbox": [
+        123,
+        339,
+        184,
+        439
+      ],
+      "color": [
+        40,
+        118,
+        221
+      ],
+      "endpoint_pixel": 339.0,
+      "error": "endpoint_outside_validated_scale",
+      "pixel_value_uncertainty": 15.325595506057827
+    }
+  ],
+  "bars": [
+    {
+      "bbox": [
+        477,
+        101,
+        538,
+        439
+      ],
+      "color": [
+        40,
+        118,
+        221
+      ],
+      "fill_ratio": 1.0,
+      "series_id": "series_1"
+    },
+    {
+      "bbox": [
+        565,
+        203,
+        626,
+        439
+      ],
+      "color": [
+        40,
+        118,
+        221
+      ],
+      "fill_ratio": 1.0,
+      "series_id": "series_1"
+    },
+    {
+      "bbox": [
+        654,
+        206,
+        715,
+        439
+      ],
+      "color": [
+        40,
+        118,
+        221
+      ],
+      "fill_ratio": 1.0,
+      "series_id": "series_1"
+    },
+    {
+      "bbox": [
+        388,
+        241,
+        449,
+        439
+      ],
+      "color": [
+        40,
+        118,
+        221
+      ],
+      "fill_ratio": 1.0,
+      "series_id": "series_1"
+    },
+    {
+      "bbox": [
+        211,
+        300,
+        272,
+        439
+      ],
+      "color": [
+        40,
+        118,
+        221
+      ],
+      "fill_ratio": 1.0,
+      "series_id": "series_1"
+    },
+    {
+      "bbox": [
+        300,
+        318,
+        361,
+        439
+      ],
+      "color": [
+        40,
+        118,
+        221
+      ],
+      "fill_ratio": 1.0,
+      "series_id": "series_1"
+    },
+    {
+      "bbox": [
+        123,
+        339,
+        184,
+        439
+      ],
+      "color": [
+        40,
+        118,
+        221
+      ],
+      "fill_ratio": 1.0,
+      "series_id": "series_1"
+    }
+  ],
+  "categories": [
+    {
+      "text": "2013",
+      "confidence": 0.9999551773071289,
+      "bbox": [
+        138.0,
+        449.0,
+        168.0,
+        461.0
+      ],
+      "source": "CV4 targeted OCR, no reference text",
+      "position": 153.0,
+      "row": 455.0
+    },
+    {
+      "text": "2014",
+      "confidence": 0.5464971229451938,
+      "bbox": [
+        226.0,
+        449.0,
+        257.0,
+        461.0
+      ],
+      "source": "CV4 targeted OCR, no reference text",
+      "position": 241.5,
+      "row": 455.0
+    },
+    {
+      "text": "2015",
+      "confidence": 0.999980628490448,
+      "bbox": [
+        315.0,
+        449.0,
+        345.0,
+        461.0
+      ],
+      "source": "CV4 targeted OCR, no reference text",
+      "position": 330.0,
+      "row": 455.0
+    },
+    {
+      "text": "2016",
+      "confidence": 0.9999934434890747,
+      "bbox": [
+        403.0,
+        449.0,
+        434.0,
+        461.0
+      ],
+      "source": "CV4 targeted OCR, no reference text",
+      "position": 418.5,
+      "row": 455.0
+    },
+    {
+      "text": "2017",
+      "confidence": 0.9999982118606567,
+      "bbox": [
+        491.0,
+        449.0,
+        522.0,
+        461.0
+      ],
+      "source": "CV4 targeted OCR, no reference text",
+      "position": 506.5,
+      "row": 455.0
+    },
+    {
+      "text": "201,8",
+      "confidence": 0.49821541181246554,
+      "bbox": [
+        580.0,
+        449.0,
+        611.0,
+        461.0
+      ],
+      "source": "CV4 targeted OCR, no reference text",
+      "position": 595.5,
+      "row": 455.0
+    },
+    {
+      "text": "2019",
+      "confidence": 0.9629475820525236,
+      "bbox": [
+        668.0,
+        449.0,
+        699.0,
+        461.0
+      ],
+      "source": "CV4 targeted OCR, no reference text",
+      "position": 683.5,
+      "row": 455.0
+    }
+  ],
+  "series": {},
+  "calibration": {
+    "slope": -15.325595506057827,
+    "intercept": 6713.902644301346,
+    "unit": null,
+    "rmse_ticks": 1.8061431702847053,
+    "ticks": [
+      {
+        "value": 4000.0,
+        "unit": null,
+        "position": 177.0,
+        "text": "4 000",
+        "bbox": [
+          62.0,
+          171.0,
+          95.0,
+          183.0
+        ]
+      },
+      {
+        "value": 3000.0,
+        "unit": null,
+        "position": 242.5,
+        "text": "3 000",
+        "bbox": [
+          61.0,
+          236.0,
+          95.0,
+          249.0
+        ]
+      },
+      {
+        "value": 2000.0,
+        "unit": null,
+        "position": 307.5,
+        "text": "2 000",
+        "bbox": [
+          61.0,
+          301.0,
+          96.0,
+          314.0
+        ]
+      }
+    ],
+    "rejected_ticks": [
+      {
+        "value": 100.0,
+        "unit": null,
+        "position": 373.0,
+        "text": "1 00",
+        "bbox": [
+          62.0,
+          367.0,
+          95.0,
+          379.0
+        ]
+      }
+    ],
+    "mapping": "value = slope * pixel_coordinate + intercept",
+    "scale": "linear"
+  },
+  "baseline_pixel": 439.0,
+  "baseline_value": -14.033782858039558,
+  "refined_ocr": [
+    {
+      "text": "5 0o0",
+      "confidence": 0.4883820280471191,
+      "bbox": [
+        61.0,
+        106.0,
+        95.0,
+        118.0
+      ],
+      "source": "CV4 targeted OCR, no reference text"
+    },
+    {
+      "text": "1",
+      "confidence": 0.28038477617100455,
+      "bbox": [
+        46.0,
+        158.0,
+        53.0,
+        186.0
+      ],
+      "source": "CV4 targeted OCR, no reference text"
+    },
+    {
+      "text": "4 000",
+      "confidence": 0.5283392901550422,
+      "bbox": [
+        62.0,
+        171.0,
+        95.0,
+        183.0
+      ],
+      "source": "CV4 targeted OCR, no reference text"
+    },
+    {
+      "text": "6",
+      "confidence": 0.16037912389441633,
+      "bbox": [
+        42.0,
+        186.0,
+        54.0,
+        214.0
+      ],
+      "source": "CV4 targeted OCR, no reference text"
+    },
+    {
+      "text": "6",
+      "confidence": 0.10789746923423138,
+      "bbox": [
+        46.0,
+        213.0,
+        53.0,
+        222.0
+      ],
+      "source": "CV4 targeted OCR, no reference text"
+    },
+    {
+      "text": "5",
+      "confidence": 0.5164651662746564,
+      "bbox": [
+        45.0,
+        224.0,
+        53.0,
+        233.0
+      ],
+      "source": "CV4 targeted OCR, no reference text"
+    },
+    {
+      "text": "3 000",
+      "confidence": 0.3557375560023257,
+      "bbox": [
+        61.0,
+        236.0,
+        95.0,
+        249.0
+      ],
+      "source": "CV4 targeted OCR, no reference text"
+    },
+    {
+      "text": "1",
+      "confidence": 0.5935973293510735,
+      "bbox": [
+        42.0,
+        235.0,
+        54.0,
+        274.0
+      ],
+      "source": "CV4 targeted OCR, no reference text"
+    },
+    {
+      "text": "1",
+      "confidence": 0.7474828682726162,
+      "bbox": [
+        46.0,
+        275.0,
+        53.0,
+        329.0
+      ],
+      "source": "CV4 targeted OCR, no reference text"
+    },
+    {
+      "text": "2 000",
+      "confidence": 0.5030157119939438,
+      "bbox": [
+        61.0,
+        301.0,
+        96.0,
+        314.0
+      ],
+      "source": "CV4 targeted OCR, no reference text"
+    },
+    {
+      "text": "1 00",
+      "confidence": 0.39076102694378834,
+      "bbox": [
+        62.0,
+        367.0,
+        95.0,
+        379.0
+      ],
+      "source": "CV4 targeted OCR, no reference text"
+    },
+    {
+      "text": "2013",
+      "confidence": 0.9999551773071289,
+      "bbox": [
+        138.0,
+        449.0,
+        168.0,
+        461.0
+      ],
+      "source": "CV4 targeted OCR, no reference text"
+    },
+    {
+      "text": "2014",
+      "confidence": 0.5464971229451938,
+      "bbox": [
+        226.0,
+        449.0,
+        257.0,
+        461.0
+      ],
+      "source": "CV4 targeted OCR, no reference text"
+    },
+    {
+      "text": "2015",
+      "confidence": 0.999980628490448,
+      "bbox": [
+        315.0,
+        449.0,
+        345.0,
+        461.0
+      ],
+      "source": "CV4 targeted OCR, no reference text"
+    },
+    {
+      "text": "2016",
+      "confidence": 0.9999934434890747,
+      "bbox": [
+        403.0,
+        449.0,
+        434.0,
+        461.0
+      ],
+      "source": "CV4 targeted OCR, no reference text"
+    },
+    {
+      "text": "2017",
+      "confidence": 0.9999982118606567,
+      "bbox": [
+        491.0,
+        449.0,
+        522.0,
+        461.0
+      ],
+      "source": "CV4 targeted OCR, no reference text"
+    },
+    {
+      "text": "201,8",
+      "confidence": 0.49821541181246554,
+      "bbox": [
+        580.0,
+        449.0,
+        611.0,
+        461.0
+      ],
+      "source": "CV4 targeted OCR, no reference text"
+    },
+    {
+      "text": "2019",
+      "confidence": 0.9629475820525236,
+      "bbox": [
+        668.0,
+        449.0,
+        699.0,
+        461.0
+      ],
+      "source": "CV4 targeted OCR, no reference text"
+    },
+    {
+      "text": "Gratista 2021",
+      "confidence": 0.40700189993506264,
+      "bbox": [
+        683.0,
+        490.0,
+        755.0,
+        501.0
+      ],
+      "source": "CV4 targeted OCR, no reference text"
+    }
+  ],
+  "errors": [],
+  "uncertainties": [
+    "series_1 2017: endpoint_outside_validated_scale",
+    "series_1 2013: endpoint_outside_validated_scale",
+    "Rectangle plein seulement ; ombres, petites barres et objets non rectangulaires peuvent être manqués."
+  ],
+  "status": "partial"
+}

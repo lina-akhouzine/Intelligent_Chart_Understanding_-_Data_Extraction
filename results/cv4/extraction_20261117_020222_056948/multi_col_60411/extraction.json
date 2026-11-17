@@ -1,0 +1,584 @@
+{
+  "image": "multi_col_60411.png",
+  "source": "C:\\Users\\ELECTRO-RIMO\\Downloads\\ChartQA-main\\ChartQA-main\\ChartQA Dataset\\val\\png\\multi_col_60411.png",
+  "source_sha256": "c26621afad98c35ee6decc513b8c3b41664db0c3240c5c10a4d233f2dd2b6b26",
+  "chart_type": "h_bar",
+  "chart_probabilities": {
+    "v_bar": 0.49445074796676636,
+    "h_bar": 0.5055007338523865,
+    "line": 4.763121614814736e-05,
+    "pie": 9.089601462619612e-07
+  },
+  "checkpoint": "C:\\Users\\ELECTRO-RIMO\\Downloads\\ChartQA-main\\ChartQA-main\\models_cv2\\resnet18_20261117_010609_069660.pt",
+  "prediction_inputs": [
+    "image pixels",
+    "CV2 trained checkpoint",
+    "EasyOCR visible text"
+  ],
+  "reference_data_used_for_prediction": false,
+  "ocr_cache": null,
+  "ocr_texts": [
+    {
+      "text": "8",
+      "bbox": [
+        65.0,
+        40.0,
+        90.0,
+        54.0
+      ],
+      "confidence": 0.9961912013708663
+    },
+    {
+      "text": "8",
+      "bbox": [
+        67.0,
+        85.0,
+        90.0,
+        97.0
+      ],
+      "confidence": 0.9094734424585091
+    },
+    {
+      "text": "6.4%",
+      "bbox": [
+        136.0,
+        88.0,
+        166.0,
+        102.0
+      ],
+      "confidence": 0.9273988008499146
+    },
+    {
+      "text": "2.7%",
+      "bbox": [
+        188.0,
+        105.0,
+        219.0,
+        119.0
+      ],
+      "confidence": 0.5265410542488098
+    },
+    {
+      "text": "1.1%",
+      "bbox": [
+        448.0,
+        112.0,
+        478.0,
+        126.0
+      ],
+      "confidence": 0.8722140192985535
+    },
+    {
+      "text": "8",
+      "bbox": [
+        74.0,
+        132.0,
+        89.0,
+        140.0
+      ],
+      "confidence": 0.734796381652373
+    },
+    {
+      "text": "chanye",
+      "bbox": [
+        42.68377223398316,
+        145.03463660697173,
+        55.31622776601684,
+        183.96536339302827
+      ],
+      "confidence": 0.6400247816508661
+    },
+    {
+      "text": "-1-6%",
+      "bbox": [
+        499.0,
+        148.0,
+        537.0,
+        162.0
+      ],
+      "confidence": 0.6541607341388237
+    },
+    {
+      "text": "3",
+      "bbox": [
+        555.0,
+        149.0,
+        590.0,
+        163.0
+      ],
+      "confidence": 0.7229272007435874
+    },
+    {
+      "text": "-5.3%",
+      "bbox": [
+        605.0,
+        164.0,
+        643.0,
+        178.0
+      ],
+      "confidence": 0.8234915088318467
+    },
+    {
+      "text": "3",
+      "bbox": [
+        61.0,
+        173.0,
+        90.0,
+        185.0
+      ],
+      "confidence": 0.6526596680670629
+    },
+    {
+      "text": "year",
+      "bbox": [
+        45.0,
+        182.0,
+        53.0,
+        205.0
+      ],
+      "confidence": 0.40251976251602173
+    },
+    {
+      "text": "-10X",
+      "bbox": [
+        243.0,
+        185.0,
+        277.0,
+        199.0
+      ],
+      "confidence": 0.60909176620519
+    },
+    {
+      "text": "-11.5%",
+      "bbox": [
+        656.0,
+        192.0,
+        701.0,
+        206.0
+      ],
+      "confidence": 0.8386002257220405
+    },
+    {
+      "text": "Mo",
+      "bbox": [
+        45.0,
+        214.0,
+        53.0,
+        232.0
+      ],
+      "confidence": 0.8792872771144201
+    },
+    {
+      "text": "8",
+      "bbox": [
+        62.0,
+        220.0,
+        89.0,
+        229.0
+      ],
+      "confidence": 0.9159828574459574
+    },
+    {
+      "text": "1",
+      "bbox": [
+        42.59726138573399,
+        230.0622512392763,
+        54.40273861426601,
+        258.9377487607237
+      ],
+      "confidence": 0.2717453192445305
+    },
+    {
+      "text": "-26.83",
+      "bbox": [
+        296.0,
+        260.0,
+        335.0,
+        273.0
+      ],
+      "confidence": 0.42269259611887294
+    },
+    {
+      "text": "-3020",
+      "bbox": [
+        62.0,
+        264.0,
+        89.0,
+        273.0
+      ],
+      "confidence": 0.8116559837822117
+    },
+    {
+      "text": "8",
+      "bbox": [
+        65.0,
+        305.0,
+        90.0,
+        318.0
+      ],
+      "confidence": 0.9971776876887475
+    },
+    {
+      "text": "1",
+      "bbox": [
+        349.0,
+        349.0,
+        389.0,
+        363.0
+      ],
+      "confidence": 0.9060277213834844
+    },
+    {
+      "text": "8",
+      "bbox": [
+        65.0,
+        351.0,
+        90.0,
+        363.0
+      ],
+      "confidence": 0.9633279166053832
+    },
+    {
+      "text": "Smartphones",
+      "bbox": [
+        220.0,
+        365.0,
+        294.0,
+        381.0
+      ],
+      "confidence": 0.9969971794882286
+    },
+    {
+      "text": "Personal computing devices",
+      "bbox": [
+        495.0,
+        367.0,
+        647.0,
+        381.0
+      ],
+      "confidence": 0.9927401535775445
+    },
+    {
+      "text": "Forecast February 2019",
+      "bbox": [
+        73.0,
+        404.0,
+        221.0,
+        422.0
+      ],
+      "confidence": 0.986963789374366
+    },
+    {
+      "text": "Forecast November 2019",
+      "bbox": [
+        295.0,
+        405.0,
+        450.0,
+        423.0
+      ],
+      "confidence": 0.9998722129867462
+    },
+    {
+      "text": "Optimistic scenario April 2020",
+      "bbox": [
+        516.0,
+        405.0,
+        705.0,
+        421.0
+      ],
+      "confidence": 0.999337340841207
+    },
+    {
+      "text": "Probable scenario April 2020",
+      "bbox": [
+        73.0,
+        428.0,
+        253.0,
+        445.0
+      ],
+      "confidence": 0.9741402559380284
+    },
+    {
+      "text": "Pessimistic scenario April 2020",
+      "bbox": [
+        295.0,
+        428.0,
+        487.0,
+        445.0
+      ],
+      "confidence": 0.9870481604374041
+    },
+    {
+      "text": "Statista 2021",
+      "bbox": [
+        681.0,
+        488.0,
+        757.0,
+        503.0
+      ],
+      "confidence": 0.9426113432970274
+    },
+    {
+      "text": "Additional Information",
+      "bbox": [
+        37.0,
+        512.0,
+        169.0,
+        527.0
+      ],
+      "confidence": 0.9340258240412116
+    },
+    {
+      "text": "Show source",
+      "bbox": [
+        685.0,
+        512.0,
+        762.0,
+        527.0
+      ],
+      "confidence": 0.8760271031822011
+    }
+  ],
+  "rows": [
+    {
+      "category": "6",
+      "series": "Pessimistic scenario April 2020",
+      "series_id": "series_1",
+      "value": null,
+      "unit": null,
+      "bar_bbox": [
+        342,
+        137,
+        391,
+        345
+      ],
+      "color": [
+        135,
+        188,
+        36
+      ],
+      "endpoint_pixel": 391.0,
+      "error": "calibration_failed",
+      "pixel_value_uncertainty": null
+    }
+  ],
+  "bars": [
+    {
+      "bbox": [
+        342,
+        137,
+        391,
+        345
+      ],
+      "color": [
+        135,
+        188,
+        36
+      ],
+      "fill_ratio": 1.0,
+      "series_id": "series_1"
+    }
+  ],
+  "categories": [
+    {
+      "text": "07o",
+      "confidence": 0.4746926324216503,
+      "bbox": [
+        73.0,
+        131.0,
+        89.0,
+        140.0
+      ],
+      "source": "CV4 targeted OCR, no reference text",
+      "position": 135.5,
+      "row": 81.0
+    },
+    {
+      "text": "-103",
+      "confidence": 0.5739020109176636,
+      "bbox": [
+        243.0,
+        187.0,
+        276.0,
+        199.0
+      ],
+      "source": "CV4 targeted OCR, no reference text",
+      "position": 193.0,
+      "row": 259.5
+    },
+    {
+      "text": "6",
+      "confidence": 0.9794471384904604,
+      "bbox": [
+        45.0,
+        216.0,
+        52.0,
+        232.0
+      ],
+      "source": "CV4 targeted OCR, no reference text",
+      "position": 224.0,
+      "row": 48.5
+    },
+    {
+      "text": "-26.87",
+      "confidence": 0.6049352243418643,
+      "bbox": [
+        296.0,
+        261.0,
+        334.0,
+        273.0
+      ],
+      "source": "CV4 targeted OCR, no reference text",
+      "position": 267.0,
+      "row": 315.0
+    }
+  ],
+  "series": {
+    "series_1": "Pessimistic scenario April 2020"
+  },
+  "calibration": null,
+  "baseline_pixel": 342.0,
+  "baseline_value": null,
+  "refined_ocr": [
+    {
+      "text": "47-12",
+      "confidence": 0.40565961586174953,
+      "bbox": [
+        351.0,
+        351.0,
+        389.0,
+        363.0
+      ],
+      "source": "CV4 targeted OCR, no reference text"
+    },
+    {
+      "text": "07o",
+      "confidence": 0.4746926324216503,
+      "bbox": [
+        73.0,
+        131.0,
+        89.0,
+        140.0
+      ],
+      "source": "CV4 targeted OCR, no reference text"
+    },
+    {
+      "text": "-1020",
+      "confidence": 0.3135799076191097,
+      "bbox": [
+        61.0,
+        175.0,
+        89.0,
+        184.0
+      ],
+      "source": "CV4 targeted OCR, no reference text"
+    },
+    {
+      "text": "1",
+      "confidence": 0.2240525092585779,
+      "bbox": [
+        46.0,
+        183.0,
+        54.0,
+        205.0
+      ],
+      "source": "CV4 targeted OCR, no reference text"
+    },
+    {
+      "text": "-103",
+      "confidence": 0.5739020109176636,
+      "bbox": [
+        243.0,
+        187.0,
+        276.0,
+        199.0
+      ],
+      "source": "CV4 targeted OCR, no reference text"
+    },
+    {
+      "text": "6",
+      "confidence": 0.9794471384904604,
+      "bbox": [
+        45.0,
+        216.0,
+        52.0,
+        232.0
+      ],
+      "source": "CV4 targeted OCR, no reference text"
+    },
+    {
+      "text": "-205",
+      "confidence": 0.17936888337135315,
+      "bbox": [
+        60.0,
+        218.0,
+        90.0,
+        230.0
+      ],
+      "source": "CV4 targeted OCR, no reference text"
+    },
+    {
+      "text": "0",
+      "confidence": 0.06168067292549595,
+      "bbox": [
+        45.0,
+        236.0,
+        52.0,
+        258.0
+      ],
+      "source": "CV4 targeted OCR, no reference text"
+    },
+    {
+      "text": "3036",
+      "confidence": 0.29966700077056885,
+      "bbox": [
+        66.0,
+        262.0,
+        90.0,
+        274.0
+      ],
+      "source": "CV4 targeted OCR, no reference text"
+    },
+    {
+      "text": "-26.87",
+      "confidence": 0.6049352243418643,
+      "bbox": [
+        296.0,
+        261.0,
+        334.0,
+        273.0
+      ],
+      "source": "CV4 targeted OCR, no reference text"
+    },
+    {
+      "text": "4036",
+      "confidence": 0.348699152469635,
+      "bbox": [
+        66.0,
+        306.0,
+        90.0,
+        318.0
+      ],
+      "source": "CV4 targeted OCR, no reference text"
+    },
+    {
+      "text": "1",
+      "confidence": 0.4295880408776931,
+      "bbox": [
+        41.68377223398316,
+        143.03292546273735,
+        54.31622776601684,
+        182.96707453726265
+      ],
+      "source": "CV4 targeted OCR, no reference text"
+    }
+  ],
+  "errors": [
+    "Moins de trois graduations numériques distinctes localisées."
+  ],
+  "uncertainties": [
+    "series_1 6: calibration_failed",
+    "Rectangle plein seulement ; ombres, petites barres et objets non rectangulaires peuvent être manqués."
+  ],
+  "status": "failed"
+}

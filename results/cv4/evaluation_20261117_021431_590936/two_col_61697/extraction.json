@@ -1,0 +1,1269 @@
+{
+  "image": "two_col_61697.png",
+  "source": "C:\\Users\\ELECTRO-RIMO\\Downloads\\ChartQA-main\\ChartQA-main\\ChartQA Dataset\\test\\png\\two_col_61697.png",
+  "source_sha256": "5820e3e0201e117c17ed9d118b5d678af5e77127df50f8a32d016d8b1765648f",
+  "chart_type": "h_bar",
+  "cv2_chart_type": "h_bar",
+  "orientation_correction": null,
+  "chart_probabilities": {
+    "v_bar": 9.651741493144073e-06,
+    "h_bar": 0.9999885559082031,
+    "line": 1.8350551727053244e-06,
+    "pie": 1.375693603478112e-08
+  },
+  "checkpoint": "C:\\Users\\ELECTRO-RIMO\\Downloads\\ChartQA-main\\ChartQA-main\\models_cv2\\resnet18_20261117_010609_069660.pt",
+  "prediction_inputs": [
+    "image pixels",
+    "CV2 trained checkpoint",
+    "EasyOCR visible text"
+  ],
+  "reference_data_used_for_prediction": false,
+  "ocr_cache": "C:\\Users\\ELECTRO-RIMO\\Downloads\\ChartQA-main\\ChartQA-main\\results\\cv4\\evaluation_20261117_020522_908279\\two_col_61697\\extraction.json",
+  "ocr_texts": [
+    {
+      "text": "BlackRock Investment Management (UK)",
+      "bbox": [
+        35.0,
+        40.0,
+        253.0,
+        55.0
+      ],
+      "confidence": 0.9786188578446793
+    },
+    {
+      "text": "76.6",
+      "bbox": [
+        647.0,
+        48.0,
+        677.0,
+        62.0
+      ],
+      "confidence": 0.9211113113752281
+    },
+    {
+      "text": "Limited",
+      "bbox": [
+        209.0,
+        55.0,
+        253.0,
+        69.0
+      ],
+      "confidence": 0.9999980174968082
+    },
+    {
+      "text": "Link Fund Solutions Limited",
+      "bbox": [
+        100.0,
+        87.0,
+        253.0,
+        101.0
+      ],
+      "confidence": 0.8276917284102354
+    },
+    {
+      "text": "63.14",
+      "bbox": [
+        580.0,
+        87.0,
+        617.0,
+        101.0
+      ],
+      "confidence": 0.9031841745751477
+    },
+    {
+      "text": "Scottish Widows Unit Trusts Managers",
+      "bbox": [
+        45.0,
+        124.0,
+        253.0,
+        139.0
+      ],
+      "confidence": 0.9772085938652814
+    },
+    {
+      "text": "58.37",
+      "bbox": [
+        556.0,
+        124.0,
+        594.0,
+        138.0
+      ],
+      "confidence": 0.9968068609828358
+    },
+    {
+      "text": "Aberdeen Standard Fund Managers",
+      "bbox": [
+        61.0,
+        154.0,
+        253.0,
+        171.0
+      ],
+      "confidence": 0.8618561414431593
+    },
+    {
+      "text": "3",
+      "bbox": [
+        525.0,
+        163.0,
+        563.0,
+        177.0
+      ],
+      "confidence": 0.8984851383875139
+    },
+    {
+      "text": "Limited",
+      "bbox": [
+        209.0,
+        168.0,
+        253.0,
+        182.0
+      ],
+      "confidence": 0.99999891863478
+    },
+    {
+      "text": "Legal & Ceneral (Unit Trust) Managers",
+      "bbox": [
+        45.0,
+        193.0,
+        253.0,
+        208.0
+      ],
+      "confidence": 0.986624304686875
+    },
+    {
+      "text": "48.88",
+      "bbox": [
+        509.0,
+        200.0,
+        546.0,
+        214.0
+      ],
+      "confidence": 0.9890765004418284
+    },
+    {
+      "text": "Limited",
+      "bbox": [
+        209.0,
+        207.0,
+        253.0,
+        221.0
+      ],
+      "confidence": 0.999998062553713
+    },
+    {
+      "text": "Royal London Unit Trust Managers Ltd",
+      "bbox": [
+        44.0,
+        238.0,
+        253.0,
+        255.0
+      ],
+      "confidence": 0.9720549749139692
+    },
+    {
+      "text": "48.11",
+      "bbox": [
+        505.0,
+        240.0,
+        541.0,
+        253.0
+      ],
+      "confidence": 0.6491671529131745
+    },
+    {
+      "text": "Fidelity Worldwide Investment",
+      "bbox": [
+        89.0,
+        275.0,
+        254.0,
+        291.0
+      ],
+      "confidence": 0.8603049414777004
+    },
+    {
+      "text": "43.33",
+      "bbox": [
+        481.0,
+        276.0,
+        518.0,
+        290.0
+      ],
+      "confidence": 0.9962833364259217
+    },
+    {
+      "text": "Baillie Cifford & Co Limited",
+      "bbox": [
+        105.0,
+        313.0,
+        253.0,
+        329.0
+      ],
+      "confidence": 0.9275410496297647
+    },
+    {
+      "text": "40.73",
+      "bbox": [
+        468.0,
+        315.0,
+        505.0,
+        327.0
+      ],
+      "confidence": 0.9944889943546974
+    },
+    {
+      "text": "Schroder Unit Trusts Limited",
+      "bbox": [
+        96.0,
+        352.0,
+        253.0,
+        366.0
+      ],
+      "confidence": 0.8480180773949307
+    },
+    {
+      "text": "39.92",
+      "bbox": [
+        464.0,
+        352.0,
+        502.0,
+        366.0
+      ],
+      "confidence": 0.9926016397625304
+    },
+    {
+      "text": "MEC Securities Limited",
+      "bbox": [
+        125.0,
+        389.0,
+        253.0,
+        405.0
+      ],
+      "confidence": 0.7520271267754677
+    },
+    {
+      "text": "34.75",
+      "bbox": [
+        439.0,
+        391.0,
+        475.0,
+        405.0
+      ],
+      "confidence": 0.9918863351070187
+    },
+    {
+      "text": "10",
+      "bbox": [
+        304.0,
+        425.0,
+        322.0,
+        439.0
+      ],
+      "confidence": 0.9997114748678151
+    },
+    {
+      "text": "20",
+      "bbox": [
+        355.0,
+        425.0,
+        373.0,
+        439.0
+      ],
+      "confidence": 0.9999921606951768
+    },
+    {
+      "text": "30",
+      "bbox": [
+        404.0,
+        425.0,
+        422.0,
+        439.0
+      ],
+      "confidence": 0.999990306238604
+    },
+    {
+      "text": "40",
+      "bbox": [
+        453.0,
+        425.0,
+        471.0,
+        439.0
+      ],
+      "confidence": 0.9999993256504904
+    },
+    {
+      "text": "50",
+      "bbox": [
+        504.0,
+        425.0,
+        522.0,
+        439.0
+      ],
+      "confidence": 0.999741396732341
+    },
+    {
+      "text": "60",
+      "bbox": [
+        553.0,
+        425.0,
+        571.0,
+        439.0
+      ],
+      "confidence": 0.9998894084607064
+    },
+    {
+      "text": "70",
+      "bbox": [
+        603.0,
+        425.0,
+        621.0,
+        439.0
+      ],
+      "confidence": 0.9994415156519267
+    },
+    {
+      "text": "80",
+      "bbox": [
+        653.0,
+        425.0,
+        671.0,
+        439.0
+      ],
+      "confidence": 0.9998855310784486
+    },
+    {
+      "text": "Funds value in billion CBP",
+      "bbox": [
+        423.0,
+        445.0,
+        553.0,
+        459.0
+      ],
+      "confidence": 0.9867885765047065
+    },
+    {
+      "text": "Statista 2021",
+      "bbox": [
+        681.0,
+        488.0,
+        757.0,
+        503.0
+      ],
+      "confidence": 0.9366226284437674
+    },
+    {
+      "text": "Additional Information",
+      "bbox": [
+        37.0,
+        512.0,
+        169.0,
+        527.0
+      ],
+      "confidence": 0.9720923691411211
+    },
+    {
+      "text": "Show source",
+      "bbox": [
+        685.0,
+        512.0,
+        762.0,
+        527.0
+      ],
+      "confidence": 0.8684871469294654
+    }
+  ],
+  "rows": [
+    {
+      "category": "Limited",
+      "series": null,
+      "series_id": "series_1",
+      "value": null,
+      "unit": null,
+      "bar_bbox": [
+        264,
+        43,
+        644,
+        69
+      ],
+      "color": [
+        40,
+        118,
+        221
+      ],
+      "endpoint_pixel": 644.0,
+      "error": "ambiguous_multiple_bars_for_cell",
+      "pixel_value_uncertainty": 0.2008844995197375
+    },
+    {
+      "category": "Link Fund Solutions Limited",
+      "series": null,
+      "series_id": "series_1",
+      "value": 62.86616517603666,
+      "unit": null,
+      "bar_bbox": [
+        264,
+        81,
+        577,
+        107
+      ],
+      "color": [
+        40,
+        118,
+        221
+      ],
+      "endpoint_pixel": 577.0,
+      "error": null,
+      "pixel_value_uncertainty": 0.2008844995197375
+    },
+    {
+      "category": "Scottish Widows Unit Trusts Managers",
+      "series": null,
+      "series_id": "series_1",
+      "value": 58.245821687082696,
+      "unit": null,
+      "bar_bbox": [
+        264,
+        119,
+        554,
+        145
+      ],
+      "color": [
+        40,
+        118,
+        221
+      ],
+      "endpoint_pixel": 554.0,
+      "error": null,
+      "pixel_value_uncertainty": 0.2008844995197375
+    },
+    {
+      "category": "Limited",
+      "series": null,
+      "series_id": "series_1",
+      "value": null,
+      "unit": null,
+      "bar_bbox": [
+        264,
+        157,
+        523,
+        183
+      ],
+      "color": [
+        40,
+        118,
+        221
+      ],
+      "endpoint_pixel": 523.0,
+      "error": "ambiguous_multiple_bars_for_cell",
+      "pixel_value_uncertainty": 0.2008844995197375
+    },
+    {
+      "category": "Limited",
+      "series": null,
+      "series_id": "series_1",
+      "value": null,
+      "unit": null,
+      "bar_bbox": [
+        264,
+        195,
+        506,
+        221
+      ],
+      "color": [
+        40,
+        118,
+        221
+      ],
+      "endpoint_pixel": 506.0,
+      "error": "ambiguous_multiple_bars_for_cell",
+      "pixel_value_uncertainty": 0.2008844995197375
+    },
+    {
+      "category": "Royal London Unit Trust Managers Ltd",
+      "series": null,
+      "series_id": "series_1",
+      "value": 47.79982771205634,
+      "unit": null,
+      "bar_bbox": [
+        264,
+        233,
+        502,
+        259
+      ],
+      "color": [
+        40,
+        118,
+        221
+      ],
+      "endpoint_pixel": 502.0,
+      "error": null,
+      "pixel_value_uncertainty": 0.2008844995197375
+    },
+    {
+      "category": "Fidelity Worldwide Investment",
+      "series": null,
+      "series_id": "series_1",
+      "value": 43.17948422310238,
+      "unit": null,
+      "bar_bbox": [
+        264,
+        271,
+        479,
+        297
+      ],
+      "color": [
+        40,
+        118,
+        221
+      ],
+      "endpoint_pixel": 479.0,
+      "error": null,
+      "pixel_value_uncertainty": 0.2008844995197375
+    },
+    {
+      "category": "Baillie Cifford & Co Limited",
+      "series": null,
+      "series_id": "series_1",
+      "value": 40.56798572934579,
+      "unit": null,
+      "bar_bbox": [
+        264,
+        309,
+        466,
+        335
+      ],
+      "color": [
+        40,
+        118,
+        221
+      ],
+      "endpoint_pixel": 466.0,
+      "error": null,
+      "pixel_value_uncertainty": 0.2008844995197375
+    },
+    {
+      "category": "Schroder Unit Trusts Limited",
+      "series": null,
+      "series_id": "series_1",
+      "value": 39.76444773126684,
+      "unit": null,
+      "bar_bbox": [
+        264,
+        347,
+        462,
+        373
+      ],
+      "color": [
+        40,
+        118,
+        221
+      ],
+      "endpoint_pixel": 462.0,
+      "error": null,
+      "pixel_value_uncertainty": 0.2008844995197375
+    },
+    {
+      "category": "Mec Securities Limited",
+      "series": null,
+      "series_id": "series_1",
+      "value": 34.54145074375367,
+      "unit": null,
+      "bar_bbox": [
+        264,
+        385,
+        436,
+        411
+      ],
+      "color": [
+        40,
+        118,
+        221
+      ],
+      "endpoint_pixel": 436.0,
+      "error": null,
+      "pixel_value_uncertainty": 0.2008844995197375
+    }
+  ],
+  "bars": [
+    {
+      "bbox": [
+        264,
+        43,
+        644,
+        69
+      ],
+      "color": [
+        40,
+        118,
+        221
+      ],
+      "fill_ratio": 1.0,
+      "series_id": "series_1"
+    },
+    {
+      "bbox": [
+        264,
+        81,
+        577,
+        107
+      ],
+      "color": [
+        40,
+        118,
+        221
+      ],
+      "fill_ratio": 1.0,
+      "series_id": "series_1"
+    },
+    {
+      "bbox": [
+        264,
+        119,
+        554,
+        145
+      ],
+      "color": [
+        40,
+        118,
+        221
+      ],
+      "fill_ratio": 1.0,
+      "series_id": "series_1"
+    },
+    {
+      "bbox": [
+        264,
+        157,
+        523,
+        183
+      ],
+      "color": [
+        40,
+        118,
+        221
+      ],
+      "fill_ratio": 1.0,
+      "series_id": "series_1"
+    },
+    {
+      "bbox": [
+        264,
+        195,
+        506,
+        221
+      ],
+      "color": [
+        40,
+        118,
+        221
+      ],
+      "fill_ratio": 1.0,
+      "series_id": "series_1"
+    },
+    {
+      "bbox": [
+        264,
+        233,
+        502,
+        259
+      ],
+      "color": [
+        40,
+        118,
+        221
+      ],
+      "fill_ratio": 1.0,
+      "series_id": "series_1"
+    },
+    {
+      "bbox": [
+        264,
+        271,
+        479,
+        297
+      ],
+      "color": [
+        40,
+        118,
+        221
+      ],
+      "fill_ratio": 1.0,
+      "series_id": "series_1"
+    },
+    {
+      "bbox": [
+        264,
+        309,
+        466,
+        335
+      ],
+      "color": [
+        40,
+        118,
+        221
+      ],
+      "fill_ratio": 1.0,
+      "series_id": "series_1"
+    },
+    {
+      "bbox": [
+        264,
+        347,
+        462,
+        373
+      ],
+      "color": [
+        40,
+        118,
+        221
+      ],
+      "fill_ratio": 1.0,
+      "series_id": "series_1"
+    },
+    {
+      "bbox": [
+        264,
+        385,
+        436,
+        411
+      ],
+      "color": [
+        40,
+        118,
+        221
+      ],
+      "fill_ratio": 1.0,
+      "series_id": "series_1"
+    }
+  ],
+  "categories": [
+    {
+      "text": "BlackRock Investment Management (UK)",
+      "confidence": 0.9837889757063571,
+      "bbox": [
+        36.0,
+        42.0,
+        254.0,
+        56.0
+      ],
+      "source": "CV4 targeted OCR, no reference text",
+      "position": 49.0,
+      "row": 145.0
+    },
+    {
+      "text": "Limited",
+      "confidence": 0.7630899308586732,
+      "bbox": [
+        209.0,
+        56.0,
+        252.0,
+        68.0
+      ],
+      "source": "CV4 targeted OCR, no reference text",
+      "position": 62.0,
+      "row": 230.5
+    },
+    {
+      "text": "Link Fund Solutions Limited",
+      "confidence": 0.6848632081759929,
+      "bbox": [
+        101.0,
+        87.0,
+        252.0,
+        100.0
+      ],
+      "source": "CV4 targeted OCR, no reference text",
+      "position": 93.5,
+      "row": 176.5
+    },
+    {
+      "text": "Scottish Widows Unit Trusts Managers",
+      "confidence": 0.9652314462732869,
+      "bbox": [
+        45.0,
+        125.0,
+        253.0,
+        140.0
+      ],
+      "source": "CV4 targeted OCR, no reference text",
+      "position": 132.5,
+      "row": 149.0
+    },
+    {
+      "text": "Aberdeen Standard Fund Managers",
+      "confidence": 0.9703807584653706,
+      "bbox": [
+        63.0,
+        155.0,
+        253.0,
+        170.0
+      ],
+      "source": "CV4 targeted OCR, no reference text",
+      "position": 162.5,
+      "row": 158.0
+    },
+    {
+      "text": "Limited",
+      "confidence": 0.7630899308586732,
+      "bbox": [
+        209.0,
+        170.0,
+        252.0,
+        182.0
+      ],
+      "source": "CV4 targeted OCR, no reference text",
+      "position": 176.0,
+      "row": 230.5
+    },
+    {
+      "text": "Legal & Ceneral (Unit Trust) Managers",
+      "confidence": 0.8461139279267632,
+      "bbox": [
+        47.0,
+        192.0,
+        253.0,
+        208.0
+      ],
+      "source": "CV4 targeted OCR, no reference text",
+      "position": 200.0,
+      "row": 150.0
+    },
+    {
+      "text": "Limited",
+      "confidence": 0.7630899308586732,
+      "bbox": [
+        209.0,
+        208.0,
+        252.0,
+        220.0
+      ],
+      "source": "CV4 targeted OCR, no reference text",
+      "position": 214.0,
+      "row": 230.5
+    },
+    {
+      "text": "Royal London Unit Trust Managers Ltd",
+      "confidence": 0.7328668786803796,
+      "bbox": [
+        45.0,
+        239.0,
+        252.0,
+        254.0
+      ],
+      "source": "CV4 targeted OCR, no reference text",
+      "position": 246.5,
+      "row": 148.5
+    },
+    {
+      "text": "Fidelity Worldwide Investment",
+      "confidence": 0.9975503022265476,
+      "bbox": [
+        89.0,
+        276.0,
+        252.0,
+        291.0
+      ],
+      "source": "CV4 targeted OCR, no reference text",
+      "position": 283.5,
+      "row": 170.5
+    },
+    {
+      "text": "Baillie Cifford & Co Limited",
+      "confidence": 0.7406744742135414,
+      "bbox": [
+        105.0,
+        315.0,
+        252.0,
+        328.0
+      ],
+      "source": "CV4 targeted OCR, no reference text",
+      "position": 321.5,
+      "row": 178.5
+    },
+    {
+      "text": "Schroder Unit Trusts Limited",
+      "confidence": 0.9402024658715341,
+      "bbox": [
+        96.0,
+        352.0,
+        252.0,
+        366.0
+      ],
+      "source": "CV4 targeted OCR, no reference text",
+      "position": 359.0,
+      "row": 174.0
+    },
+    {
+      "text": "Mec Securities Limited",
+      "confidence": 0.8977859202258467,
+      "bbox": [
+        127.0,
+        391.0,
+        252.0,
+        404.0
+      ],
+      "source": "CV4 targeted OCR, no reference text",
+      "position": 397.5,
+      "row": 189.5
+    }
+  ],
+  "series": {},
+  "calibration": {
+    "slope": 0.2008844995197375,
+    "intercept": -53.04419104685188,
+    "unit": null,
+    "rmse_ticks": 0.030261962688653037,
+    "ticks": [
+      {
+        "value": 10.0,
+        "unit": null,
+        "position": 314.0,
+        "text": "10",
+        "bbox": [
+          306.0,
+          427.0,
+          322.0,
+          439.0
+        ]
+      },
+      {
+        "value": 20.0,
+        "unit": null,
+        "position": 363.5,
+        "text": "20",
+        "bbox": [
+          355.0,
+          427.0,
+          372.0,
+          439.0
+        ]
+      },
+      {
+        "value": 30.0,
+        "unit": null,
+        "position": 413.5,
+        "text": "30",
+        "bbox": [
+          405.0,
+          427.0,
+          422.0,
+          439.0
+        ]
+      },
+      {
+        "value": 40.0,
+        "unit": null,
+        "position": 463.0,
+        "text": "40",
+        "bbox": [
+          455.0,
+          427.0,
+          471.0,
+          439.0
+        ]
+      },
+      {
+        "value": 50.0,
+        "unit": null,
+        "position": 513.0,
+        "text": "50",
+        "bbox": [
+          505.0,
+          427.0,
+          521.0,
+          439.0
+        ]
+      },
+      {
+        "value": 60.0,
+        "unit": null,
+        "position": 562.5,
+        "text": "60",
+        "bbox": [
+          554.0,
+          427.0,
+          571.0,
+          439.0
+        ]
+      },
+      {
+        "value": 70.0,
+        "unit": null,
+        "position": 612.5,
+        "text": "70",
+        "bbox": [
+          604.0,
+          427.0,
+          621.0,
+          439.0
+        ]
+      },
+      {
+        "value": 80.0,
+        "unit": null,
+        "position": 662.5,
+        "text": "80",
+        "bbox": [
+          654.0,
+          427.0,
+          671.0,
+          439.0
+        ]
+      }
+    ],
+    "rejected_ticks": [],
+    "mapping": "value = slope * pixel_coordinate + intercept",
+    "scale": "linear"
+  },
+  "baseline_pixel": 264.0,
+  "baseline_value": -0.010683173641176325,
+  "refined_ocr": [
+    {
+      "text": "10",
+      "confidence": 0.9999855015148964,
+      "bbox": [
+        306.0,
+        427.0,
+        322.0,
+        439.0
+      ],
+      "source": "CV4 targeted OCR, no reference text"
+    },
+    {
+      "text": "20",
+      "confidence": 0.9999961224921389,
+      "bbox": [
+        355.0,
+        427.0,
+        372.0,
+        439.0
+      ],
+      "source": "CV4 targeted OCR, no reference text"
+    },
+    {
+      "text": "30",
+      "confidence": 0.9999520372232914,
+      "bbox": [
+        405.0,
+        427.0,
+        422.0,
+        439.0
+      ],
+      "source": "CV4 targeted OCR, no reference text"
+    },
+    {
+      "text": "40",
+      "confidence": 0.9999994942378553,
+      "bbox": [
+        455.0,
+        427.0,
+        471.0,
+        439.0
+      ],
+      "source": "CV4 targeted OCR, no reference text"
+    },
+    {
+      "text": "50",
+      "confidence": 0.9999103126844037,
+      "bbox": [
+        505.0,
+        427.0,
+        521.0,
+        439.0
+      ],
+      "source": "CV4 targeted OCR, no reference text"
+    },
+    {
+      "text": "60",
+      "confidence": 0.8924066269382283,
+      "bbox": [
+        554.0,
+        427.0,
+        571.0,
+        439.0
+      ],
+      "source": "CV4 targeted OCR, no reference text"
+    },
+    {
+      "text": "70",
+      "confidence": 0.9999775779502187,
+      "bbox": [
+        604.0,
+        427.0,
+        621.0,
+        439.0
+      ],
+      "source": "CV4 targeted OCR, no reference text"
+    },
+    {
+      "text": "80",
+      "confidence": 0.9999350101781567,
+      "bbox": [
+        654.0,
+        427.0,
+        671.0,
+        439.0
+      ],
+      "source": "CV4 targeted OCR, no reference text"
+    },
+    {
+      "text": "unds ualua in billion €b-",
+      "confidence": 0.25680757672629273,
+      "bbox": [
+        423.0,
+        447.0,
+        552.0,
+        459.0
+      ],
+      "source": "CV4 targeted OCR, no reference text"
+    },
+    {
+      "text": "BlackRock Investment Management (UK)",
+      "confidence": 0.9837889757063571,
+      "bbox": [
+        36.0,
+        42.0,
+        254.0,
+        56.0
+      ],
+      "source": "CV4 targeted OCR, no reference text"
+    },
+    {
+      "text": "Limited",
+      "confidence": 0.7630899308586732,
+      "bbox": [
+        209.0,
+        56.0,
+        252.0,
+        68.0
+      ],
+      "source": "CV4 targeted OCR, no reference text"
+    },
+    {
+      "text": "Link Fund Solutions Limited",
+      "confidence": 0.6848632081759929,
+      "bbox": [
+        101.0,
+        87.0,
+        252.0,
+        100.0
+      ],
+      "source": "CV4 targeted OCR, no reference text"
+    },
+    {
+      "text": "Scottish Widows Unit Trusts Managers",
+      "confidence": 0.9652314462732869,
+      "bbox": [
+        45.0,
+        125.0,
+        253.0,
+        140.0
+      ],
+      "source": "CV4 targeted OCR, no reference text"
+    },
+    {
+      "text": "Aberdeen Standard Fund Managers",
+      "confidence": 0.9703807584653706,
+      "bbox": [
+        63.0,
+        155.0,
+        253.0,
+        170.0
+      ],
+      "source": "CV4 targeted OCR, no reference text"
+    },
+    {
+      "text": "Limited",
+      "confidence": 0.7630899308586732,
+      "bbox": [
+        209.0,
+        170.0,
+        252.0,
+        182.0
+      ],
+      "source": "CV4 targeted OCR, no reference text"
+    },
+    {
+      "text": "Legal & Ceneral (Unit Trust) Managers",
+      "confidence": 0.8461139279267632,
+      "bbox": [
+        47.0,
+        192.0,
+        253.0,
+        208.0
+      ],
+      "source": "CV4 targeted OCR, no reference text"
+    },
+    {
+      "text": "Limited",
+      "confidence": 0.7630899308586732,
+      "bbox": [
+        209.0,
+        208.0,
+        252.0,
+        220.0
+      ],
+      "source": "CV4 targeted OCR, no reference text"
+    },
+    {
+      "text": "Royal London Unit Trust Managers Ltd",
+      "confidence": 0.7328668786803796,
+      "bbox": [
+        45.0,
+        239.0,
+        252.0,
+        254.0
+      ],
+      "source": "CV4 targeted OCR, no reference text"
+    },
+    {
+      "text": "Fidelity Worldwide Investment",
+      "confidence": 0.9975503022265476,
+      "bbox": [
+        89.0,
+        276.0,
+        252.0,
+        291.0
+      ],
+      "source": "CV4 targeted OCR, no reference text"
+    },
+    {
+      "text": "Baillie Cifford & Co Limited",
+      "confidence": 0.7406744742135414,
+      "bbox": [
+        105.0,
+        315.0,
+        252.0,
+        328.0
+      ],
+      "source": "CV4 targeted OCR, no reference text"
+    },
+    {
+      "text": "Schroder Unit Trusts Limited",
+      "confidence": 0.9402024658715341,
+      "bbox": [
+        96.0,
+        352.0,
+        252.0,
+        366.0
+      ],
+      "source": "CV4 targeted OCR, no reference text"
+    },
+    {
+      "text": "Mec Securities Limited",
+      "confidence": 0.8977859202258467,
+      "bbox": [
+        127.0,
+        391.0,
+        252.0,
+        404.0
+      ],
+      "source": "CV4 targeted OCR, no reference text"
+    }
+  ],
+  "errors": [],
+  "uncertainties": [
+    "Plusieurs rectangles pour une même catégorie/série : valeurs laissées manquantes.",
+    "Rectangle plein seulement ; ombres, petites barres et objets non rectangulaires peuvent être manqués."
+  ],
+  "status": "partial"
+}

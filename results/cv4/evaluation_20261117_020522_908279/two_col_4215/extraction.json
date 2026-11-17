@@ -1,0 +1,1518 @@
+{
+  "image": "two_col_4215.png",
+  "source": "C:\\Users\\ELECTRO-RIMO\\Downloads\\ChartQA-main\\ChartQA-main\\ChartQA Dataset\\test\\png\\two_col_4215.png",
+  "source_sha256": "cd0b2298cf8a3464541e4370a97af12af3b2d2061c6304ed634edea80b8a73a0",
+  "chart_type": "v_bar",
+  "cv2_chart_type": "v_bar",
+  "orientation_correction": null,
+  "chart_probabilities": {
+    "v_bar": 1.0,
+    "h_bar": 1.4479004661893669e-09,
+    "line": 5.695243743275569e-08,
+    "pie": 1.9145669494236017e-09
+  },
+  "checkpoint": "C:\\Users\\ELECTRO-RIMO\\Downloads\\ChartQA-main\\ChartQA-main\\models_cv2\\resnet18_20261117_010609_069660.pt",
+  "prediction_inputs": [
+    "image pixels",
+    "CV2 trained checkpoint",
+    "EasyOCR visible text"
+  ],
+  "reference_data_used_for_prediction": false,
+  "ocr_cache": null,
+  "ocr_texts": [
+    {
+      "text": "300",
+      "bbox": [
+        59.0,
+        40.0,
+        85.0,
+        53.0
+      ],
+      "confidence": 0.9992625022215958
+    },
+    {
+      "text": "259",
+      "bbox": [
+        693.0,
+        80.0,
+        719.0,
+        94.0
+      ],
+      "confidence": 0.9999995870469189
+    },
+    {
+      "text": "252",
+      "bbox": [
+        652.0,
+        88.0,
+        677.0,
+        102.0
+      ],
+      "confidence": 0.9999999311744849
+    },
+    {
+      "text": "244",
+      "bbox": [
+        609.0,
+        99.0,
+        635.0,
+        111.0
+      ],
+      "confidence": 0.9934210181236267
+    },
+    {
+      "text": "250",
+      "bbox": [
+        59.0,
+        104.0,
+        85.0,
+        118.0
+      ],
+      "confidence": 0.9999980728858172
+    },
+    {
+      "text": "232",
+      "bbox": [
+        568.0,
+        115.0,
+        593.0,
+        129.0
+      ],
+      "confidence": 0.9999991740938607
+    },
+    {
+      "text": "220",
+      "bbox": [
+        525.0,
+        131.0,
+        551.0,
+        145.0
+      ],
+      "confidence": 0.9999921538953669
+    },
+    {
+      "text": "208",
+      "bbox": [
+        484.0,
+        145.0,
+        510.0,
+        159.0
+      ],
+      "confidence": 0.9999997246979434
+    },
+    {
+      "text": "197",
+      "bbox": [
+        443.0,
+        160.0,
+        467.0,
+        174.0
+      ],
+      "confidence": 0.9315147399902344
+    },
+    {
+      "text": "200",
+      "bbox": [
+        59.0,
+        169.0,
+        85.0,
+        183.0
+      ],
+      "confidence": 0.9998775604123653
+    },
+    {
+      "text": "186",
+      "bbox": [
+        400.0,
+        175.0,
+        426.0,
+        189.0
+      ],
+      "confidence": 0.9999138309521081
+    },
+    {
+      "text": "178",
+      "bbox": [
+        359.0,
+        184.0,
+        383.0,
+        198.0
+      ],
+      "confidence": 0.9999777005663172
+    },
+    {
+      "text": "0",
+      "bbox": [
+        45.0,
+        189.0,
+        53.0,
+        198.0
+      ],
+      "confidence": 0.20801534538215094
+    },
+    {
+      "text": "ofpassenge",
+      "bbox": [
+        41.0,
+        197.0,
+        56.0,
+        259.0
+      ],
+      "confidence": 0.9891455047478408
+    },
+    {
+      "text": "166",
+      "bbox": [
+        316.0,
+        200.0,
+        342.0,
+        214.0
+      ],
+      "confidence": 0.9999498951929543
+    },
+    {
+      "text": "158",
+      "bbox": [
+        273.0,
+        212.0,
+        299.0,
+        226.0
+      ],
+      "confidence": 0.9999219522735844
+    },
+    {
+      "text": "155",
+      "bbox": [
+        189.0,
+        215.0,
+        215.0,
+        229.0
+      ],
+      "confidence": 0.9998623502384809
+    },
+    {
+      "text": "150",
+      "bbox": [
+        149.0,
+        221.0,
+        175.0,
+        235.0
+      ],
+      "confidence": 0.9998618684687738
+    },
+    {
+      "text": "147",
+      "bbox": [
+        233.0,
+        227.0,
+        257.0,
+        239.0
+      ],
+      "confidence": 0.9999803159285474
+    },
+    {
+      "text": "144",
+      "bbox": [
+        107.0,
+        229.0,
+        133.0,
+        242.0
+      ],
+      "confidence": 0.9999870608143178
+    },
+    {
+      "text": "150",
+      "bbox": [
+        59.0,
+        235.0,
+        85.0,
+        249.0
+      ],
+      "confidence": 0.999319209056562
+    },
+    {
+      "text": "1",
+      "bbox": [
+        40.66851400498744,
+        258.03292546273735,
+        54.33148599501256,
+        297.96707453726265
+      ],
+      "confidence": 0.6626721928125825
+    },
+    {
+      "text": "100",
+      "bbox": [
+        59.0,
+        300.0,
+        85.0,
+        314.0
+      ],
+      "confidence": 0.9947183440698201
+    },
+    {
+      "text": "50",
+      "bbox": [
+        67.0,
+        365.0,
+        83.0,
+        379.0
+      ],
+      "confidence": 0.9998674928797582
+    },
+    {
+      "text": "2006",
+      "bbox": [
+        103.0,
+        447.0,
+        135.0,
+        461.0
+      ],
+      "confidence": 0.9998001456260681
+    },
+    {
+      "text": "2007",
+      "bbox": [
+        144.0,
+        447.0,
+        175.0,
+        461.0
+      ],
+      "confidence": 0.9999877214431763
+    },
+    {
+      "text": "2008",
+      "bbox": [
+        187.0,
+        447.0,
+        218.0,
+        461.0
+      ],
+      "confidence": 0.9999903440475464
+    },
+    {
+      "text": "2009",
+      "bbox": [
+        228.0,
+        447.0,
+        261.0,
+        461.0
+      ],
+      "confidence": 0.9999895691871643
+    },
+    {
+      "text": "2010",
+      "bbox": [
+        271.0,
+        447.0,
+        302.0,
+        461.0
+      ],
+      "confidence": 0.9943970239678486
+    },
+    {
+      "text": "2011",
+      "bbox": [
+        312.0,
+        447.0,
+        342.0,
+        461.0
+      ],
+      "confidence": 0.9968293309211731
+    },
+    {
+      "text": "2012",
+      "bbox": [
+        355.0,
+        447.0,
+        386.0,
+        461.0
+      ],
+      "confidence": 0.7047133585400515
+    },
+    {
+      "text": "2013",
+      "bbox": [
+        396.0,
+        447.0,
+        427.0,
+        461.0
+      ],
+      "confidence": 0.9999902248382568
+    },
+    {
+      "text": "8",
+      "bbox": [
+        437.0,
+        447.0,
+        470.0,
+        461.0
+      ],
+      "confidence": 0.7538829250654686
+    },
+    {
+      "text": "2015",
+      "bbox": [
+        480.0,
+        447.0,
+        511.0,
+        461.0
+      ],
+      "confidence": 0.8942771897398935
+    },
+    {
+      "text": "2016",
+      "bbox": [
+        521.0,
+        447.0,
+        554.0,
+        461.0
+      ],
+      "confidence": 0.9843668486372507
+    },
+    {
+      "text": "2017",
+      "bbox": [
+        564.0,
+        447.0,
+        595.0,
+        461.0
+      ],
+      "confidence": 0.9292053388096468
+    },
+    {
+      "text": "2018",
+      "bbox": [
+        605.0,
+        447.0,
+        638.0,
+        461.0
+      ],
+      "confidence": 0.9999369849639189
+    },
+    {
+      "text": "2019\"",
+      "bbox": [
+        645.0,
+        447.0,
+        682.0,
+        461.0
+      ],
+      "confidence": 0.5363937284299497
+    },
+    {
+      "text": "8",
+      "bbox": [
+        687.0,
+        447.0,
+        723.0,
+        461.0
+      ],
+      "confidence": 0.9702952473003847
+    },
+    {
+      "text": "Statista 2021",
+      "bbox": [
+        680.0,
+        488.0,
+        755.0,
+        503.0
+      ],
+      "confidence": 0.9953047456182631
+    },
+    {
+      "text": "Addirional Information",
+      "bbox": [
+        37.0,
+        512.0,
+        168.0,
+        527.0
+      ],
+      "confidence": 0.7636141566499929
+    },
+    {
+      "text": "Show source",
+      "bbox": [
+        684.0,
+        512.0,
+        761.0,
+        527.0
+      ],
+      "confidence": 0.9369248891348572
+    }
+  ],
+  "rows": [
+    {
+      "category": "2020*",
+      "series": null,
+      "series_id": "series_1",
+      "value": 257.41489759655843,
+      "unit": null,
+      "bar_bbox": [
+        692,
+        102,
+        721,
+        439
+      ],
+      "color": [
+        40,
+        118,
+        221
+      ],
+      "endpoint_pixel": 102.0,
+      "error": null,
+      "pixel_value_uncertainty": 0.7645188441036189
+    },
+    {
+      "category": null,
+      "series": null,
+      "series_id": "series_1",
+      "value": null,
+      "unit": null,
+      "bar_bbox": [
+        650,
+        111,
+        679,
+        439
+      ],
+      "color": [
+        40,
+        118,
+        221
+      ],
+      "endpoint_pixel": 111.0,
+      "error": "category_missing",
+      "pixel_value_uncertainty": 0.7645188441036189
+    },
+    {
+      "category": "2018",
+      "series": null,
+      "series_id": "series_1",
+      "value": 242.88903955858967,
+      "unit": null,
+      "bar_bbox": [
+        608,
+        121,
+        637,
+        439
+      ],
+      "color": [
+        40,
+        118,
+        221
+      ],
+      "endpoint_pixel": 121.0,
+      "error": null,
+      "pixel_value_uncertainty": 0.7645188441036189
+    },
+    {
+      "category": "2017",
+      "series": null,
+      "series_id": "series_1",
+      "value": 230.65673805293176,
+      "unit": null,
+      "bar_bbox": [
+        566,
+        137,
+        595,
+        439
+      ],
+      "color": [
+        40,
+        118,
+        221
+      ],
+      "endpoint_pixel": 137.0,
+      "error": null,
+      "pixel_value_uncertainty": 0.7645188441036189
+    },
+    {
+      "category": "2016",
+      "series": null,
+      "series_id": "series_1",
+      "value": 218.42443654727384,
+      "unit": null,
+      "bar_bbox": [
+        524,
+        153,
+        553,
+        439
+      ],
+      "color": [
+        40,
+        118,
+        221
+      ],
+      "endpoint_pixel": 153.0,
+      "error": null,
+      "pixel_value_uncertainty": 0.7645188441036189
+    },
+    {
+      "category": "2015",
+      "series": null,
+      "series_id": "series_1",
+      "value": 206.9566538857196,
+      "unit": null,
+      "bar_bbox": [
+        482,
+        168,
+        511,
+        439
+      ],
+      "color": [
+        40,
+        118,
+        221
+      ],
+      "endpoint_pixel": 168.0,
+      "error": null,
+      "pixel_value_uncertainty": 0.7645188441036189
+    },
+    {
+      "category": "2014",
+      "series": null,
+      "series_id": "series_1",
+      "value": 195.4888712241653,
+      "unit": null,
+      "bar_bbox": [
+        440,
+        183,
+        469,
+        439
+      ],
+      "color": [
+        40,
+        118,
+        221
+      ],
+      "endpoint_pixel": 183.0,
+      "error": null,
+      "pixel_value_uncertainty": 0.7645188441036189
+    },
+    {
+      "category": "2013",
+      "series": null,
+      "series_id": "series_1",
+      "value": 184.78560740671463,
+      "unit": null,
+      "bar_bbox": [
+        398,
+        197,
+        427,
+        439
+      ],
+      "color": [
+        40,
+        118,
+        221
+      ],
+      "endpoint_pixel": 197.0,
+      "error": null,
+      "pixel_value_uncertainty": 0.7645188441036189
+    },
+    {
+      "category": "2012",
+      "series": null,
+      "series_id": "series_1",
+      "value": 177.14041896567844,
+      "unit": null,
+      "bar_bbox": [
+        356,
+        207,
+        385,
+        439
+      ],
+      "color": [
+        40,
+        118,
+        221
+      ],
+      "endpoint_pixel": 207.0,
+      "error": null,
+      "pixel_value_uncertainty": 0.7645188441036189
+    },
+    {
+      "category": "2011",
+      "series": null,
+      "series_id": "series_1",
+      "value": 164.90811746002055,
+      "unit": null,
+      "bar_bbox": [
+        314,
+        223,
+        343,
+        439
+      ],
+      "color": [
+        40,
+        118,
+        221
+      ],
+      "endpoint_pixel": 223.0,
+      "error": null,
+      "pixel_value_uncertainty": 0.7645188441036189
+    },
+    {
+      "category": "2010",
+      "series": null,
+      "series_id": "series_1",
+      "value": 156.49841017488072,
+      "unit": null,
+      "bar_bbox": [
+        272,
+        234,
+        301,
+        439
+      ],
+      "color": [
+        40,
+        118,
+        221
+      ],
+      "endpoint_pixel": 234.0,
+      "error": null,
+      "pixel_value_uncertainty": 0.7645188441036189
+    },
+    {
+      "category": "2008",
+      "series": null,
+      "series_id": "series_1",
+      "value": 154.20485364256987,
+      "unit": null,
+      "bar_bbox": [
+        188,
+        237,
+        217,
+        439
+      ],
+      "color": [
+        40,
+        118,
+        221
+      ],
+      "endpoint_pixel": 237.0,
+      "error": null,
+      "pixel_value_uncertainty": 0.7645188441036189
+    },
+    {
+      "category": "2007",
+      "series": null,
+      "series_id": "series_1",
+      "value": 148.85322173384455,
+      "unit": null,
+      "bar_bbox": [
+        147,
+        244,
+        176,
+        439
+      ],
+      "color": [
+        40,
+        118,
+        221
+      ],
+      "endpoint_pixel": 244.0,
+      "error": null,
+      "pixel_value_uncertainty": 0.7645188441036189
+    },
+    {
+      "category": "2009",
+      "series": null,
+      "series_id": "series_1",
+      "value": 145.79514635743007,
+      "unit": null,
+      "bar_bbox": [
+        230,
+        248,
+        259,
+        439
+      ],
+      "color": [
+        40,
+        118,
+        221
+      ],
+      "endpoint_pixel": 248.0,
+      "error": null,
+      "pixel_value_uncertainty": 0.7645188441036189
+    },
+    {
+      "category": "2006",
+      "series": null,
+      "series_id": "series_1",
+      "value": 142.7370709810156,
+      "unit": null,
+      "bar_bbox": [
+        105,
+        252,
+        134,
+        439
+      ],
+      "color": [
+        40,
+        118,
+        221
+      ],
+      "endpoint_pixel": 252.0,
+      "error": null,
+      "pixel_value_uncertainty": 0.7645188441036189
+    }
+  ],
+  "bars": [
+    {
+      "bbox": [
+        692,
+        102,
+        721,
+        439
+      ],
+      "color": [
+        40,
+        118,
+        221
+      ],
+      "fill_ratio": 1.0,
+      "series_id": "series_1"
+    },
+    {
+      "bbox": [
+        650,
+        111,
+        679,
+        439
+      ],
+      "color": [
+        40,
+        118,
+        221
+      ],
+      "fill_ratio": 1.0,
+      "series_id": "series_1"
+    },
+    {
+      "bbox": [
+        608,
+        121,
+        637,
+        439
+      ],
+      "color": [
+        40,
+        118,
+        221
+      ],
+      "fill_ratio": 1.0,
+      "series_id": "series_1"
+    },
+    {
+      "bbox": [
+        566,
+        137,
+        595,
+        439
+      ],
+      "color": [
+        40,
+        118,
+        221
+      ],
+      "fill_ratio": 1.0,
+      "series_id": "series_1"
+    },
+    {
+      "bbox": [
+        524,
+        153,
+        553,
+        439
+      ],
+      "color": [
+        40,
+        118,
+        221
+      ],
+      "fill_ratio": 1.0,
+      "series_id": "series_1"
+    },
+    {
+      "bbox": [
+        482,
+        168,
+        511,
+        439
+      ],
+      "color": [
+        40,
+        118,
+        221
+      ],
+      "fill_ratio": 1.0,
+      "series_id": "series_1"
+    },
+    {
+      "bbox": [
+        440,
+        183,
+        469,
+        439
+      ],
+      "color": [
+        40,
+        118,
+        221
+      ],
+      "fill_ratio": 1.0,
+      "series_id": "series_1"
+    },
+    {
+      "bbox": [
+        398,
+        197,
+        427,
+        439
+      ],
+      "color": [
+        40,
+        118,
+        221
+      ],
+      "fill_ratio": 1.0,
+      "series_id": "series_1"
+    },
+    {
+      "bbox": [
+        356,
+        207,
+        385,
+        439
+      ],
+      "color": [
+        40,
+        118,
+        221
+      ],
+      "fill_ratio": 1.0,
+      "series_id": "series_1"
+    },
+    {
+      "bbox": [
+        314,
+        223,
+        343,
+        439
+      ],
+      "color": [
+        40,
+        118,
+        221
+      ],
+      "fill_ratio": 1.0,
+      "series_id": "series_1"
+    },
+    {
+      "bbox": [
+        272,
+        234,
+        301,
+        439
+      ],
+      "color": [
+        40,
+        118,
+        221
+      ],
+      "fill_ratio": 1.0,
+      "series_id": "series_1"
+    },
+    {
+      "bbox": [
+        188,
+        237,
+        217,
+        439
+      ],
+      "color": [
+        40,
+        118,
+        221
+      ],
+      "fill_ratio": 1.0,
+      "series_id": "series_1"
+    },
+    {
+      "bbox": [
+        147,
+        244,
+        176,
+        439
+      ],
+      "color": [
+        40,
+        118,
+        221
+      ],
+      "fill_ratio": 1.0,
+      "series_id": "series_1"
+    },
+    {
+      "bbox": [
+        230,
+        248,
+        259,
+        439
+      ],
+      "color": [
+        40,
+        118,
+        221
+      ],
+      "fill_ratio": 1.0,
+      "series_id": "series_1"
+    },
+    {
+      "bbox": [
+        105,
+        252,
+        134,
+        439
+      ],
+      "color": [
+        40,
+        118,
+        221
+      ],
+      "fill_ratio": 1.0,
+      "series_id": "series_1"
+    }
+  ],
+  "categories": [
+    {
+      "text": "2006",
+      "confidence": 0.9999207854270935,
+      "bbox": [
+        103.0,
+        448.0,
+        135.0,
+        461.0
+      ],
+      "source": "CV4 targeted OCR, no reference text",
+      "position": 119.0,
+      "row": 454.5
+    },
+    {
+      "text": "2007",
+      "confidence": 0.9999467134475708,
+      "bbox": [
+        146.0,
+        449.0,
+        176.0,
+        461.0
+      ],
+      "source": "CV4 targeted OCR, no reference text",
+      "position": 161.0,
+      "row": 455.0
+    },
+    {
+      "text": "2008",
+      "confidence": 0.999967634677887,
+      "bbox": [
+        188.0,
+        448.0,
+        218.0,
+        461.0
+      ],
+      "source": "CV4 targeted OCR, no reference text",
+      "position": 203.0,
+      "row": 454.5
+    },
+    {
+      "text": "2009",
+      "confidence": 0.9999370574951172,
+      "bbox": [
+        229.0,
+        449.0,
+        260.0,
+        461.0
+      ],
+      "source": "CV4 targeted OCR, no reference text",
+      "position": 244.5,
+      "row": 455.0
+    },
+    {
+      "text": "2010",
+      "confidence": 0.9999914169311523,
+      "bbox": [
+        271.0,
+        449.0,
+        302.0,
+        461.0
+      ],
+      "source": "CV4 targeted OCR, no reference text",
+      "position": 286.5,
+      "row": 455.0
+    },
+    {
+      "text": "2011",
+      "confidence": 0.9940308332443237,
+      "bbox": [
+        313.0,
+        449.0,
+        343.0,
+        461.0
+      ],
+      "source": "CV4 targeted OCR, no reference text",
+      "position": 328.0,
+      "row": 455.0
+    },
+    {
+      "text": "2012",
+      "confidence": 0.9999802112579346,
+      "bbox": [
+        355.0,
+        449.0,
+        386.0,
+        461.0
+      ],
+      "source": "CV4 targeted OCR, no reference text",
+      "position": 370.5,
+      "row": 455.0
+    },
+    {
+      "text": "2013",
+      "confidence": 0.8091004738918701,
+      "bbox": [
+        397.0,
+        449.0,
+        428.0,
+        461.0
+      ],
+      "source": "CV4 targeted OCR, no reference text",
+      "position": 412.5,
+      "row": 455.0
+    },
+    {
+      "text": "2014",
+      "confidence": 0.6031933046727782,
+      "bbox": [
+        439.0,
+        449.0,
+        470.0,
+        461.0
+      ],
+      "source": "CV4 targeted OCR, no reference text",
+      "position": 454.5,
+      "row": 455.0
+    },
+    {
+      "text": "2015",
+      "confidence": 0.9999967217445374,
+      "bbox": [
+        481.0,
+        449.0,
+        512.0,
+        461.0
+      ],
+      "source": "CV4 targeted OCR, no reference text",
+      "position": 496.5,
+      "row": 455.0
+    },
+    {
+      "text": "2016",
+      "confidence": 0.9999962449073792,
+      "bbox": [
+        523.0,
+        449.0,
+        554.0,
+        461.0
+      ],
+      "source": "CV4 targeted OCR, no reference text",
+      "position": 538.5,
+      "row": 455.0
+    },
+    {
+      "text": "2017",
+      "confidence": 0.9999842047691345,
+      "bbox": [
+        565.0,
+        449.0,
+        596.0,
+        461.0
+      ],
+      "source": "CV4 targeted OCR, no reference text",
+      "position": 580.5,
+      "row": 455.0
+    },
+    {
+      "text": "2018",
+      "confidence": 0.9999741315841675,
+      "bbox": [
+        607.0,
+        449.0,
+        638.0,
+        461.0
+      ],
+      "source": "CV4 targeted OCR, no reference text",
+      "position": 622.5,
+      "row": 455.0
+    },
+    {
+      "text": "2020*",
+      "confidence": 0.9195304932085302,
+      "bbox": [
+        688.0,
+        448.0,
+        724.0,
+        461.0
+      ],
+      "source": "CV4 targeted OCR, no reference text",
+      "position": 706.0,
+      "row": 454.5
+    }
+  ],
+  "series": {},
+  "calibration": {
+    "slope": -0.7645188441036189,
+    "intercept": 335.39581969512756,
+    "unit": null,
+    "rmse_ticks": 0.21623959473347104,
+    "ticks": [
+      {
+        "value": 250.0,
+        "unit": null,
+        "position": 111.5,
+        "text": "250",
+        "bbox": [
+          60.0,
+          105.0,
+          84.0,
+          118.0
+        ]
+      },
+      {
+        "value": 200.0,
+        "unit": null,
+        "position": 177.0,
+        "text": "200",
+        "bbox": [
+          60.0,
+          171.0,
+          84.0,
+          183.0
+        ]
+      },
+      {
+        "value": 150.0,
+        "unit": null,
+        "position": 243.0,
+        "text": "150",
+        "bbox": [
+          60.0,
+          237.0,
+          84.0,
+          249.0
+        ]
+      },
+      {
+        "value": 100.0,
+        "unit": null,
+        "position": 308.0,
+        "text": "100",
+        "bbox": [
+          60.0,
+          302.0,
+          84.0,
+          314.0
+        ]
+      },
+      {
+        "value": 50.0,
+        "unit": null,
+        "position": 373.0,
+        "text": "50",
+        "bbox": [
+          67.0,
+          367.0,
+          84.0,
+          379.0
+        ]
+      }
+    ],
+    "rejected_ticks": [],
+    "mapping": "value = slope * pixel_coordinate + intercept",
+    "scale": "linear"
+  },
+  "baseline_pixel": 439.0,
+  "baseline_value": -0.22795286636113588,
+  "refined_ocr": [
+    {
+      "text": "250",
+      "confidence": 0.998623788356781,
+      "bbox": [
+        60.0,
+        105.0,
+        84.0,
+        118.0
+      ],
+      "source": "CV4 targeted OCR, no reference text"
+    },
+    {
+      "text": "200",
+      "confidence": 0.9999052966916047,
+      "bbox": [
+        60.0,
+        171.0,
+        84.0,
+        183.0
+      ],
+      "source": "CV4 targeted OCR, no reference text"
+    },
+    {
+      "text": "0",
+      "confidence": 0.362156023780301,
+      "bbox": [
+        44.0,
+        188.0,
+        53.0,
+        198.0
+      ],
+      "source": "CV4 targeted OCR, no reference text"
+    },
+    {
+      "text": "1",
+      "confidence": 0.2901483559935656,
+      "bbox": [
+        40.0,
+        196.0,
+        55.0,
+        259.0
+      ],
+      "source": "CV4 targeted OCR, no reference text"
+    },
+    {
+      "text": "150",
+      "confidence": 0.9995556068782102,
+      "bbox": [
+        60.0,
+        237.0,
+        84.0,
+        249.0
+      ],
+      "source": "CV4 targeted OCR, no reference text"
+    },
+    {
+      "text": "100",
+      "confidence": 0.9992914749559846,
+      "bbox": [
+        60.0,
+        302.0,
+        84.0,
+        314.0
+      ],
+      "source": "CV4 targeted OCR, no reference text"
+    },
+    {
+      "text": "50",
+      "confidence": 0.9999708345054034,
+      "bbox": [
+        67.0,
+        367.0,
+        84.0,
+        379.0
+      ],
+      "source": "CV4 targeted OCR, no reference text"
+    },
+    {
+      "text": "1",
+      "confidence": 0.7833282712405243,
+      "bbox": [
+        40.715029731917035,
+        257.03133613395596,
+        52.284970268082965,
+        297.96866386604404
+      ],
+      "source": "CV4 targeted OCR, no reference text"
+    },
+    {
+      "text": "2006",
+      "confidence": 0.9999207854270935,
+      "bbox": [
+        103.0,
+        448.0,
+        135.0,
+        461.0
+      ],
+      "source": "CV4 targeted OCR, no reference text"
+    },
+    {
+      "text": "2007",
+      "confidence": 0.9999467134475708,
+      "bbox": [
+        146.0,
+        449.0,
+        176.0,
+        461.0
+      ],
+      "source": "CV4 targeted OCR, no reference text"
+    },
+    {
+      "text": "2008",
+      "confidence": 0.999967634677887,
+      "bbox": [
+        188.0,
+        448.0,
+        218.0,
+        461.0
+      ],
+      "source": "CV4 targeted OCR, no reference text"
+    },
+    {
+      "text": "2009",
+      "confidence": 0.9999370574951172,
+      "bbox": [
+        229.0,
+        449.0,
+        260.0,
+        461.0
+      ],
+      "source": "CV4 targeted OCR, no reference text"
+    },
+    {
+      "text": "2010",
+      "confidence": 0.9999914169311523,
+      "bbox": [
+        271.0,
+        449.0,
+        302.0,
+        461.0
+      ],
+      "source": "CV4 targeted OCR, no reference text"
+    },
+    {
+      "text": "2011",
+      "confidence": 0.9940308332443237,
+      "bbox": [
+        313.0,
+        449.0,
+        343.0,
+        461.0
+      ],
+      "source": "CV4 targeted OCR, no reference text"
+    },
+    {
+      "text": "2012",
+      "confidence": 0.9999802112579346,
+      "bbox": [
+        355.0,
+        449.0,
+        386.0,
+        461.0
+      ],
+      "source": "CV4 targeted OCR, no reference text"
+    },
+    {
+      "text": "2013",
+      "confidence": 0.8091004738918701,
+      "bbox": [
+        397.0,
+        449.0,
+        428.0,
+        461.0
+      ],
+      "source": "CV4 targeted OCR, no reference text"
+    },
+    {
+      "text": "2014",
+      "confidence": 0.6031933046727782,
+      "bbox": [
+        439.0,
+        449.0,
+        470.0,
+        461.0
+      ],
+      "source": "CV4 targeted OCR, no reference text"
+    },
+    {
+      "text": "2015",
+      "confidence": 0.9999967217445374,
+      "bbox": [
+        481.0,
+        449.0,
+        512.0,
+        461.0
+      ],
+      "source": "CV4 targeted OCR, no reference text"
+    },
+    {
+      "text": "2016",
+      "confidence": 0.9999962449073792,
+      "bbox": [
+        523.0,
+        449.0,
+        554.0,
+        461.0
+      ],
+      "source": "CV4 targeted OCR, no reference text"
+    },
+    {
+      "text": "2017",
+      "confidence": 0.9999842047691345,
+      "bbox": [
+        565.0,
+        449.0,
+        596.0,
+        461.0
+      ],
+      "source": "CV4 targeted OCR, no reference text"
+    },
+    {
+      "text": "2018",
+      "confidence": 0.9999741315841675,
+      "bbox": [
+        607.0,
+        449.0,
+        638.0,
+        461.0
+      ],
+      "source": "CV4 targeted OCR, no reference text"
+    },
+    {
+      "text": "2019\"",
+      "confidence": 0.32603509441495276,
+      "bbox": [
+        646.0,
+        449.0,
+        683.0,
+        461.0
+      ],
+      "source": "CV4 targeted OCR, no reference text"
+    },
+    {
+      "text": "2020*",
+      "confidence": 0.9195304932085302,
+      "bbox": [
+        688.0,
+        448.0,
+        724.0,
+        461.0
+      ],
+      "source": "CV4 targeted OCR, no reference text"
+    },
+    {
+      "text": "Gratista 202",
+      "confidence": 0.45573748530952835,
+      "bbox": [
+        682.0,
+        490.0,
+        749.0,
+        501.0
+      ],
+      "source": "CV4 targeted OCR, no reference text"
+    }
+  ],
+  "errors": [],
+  "uncertainties": [
+    "series_1 catégorie inconnue: category_missing",
+    "Rectangle plein seulement ; ombres, petites barres et objets non rectangulaires peuvent être manqués."
+  ],
+  "status": "partial"
+}

@@ -1,0 +1,177 @@
+[
+  {
+    "image": "ChartQA Dataset/test/png/multi_col_101181.png",
+    "split": "test",
+    "label": "v_bar",
+    "annotator": "official:af8b6f5c08c95085271561c2a3f9d15f2b5a9031",
+    "sample_role": "development_pilot"
+  },
+  {
+    "image": "ChartQA Dataset/test/png/two_col_103667.png",
+    "split": "test",
+    "label": "v_bar",
+    "annotator": "official:af8b6f5c08c95085271561c2a3f9d15f2b5a9031",
+    "sample_role": "development_pilot"
+  },
+  {
+    "image": "ChartQA Dataset/test/png/two_col_81707.png",
+    "split": "test",
+    "label": "v_bar",
+    "annotator": "official:af8b6f5c08c95085271561c2a3f9d15f2b5a9031",
+    "sample_role": "development_pilot"
+  },
+  {
+    "image": "ChartQA Dataset/test/png/multi_col_60369.png",
+    "split": "test",
+    "label": "v_bar",
+    "annotator": "official:af8b6f5c08c95085271561c2a3f9d15f2b5a9031",
+    "sample_role": "development_pilot"
+  },
+  {
+    "image": "ChartQA Dataset/test/png/two_col_3752.png",
+    "split": "test",
+    "label": "v_bar",
+    "annotator": "official:af8b6f5c08c95085271561c2a3f9d15f2b5a9031",
+    "sample_role": "development_pilot"
+  },
+  {
+    "image": "ChartQA Dataset/test/png/two_col_61612.png",
+    "split": "test",
+    "label": "v_bar",
+    "annotator": "official:af8b6f5c08c95085271561c2a3f9d15f2b5a9031",
+    "sample_role": "additional_random_test_images"
+  },
+  {
+    "image": "ChartQA Dataset/test/png/two_col_4215.png",
+    "split": "test",
+    "label": "v_bar",
+    "annotator": "official:af8b6f5c08c95085271561c2a3f9d15f2b5a9031",
+    "sample_role": "additional_random_test_images"
+  },
+  {
+    "image": "ChartQA Dataset/test/png/multi_col_40786.png",
+    "split": "test",
+    "label": "v_bar",
+    "annotator": "official:af8b6f5c08c95085271561c2a3f9d15f2b5a9031",
+    "sample_role": "additional_random_test_images"
+  },
+  {
+    "image": "ChartQA Dataset/test/png/two_col_1809.png",
+    "split": "test",
+    "label": "v_bar",
+    "annotator": "official:af8b6f5c08c95085271561c2a3f9d15f2b5a9031",
+    "sample_role": "additional_random_test_images"
+  },
+  {
+    "image": "ChartQA Dataset/test/png/multi_col_441.png",
+    "split": "test",
+    "label": "v_bar",
+    "annotator": "official:af8b6f5c08c95085271561c2a3f9d15f2b5a9031",
+    "sample_role": "additional_random_test_images"
+  },
+  {
+    "image": "ChartQA Dataset/test/png/two_col_1378.png",
+    "split": "test",
+    "label": "v_bar",
+    "annotator": "official:af8b6f5c08c95085271561c2a3f9d15f2b5a9031",
+    "sample_role": "additional_random_test_images"
+  },
+  {
+    "image": "ChartQA Dataset/test/png/multi_col_80194.png",
+    "split": "test",
+    "label": "v_bar",
+    "annotator": "official:af8b6f5c08c95085271561c2a3f9d15f2b5a9031",
+    "sample_role": "additional_random_test_images"
+  },
+  {
+    "image": "ChartQA Dataset/test/png/OECD_TAX_REVENUE_GBR_NLD_000037.png",
+    "split": "test",
+    "label": "v_bar",
+    "annotator": "official:af8b6f5c08c95085271561c2a3f9d15f2b5a9031",
+    "sample_role": "additional_random_test_images"
+  },
+  {
+    "image": "ChartQA Dataset/test/png/two_col_21194.png",
+    "split": "test",
+    "label": "v_bar",
+    "annotator": "official:af8b6f5c08c95085271561c2a3f9d15f2b5a9031",
+    "sample_role": "additional_random_test_images"
+  },
+  {
+    "image": "ChartQA Dataset/test/png/multi_col_438.png",
+    "split": "test",
+    "label": "v_bar",
+    "annotator": "official:af8b6f5c08c95085271561c2a3f9d15f2b5a9031",
+    "sample_role": "additional_random_test_images"
+  },
+  {
+    "image": "ChartQA Dataset/test/png/two_col_2898.png",
+    "split": "test",
+    "label": "v_bar",
+    "annotator": "official:af8b6f5c08c95085271561c2a3f9d15f2b5a9031",
+    "sample_role": "additional_random_test_images"
+  },
+  {
+    "image": "ChartQA Dataset/test/png/two_col_3697.png",
+    "split": "test",
+    "label": "v_bar",
+    "annotator": "official:af8b6f5c08c95085271561c2a3f9d15f2b5a9031",
+    "sample_role": "additional_random_test_images"
+  },
+  {
+    "image": "ChartQA Dataset/test/png/two_col_42809.png",
+    "split": "test",
+    "label": "v_bar",
+    "annotator": "official:af8b6f5c08c95085271561c2a3f9d15f2b5a9031",
+    "sample_role": "additional_random_test_images"
+  },
+  {
+    "image": "ChartQA Dataset/test/png/two_col_103544.png",
+    "split": "test",
+    "label": "v_bar",
+    "annotator": "official:af8b6f5c08c95085271561c2a3f9d15f2b5a9031",
+    "sample_role": "additional_random_test_images"
+  },
+  {
+    "image": "ChartQA Dataset/test/png/two_col_3275.png",
+    "split": "test",
+    "label": "v_bar",
+    "annotator": "official:af8b6f5c08c95085271561c2a3f9d15f2b5a9031",
+    "sample_role": "additional_random_test_images"
+  },
+  {
+    "image": "ChartQA Dataset/test/png/multi_col_40202.png",
+    "split": "test",
+    "label": "h_bar",
+    "annotator": "official:af8b6f5c08c95085271561c2a3f9d15f2b5a9031",
+    "sample_role": "horizontal_exploratory"
+  },
+  {
+    "image": "ChartQA Dataset/test/png/two_col_4167.png",
+    "split": "test",
+    "label": "h_bar",
+    "annotator": "official:af8b6f5c08c95085271561c2a3f9d15f2b5a9031",
+    "sample_role": "horizontal_exploratory"
+  },
+  {
+    "image": "ChartQA Dataset/test/png/two_col_42847.png",
+    "split": "test",
+    "label": "h_bar",
+    "annotator": "official:af8b6f5c08c95085271561c2a3f9d15f2b5a9031",
+    "sample_role": "horizontal_exploratory"
+  },
+  {
+    "image": "ChartQA Dataset/test/png/two_col_61697.png",
+    "split": "test",
+    "label": "h_bar",
+    "annotator": "official:af8b6f5c08c95085271561c2a3f9d15f2b5a9031",
+    "sample_role": "horizontal_exploratory"
+  },
+  {
+    "image": "ChartQA Dataset/test/png/21881727007008.png",
+    "split": "test",
+    "label": "h_bar",
+    "annotator": "official:af8b6f5c08c95085271561c2a3f9d15f2b5a9031",
+    "sample_role": "horizontal_exploratory"
+  }
+]

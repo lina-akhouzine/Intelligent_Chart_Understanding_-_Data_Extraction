@@ -1,0 +1,638 @@
+{
+  "image": "two_col_1378.png",
+  "source": "C:\\Users\\ELECTRO-RIMO\\Downloads\\ChartQA-main\\ChartQA-main\\ChartQA Dataset\\test\\png\\two_col_1378.png",
+  "source_sha256": "91ac2f6976edbd9b2da6cb6f0d7d4799e6ddbf18d28b5d912e14fea62cc0296e",
+  "chart_type": "v_bar",
+  "cv2_chart_type": "v_bar",
+  "orientation_correction": null,
+  "chart_probabilities": {
+    "v_bar": 0.9999970197677612,
+    "h_bar": 2.8229121653566835e-06,
+    "line": 2.2747745020978982e-08,
+    "pie": 1.6636694510907546e-07
+  },
+  "checkpoint": "C:\\Users\\ELECTRO-RIMO\\Downloads\\ChartQA-main\\ChartQA-main\\models_cv2\\resnet18_20261117_010609_069660.pt",
+  "prediction_inputs": [
+    "image pixels",
+    "CV2 trained checkpoint",
+    "EasyOCR visible text"
+  ],
+  "reference_data_used_for_prediction": false,
+  "ocr_cache": "C:\\Users\\ELECTRO-RIMO\\Downloads\\ChartQA-main\\ChartQA-main\\results\\cv4\\evaluation_20261117_020522_908279\\two_col_1378\\extraction.json",
+  "ocr_texts": [
+    {
+      "text": "100 000",
+      "bbox": [
+        60.0,
+        40.0,
+        109.0,
+        53.0
+      ],
+      "confidence": 0.5879805388031858
+    },
+    {
+      "text": "85 373",
+      "bbox": [
+        177.0,
+        80.0,
+        221.0,
+        94.0
+      ],
+      "confidence": 0.998525568160363
+    },
+    {
+      "text": "80 320",
+      "bbox": [
+        328.0,
+        97.0,
+        371.0,
+        111.0
+      ],
+      "confidence": 0.999370040793798
+    },
+    {
+      "text": "8",
+      "bbox": [
+        67.0,
+        112.0,
+        109.0,
+        126.0
+      ],
+      "confidence": 0.7278778561388357
+    },
+    {
+      "text": "75 461",
+      "bbox": [
+        480.0,
+        116.0,
+        521.0,
+        129.0
+      ],
+      "confidence": 0.9986870141925449
+    },
+    {
+      "text": "73 992",
+      "bbox": [
+        631.0,
+        121.0,
+        674.0,
+        134.0
+      ],
+      "confidence": 0.9229480292134261
+    },
+    {
+      "text": "dollars",
+      "bbox": [
+        41.0,
+        159.0,
+        54.0,
+        195.0
+      ],
+      "confidence": 0.9825804018272892
+    },
+    {
+      "text": "8",
+      "bbox": [
+        67.0,
+        185.0,
+        109.0,
+        199.0
+      ],
+      "confidence": 0.7302256579166944
+    },
+    {
+      "text": "3",
+      "bbox": [
+        41.0,
+        197.0,
+        53.0,
+        217.0
+      ],
+      "confidence": 0.9864207925966753
+    },
+    {
+      "text": "5",
+      "bbox": [
+        44.0,
+        217.0,
+        52.0,
+        228.0
+      ],
+      "confidence": 0.7580077472050029
+    },
+    {
+      "text": "1",
+      "bbox": [
+        44.0,
+        230.0,
+        53.0,
+        260.0
+      ],
+      "confidence": 0.6284923504739517
+    },
+    {
+      "text": "8",
+      "bbox": [
+        65.0,
+        259.0,
+        109.0,
+        273.0
+      ],
+      "confidence": 0.8479259339499237
+    },
+    {
+      "text": "Nge",
+      "bbox": [
+        45.0,
+        262.0,
+        54.0,
+        282.0
+      ],
+      "confidence": 0.41312374407079583
+    },
+    {
+      "text": "2",
+      "bbox": [
+        42.4929798734366,
+        282.115081777618,
+        53.5070201265634,
+        302.884918222382
+      ],
+      "confidence": 0.9898992834425968
+    },
+    {
+      "text": "20 00",
+      "bbox": [
+        67.0,
+        332.0,
+        109.0,
+        346.0
+      ],
+      "confidence": 0.7674437043120061
+    },
+    {
+      "text": "Computer Science",
+      "bbox": [
+        148.0,
+        423.0,
+        247.0,
+        439.0
+      ],
+      "confidence": 0.9430676634035456
+    },
+    {
+      "text": "Engineering",
+      "bbox": [
+        315.0,
+        423.0,
+        382.0,
+        438.0
+      ],
+      "confidence": 0.8968031070416992
+    },
+    {
+      "text": "Math & Sciences",
+      "bbox": [
+        607.0,
+        423.0,
+        697.0,
+        437.0
+      ],
+      "confidence": 0.98591276500947
+    },
+    {
+      "text": "Business",
+      "bbox": [
+        476.0,
+        424.0,
+        525.0,
+        437.0
+      ],
+      "confidence": 0.9992110084910075
+    },
+    {
+      "text": "Discipline",
+      "bbox": [
+        400.0,
+        448.0,
+        450.0,
+        461.0
+      ],
+      "confidence": 0.8983489966207844
+    },
+    {
+      "text": "Statista 2021",
+      "bbox": [
+        680.0,
+        488.0,
+        755.0,
+        503.0
+      ],
+      "confidence": 0.9953047456182631
+    },
+    {
+      "text": "Addirional Information",
+      "bbox": [
+        37.0,
+        512.0,
+        168.0,
+        527.0
+      ],
+      "confidence": 0.7636141566499929
+    },
+    {
+      "text": "Show source",
+      "bbox": [
+        685.0,
+        512.0,
+        761.0,
+        527.0
+      ],
+      "confidence": 0.918432806098684
+    }
+  ],
+  "rows": [
+    {
+      "category": "Computer Science",
+      "series": null,
+      "series_id": "series_1",
+      "value": null,
+      "unit": null,
+      "bar_bbox": [
+        146,
+        102,
+        250,
+        414
+      ],
+      "color": [
+        40,
+        118,
+        221
+      ],
+      "endpoint_pixel": 102.0,
+      "error": "calibration_failed",
+      "pixel_value_uncertainty": null
+    },
+    {
+      "category": "Engineering",
+      "series": null,
+      "series_id": "series_1",
+      "value": null,
+      "unit": null,
+      "bar_bbox": [
+        297,
+        120,
+        401,
+        414
+      ],
+      "color": [
+        40,
+        118,
+        221
+      ],
+      "endpoint_pixel": 120.0,
+      "error": "calibration_failed",
+      "pixel_value_uncertainty": null
+    },
+    {
+      "category": "Business",
+      "series": null,
+      "series_id": "series_1",
+      "value": null,
+      "unit": null,
+      "bar_bbox": [
+        448,
+        138,
+        552,
+        414
+      ],
+      "color": [
+        40,
+        118,
+        221
+      ],
+      "endpoint_pixel": 138.0,
+      "error": "calibration_failed",
+      "pixel_value_uncertainty": null
+    },
+    {
+      "category": "Math & Sciences",
+      "series": null,
+      "series_id": "series_1",
+      "value": null,
+      "unit": null,
+      "bar_bbox": [
+        600,
+        143,
+        704,
+        414
+      ],
+      "color": [
+        40,
+        118,
+        221
+      ],
+      "endpoint_pixel": 143.0,
+      "error": "calibration_failed",
+      "pixel_value_uncertainty": null
+    }
+  ],
+  "bars": [
+    {
+      "bbox": [
+        146,
+        102,
+        250,
+        414
+      ],
+      "color": [
+        40,
+        118,
+        221
+      ],
+      "fill_ratio": 1.0,
+      "series_id": "series_1"
+    },
+    {
+      "bbox": [
+        297,
+        120,
+        401,
+        414
+      ],
+      "color": [
+        40,
+        118,
+        221
+      ],
+      "fill_ratio": 1.0,
+      "series_id": "series_1"
+    },
+    {
+      "bbox": [
+        448,
+        138,
+        552,
+        414
+      ],
+      "color": [
+        40,
+        118,
+        221
+      ],
+      "fill_ratio": 1.0,
+      "series_id": "series_1"
+    },
+    {
+      "bbox": [
+        600,
+        143,
+        704,
+        414
+      ],
+      "color": [
+        40,
+        118,
+        221
+      ],
+      "fill_ratio": 1.0,
+      "series_id": "series_1"
+    }
+  ],
+  "categories": [
+    {
+      "text": "Computer Science",
+      "confidence": 0.9997932240217666,
+      "bbox": [
+        147.0,
+        423.0,
+        247.0,
+        437.0
+      ],
+      "source": "CV4 targeted OCR, no reference text",
+      "position": 197.0,
+      "row": 430.0
+    },
+    {
+      "text": "Engineering",
+      "confidence": 0.7601926132595559,
+      "bbox": [
+        316.0,
+        424.0,
+        382.0,
+        438.0
+      ],
+      "source": "CV4 targeted OCR, no reference text",
+      "position": 349.0,
+      "row": 431.0
+    },
+    {
+      "text": "Business",
+      "confidence": 0.9981054298455307,
+      "bbox": [
+        475.0,
+        424.0,
+        525.0,
+        436.0
+      ],
+      "source": "CV4 targeted OCR, no reference text",
+      "position": 500.0,
+      "row": 430.0
+    },
+    {
+      "text": "Math & Sciences",
+      "confidence": 0.97329949361165,
+      "bbox": [
+        607.0,
+        424.0,
+        696.0,
+        436.0
+      ],
+      "source": "CV4 targeted OCR, no reference text",
+      "position": 651.5,
+      "row": 430.0
+    }
+  ],
+  "series": {},
+  "calibration": null,
+  "baseline_pixel": 414.0,
+  "baseline_value": null,
+  "refined_ocr": [
+    {
+      "text": "80 00o",
+      "confidence": 0.53880177682034,
+      "bbox": [
+        67.0,
+        114.0,
+        108.0,
+        126.0
+      ],
+      "source": "CV4 targeted OCR, no reference text"
+    },
+    {
+      "text": "3",
+      "confidence": 0.24861542891962873,
+      "bbox": [
+        41.0,
+        158.0,
+        53.0,
+        195.0
+      ],
+      "source": "CV4 targeted OCR, no reference text"
+    },
+    {
+      "text": "60 000",
+      "confidence": 0.4931494848364593,
+      "bbox": [
+        67.0,
+        186.0,
+        108.0,
+        199.0
+      ],
+      "source": "CV4 targeted OCR, no reference text"
+    },
+    {
+      "text": "3",
+      "confidence": 0.9946852202358833,
+      "bbox": [
+        41.0,
+        198.0,
+        53.0,
+        216.0
+      ],
+      "source": "CV4 targeted OCR, no reference text"
+    },
+    {
+      "text": "5",
+      "confidence": 0.9314527364951495,
+      "bbox": [
+        44.0,
+        217.0,
+        52.0,
+        227.0
+      ],
+      "source": "CV4 targeted OCR, no reference text"
+    },
+    {
+      "text": "40 000",
+      "confidence": 0.5416147688799491,
+      "bbox": [
+        67.0,
+        260.0,
+        108.0,
+        273.0
+      ],
+      "source": "CV4 targeted OCR, no reference text"
+    },
+    {
+      "text": "2",
+      "confidence": 0.8637294573006251,
+      "bbox": [
+        43.0,
+        262.0,
+        55.0,
+        284.0
+      ],
+      "source": "CV4 targeted OCR, no reference text"
+    },
+    {
+      "text": "2",
+      "confidence": 0.6065977889456917,
+      "bbox": [
+        43.0,
+        283.0,
+        52.0,
+        302.0
+      ],
+      "source": "CV4 targeted OCR, no reference text"
+    },
+    {
+      "text": "20 000",
+      "confidence": 0.5558346898105204,
+      "bbox": [
+        67.0,
+        333.0,
+        108.0,
+        346.0
+      ],
+      "source": "CV4 targeted OCR, no reference text"
+    },
+    {
+      "text": "1",
+      "confidence": 0.11627467261243751,
+      "bbox": [
+        40.6286093236459,
+        227.04552002196496,
+        53.3713906763541,
+        260.954479978035
+      ],
+      "source": "CV4 targeted OCR, no reference text"
+    },
+    {
+      "text": "Computer Science",
+      "confidence": 0.9997932240217666,
+      "bbox": [
+        147.0,
+        423.0,
+        247.0,
+        437.0
+      ],
+      "source": "CV4 targeted OCR, no reference text"
+    },
+    {
+      "text": "Engineering",
+      "confidence": 0.7601926132595559,
+      "bbox": [
+        316.0,
+        424.0,
+        382.0,
+        438.0
+      ],
+      "source": "CV4 targeted OCR, no reference text"
+    },
+    {
+      "text": "Business",
+      "confidence": 0.9981054298455307,
+      "bbox": [
+        475.0,
+        424.0,
+        525.0,
+        436.0
+      ],
+      "source": "CV4 targeted OCR, no reference text"
+    },
+    {
+      "text": "Math & Sciences",
+      "confidence": 0.97329949361165,
+      "bbox": [
+        607.0,
+        424.0,
+        696.0,
+        436.0
+      ],
+      "source": "CV4 targeted OCR, no reference text"
+    },
+    {
+      "text": "Discipline",
+      "confidence": 0.9995921424073984,
+      "bbox": [
+        399.0,
+        447.0,
+        450.0,
+        461.0
+      ],
+      "source": "CV4 targeted OCR, no reference text"
+    }
+  ],
+  "errors": [
+    "Échelle non linéaire, chiffres OCR incohérents ou calibration ambiguë."
+  ],
+  "uncertainties": [
+    "series_1 Computer Science: calibration_failed",
+    "series_1 Engineering: calibration_failed",
+    "series_1 Business: calibration_failed",
+    "series_1 Math & Sciences: calibration_failed",
+    "Rectangle plein seulement ; ombres, petites barres et objets non rectangulaires peuvent être manqués."
+  ],
+  "status": "failed"
+}

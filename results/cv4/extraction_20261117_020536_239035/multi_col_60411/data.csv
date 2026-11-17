@@ -1,0 +1,11 @@
+﻿category,series,series_id,value,unit,error
+Smartphones,Pessimistic scenario April 2020,series_1,,,calibration_failed
+Personal computing devices,Pessimistic scenario April 2020,series_1,,,calibration_failed
+Smartphones,Probable scenario April 2020,series_2,,,calibration_failed
+Personal computing devices,Probable scenario April 2020,series_2,,,calibration_failed
+Smartphones,Optimistic scenario April 2020,series_3,,,calibration_failed
+Personal computing devices,Optimistic scenario April 2020,series_3,,,calibration_failed
+Smartphones,Forecast February 2019,series_4,,,calibration_failed
+Personal computing devices,Forecast February 2019,series_4,,,calibration_failed
+Smartphones,Forecast November 2019,series_5,,,calibration_failed
+Personal computing devices,Forecast November 2019,series_5,,,calibration_failed

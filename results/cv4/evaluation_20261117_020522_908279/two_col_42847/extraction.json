@@ -1,0 +1,863 @@
+{
+  "image": "two_col_42847.png",
+  "source": "C:\\Users\\ELECTRO-RIMO\\Downloads\\ChartQA-main\\ChartQA-main\\ChartQA Dataset\\test\\png\\two_col_42847.png",
+  "source_sha256": "f88e9c927f5e57f1e998bde5c2eee7efc12f4e58153f9f600cb9a117badcf94a",
+  "chart_type": "h_bar",
+  "cv2_chart_type": "h_bar",
+  "orientation_correction": null,
+  "chart_probabilities": {
+    "v_bar": 7.843953790143132e-05,
+    "h_bar": 0.99991774559021,
+    "line": 3.829684828815516e-06,
+    "pie": 3.556074190669278e-08
+  },
+  "checkpoint": "C:\\Users\\ELECTRO-RIMO\\Downloads\\ChartQA-main\\ChartQA-main\\models_cv2\\resnet18_20261117_010609_069660.pt",
+  "prediction_inputs": [
+    "image pixels",
+    "CV2 trained checkpoint",
+    "EasyOCR visible text"
+  ],
+  "reference_data_used_for_prediction": false,
+  "ocr_cache": "C:\\Users\\ELECTRO-RIMO\\Downloads\\ChartQA-main\\ChartQA-main\\results\\cv4\\extraction_20261117_020222_056948\\two_col_42847\\extraction.json",
+  "ocr_texts": [
+    {
+      "text": "Hershey",
+      "bbox": [
+        94.0,
+        60.0,
+        142.0,
+        77.0
+      ],
+      "confidence": 0.9992579144437947
+    },
+    {
+      "text": "37.4%",
+      "bbox": [
+        619.0,
+        61.0,
+        658.0,
+        75.0
+      ],
+      "confidence": 0.6976434979996368
+    },
+    {
+      "text": "21.4%",
+      "bbox": [
+        420.0,
+        124.0,
+        459.0,
+        138.0
+      ],
+      "confidence": 0.6933121089535944
+    },
+    {
+      "text": "Ferrero",
+      "bbox": [
+        100.0,
+        125.0,
+        142.0,
+        138.0
+      ],
+      "confidence": 0.999645787638741
+    },
+    {
+      "text": "20.98",
+      "bbox": [
+        415.0,
+        188.0,
+        453.0,
+        202.0
+      ],
+      "confidence": 0.5295831344031237
+    },
+    {
+      "text": "4",
+      "bbox": [
+        114.0,
+        192.0,
+        141.0,
+        201.0
+      ],
+      "confidence": 0.7874185181258895
+    },
+    {
+      "text": "0",
+      "bbox": [
+        753.0,
+        239.0,
+        769.0,
+        254.0
+      ],
+      "confidence": 0.686592166392419
+    },
+    {
+      "text": "Perfetti Van Melle",
+      "bbox": [
+        44.0,
+        252.0,
+        142.0,
+        266.0
+      ],
+      "confidence": 0.9804913059460635
+    },
+    {
+      "text": "1",
+      "bbox": [
+        336.0,
+        252.0,
+        374.0,
+        266.0
+      ],
+      "confidence": 0.49099349977553075
+    },
+    {
+      "text": "Johnson & Johnson",
+      "bbox": [
+        35.0,
+        316.0,
+        142.0,
+        330.0
+      ],
+      "confidence": 0.9605617791652922
+    },
+    {
+      "text": "5-1%",
+      "bbox": [
+        219.0,
+        317.0,
+        249.0,
+        329.0
+      ],
+      "confidence": 0.709091305732727
+    },
+    {
+      "text": "1",
+      "bbox": [
+        92.0,
+        380.0,
+        142.0,
+        394.0
+      ],
+      "confidence": 0.9713780940168171
+    },
+    {
+      "text": "3",
+      "bbox": [
+        163.0,
+        380.0,
+        195.0,
+        393.0
+      ],
+      "confidence": 0.9584828437212742
+    },
+    {
+      "text": "2",
+      "bbox": [
+        265.0,
+        427.0,
+        289.0,
+        439.0
+      ],
+      "confidence": 0.9841084324473428
+    },
+    {
+      "text": "2556",
+      "bbox": [
+        451.0,
+        427.0,
+        475.0,
+        441.0
+      ],
+      "confidence": 0.7318884134292603
+    },
+    {
+      "text": "4556",
+      "bbox": [
+        689.0,
+        427.0,
+        714.0,
+        441.0
+      ],
+      "confidence": 0.5574530050932265
+    },
+    {
+      "text": "6",
+      "bbox": [
+        576.0,
+        428.0,
+        599.0,
+        441.0
+      ],
+      "confidence": 0.4905643275042735
+    },
+    {
+      "text": "8",
+      "bbox": [
+        639.0,
+        428.0,
+        662.0,
+        441.0
+      ],
+      "confidence": 0.9988991669176563
+    },
+    {
+      "text": "3",
+      "bbox": [
+        268.0,
+        429.0,
+        288.0,
+        438.0
+      ],
+      "confidence": 0.6960832132918426
+    },
+    {
+      "text": "5",
+      "bbox": [
+        328.0,
+        429.0,
+        351.0,
+        441.0
+      ],
+      "confidence": 0.9284164870406677
+    },
+    {
+      "text": "8",
+      "bbox": [
+        391.0,
+        429.0,
+        413.0,
+        441.0
+      ],
+      "confidence": 0.9583513178195204
+    },
+    {
+      "text": "8",
+      "bbox": [
+        515.0,
+        429.0,
+        538.0,
+        441.0
+      ],
+      "confidence": 0.9437206052321159
+    },
+    {
+      "text": "8",
+      "bbox": [
+        146.0,
+        430.0,
+        160.0,
+        438.0
+      ],
+      "confidence": 0.9725297285366565
+    },
+    {
+      "text": "52",
+      "bbox": [
+        208.0,
+        430.0,
+        222.0,
+        438.0
+      ],
+      "confidence": 0.3622050541755954
+    },
+    {
+      "text": "Market share",
+      "bbox": [
+        400.0,
+        447.0,
+        466.0,
+        459.0
+      ],
+      "confidence": 0.9850812231522944
+    },
+    {
+      "text": "Statista 2021",
+      "bbox": [
+        680.0,
+        488.0,
+        755.0,
+        503.0
+      ],
+      "confidence": 0.9996245000971522
+    },
+    {
+      "text": "Additional Information",
+      "bbox": [
+        37.0,
+        512.0,
+        169.0,
+        527.0
+      ],
+      "confidence": 0.9904070592748855
+    },
+    {
+      "text": "Show source",
+      "bbox": [
+        685.0,
+        512.0,
+        761.0,
+        527.0
+      ],
+      "confidence": 0.918432806098684
+    }
+  ],
+  "rows": [
+    {
+      "category": "Hershey",
+      "series": null,
+      "series_id": "series_1",
+      "value": 3771.4466367579103,
+      "unit": null,
+      "bar_bbox": [
+        153,
+        47,
+        617,
+        91
+      ],
+      "color": [
+        40,
+        118,
+        221
+      ],
+      "endpoint_pixel": 617.0,
+      "error": null,
+      "pixel_value_uncertainty": 7.8938725107019785
+    },
+    {
+      "category": "Ferrero",
+      "series": null,
+      "series_id": "series_1",
+      "value": 2200.5660071282164,
+      "unit": null,
+      "bar_bbox": [
+        153,
+        110,
+        418,
+        154
+      ],
+      "color": [
+        40,
+        118,
+        221
+      ],
+      "endpoint_pixel": 418.0,
+      "error": null,
+      "pixel_value_uncertainty": 7.8938725107019785
+    },
+    {
+      "category": "Mars",
+      "series": null,
+      "series_id": "series_1",
+      "value": 2153.202772064005,
+      "unit": null,
+      "bar_bbox": [
+        153,
+        174,
+        412,
+        218
+      ],
+      "color": [
+        40,
+        118,
+        221
+      ],
+      "endpoint_pixel": 412.0,
+      "error": null,
+      "pixel_value_uncertainty": 7.8938725107019785
+    },
+    {
+      "category": "Perfetti Van Melle",
+      "series": null,
+      "series_id": "series_1",
+      "value": 1529.5868437185482,
+      "unit": null,
+      "bar_bbox": [
+        153,
+        238,
+        333,
+        282
+      ],
+      "color": [
+        40,
+        118,
+        221
+      ],
+      "endpoint_pixel": 333.0,
+      "error": null,
+      "pixel_value_uncertainty": 7.8938725107019785
+    },
+    {
+      "category": "Johnson & Johnson",
+      "series": null,
+      "series_id": "series_1",
+      "value": null,
+      "unit": null,
+      "bar_bbox": [
+        153,
+        301,
+        215,
+        345
+      ],
+      "color": [
+        40,
+        118,
+        221
+      ],
+      "endpoint_pixel": 215.0,
+      "error": "endpoint_outside_validated_scale",
+      "pixel_value_uncertainty": 7.8938725107019785
+    },
+    {
+      "category": "AIl other",
+      "series": null,
+      "series_id": "series_1",
+      "value": null,
+      "unit": null,
+      "bar_bbox": [
+        153,
+        365,
+        161,
+        409
+      ],
+      "color": [
+        40,
+        118,
+        221
+      ],
+      "endpoint_pixel": 161.0,
+      "error": "endpoint_outside_validated_scale",
+      "pixel_value_uncertainty": 7.8938725107019785
+    }
+  ],
+  "bars": [
+    {
+      "bbox": [
+        153,
+        47,
+        617,
+        91
+      ],
+      "color": [
+        40,
+        118,
+        221
+      ],
+      "fill_ratio": 1.0,
+      "series_id": "series_1"
+    },
+    {
+      "bbox": [
+        153,
+        110,
+        418,
+        154
+      ],
+      "color": [
+        40,
+        118,
+        221
+      ],
+      "fill_ratio": 1.0,
+      "series_id": "series_1"
+    },
+    {
+      "bbox": [
+        153,
+        174,
+        412,
+        218
+      ],
+      "color": [
+        40,
+        118,
+        221
+      ],
+      "fill_ratio": 1.0,
+      "series_id": "series_1"
+    },
+    {
+      "bbox": [
+        153,
+        238,
+        333,
+        282
+      ],
+      "color": [
+        40,
+        118,
+        221
+      ],
+      "fill_ratio": 1.0,
+      "series_id": "series_1"
+    },
+    {
+      "bbox": [
+        153,
+        301,
+        215,
+        345
+      ],
+      "color": [
+        40,
+        118,
+        221
+      ],
+      "fill_ratio": 1.0,
+      "series_id": "series_1"
+    },
+    {
+      "bbox": [
+        153,
+        365,
+        161,
+        409
+      ],
+      "color": [
+        40,
+        118,
+        221
+      ],
+      "fill_ratio": 1.0,
+      "series_id": "series_1"
+    }
+  ],
+  "categories": [
+    {
+      "text": "Hershey",
+      "confidence": 0.9996678228932464,
+      "bbox": [
+        94.0,
+        61.0,
+        142.0,
+        77.0
+      ],
+      "source": "CV4 targeted OCR, no reference text",
+      "position": 69.0,
+      "row": 118.0
+    },
+    {
+      "text": "Ferrero",
+      "confidence": 0.9994598561176538,
+      "bbox": [
+        100.0,
+        125.0,
+        142.0,
+        138.0
+      ],
+      "source": "CV4 targeted OCR, no reference text",
+      "position": 131.5,
+      "row": 121.0
+    },
+    {
+      "text": "Mars",
+      "confidence": 0.9978271126747131,
+      "bbox": [
+        113.0,
+        190.0,
+        142.0,
+        202.0
+      ],
+      "source": "CV4 targeted OCR, no reference text",
+      "position": 196.0,
+      "row": 127.5
+    },
+    {
+      "text": "Perfetti Van Melle",
+      "confidence": 0.8927279991382168,
+      "bbox": [
+        45.0,
+        253.0,
+        142.0,
+        266.0
+      ],
+      "source": "CV4 targeted OCR, no reference text",
+      "position": 259.5,
+      "row": 93.5
+    },
+    {
+      "text": "Johnson & Johnson",
+      "confidence": 0.9202454297448355,
+      "bbox": [
+        36.0,
+        317.0,
+        141.0,
+        330.0
+      ],
+      "source": "CV4 targeted OCR, no reference text",
+      "position": 323.5,
+      "row": 88.5
+    },
+    {
+      "text": "AIl other",
+      "confidence": 0.5615764640829958,
+      "bbox": [
+        93.0,
+        381.0,
+        142.0,
+        393.0
+      ],
+      "source": "CV4 targeted OCR, no reference text",
+      "position": 387.0,
+      "row": 117.5
+    }
+  ],
+  "series": {},
+  "calibration": {
+    "slope": 7.8938725107019785,
+    "intercept": -1099.0727023452105,
+    "unit": null,
+    "rmse_ticks": 20.938049326086535,
+    "ticks": [
+      {
+        "value": 1595.0,
+        "unit": null,
+        "position": 340.0,
+        "text": "1 595",
+        "bbox": [
+          330.0,
+          430.0,
+          350.0,
+          439.0
+        ]
+      },
+      {
+        "value": 2035.0,
+        "unit": null,
+        "position": 401.5,
+        "text": "2035",
+        "bbox": [
+          390.0,
+          428.0,
+          413.0,
+          440.0
+        ]
+      },
+      {
+        "value": 2576.0,
+        "unit": null,
+        "position": 463.5,
+        "text": "2576",
+        "bbox": [
+          452.0,
+          428.0,
+          475.0,
+          440.0
+        ]
+      },
+      {
+        "value": 3070.0,
+        "unit": null,
+        "position": 525.5,
+        "text": "3070",
+        "bbox": [
+          515.0,
+          430.0,
+          536.0,
+          439.0
+        ]
+      },
+      {
+        "value": 4020.0,
+        "unit": null,
+        "position": 650.0,
+        "text": "4020",
+        "bbox": [
+          639.0,
+          430.0,
+          661.0,
+          439.0
+        ]
+      }
+    ],
+    "rejected_ticks": [],
+    "mapping": "value = slope * pixel_coordinate + intercept",
+    "scale": "linear"
+  },
+  "baseline_pixel": 153.0,
+  "baseline_value": 108.68979179219218,
+  "refined_ocr": [
+    {
+      "text": "07o",
+      "confidence": 0.5197882383888554,
+      "bbox": [
+        145.0,
+        430.0,
+        160.0,
+        439.0
+      ],
+      "source": "CV4 targeted OCR, no reference text"
+    },
+    {
+      "text": "530",
+      "confidence": 0.25625616259474865,
+      "bbox": [
+        206.0,
+        428.0,
+        224.0,
+        440.0
+      ],
+      "source": "CV4 targeted OCR, no reference text"
+    },
+    {
+      "text": "1093",
+      "confidence": 0.21403339505195618,
+      "bbox": [
+        267.0,
+        430.0,
+        288.0,
+        439.0
+      ],
+      "source": "CV4 targeted OCR, no reference text"
+    },
+    {
+      "text": "1 595",
+      "confidence": 0.3674533702509953,
+      "bbox": [
+        330.0,
+        430.0,
+        350.0,
+        439.0
+      ],
+      "source": "CV4 targeted OCR, no reference text"
+    },
+    {
+      "text": "2035",
+      "confidence": 0.6096095649030523,
+      "bbox": [
+        390.0,
+        428.0,
+        413.0,
+        440.0
+      ],
+      "source": "CV4 targeted OCR, no reference text"
+    },
+    {
+      "text": "2576",
+      "confidence": 0.6556260585784912,
+      "bbox": [
+        452.0,
+        428.0,
+        475.0,
+        440.0
+      ],
+      "source": "CV4 targeted OCR, no reference text"
+    },
+    {
+      "text": "3070",
+      "confidence": 0.9851078391075134,
+      "bbox": [
+        515.0,
+        430.0,
+        536.0,
+        439.0
+      ],
+      "source": "CV4 targeted OCR, no reference text"
+    },
+    {
+      "text": "3536",
+      "confidence": 0.254949152469635,
+      "bbox": [
+        576.0,
+        428.0,
+        600.0,
+        440.0
+      ],
+      "source": "CV4 targeted OCR, no reference text"
+    },
+    {
+      "text": "4020",
+      "confidence": 0.7097827196121216,
+      "bbox": [
+        639.0,
+        430.0,
+        661.0,
+        439.0
+      ],
+      "source": "CV4 targeted OCR, no reference text"
+    },
+    {
+      "text": "mankat shana",
+      "confidence": 0.6075201979995396,
+      "bbox": [
+        400.0,
+        447.0,
+        465.0,
+        459.0
+      ],
+      "source": "CV4 targeted OCR, no reference text"
+    },
+    {
+      "text": "Hershey",
+      "confidence": 0.9996678228932464,
+      "bbox": [
+        94.0,
+        61.0,
+        142.0,
+        77.0
+      ],
+      "source": "CV4 targeted OCR, no reference text"
+    },
+    {
+      "text": "Ferrero",
+      "confidence": 0.9994598561176538,
+      "bbox": [
+        100.0,
+        125.0,
+        142.0,
+        138.0
+      ],
+      "source": "CV4 targeted OCR, no reference text"
+    },
+    {
+      "text": "Mars",
+      "confidence": 0.9978271126747131,
+      "bbox": [
+        113.0,
+        190.0,
+        142.0,
+        202.0
+      ],
+      "source": "CV4 targeted OCR, no reference text"
+    },
+    {
+      "text": "Perfetti Van Melle",
+      "confidence": 0.8927279991382168,
+      "bbox": [
+        45.0,
+        253.0,
+        142.0,
+        266.0
+      ],
+      "source": "CV4 targeted OCR, no reference text"
+    },
+    {
+      "text": "Johnson & Johnson",
+      "confidence": 0.9202454297448355,
+      "bbox": [
+        36.0,
+        317.0,
+        141.0,
+        330.0
+      ],
+      "source": "CV4 targeted OCR, no reference text"
+    },
+    {
+      "text": "AIl other",
+      "confidence": 0.5615764640829958,
+      "bbox": [
+        93.0,
+        381.0,
+        142.0,
+        393.0
+      ],
+      "source": "CV4 targeted OCR, no reference text"
+    }
+  ],
+  "errors": [],
+  "uncertainties": [
+    "series_1 Johnson & Johnson: endpoint_outside_validated_scale",
+    "series_1 AIl other: endpoint_outside_validated_scale",
+    "Rectangle plein seulement ; ombres, petites barres et objets non rectangulaires peuvent être manqués."
+  ],
+  "status": "partial"
+}

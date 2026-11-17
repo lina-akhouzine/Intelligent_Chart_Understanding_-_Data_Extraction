@@ -1,0 +1,157 @@
+{
+  "engine": "EasyOCR 1.7.2, English, CPU",
+  "images_evaluated": 20,
+  "additional_cli_images": 1,
+  "evaluation": "results\\cv3\\evaluation_20261117_013720_001076",
+  "original_ocr_run": "results\\cv3\\evaluation_20261117_012518_614675",
+  "counts": {
+    "reference_regions": 287,
+    "detections": 540,
+    "detections_in_annotated_regions": 295,
+    "matched_regions": 225,
+    "transcribed_references": 188,
+    "matched_transcribed_references": 181,
+    "characters": 1889,
+    "words": 340,
+    "character_edits": 489,
+    "word_edits": 112,
+    "matched_characters": 1614,
+    "matched_words": 294,
+    "matched_character_edits": 214,
+    "matched_word_edits": 66,
+    "role_correct_geometry": 145
+  },
+  "metrics": {
+    "CER_reference_regions_misses_as_deletions": 0.25886712546320806,
+    "WER_reference_regions_misses_as_deletions": 0.32941176470588235,
+    "CER_matched_only": 0.1325898389095415,
+    "WER_matched_only": 0.22448979591836735,
+    "detection_precision_annotated_regions": 0.7627118644067796,
+    "detection_recall_reference_regions": 0.7839721254355401,
+    "role_accuracy_geometry_on_matches": 0.6444444444444445
+  },
+  "by_class": {
+    "v_bar": {
+      "counts": {
+        "reference_regions": 70,
+        "detections": 140,
+        "detections_in_annotated_regions": 71,
+        "matched_regions": 51,
+        "transcribed_references": 38,
+        "matched_transcribed_references": 36,
+        "characters": 352,
+        "words": 61,
+        "character_edits": 103,
+        "word_edits": 19,
+        "matched_characters": 287,
+        "matched_words": 50,
+        "matched_character_edits": 38,
+        "matched_word_edits": 8,
+        "role_correct_geometry": 26
+      },
+      "metrics": {
+        "CER_reference_regions_misses_as_deletions": 0.29261363636363635,
+        "WER_reference_regions_misses_as_deletions": 0.3114754098360656,
+        "CER_matched_only": 0.13240418118466898,
+        "WER_matched_only": 0.16,
+        "detection_precision_annotated_regions": 0.7183098591549296,
+        "detection_recall_reference_regions": 0.7285714285714285,
+        "role_accuracy_geometry_on_matches": 0.5098039215686274
+      }
+    },
+    "h_bar": {
+      "counts": {
+        "reference_regions": 91,
+        "detections": 160,
+        "detections_in_annotated_regions": 90,
+        "matched_regions": 70,
+        "transcribed_references": 52,
+        "matched_transcribed_references": 52,
+        "characters": 804,
+        "words": 122,
+        "character_edits": 28,
+        "word_edits": 11,
+        "matched_characters": 804,
+        "matched_words": 122,
+        "matched_character_edits": 28,
+        "matched_word_edits": 11,
+        "role_correct_geometry": 46
+      },
+      "metrics": {
+        "CER_reference_regions_misses_as_deletions": 0.03482587064676617,
+        "WER_reference_regions_misses_as_deletions": 0.09016393442622951,
+        "CER_matched_only": 0.03482587064676617,
+        "WER_matched_only": 0.09016393442622951,
+        "detection_precision_annotated_regions": 0.7777777777777778,
+        "detection_recall_reference_regions": 0.7692307692307693,
+        "role_accuracy_geometry_on_matches": 0.6571428571428571
+      }
+    },
+    "line": {
+      "counts": {
+        "reference_regions": 103,
+        "detections": 199,
+        "detections_in_annotated_regions": 110,
+        "matched_regions": 81,
+        "transcribed_references": 75,
+        "matched_transcribed_references": 70,
+        "characters": 507,
+        "words": 105,
+        "character_edits": 222,
+        "word_edits": 40,
+        "matched_characters": 297,
+        "matched_words": 70,
+        "matched_character_edits": 12,
+        "matched_word_edits": 5,
+        "role_correct_geometry": 73
+      },
+      "metrics": {
+        "CER_reference_regions_misses_as_deletions": 0.4378698224852071,
+        "WER_reference_regions_misses_as_deletions": 0.38095238095238093,
+        "CER_matched_only": 0.04040404040404041,
+        "WER_matched_only": 0.07142857142857142,
+        "detection_precision_annotated_regions": 0.7363636363636363,
+        "detection_recall_reference_regions": 0.7864077669902912,
+        "role_accuracy_geometry_on_matches": 0.9012345679012346
+      }
+    },
+    "pie": {
+      "counts": {
+        "reference_regions": 23,
+        "detections": 41,
+        "detections_in_annotated_regions": 24,
+        "matched_regions": 23,
+        "transcribed_references": 23,
+        "matched_transcribed_references": 23,
+        "characters": 226,
+        "words": 52,
+        "character_edits": 136,
+        "word_edits": 42,
+        "matched_characters": 226,
+        "matched_words": 52,
+        "matched_character_edits": 136,
+        "matched_word_edits": 42,
+        "role_correct_geometry": 0
+      },
+      "metrics": {
+        "CER_reference_regions_misses_as_deletions": 0.6017699115044248,
+        "WER_reference_regions_misses_as_deletions": 0.8076923076923077,
+        "CER_matched_only": 0.6017699115044248,
+        "WER_matched_only": 0.8076923076923077,
+        "detection_precision_annotated_regions": 0.9583333333333334,
+        "detection_recall_reference_regions": 1.0,
+        "role_accuracy_geometry_on_matches": 0.0
+      }
+    }
+  },
+  "test_report": "results\\cv3\\tests_20261117_013731_931165\\test_report.json",
+  "test_status": "PASS",
+  "total_ocr_seconds": 670.5153488001088,
+  "annotation_quality_note": {
+    "image": "two_col_6419.png",
+    "field": "models[5].text_label",
+    "official_text": "Children's IKEA",
+    "visual_inspection": "IKEA food 5% visible in associated region; reference unchanged"
+  },
+  "limitation": "Partial annotation evaluation, one-to-one region matching; not full-page precision or CV4 data accuracy."
+}

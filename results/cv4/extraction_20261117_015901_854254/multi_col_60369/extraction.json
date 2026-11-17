@@ -1,0 +1,650 @@
+{
+  "image": "multi_col_60369.png",
+  "source": "C:\\Users\\ELECTRO-RIMO\\Downloads\\ChartQA-main\\ChartQA-main\\ChartQA Dataset\\test\\png\\multi_col_60369.png",
+  "source_sha256": "46337bc738fd957fcc2484efe918feb4802db6d7d811dff09229f10efc484fc4",
+  "chart_type": "v_bar",
+  "chart_probabilities": {
+    "v_bar": 0.9999997615814209,
+    "h_bar": 7.559633985465553e-08,
+    "line": 1.0896758340095403e-07,
+    "pie": 8.825520758648508e-09
+  },
+  "checkpoint": "C:\\Users\\ELECTRO-RIMO\\Downloads\\ChartQA-main\\ChartQA-main\\models_cv2\\resnet18_20261117_010609_069660.pt",
+  "prediction_inputs": [
+    "image pixels",
+    "CV2 trained checkpoint",
+    "EasyOCR visible text"
+  ],
+  "reference_data_used_for_prediction": false,
+  "ocr_cache": "C:\\Users\\ELECTRO-RIMO\\Downloads\\ChartQA-main\\ChartQA-main\\results\\cv3\\evaluation_20261117_014237_828142\\images\\multi_col_60369.json",
+  "ocr_texts": [
+    {
+      "text": "8",
+      "bbox": [
+        71.0,
+        40.0,
+        95.0,
+        53.0
+      ],
+      "confidence": 0.9953581443007806
+    },
+    {
+      "text": "8",
+      "bbox": [
+        607.0,
+        52.0,
+        633.0,
+        66.0
+      ],
+      "confidence": 0.9402306594527232
+    },
+    {
+      "text": "714",
+      "bbox": [
+        141.0,
+        109.0,
+        167.0,
+        123.0
+      ],
+      "confidence": 0.9997110072559612
+    },
+    {
+      "text": "750",
+      "bbox": [
+        71.0,
+        112.0,
+        95.0,
+        126.0
+      ],
+      "confidence": 0.9999738463499641
+    },
+    {
+      "text": "634",
+      "bbox": [
+        452.0,
+        132.0,
+        477.0,
+        146.0
+      ],
+      "confidence": 0.9882385730743408
+    },
+    {
+      "text": "Number",
+      "bbox": [
+        44.0,
+        173.0,
+        53.0,
+        214.0
+      ],
+      "confidence": 0.8331857276277369
+    },
+    {
+      "text": "8",
+      "bbox": [
+        71.0,
+        185.0,
+        95.0,
+        199.0
+      ],
+      "confidence": 0.9950764136404509
+    },
+    {
+      "text": "250",
+      "bbox": [
+        69.0,
+        259.0,
+        95.0,
+        273.0
+      ],
+      "confidence": 0.9999954575173651
+    },
+    {
+      "text": "136",
+      "bbox": [
+        297.0,
+        279.0,
+        323.0,
+        293.0
+      ],
+      "confidence": 0.9999121103342856
+    },
+    {
+      "text": "2009 (PCA peanut butter)",
+      "bbox": [
+        116.0,
+        348.0,
+        255.0,
+        363.0
+      ],
+      "confidence": 0.9575220284587429
+    },
+    {
+      "text": "2011 (Cargill ground",
+      "bbox": [
+        283.0,
+        348.0,
+        398.0,
+        363.0
+      ],
+      "confidence": 0.753217034349612
+    },
+    {
+      "text": "2013 (Foster Farms",
+      "bbox": [
+        441.0,
+        348.0,
+        550.0,
+        363.0
+      ],
+      "confidence": 0.9852613703125042
+    },
+    {
+      "text": "2015 (Mexican cucumbers)",
+      "bbox": [
+        576.0,
+        348.0,
+        725.0,
+        363.0
+      ],
+      "confidence": 0.9978869340712108
+    },
+    {
+      "text": "turkey)",
+      "bbox": [
+        320.0,
+        361.0,
+        362.0,
+        375.0
+      ],
+      "confidence": 0.9991525309880527
+    },
+    {
+      "text": "chicken)",
+      "bbox": [
+        471.0,
+        361.0,
+        519.0,
+        375.0
+      ],
+      "confidence": 0.9999149040131037
+    },
+    {
+      "text": "2",
+      "bbox": [
+        387.0276126980195,
+        387.1862665287933,
+        413.9723873019805,
+        402.8137334712067
+      ],
+      "confidence": 0.6511544069557118
+    },
+    {
+      "text": "(cause)",
+      "bbox": [
+        412.0,
+        389.0,
+        450.0,
+        401.0
+      ],
+      "confidence": 0.9908443991952591
+    },
+    {
+      "text": "Deaths",
+      "bbox": [
+        412.0,
+        428.0,
+        458.0,
+        443.0
+      ],
+      "confidence": 0.9999927486127799
+    },
+    {
+      "text": "Illnesses",
+      "bbox": [
+        328.0,
+        429.0,
+        385.0,
+        443.0
+      ],
+      "confidence": 0.9918862283602006
+    },
+    {
+      "text": "Statista 2021",
+      "bbox": [
+        681.0,
+        488.0,
+        757.0,
+        503.0
+      ],
+      "confidence": 0.999527832968584
+    },
+    {
+      "text": "Additional Information",
+      "bbox": [
+        39.0,
+        512.0,
+        169.0,
+        527.0
+      ],
+      "confidence": 0.8495862403730616
+    },
+    {
+      "text": "Show source",
+      "bbox": [
+        685.0,
+        512.0,
+        762.0,
+        527.0
+      ],
+      "confidence": 0.9441792262146728
+    }
+  ],
+  "rows": [
+    {
+      "category": "2015 (Mexican cucuL",
+      "series": "Illnesses",
+      "series_id": "series_1",
+      "value": null,
+      "unit": null,
+      "bar_bbox": [
+        590,
+        75,
+        648,
+        340
+      ],
+      "color": [
+        40,
+        118,
+        221
+      ],
+      "endpoint_pixel": 75.0,
+      "error": "endpoint_outside_validated_scale",
+      "pixel_value_uncertainty": 3.4246039812975955
+    },
+    {
+      "category": "2009 (PCA peanut butter)",
+      "series": "Illnesses",
+      "series_id": "series_1",
+      "value": 708.3300755289367,
+      "unit": null,
+      "bar_bbox": [
+        125,
+        132,
+        183,
+        340
+      ],
+      "color": [
+        40,
+        118,
+        221
+      ],
+      "endpoint_pixel": 132.0,
+      "error": null,
+      "pixel_value_uncertainty": 3.4246039812975955
+    },
+    {
+      "category": "2013 (Foster Farms chicken)",
+      "series": "Illnesses",
+      "series_id": "series_1",
+      "value": 629.564183959092,
+      "unit": null,
+      "bar_bbox": [
+        435,
+        155,
+        493,
+        340
+      ],
+      "color": [
+        40,
+        118,
+        221
+      ],
+      "endpoint_pixel": 155.0,
+      "error": null,
+      "pixel_value_uncertainty": 3.4246039812975955
+    },
+    {
+      "category": "2011 (Cargill ground turkey)",
+      "series": "Illnesses",
+      "series_id": "series_1",
+      "value": null,
+      "unit": null,
+      "bar_bbox": [
+        280,
+        301,
+        338,
+        340
+      ],
+      "color": [
+        40,
+        118,
+        221
+      ],
+      "endpoint_pixel": 301.0,
+      "error": "endpoint_outside_validated_scale",
+      "pixel_value_uncertainty": 3.4246039812975955
+    }
+  ],
+  "bars": [
+    {
+      "bbox": [
+        590,
+        75,
+        648,
+        340
+      ],
+      "color": [
+        40,
+        118,
+        221
+      ],
+      "fill_ratio": 1.0,
+      "series_id": "series_1"
+    },
+    {
+      "bbox": [
+        125,
+        132,
+        183,
+        340
+      ],
+      "color": [
+        40,
+        118,
+        221
+      ],
+      "fill_ratio": 1.0,
+      "series_id": "series_1"
+    },
+    {
+      "bbox": [
+        435,
+        155,
+        493,
+        340
+      ],
+      "color": [
+        40,
+        118,
+        221
+      ],
+      "fill_ratio": 1.0,
+      "series_id": "series_1"
+    },
+    {
+      "bbox": [
+        280,
+        301,
+        338,
+        340
+      ],
+      "color": [
+        40,
+        118,
+        221
+      ],
+      "fill_ratio": 1.0,
+      "series_id": "series_1"
+    }
+  ],
+  "categories": [
+    {
+      "text": "2009 (PCA peanut butter)",
+      "confidence": 0.9978646185508193,
+      "bbox": [
+        117.0,
+        349.0,
+        256.0,
+        363.0
+      ],
+      "source": "CV4 targeted OCR, no reference text",
+      "position": 186.5,
+      "row": 356.0
+    },
+    {
+      "text": "2011 (Cargill ground turkey)",
+      "confidence": 0.994589897977099,
+      "bbox": [
+        284.0,
+        349.0,
+        398.0,
+        364.0
+      ],
+      "source": "CV4 targeted OCR, no reference text",
+      "position": 341.0,
+      "row": 356.5
+    },
+    {
+      "text": "2013 (Foster Farms chicken)",
+      "confidence": 0.7771410786794342,
+      "bbox": [
+        442.0,
+        349.0,
+        550.0,
+        362.0
+      ],
+      "source": "CV4 targeted OCR, no reference text",
+      "position": 496.0,
+      "row": 355.5
+    },
+    {
+      "text": "2015 (Mexican cucuL",
+      "confidence": 0.5157056050143378,
+      "bbox": [
+        577.0,
+        349.0,
+        688.0,
+        363.0
+      ],
+      "source": "CV4 targeted OCR, no reference text",
+      "position": 632.5,
+      "row": 356.0
+    }
+  ],
+  "series": {
+    "series_1": "Illnesses"
+  },
+  "calibration": {
+    "slope": -3.4246039812975955,
+    "intercept": 1160.3778010602193,
+    "unit": null,
+    "rmse_ticks": 0.807193210602202,
+    "ticks": [
+      {
+        "value": 750.0,
+        "unit": null,
+        "position": 120.0,
+        "text": "750",
+        "bbox": [
+          71.0,
+          114.0,
+          95.0,
+          126.0
+        ]
+      },
+      {
+        "value": 500.0,
+        "unit": null,
+        "position": 192.5,
+        "text": "500",
+        "bbox": [
+          71.0,
+          186.0,
+          95.0,
+          199.0
+        ]
+      },
+      {
+        "value": 250.0,
+        "unit": null,
+        "position": 266.0,
+        "text": "250",
+        "bbox": [
+          71.0,
+          260.0,
+          95.0,
+          272.0
+        ]
+      }
+    ],
+    "rejected_ticks": [
+      {
+        "value": 100.0,
+        "unit": null,
+        "position": 47.0,
+        "text": "1 00",
+        "bbox": [
+          62.0,
+          41.0,
+          95.0,
+          53.0
+        ]
+      }
+    ],
+    "mapping": "value = slope * pixel_coordinate + intercept",
+    "scale": "linear"
+  },
+  "baseline_pixel": 340.0,
+  "baseline_value": -3.987552580963211,
+  "refined_ocr": [
+    {
+      "text": "1 00",
+      "confidence": 0.39076102694378834,
+      "bbox": [
+        62.0,
+        41.0,
+        95.0,
+        53.0
+      ],
+      "source": "CV4 targeted OCR, no reference text"
+    },
+    {
+      "text": "750",
+      "confidence": 0.9999950445645353,
+      "bbox": [
+        71.0,
+        114.0,
+        95.0,
+        126.0
+      ],
+      "source": "CV4 targeted OCR, no reference text"
+    },
+    {
+      "text": "1",
+      "confidence": 0.5024478258887974,
+      "bbox": [
+        44.0,
+        172.0,
+        53.0,
+        214.0
+      ],
+      "source": "CV4 targeted OCR, no reference text"
+    },
+    {
+      "text": "500",
+      "confidence": 0.9979260937863346,
+      "bbox": [
+        71.0,
+        186.0,
+        95.0,
+        199.0
+      ],
+      "source": "CV4 targeted OCR, no reference text"
+    },
+    {
+      "text": "250",
+      "confidence": 0.8763992786407471,
+      "bbox": [
+        71.0,
+        260.0,
+        95.0,
+        272.0
+      ],
+      "source": "CV4 targeted OCR, no reference text"
+    },
+    {
+      "text": "2009 (PCA peanut butter)",
+      "confidence": 0.9978646185508193,
+      "bbox": [
+        117.0,
+        349.0,
+        256.0,
+        363.0
+      ],
+      "source": "CV4 targeted OCR, no reference text"
+    },
+    {
+      "text": "2011 (Cargill ground",
+      "confidence": 0.994589897977099,
+      "bbox": [
+        284.0,
+        349.0,
+        398.0,
+        364.0
+      ],
+      "source": "CV4 targeted OCR, no reference text"
+    },
+    {
+      "text": "2013 (Foster Farms",
+      "confidence": 0.7771410786794342,
+      "bbox": [
+        442.0,
+        349.0,
+        550.0,
+        362.0
+      ],
+      "source": "CV4 targeted OCR, no reference text"
+    },
+    {
+      "text": "2015 (Mexican cucuL",
+      "confidence": 0.5157056050143378,
+      "bbox": [
+        577.0,
+        349.0,
+        688.0,
+        363.0
+      ],
+      "source": "CV4 targeted OCR, no reference text"
+    },
+    {
+      "text": "turkey)",
+      "confidence": 0.999844414698098,
+      "bbox": [
+        319.0,
+        360.0,
+        361.0,
+        376.0
+      ],
+      "source": "CV4 targeted OCR, no reference text"
+    },
+    {
+      "text": "chicken)",
+      "confidence": 0.9999044512035942,
+      "bbox": [
+        471.0,
+        360.0,
+        520.0,
+        375.0
+      ],
+      "source": "CV4 targeted OCR, no reference text"
+    },
+    {
+      "text": "Year (cause)",
+      "confidence": 0.9595207938586069,
+      "bbox": [
+        387.0,
+        388.0,
+        450.0,
+        400.0
+      ],
+      "source": "CV4 targeted OCR, no reference text"
+    }
+  ],
+  "errors": [],
+  "uncertainties": [
+    "series_1 2015 (Mexican cucuL: endpoint_outside_validated_scale",
+    "series_1 2011 (Cargill ground turkey): endpoint_outside_validated_scale",
+    "Rectangle plein seulement ; ombres, petites barres et objets non rectangulaires peuvent être manqués."
+  ],
+  "status": "partial"
+}

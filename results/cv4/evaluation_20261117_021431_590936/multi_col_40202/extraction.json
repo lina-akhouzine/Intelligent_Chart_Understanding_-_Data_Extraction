@@ -1,0 +1,507 @@
+{
+  "image": "multi_col_40202.png",
+  "source": "C:\\Users\\ELECTRO-RIMO\\Downloads\\ChartQA-main\\ChartQA-main\\ChartQA Dataset\\test\\png\\multi_col_40202.png",
+  "source_sha256": "5131d8bb4b8c7e6b7e1895e508c0bdf84a184a1cf8e4218be9a76564212c102c",
+  "chart_type": "h_bar",
+  "cv2_chart_type": "h_bar",
+  "orientation_correction": null,
+  "chart_probabilities": {
+    "v_bar": 5.412822702055564e-06,
+    "h_bar": 0.9999939203262329,
+    "line": 7.634209282514348e-07,
+    "pie": 6.15305539852784e-09
+  },
+  "checkpoint": "C:\\Users\\ELECTRO-RIMO\\Downloads\\ChartQA-main\\ChartQA-main\\models_cv2\\resnet18_20261117_010609_069660.pt",
+  "prediction_inputs": [
+    "image pixels",
+    "CV2 trained checkpoint",
+    "EasyOCR visible text"
+  ],
+  "reference_data_used_for_prediction": false,
+  "ocr_cache": "C:\\Users\\ELECTRO-RIMO\\Downloads\\ChartQA-main\\ChartQA-main\\results\\cv4\\evaluation_20261117_020522_908279\\multi_col_40202\\extraction.json",
+  "ocr_texts": [
+    {
+      "text": "1",
+      "bbox": [
+        399.0,
+        48.0,
+        434.0,
+        63.0
+      ],
+      "confidence": 0.9544008863485942
+    },
+    {
+      "text": "Cinematography",
+      "bbox": [
+        101.0,
+        49.0,
+        194.0,
+        64.0
+      ],
+      "confidence": 0.9457089268312101
+    },
+    {
+      "text": "8",
+      "bbox": [
+        616.0,
+        49.0,
+        637.0,
+        63.0
+      ],
+      "confidence": 0.9992076536584591
+    },
+    {
+      "text": "Film Editing",
+      "bbox": [
+        127.0,
+        89.0,
+        194.0,
+        106.0
+      ],
+      "confidence": 0.739971231176281
+    },
+    {
+      "text": "8",
+      "bbox": [
+        360.0,
+        91.0,
+        389.0,
+        105.0
+      ],
+      "confidence": 0.9576069136603707
+    },
+    {
+      "text": "8",
+      "bbox": [
+        571.0,
+        91.0,
+        599.0,
+        105.0
+      ],
+      "confidence": 0.9851305675575794
+    },
+    {
+      "text": "Writing (adapted screenplay)",
+      "bbox": [
+        36.0,
+        129.0,
+        194.0,
+        147.0
+      ],
+      "confidence": 0.9992701855994708
+    },
+    {
+      "text": "3",
+      "bbox": [
+        341.0,
+        131.0,
+        369.0,
+        145.0
+      ],
+      "confidence": 0.6660662997749256
+    },
+    {
+      "text": "4",
+      "bbox": [
+        552.0,
+        131.0,
+        581.0,
+        145.0
+      ],
+      "confidence": 0.6564261258933044
+    },
+    {
+      "text": "Best Picture",
+      "bbox": [
+        128.0,
+        171.0,
+        194.0,
+        185.0
+      ],
+      "confidence": 0.9898331940991896
+    },
+    {
+      "text": "8",
+      "bbox": [
+        339.0,
+        171.0,
+        366.0,
+        185.0
+      ],
+      "confidence": 0.628452375005736
+    },
+    {
+      "text": "30k",
+      "bbox": [
+        549.0,
+        171.0,
+        578.0,
+        185.0
+      ],
+      "confidence": 0.3598063194606813
+    },
+    {
+      "text": "8",
+      "bbox": [
+        317.0,
+        211.0,
+        346.0,
+        226.0
+      ],
+      "confidence": 0.8337935254407149
+    },
+    {
+      "text": "4",
+      "bbox": [
+        528.0,
+        211.0,
+        557.0,
+        225.0
+      ],
+      "confidence": 0.4800477213332357
+    },
+    {
+      "text": "Best Director",
+      "bbox": [
+        123.0,
+        213.0,
+        194.0,
+        225.0
+      ],
+      "confidence": 0.9999231268315377
+    },
+    {
+      "text": "8",
+      "bbox": [
+        317.0,
+        251.0,
+        346.0,
+        266.0
+      ],
+      "confidence": 0.8314857048859814
+    },
+    {
+      "text": "Writing (original screenplay)",
+      "bbox": [
+        40.0,
+        252.0,
+        194.0,
+        267.0
+      ],
+      "confidence": 0.9390445888322604
+    },
+    {
+      "text": "40%",
+      "bbox": [
+        528.0,
+        252.0,
+        557.0,
+        265.0
+      ],
+      "confidence": 0.7760659350594895
+    },
+    {
+      "text": "Documentary (short subject)",
+      "bbox": [
+        40.0,
+        292.0,
+        194.0,
+        306.0
+      ],
+      "confidence": 0.8264965561374239
+    },
+    {
+      "text": "3",
+      "bbox": [
+        317.0,
+        292.0,
+        346.0,
+        306.0
+      ],
+      "confidence": 0.9516936078971447
+    },
+    {
+      "text": "4",
+      "bbox": [
+        528.0,
+        292.0,
+        557.0,
+        306.0
+      ],
+      "confidence": 0.4800477213332357
+    },
+    {
+      "text": "Documentary (feature)",
+      "bbox": [
+        70.0,
+        332.0,
+        194.0,
+        347.0
+      ],
+      "confidence": 0.9855242882661915
+    },
+    {
+      "text": "46x",
+      "bbox": [
+        288.0,
+        332.0,
+        317.0,
+        346.0
+      ],
+      "confidence": 0.3506380569348991
+    },
+    {
+      "text": "54X",
+      "bbox": [
+        500.0,
+        332.0,
+        527.0,
+        346.0
+      ],
+      "confidence": 0.4345764857031734
+    },
+    {
+      "text": "2076",
+      "bbox": [
+        277.0,
+        368.0,
+        302.0,
+        381.0
+      ],
+      "confidence": 0.9684133529663086
+    },
+    {
+      "text": "8",
+      "bbox": [
+        361.0,
+        368.0,
+        386.0,
+        381.0
+      ],
+      "confidence": 0.9440341186545744
+    },
+    {
+      "text": "8",
+      "bbox": [
+        447.0,
+        368.0,
+        471.0,
+        381.0
+      ],
+      "confidence": 0.9993964152638455
+    },
+    {
+      "text": "8076",
+      "bbox": [
+        532.0,
+        368.0,
+        555.0,
+        381.0
+      ],
+      "confidence": 0.9518008828163147
+    },
+    {
+      "text": "8",
+      "bbox": [
+        197.0,
+        369.0,
+        213.0,
+        381.0
+      ],
+      "confidence": 0.9702547359599158
+    },
+    {
+      "text": "8",
+      "bbox": [
+        613.0,
+        369.0,
+        643.0,
+        381.0
+      ],
+      "confidence": 0.9852242789749575
+    },
+    {
+      "text": "Share of nominees",
+      "bbox": [
+        412.0,
+        388.0,
+        506.0,
+        401.0
+      ],
+      "confidence": 0.9800582836718328
+    },
+    {
+      "text": "Male",
+      "bbox": [
+        332.0,
+        428.0,
+        365.0,
+        443.0
+      ],
+      "confidence": 0.9999992847442627
+    },
+    {
+      "text": "Female",
+      "bbox": [
+        392.0,
+        428.0,
+        439.0,
+        443.0
+      ],
+      "confidence": 0.9999976639839308
+    },
+    {
+      "text": "Statista 2021",
+      "bbox": [
+        681.0,
+        488.0,
+        757.0,
+        503.0
+      ],
+      "confidence": 0.9929290980442758
+    },
+    {
+      "text": "Additional Information",
+      "bbox": [
+        39.0,
+        512.0,
+        169.0,
+        527.0
+      ],
+      "confidence": 0.8352090586380406
+    },
+    {
+      "text": "Show source",
+      "bbox": [
+        685.0,
+        512.0,
+        762.0,
+        527.0
+      ],
+      "confidence": 0.9440108293303475
+    }
+  ],
+  "rows": [],
+  "bars": [
+    {
+      "bbox": [
+        205,
+        42,
+        627,
+        72
+      ],
+      "color": [
+        40,
+        118,
+        221
+      ],
+      "fill_ratio": 0.9600315955766193
+    },
+    {
+      "bbox": [
+        205,
+        83,
+        543,
+        113
+      ],
+      "color": [
+        40,
+        118,
+        221
+      ],
+      "fill_ratio": 0.9691321499013806
+    },
+    {
+      "bbox": [
+        205,
+        123,
+        505,
+        153
+      ],
+      "color": [
+        40,
+        118,
+        221
+      ],
+      "fill_ratio": 0.9656666666666667
+    },
+    {
+      "bbox": [
+        205,
+        163,
+        500,
+        193
+      ],
+      "color": [
+        40,
+        118,
+        221
+      ],
+      "fill_ratio": 0.9648587570621469
+    },
+    {
+      "bbox": [
+        205,
+        204,
+        458,
+        234
+      ],
+      "color": [
+        40,
+        118,
+        221
+      ],
+      "fill_ratio": 0.958102766798419
+    },
+    {
+      "bbox": [
+        205,
+        244,
+        458,
+        274
+      ],
+      "color": [
+        40,
+        118,
+        221
+      ],
+      "fill_ratio": 0.958102766798419
+    },
+    {
+      "bbox": [
+        205,
+        285,
+        458,
+        315
+      ],
+      "color": [
+        40,
+        118,
+        221
+      ],
+      "fill_ratio": 0.958102766798419
+    },
+    {
+      "bbox": [
+        205,
+        325,
+        399,
+        355
+      ],
+      "color": [
+        40,
+        118,
+        221
+      ],
+      "fill_ratio": 0.9472508591065292
+    }
+  ],
+  "errors": [
+    "Barres empilées détectées : extraction refusée, pas de décomposition implémentée."
+  ],
+  "uncertainties": [
+    "Rectangle plein seulement ; ombres, petites barres et objets non rectangulaires peuvent être manqués."
+  ],
+  "calibration": null,
+  "status": "failed"
+}

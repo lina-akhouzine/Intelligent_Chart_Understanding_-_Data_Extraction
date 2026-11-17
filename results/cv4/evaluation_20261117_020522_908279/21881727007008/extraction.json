@@ -1,0 +1,356 @@
+{
+  "image": "21881727007008.png",
+  "source": "C:\\Users\\ELECTRO-RIMO\\Downloads\\ChartQA-main\\ChartQA-main\\ChartQA Dataset\\test\\png\\21881727007008.png",
+  "source_sha256": "9a05ac1743a30ccd40abf98b8052e3b3e1941c8f27168012b86971e78805f06b",
+  "chart_type": "h_bar",
+  "cv2_chart_type": "h_bar",
+  "orientation_correction": null,
+  "chart_probabilities": {
+    "v_bar": 0.0009390053455717862,
+    "h_bar": 0.9990419745445251,
+    "line": 1.392785634379834e-05,
+    "pie": 4.991884907212807e-06
+  },
+  "checkpoint": "C:\\Users\\ELECTRO-RIMO\\Downloads\\ChartQA-main\\ChartQA-main\\models_cv2\\resnet18_20261117_010609_069660.pt",
+  "prediction_inputs": [
+    "image pixels",
+    "CV2 trained checkpoint",
+    "EasyOCR visible text"
+  ],
+  "reference_data_used_for_prediction": false,
+  "ocr_cache": "C:\\Users\\ELECTRO-RIMO\\Downloads\\ChartQA-main\\ChartQA-main\\results\\cv3\\evaluation_20261117_014237_828142\\images\\21881727007008.json",
+  "ocr_texts": [
+    {
+      "text": "Share of primary energy from fossil fuels, 1993",
+      "bbox": [
+        11.0,
+        9.0,
+        537.0,
+        45.0
+      ],
+      "confidence": 0.9079970642050308
+    },
+    {
+      "text": "8",
+      "bbox": [
+        772.0,
+        15.0,
+        835.0,
+        46.0
+      ],
+      "confidence": 0.9551360047609627
+    },
+    {
+      "text": "Algeria",
+      "bbox": [
+        25.0,
+        118.0,
+        74.0,
+        138.0
+      ],
+      "confidence": 0.9998984851939934
+    },
+    {
+      "text": "99.679",
+      "bbox": [
+        781.0,
+        119.0,
+        831.0,
+        134.0
+      ],
+      "confidence": 0.9555301126853766
+    },
+    {
+      "text": "Indonesia",
+      "bbox": [
+        6.0,
+        269.0,
+        74.0,
+        286.0
+      ],
+      "confidence": 0.9998785617834929
+    },
+    {
+      "text": "96.4%",
+      "bbox": [
+        759.0,
+        269.0,
+        801.0,
+        285.0
+      ],
+      "confidence": 0.9819135220868179
+    },
+    {
+      "text": "Portugal",
+      "bbox": [
+        15.0,
+        420.0,
+        75.0,
+        438.0
+      ],
+      "confidence": 0.9928293273775576
+    },
+    {
+      "text": "3",
+      "bbox": [
+        696.0,
+        420.0,
+        746.0,
+        437.0
+      ],
+      "confidence": 0.9633977686908111
+    },
+    {
+      "text": "8",
+      "bbox": [
+        64.0,
+        528.0,
+        93.0,
+        546.0
+      ],
+      "confidence": 0.9928424150315465
+    },
+    {
+      "text": "8",
+      "bbox": [
+        200.0,
+        528.0,
+        237.0,
+        546.0
+      ],
+      "confidence": 0.7286394136905905
+    },
+    {
+      "text": "40%",
+      "bbox": [
+        341.0,
+        528.0,
+        377.0,
+        545.0
+      ],
+      "confidence": 0.9908257722854614
+    },
+    {
+      "text": "8",
+      "bbox": [
+        481.0,
+        528.0,
+        518.0,
+        546.0
+      ],
+      "confidence": 0.9947674952578645
+    },
+    {
+      "text": "8",
+      "bbox": [
+        623.0,
+        528.0,
+        659.0,
+        546.0
+      ],
+      "confidence": 0.7615960930939423
+    },
+    {
+      "text": "Source: Our World in Data based on BP Statistical Review of World Energy (2020)",
+      "bbox": [
+        13.0,
+        554.0,
+        475.0,
+        574.0
+      ],
+      "confidence": 0.9369884396708307
+    },
+    {
+      "text": "OurWorldlnData orglenergy",
+      "bbox": [
+        625.0,
+        555.0,
+        785.0,
+        573.0
+      ],
+      "confidence": 0.758332911027391
+    },
+    {
+      "text": "8",
+      "bbox": [
+        791.0,
+        555.0,
+        834.0,
+        570.0
+      ],
+      "confidence": 0.9997637411443208
+    },
+    {
+      "text": "using",
+      "bbox": [
+        206.09711096289118,
+        566.230163555236,
+        243.90288903710882,
+        588.769836444764
+      ],
+      "confidence": 0.9997831772603174
+    },
+    {
+      "text": "the 'substitution method which takes account of the inefficiencies energy production from fossil fuels_",
+      "bbox": [
+        241.0,
+        568.0,
+        805.0,
+        587.0
+      ],
+      "confidence": 0.8858938901801526
+    },
+    {
+      "text": "Note: Primary energy is calculated",
+      "bbox": [
+        13.0,
+        569.0,
+        209.0,
+        587.0
+      ],
+      "confidence": 0.8008044869818624
+    }
+  ],
+  "rows": [
+    {
+      "category": "Indonesia",
+      "series": null,
+      "series_id": "series_1",
+      "value": null,
+      "unit": null,
+      "bar_bbox": [
+        79,
+        220,
+        755,
+        340
+      ],
+      "color": [
+        189,
+        83,
+        44
+      ],
+      "endpoint_pixel": 755.0,
+      "error": "calibration_failed",
+      "pixel_value_uncertainty": null
+    },
+    {
+      "category": "Portugal",
+      "series": null,
+      "series_id": "series_2",
+      "value": null,
+      "unit": null,
+      "bar_bbox": [
+        79,
+        371,
+        694,
+        491
+      ],
+      "color": [
+        89,
+        105,
+        125
+      ],
+      "endpoint_pixel": 694.0,
+      "error": "calibration_failed",
+      "pixel_value_uncertainty": null
+    }
+  ],
+  "bars": [
+    {
+      "bbox": [
+        79,
+        220,
+        755,
+        340
+      ],
+      "color": [
+        189,
+        83,
+        44
+      ],
+      "fill_ratio": 1.0,
+      "series_id": "series_1"
+    },
+    {
+      "bbox": [
+        79,
+        371,
+        694,
+        491
+      ],
+      "color": [
+        89,
+        105,
+        125
+      ],
+      "fill_ratio": 1.0,
+      "series_id": "series_2"
+    }
+  ],
+  "categories": [
+    {
+      "text": "Indonesia",
+      "confidence": 0.9993906284782625,
+      "bbox": [
+        8.0,
+        271.0,
+        74.0,
+        285.0
+      ],
+      "source": "CV4 targeted OCR, no reference text",
+      "position": 278.0,
+      "row": 41.0
+    },
+    {
+      "text": "Portugal",
+      "confidence": 0.999804884611622,
+      "bbox": [
+        16.0,
+        420.0,
+        76.0,
+        439.0
+      ],
+      "source": "CV4 targeted OCR, no reference text",
+      "position": 429.5,
+      "row": 46.0
+    }
+  ],
+  "series": {},
+  "calibration": null,
+  "baseline_pixel": 79.0,
+  "baseline_value": null,
+  "refined_ocr": [
+    {
+      "text": "Indonesia",
+      "confidence": 0.9993906284782625,
+      "bbox": [
+        8.0,
+        271.0,
+        74.0,
+        285.0
+      ],
+      "source": "CV4 targeted OCR, no reference text"
+    },
+    {
+      "text": "Portugal",
+      "confidence": 0.999804884611622,
+      "bbox": [
+        16.0,
+        420.0,
+        76.0,
+        439.0
+      ],
+      "source": "CV4 targeted OCR, no reference text"
+    }
+  ],
+  "errors": [
+    "Moins de trois graduations numériques distinctes localisées."
+  ],
+  "uncertainties": [
+    "Noms de séries incomplets : identifiants de couleur conservés sans nom inventé.",
+    "series_1 Indonesia: calibration_failed",
+    "series_2 Portugal: calibration_failed",
+    "Rectangle plein seulement ; ombres, petites barres et objets non rectangulaires peuvent être manqués."
+  ],
+  "status": "failed"
+}

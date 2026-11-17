@@ -1,0 +1,1065 @@
+{
+  "schema_version": 1,
+  "image": "00339007006077.png",
+  "source": "C:\\Users\\ELECTRO-RIMO\\Downloads\\ChartQA-main\\ChartQA-main\\ChartQA Dataset\\test\\png\\00339007006077.png",
+  "source_sha256": "8b67ff05a3b2ff79cb66bbd9c15378a39e1d0581d251bcc5cffa3eba61dcc86a",
+  "width": 850,
+  "height": 600,
+  "engine": "EasyOCR 1.7.2 / en",
+  "chart_type": "h_bar",
+  "chart_type_source": "CV2 checkpoint prediction",
+  "chart_probabilities": {
+    "v_bar": 1.547985266370233e-05,
+    "h_bar": 0.9999613761901855,
+    "line": 2.3058690203470178e-05,
+    "pie": 1.123633239785704e-07
+  },
+  "variants": [
+    "original"
+  ],
+  "texts": [
+    {
+      "text": "Share of children who are wasted; 2010",
+      "bbox": [
+        12.0,
+        12.0,
+        455.0,
+        42.0
+      ],
+      "polygon": [
+        [
+          12.0,
+          12.0
+        ],
+        [
+          455.0,
+          12.0
+        ],
+        [
+          455.0,
+          42.0
+        ],
+        [
+          12.0,
+          42.0
+        ]
+      ],
+      "confidence": 0.7253556979219982,
+      "variant": "original",
+      "variants": [
+        "original"
+      ],
+      "alternatives": [],
+      "role": "title",
+      "role_confidence": 0.6,
+      "role_source": "geometry",
+      "role_reason": "texte large en haut"
+    },
+    {
+      "text": "8",
+      "bbox": [
+        773.0,
+        16.0,
+        834.0,
+        31.0
+      ],
+      "polygon": [
+        [
+          773.0,
+          16.0
+        ],
+        [
+          834.0,
+          16.0
+        ],
+        [
+          834.0,
+          31.0
+        ],
+        [
+          773.0,
+          31.0
+        ]
+      ],
+      "confidence": 0.9761770480626097,
+      "variant": "original",
+      "variants": [
+        "original"
+      ],
+      "alternatives": [],
+      "role": "unknown",
+      "role_confidence": 0.25,
+      "role_source": "geometry",
+      "role_reason": "position ambiguë"
+    },
+    {
+      "text": "Data",
+      "bbox": [
+        796.0,
+        29.0,
+        825.0,
+        45.0
+      ],
+      "polygon": [
+        [
+          796.0,
+          29.0
+        ],
+        [
+          825.0,
+          29.0
+        ],
+        [
+          825.0,
+          45.0
+        ],
+        [
+          796.0,
+          45.0
+        ]
+      ],
+      "confidence": 0.9999571442604065,
+      "variant": "original",
+      "variants": [
+        "original"
+      ],
+      "alternatives": [],
+      "role": "unknown",
+      "role_confidence": 0.25,
+      "role_source": "geometry",
+      "role_reason": "position ambiguë"
+    },
+    {
+      "text": "3",
+      "bbox": [
+        784.0,
+        33.0,
+        796.0,
+        42.0
+      ],
+      "polygon": [
+        [
+          784.0,
+          33.0
+        ],
+        [
+          796.0,
+          33.0
+        ],
+        [
+          796.0,
+          42.0
+        ],
+        [
+          784.0,
+          42.0
+        ]
+      ],
+      "confidence": 0.27362464982276435,
+      "variant": "original",
+      "variants": [
+        "original"
+      ],
+      "alternatives": [],
+      "role": "unknown",
+      "role_confidence": 0.25,
+      "role_source": "geometry",
+      "role_reason": "position ambiguë"
+    },
+    {
+      "text": "whose weight is significantly lower than the average for",
+      "bbox": [
+        389.0,
+        42.0,
+        745.0,
+        62.0
+      ],
+      "polygon": [
+        [
+          389.0,
+          42.0
+        ],
+        [
+          745.0,
+          42.0
+        ],
+        [
+          745.0,
+          62.0
+        ],
+        [
+          389.0,
+          62.0
+        ]
+      ],
+      "confidence": 0.664960547717274,
+      "variant": "original",
+      "variants": [
+        "original"
+      ],
+      "alternatives": [],
+      "role": "title",
+      "role_confidence": 0.6,
+      "role_source": "geometry",
+      "role_reason": "texte large en haut"
+    },
+    {
+      "text": "The share of children younger than five who are 'wasted'",
+      "bbox": [
+        13.0,
+        43.0,
+        377.0,
+        61.0
+      ],
+      "polygon": [
+        [
+          13.0,
+          43.0
+        ],
+        [
+          377.0,
+          43.0
+        ],
+        [
+          377.0,
+          61.0
+        ],
+        [
+          13.0,
+          61.0
+        ]
+      ],
+      "confidence": 0.9453576343530549,
+      "variant": "original",
+      "variants": [
+        "original"
+      ],
+      "alternatives": [],
+      "role": "title",
+      "role_confidence": 0.6,
+      "role_source": "geometry",
+      "role_reason": "texte large en haut"
+    },
+    {
+      "text": "their height; as a a consequence of acute food shortage or disease",
+      "bbox": [
+        12.0,
+        59.0,
+        443.0,
+        78.0
+      ],
+      "polygon": [
+        [
+          12.0,
+          59.0
+        ],
+        [
+          443.0,
+          59.0
+        ],
+        [
+          443.0,
+          78.0
+        ],
+        [
+          12.0,
+          78.0
+        ]
+      ],
+      "confidence": 0.701402287846684,
+      "variant": "original",
+      "variants": [
+        "original"
+      ],
+      "alternatives": [],
+      "role": "title",
+      "role_confidence": 0.6,
+      "role_source": "geometry",
+      "role_reason": "texte large en haut"
+    },
+    {
+      "text": "3",
+      "bbox": [
+        789.0,
+        116.0,
+        831.0,
+        133.0
+      ],
+      "polygon": [
+        [
+          789.0,
+          116.0
+        ],
+        [
+          831.0,
+          116.0
+        ],
+        [
+          831.0,
+          133.0
+        ],
+        [
+          789.0,
+          133.0
+        ]
+      ],
+      "confidence": 0.9508687944535019,
+      "variant": "original",
+      "variants": [
+        "original"
+      ],
+      "alternatives": [],
+      "role": "unknown",
+      "role_confidence": 0.25,
+      "role_source": "geometry",
+      "role_reason": "position ambiguë"
+    },
+    {
+      "text": "Haiti",
+      "bbox": [
+        40.0,
+        117.0,
+        73.0,
+        133.0
+      ],
+      "polygon": [
+        [
+          40.0,
+          117.0
+        ],
+        [
+          73.0,
+          117.0
+        ],
+        [
+          73.0,
+          133.0
+        ],
+        [
+          40.0,
+          133.0
+        ]
+      ],
+      "confidence": 0.9999351190293095,
+      "variant": "original",
+      "variants": [
+        "original"
+      ],
+      "alternatives": [],
+      "role": "y_category",
+      "role_confidence": 0.5,
+      "role_source": "geometry",
+      "role_reason": "marge gauche du tracé probable"
+    },
+    {
+      "text": "Libya",
+      "bbox": [
+        35.0,
+        203.0,
+        73.0,
+        221.0
+      ],
+      "polygon": [
+        [
+          35.0,
+          203.0
+        ],
+        [
+          73.0,
+          203.0
+        ],
+        [
+          73.0,
+          221.0
+        ],
+        [
+          35.0,
+          221.0
+        ]
+      ],
+      "confidence": 0.9999700919067959,
+      "variant": "original",
+      "variants": [
+        "original"
+      ],
+      "alternatives": [],
+      "role": "y_category",
+      "role_confidence": 0.5,
+      "role_source": "geometry",
+      "role_reason": "marge gauche du tracé probable"
+    },
+    {
+      "text": "5.32%",
+      "bbox": [
+        697.0,
+        203.0,
+        739.0,
+        218.0
+      ],
+      "polygon": [
+        [
+          697.0,
+          203.0
+        ],
+        [
+          739.0,
+          203.0
+        ],
+        [
+          739.0,
+          218.0
+        ],
+        [
+          697.0,
+          218.0
+        ]
+      ],
+      "confidence": 0.6646833695437679,
+      "variant": "original",
+      "variants": [
+        "original"
+      ],
+      "alternatives": [],
+      "role": "unknown",
+      "role_confidence": 0.25,
+      "role_source": "geometry",
+      "role_reason": "position ambiguë"
+    },
+    {
+      "text": "5.11%",
+      "bbox": [
+        672.0,
+        288.0,
+        714.0,
+        305.0
+      ],
+      "polygon": [
+        [
+          672.0,
+          288.0
+        ],
+        [
+          714.0,
+          288.0
+        ],
+        [
+          714.0,
+          305.0
+        ],
+        [
+          672.0,
+          305.0
+        ]
+      ],
+      "confidence": 0.9977006071069858,
+      "variant": "original",
+      "variants": [
+        "original"
+      ],
+      "alternatives": [],
+      "role": "unknown",
+      "role_confidence": 0.25,
+      "role_source": "geometry",
+      "role_reason": "position ambiguë"
+    },
+    {
+      "text": "Morocco",
+      "bbox": [
+        13.0,
+        289.0,
+        73.0,
+        305.0
+      ],
+      "polygon": [
+        [
+          13.0,
+          289.0
+        ],
+        [
+          73.0,
+          289.0
+        ],
+        [
+          73.0,
+          305.0
+        ],
+        [
+          13.0,
+          305.0
+        ]
+      ],
+      "confidence": 0.9997387041514179,
+      "variant": "original",
+      "variants": [
+        "original"
+      ],
+      "alternatives": [],
+      "role": "y_category",
+      "role_confidence": 0.5,
+      "role_source": "geometry",
+      "role_reason": "marge gauche du tracé probable"
+    },
+    {
+      "text": "Lebanon",
+      "bbox": [
+        13.0,
+        375.0,
+        73.0,
+        390.0
+      ],
+      "polygon": [
+        [
+          13.0,
+          375.0
+        ],
+        [
+          73.0,
+          375.0
+        ],
+        [
+          73.0,
+          390.0
+        ],
+        [
+          13.0,
+          390.0
+        ]
+      ],
+      "confidence": 0.95427078382397,
+      "variant": "original",
+      "variants": [
+        "original"
+      ],
+      "alternatives": [],
+      "role": "y_category",
+      "role_confidence": 0.5,
+      "role_source": "geometry",
+      "role_reason": "marge gauche du tracé probable"
+    },
+    {
+      "text": "4.596",
+      "bbox": [
+        601.0,
+        375.0,
+        637.0,
+        390.0
+      ],
+      "polygon": [
+        [
+          601.0,
+          375.0
+        ],
+        [
+          637.0,
+          375.0
+        ],
+        [
+          637.0,
+          390.0
+        ],
+        [
+          601.0,
+          390.0
+        ]
+      ],
+      "confidence": 0.3698859010515175,
+      "variant": "original",
+      "variants": [
+        "original"
+      ],
+      "alternatives": [],
+      "role": "unknown",
+      "role_confidence": 0.25,
+      "role_source": "geometry",
+      "role_reason": "position ambiguë"
+    },
+    {
+      "text": "Colombia",
+      "bbox": [
+        8.0,
+        460.0,
+        73.0,
+        477.0
+      ],
+      "polygon": [
+        [
+          8.0,
+          460.0
+        ],
+        [
+          73.0,
+          460.0
+        ],
+        [
+          73.0,
+          477.0
+        ],
+        [
+          8.0,
+          477.0
+        ]
+      ],
+      "confidence": 0.9654181432575513,
+      "variant": "original",
+      "variants": [
+        "original"
+      ],
+      "alternatives": [],
+      "role": "y_category",
+      "role_confidence": 0.5,
+      "role_source": "geometry",
+      "role_reason": "marge gauche du tracé probable"
+    },
+    {
+      "text": "5",
+      "bbox": [
+        248.0,
+        460.0,
+        290.0,
+        477.0
+      ],
+      "polygon": [
+        [
+          248.0,
+          460.0
+        ],
+        [
+          290.0,
+          460.0
+        ],
+        [
+          290.0,
+          477.0
+        ],
+        [
+          248.0,
+          477.0
+        ]
+      ],
+      "confidence": 0.838426947994094,
+      "variant": "original",
+      "variants": [
+        "original"
+      ],
+      "alternatives": [],
+      "role": "x_tick",
+      "role_confidence": 0.45,
+      "role_source": "geometry",
+      "role_reason": "texte numérique sous le tracé probable"
+    },
+    {
+      "text": "8",
+      "bbox": [
+        63.0,
+        528.0,
+        90.0,
+        545.0
+      ],
+      "polygon": [
+        [
+          63.0,
+          528.0
+        ],
+        [
+          90.0,
+          528.0
+        ],
+        [
+          90.0,
+          545.0
+        ],
+        [
+          63.0,
+          545.0
+        ]
+      ],
+      "confidence": 0.9992948821846426,
+      "variant": "original",
+      "variants": [
+        "original"
+      ],
+      "alternatives": [],
+      "role": "unknown",
+      "role_confidence": 0.25,
+      "role_source": "geometry",
+      "role_reason": "position ambiguë"
+    },
+    {
+      "text": "%",
+      "bbox": [
+        188.0,
+        528.0,
+        206.0,
+        545.0
+      ],
+      "polygon": [
+        [
+          188.0,
+          528.0
+        ],
+        [
+          206.0,
+          528.0
+        ],
+        [
+          206.0,
+          545.0
+        ],
+        [
+          188.0,
+          545.0
+        ]
+      ],
+      "confidence": 0.9861838941461976,
+      "variant": "original",
+      "variants": [
+        "original"
+      ],
+      "alternatives": [],
+      "role": "unknown",
+      "role_confidence": 0.25,
+      "role_source": "geometry",
+      "role_reason": "position ambiguë"
+    },
+    {
+      "text": "8",
+      "bbox": [
+        295.0,
+        528.0,
+        322.0,
+        546.0
+      ],
+      "polygon": [
+        [
+          295.0,
+          528.0
+        ],
+        [
+          322.0,
+          528.0
+        ],
+        [
+          322.0,
+          546.0
+        ],
+        [
+          295.0,
+          546.0
+        ]
+      ],
+      "confidence": 0.9981022548598197,
+      "variant": "original",
+      "variants": [
+        "original"
+      ],
+      "alternatives": [],
+      "role": "x_tick",
+      "role_confidence": 0.45,
+      "role_source": "geometry",
+      "role_reason": "texte numérique sous le tracé probable"
+    },
+    {
+      "text": "8",
+      "bbox": [
+        411.0,
+        528.0,
+        438.0,
+        546.0
+      ],
+      "polygon": [
+        [
+          411.0,
+          528.0
+        ],
+        [
+          438.0,
+          528.0
+        ],
+        [
+          438.0,
+          546.0
+        ],
+        [
+          411.0,
+          546.0
+        ]
+      ],
+      "confidence": 0.9984839944225001,
+      "variant": "original",
+      "variants": [
+        "original"
+      ],
+      "alternatives": [],
+      "role": "x_tick",
+      "role_confidence": 0.45,
+      "role_source": "geometry",
+      "role_reason": "texte numérique sous le tracé probable"
+    },
+    {
+      "text": "4%",
+      "bbox": [
+        527.0,
+        528.0,
+        554.0,
+        545.0
+      ],
+      "polygon": [
+        [
+          527.0,
+          528.0
+        ],
+        [
+          554.0,
+          528.0
+        ],
+        [
+          554.0,
+          545.0
+        ],
+        [
+          527.0,
+          545.0
+        ]
+      ],
+      "confidence": 0.7946793230068991,
+      "variant": "original",
+      "variants": [
+        "original"
+      ],
+      "alternatives": [],
+      "role": "x_tick",
+      "role_confidence": 0.45,
+      "role_source": "geometry",
+      "role_reason": "texte numérique sous le tracé probable"
+    },
+    {
+      "text": "8",
+      "bbox": [
+        643.0,
+        528.0,
+        670.0,
+        545.0
+      ],
+      "polygon": [
+        [
+          643.0,
+          528.0
+        ],
+        [
+          670.0,
+          528.0
+        ],
+        [
+          670.0,
+          545.0
+        ],
+        [
+          643.0,
+          545.0
+        ]
+      ],
+      "confidence": 0.6044153811154196,
+      "variant": "original",
+      "variants": [
+        "original"
+      ],
+      "alternatives": [],
+      "role": "x_tick",
+      "role_confidence": 0.45,
+      "role_source": "geometry",
+      "role_reason": "texte numérique sous le tracé probable"
+    },
+    {
+      "text": "6%",
+      "bbox": [
+        759.0,
+        528.0,
+        786.0,
+        545.0
+      ],
+      "polygon": [
+        [
+          759.0,
+          528.0
+        ],
+        [
+          786.0,
+          528.0
+        ],
+        [
+          786.0,
+          545.0
+        ],
+        [
+          759.0,
+          545.0
+        ]
+      ],
+      "confidence": 0.9521979693769803,
+      "variant": "original",
+      "variants": [
+        "original"
+      ],
+      "alternatives": [],
+      "role": "x_tick",
+      "role_confidence": 0.45,
+      "role_source": "geometry",
+      "role_reason": "texte numérique sous le tracé probable"
+    },
+    {
+      "text": "Source: Institute for Health Metrics & Evaluation (IHME)",
+      "bbox": [
+        13.0,
+        555.0,
+        327.0,
+        571.0
+      ],
+      "polygon": [
+        [
+          13.0,
+          555.0
+        ],
+        [
+          327.0,
+          555.0
+        ],
+        [
+          327.0,
+          571.0
+        ],
+        [
+          13.0,
+          571.0
+        ]
+      ],
+      "confidence": 0.7761191566256266,
+      "variant": "original",
+      "variants": [
+        "original"
+      ],
+      "alternatives": [],
+      "role": "unknown",
+      "role_confidence": 0.25,
+      "role_source": "geometry",
+      "role_reason": "position ambiguë"
+    },
+    {
+      "text": "OurWorldlnData orglhunger-and-undemourishment",
+      "bbox": [
+        493.0,
+        555.0,
+        785.0,
+        573.0
+      ],
+      "polygon": [
+        [
+          493.0,
+          555.0
+        ],
+        [
+          785.0,
+          555.0
+        ],
+        [
+          785.0,
+          573.0
+        ],
+        [
+          493.0,
+          573.0
+        ]
+      ],
+      "confidence": 0.8940705679140944,
+      "variant": "original",
+      "variants": [
+        "original"
+      ],
+      "alternatives": [],
+      "role": "unknown",
+      "role_confidence": 0.25,
+      "role_source": "geometry",
+      "role_reason": "position ambiguë"
+    },
+    {
+      "text": "8",
+      "bbox": [
+        791.0,
+        555.0,
+        834.0,
+        570.0
+      ],
+      "polygon": [
+        [
+          791.0,
+          555.0
+        ],
+        [
+          834.0,
+          555.0
+        ],
+        [
+          834.0,
+          570.0
+        ],
+        [
+          791.0,
+          570.0
+        ]
+      ],
+      "confidence": 0.986036986412401,
+      "variant": "original",
+      "variants": [
+        "original"
+      ],
+      "alternatives": [],
+      "role": "unknown",
+      "role_confidence": 0.25,
+      "role_source": "geometry",
+      "role_reason": "position ambiguë"
+    },
+    {
+      "text": "Note: Wasting in children is defined as having a weight less than two standard deviations below the median for their height",
+      "bbox": [
+        12.0,
+        567.0,
+        699.0,
+        588.0
+      ],
+      "polygon": [
+        [
+          12.0,
+          567.0
+        ],
+        [
+          699.0,
+          567.0
+        ],
+        [
+          699.0,
+          588.0
+        ],
+        [
+          12.0,
+          588.0
+        ]
+      ],
+      "confidence": 0.7760914720082442,
+      "variant": "original",
+      "variants": [
+        "original"
+      ],
+      "alternatives": [],
+      "role": "other",
+      "role_confidence": 0.6,
+      "role_source": "geometry",
+      "role_reason": "pied de figure probable"
+    }
+  ],
+  "errors": [],
+  "uncertainties": [
+    "Certains textes ont une confiance OCR inférieure à 0.5."
+  ],
+  "seconds": 46.592468499962706,
+  "scope": "Visible text only. Numeric OCR strings are NOT extracted chart data.",
+  "annotation_assistance": null
+}

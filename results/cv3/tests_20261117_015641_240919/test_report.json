@@ -1,0 +1,26 @@
+{
+  "status": "PASS",
+  "evaluation": "C:\\Users\\ELECTRO-RIMO\\Downloads\\ChartQA-main\\ChartQA-main\\results\\cv3\\evaluation_20261117_014237_828142",
+  "images_verified": 20,
+  "ocr_texts_verified": 540,
+  "blank_image_real_engine": "PASS",
+  "invalid_image_rejected": "PASS",
+  "deduplication": "PASS",
+  "missing_transcripts_not_invented": "PASS",
+  "edit_distance_checks": "PASS",
+  "protected_files_unchanged_during_tests": {
+    "C:\\Users\\ELECTRO-RIMO\\Downloads\\ChartQA-main\\ChartQA-main\\cv\\preprocessing.py": "a7d1f7c130cdf86b380f7f812537bdb736d7f00f15424097afb5e8feaead4d3c",
+    "C:\\Users\\ELECTRO-RIMO\\Downloads\\ChartQA-main\\ChartQA-main\\cv\\README_CV1.md": "78c453888a9e3a5ead72d3902723c6dbbfaf04fabecc1f0668b6e9bb15d11f64",
+    "C:\\Users\\ELECTRO-RIMO\\Downloads\\ChartQA-main\\ChartQA-main\\cv\\README_CV2.md": "d4868117c34c5d9682083562b55138d2caaccf517131565ecaac17634d3c56ab",
+    "C:\\Users\\ELECTRO-RIMO\\Downloads\\ChartQA-main\\ChartQA-main\\models_cv2\\resnet18_20261117_010609_069660.pt": "54af38f88113704517b46fca68a46f703c30b68e981a170dbe503eccf8f641b5",
+    "C:\\Users\\ELECTRO-RIMO\\Downloads\\ChartQA-main\\ChartQA-main\\cv\\chart_classifier.py": "128725eef609511fceeb6b5f078e67afc960775e8af7b1993d5db3410f4bfc33",
+    "C:\\Users\\ELECTRO-RIMO\\Downloads\\ChartQA-main\\ChartQA-main\\cv\\prepare_cv2.py": "ed3173a202b518f9bee46f6e83d030b2cabea1f2ae4ff5d126ceaeee90fa3e9d",
+    "C:\\Users\\ELECTRO-RIMO\\Downloads\\ChartQA-main\\ChartQA-main\\cv\\train_classifier.py": "7340395f1ded4c6a1404938efab73c753f1b77cc167f22a7b8ad10d206c21ee5",
+    "C:\\Users\\ELECTRO-RIMO\\Downloads\\ChartQA-main\\ChartQA-main\\cv\\evaluate_classifier.py": "6bfdab49b45c5ae50a6b94edb5795a7376b7f390e80701adc1786bc1100d1218",
+    "C:\\Users\\ELECTRO-RIMO\\Downloads\\ChartQA-main\\ChartQA-main\\cv\\test_cv2_pipeline.py": "95fc756f37509308646e6101a41e28752b85efb2cd8a17ceacd03ce785fbb8f0",
+    "C:\\Users\\ELECTRO-RIMO\\Downloads\\ChartQA-main\\ChartQA-main\\cv\\prepare_official_cv2.py": "42e711debc12e3a78df3d7a5aca8e3030fa8bdd74d2eb065aa40203f316e328e",
+    "C:\\Users\\ELECTRO-RIMO\\Downloads\\ChartQA-main\\ChartQA-main\\cv\\fetch_official_annotations.py": "995258fcb78b2660617931b39fec4015b3c1a5767fea9706f4a40f885eceb0ed",
+    "C:\\Users\\ELECTRO-RIMO\\Downloads\\ChartQA-main\\ChartQA-main\\cv\\inspect_cv2_results.py": "278af81506c0504c6aa0950f28b0baf39afc200da53fdf968199150b3078302d",
+    "C:\\Users\\ELECTRO-RIMO\\Downloads\\ChartQA-main\\ChartQA-main\\cv\\report_cv2.py": "ac5b0a320b4057687f19ce63b81e24121bd717277f23c0aa35669ac698441c8c"
+  }
+}

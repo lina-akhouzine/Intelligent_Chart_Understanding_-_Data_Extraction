@@ -1,0 +1,1219 @@
+[
+  {
+    "file": "run_all.py",
+    "sha256": "aa83fbd5bbf08c0e1b22675deae0e9b8df8b6239bee7c0fd90770e7dcded06bc",
+    "usage": "orchestrateur",
+    "imports": [
+      "PIL",
+      "__future__",
+      "argparse",
+      "ast",
+      "chart_classifier",
+      "chart_text_parser",
+      "datetime",
+      "hashlib",
+      "importlib",
+      "json",
+      "math",
+      "numpy",
+      "ocr_extraction",
+      "os",
+      "pathlib",
+      "preprocessing",
+      "sys",
+      "torch",
+      "warnings"
+    ],
+    "functions": [
+      "digest",
+      "read_json",
+      "write_json",
+      "block_network",
+      "inventory",
+      "choose_checkpoint",
+      "choose_image",
+      "cached_cv1",
+      "valid_ocr",
+      "cached_ocr",
+      "main"
+    ],
+    "warnings": []
+  },
+  {
+    "file": "Data Extraction/evaluate_data_extraction.py",
+    "sha256": "778d2fa8c5a3824501c0e4e05f35252ca4e1e77e8b60d60bc5cc6fb2fdfca94d",
+    "usage": "ignoré : entraînement, téléchargement, préparation, évaluation, test ou legacy hors inférence CV1-CV3",
+    "imports": [
+      "csv",
+      "itertools",
+      "json",
+      "numpy",
+      "os",
+      "pandas",
+      "scipy",
+      "sys",
+      "tqdm"
+    ],
+    "functions": [
+      "distance",
+      "compute_cost_matrix",
+      "compute_score",
+      "remove_strings",
+      "main"
+    ],
+    "warnings": []
+  },
+  {
+    "file": "Models/T5/run_T5.py",
+    "sha256": "608cb68d748d60f95b6ec47da5aeb4b986fb56357fbbf6285d7d4db0acd3830b",
+    "usage": "ignoré : entraînement, téléchargement, préparation, évaluation, test ou legacy hors inférence CV1-CV3",
+    "imports": [
+      "dataclasses",
+      "datasets",
+      "filelock",
+      "logging",
+      "nltk",
+      "numpy",
+      "os",
+      "sys",
+      "transformers",
+      "typing"
+    ],
+    "functions": [
+      "main",
+      "_mp_fn"
+    ],
+    "warnings": []
+  },
+  {
+    "file": "Models/VL-T5/Mask-RCNN/train.py",
+    "sha256": "0ccf30cca9f1c4362dd388d2f8ca40ada1ccee57d1532b9e14477ad74ff632a8",
+    "usage": "ignoré : entraînement, téléchargement, préparation, évaluation, test ou legacy hors inférence CV1-CV3",
+    "imports": [
+      "argparse",
+      "cv2",
+      "detectron2",
+      "json",
+      "numpy",
+      "os",
+      "pickle",
+      "sys"
+    ],
+    "functions": [
+      "train_dataset_function",
+      "valid_dataset_function",
+      "main"
+    ],
+    "warnings": []
+  },
+  {
+    "file": "Models/VL-T5/inference/extracting_data.py",
+    "sha256": "4f0829d27be77c8d2192d42adda604d12ab5adefd40d345e221a7274b23db224",
+    "usage": "ignoré : entraînement, téléchargement, préparation, évaluation, test ou legacy hors inférence CV1-CV3",
+    "imports": [
+      "collections",
+      "datasets",
+      "getopt",
+      "json",
+      "modeling_frcnn",
+      "numpy",
+      "os",
+      "processing_image",
+      "sys",
+      "torch",
+      "utils"
+    ],
+    "functions": [
+      "tryload"
+    ],
+    "warnings": []
+  },
+  {
+    "file": "Models/VL-T5/inference/modeling_frcnn.py",
+    "sha256": "7bd758ce65d29096a95c7bd65bb8c3233de31878f0a59541a472fbd2303cd5eb",
+    "usage": "ignoré : entraînement, téléchargement, préparation, évaluation, test ou legacy hors inférence CV1-CV3",
+    "imports": [
+      "abc",
+      "collections",
+      "itertools",
+      "math",
+      "numpy",
+      "os",
+      "torch",
+      "torchvision",
+      "typing",
+      "utils"
+    ],
+    "functions": [
+      "norm_box",
+      "pad_list_tensors",
+      "do_nms",
+      "_clip_box",
+      "_nonempty_boxes",
+      "get_norm",
+      "_create_grid_offsets",
+      "build_backbone",
+      "find_top_rpn_proposals",
+      "subsample_labels",
+      "add_ground_truth_to_proposals",
+      "add_ground_truth_to_proposals_single_image",
+      "_fmt_box_list",
+      "convert_boxes_to_pooler_format",
+      "assign_boxes_to_levels"
+    ],
+    "warnings": []
+  },
+  {
+    "file": "Models/VL-T5/inference/processing_image.py",
+    "sha256": "d974d1fd699355f7256544c9d2b27e611c8bb5d5620212454542bd558ea828f6",
+    "usage": "ignoré : entraînement, téléchargement, préparation, évaluation, test ou legacy hors inférence CV1-CV3",
+    "imports": [
+      "PIL",
+      "numpy",
+      "sys",
+      "torch",
+      "typing",
+      "utils"
+    ],
+    "functions": [
+      "_scale_box",
+      "_clip_box"
+    ],
+    "warnings": []
+  },
+  {
+    "file": "Models/VL-T5/inference/utils.py",
+    "sha256": "75e68b881e0c8052690e81482512b2b18c0a7ddf02509a04f15a35271f5eac70",
+    "usage": "ignoré : entraînement, téléchargement, préparation, évaluation, test ou legacy hors inférence CV1-CV3",
+    "imports": [
+      "PIL",
+      "collections",
+      "contextlib",
+      "copy",
+      "cv2",
+      "filelock",
+      "fnmatch",
+      "functools",
+      "hashlib",
+      "io",
+      "json",
+      "numpy",
+      "os",
+      "pathlib",
+      "pickle",
+      "requests",
+      "shutil",
+      "sys",
+      "tarfile",
+      "tempfile",
+      "torch",
+      "tqdm",
+      "urllib",
+      "wget",
+      "yaml",
+      "zipfile"
+    ],
+    "functions": [
+      "load_labels",
+      "load_checkpoint",
+      "compare",
+      "is_remote_url",
+      "hf_bucket_url",
+      "http_get",
+      "get_from_cache",
+      "url_to_filename",
+      "cached_path",
+      "get_data",
+      "get_image_from_url",
+      "load_frcnn_pkl_from_url",
+      "get_demo_path",
+      "img_tensorize",
+      "chunk"
+    ],
+    "warnings": []
+  },
+  {
+    "file": "Models/VL-T5/inference/visualizing_image.py",
+    "sha256": "fea8e7b404106507475d262cafa1b585afdd457773c794acebd3c988061e208b",
+    "usage": "ignoré : entraînement, téléchargement, préparation, évaluation, test ou legacy hors inférence CV1-CV3",
+    "imports": [
+      "colorsys",
+      "cv2",
+      "io",
+      "matplotlib",
+      "numexpr",
+      "numpy",
+      "torch",
+      "utils"
+    ],
+    "functions": [],
+    "warnings": []
+  },
+  {
+    "file": "Models/VL-T5/src/dist_utils.py",
+    "sha256": "c2adfb5e3d81e8f6dd13c2b4df7b04534b8c7489979233d4d7c62cb73f47c8ff",
+    "usage": "ignoré : entraînement, téléchargement, préparation, évaluation, test ou legacy hors inférence CV1-CV3",
+    "imports": [
+      "functools",
+      "logging",
+      "numpy",
+      "pickle",
+      "torch"
+    ],
+    "functions": [
+      "get_world_size",
+      "get_rank",
+      "get_local_rank",
+      "get_local_size",
+      "is_main_process",
+      "synchronize",
+      "_get_global_gloo_group",
+      "_serialize_to_tensor",
+      "_pad_to_largest_tensor",
+      "all_gather",
+      "gather",
+      "shared_random_seed",
+      "reduce_dict"
+    ],
+    "warnings": []
+  },
+  {
+    "file": "Models/VL-T5/src/modeling_bart.py",
+    "sha256": "3eeca8c07ebea42e60524d64a182f1486bc25a439330e4019bedd5feae35b7b1",
+    "usage": "ignoré : entraînement, téléchargement, préparation, évaluation, test ou legacy hors inférence CV1-CV3",
+    "imports": [
+      "copy",
+      "dataclasses",
+      "math",
+      "random",
+      "torch",
+      "transformers",
+      "typing"
+    ],
+    "functions": [],
+    "warnings": []
+  },
+  {
+    "file": "Models/VL-T5/src/modeling_t5.py",
+    "sha256": "a64cb812108af256517d7fc5a4817f1d2d8c1ba7bffc5dfa2281091d3b18bf8a",
+    "usage": "ignoré : entraînement, téléchargement, préparation, évaluation, test ou legacy hors inférence CV1-CV3",
+    "imports": [
+      "copy",
+      "dataclasses",
+      "torch",
+      "transformers",
+      "typing"
+    ],
+    "functions": [],
+    "warnings": []
+  },
+  {
+    "file": "Models/VL-T5/src/param.py",
+    "sha256": "1dc3917336fc2fab7559bd3d89dc28d041b0aaebbc7bba4726e8865b9fc330d3",
+    "usage": "ignoré : entraînement, téléchargement, préparation, évaluation, test ou legacy hors inférence CV1-CV3",
+    "imports": [
+      "__main__",
+      "argparse",
+      "numpy",
+      "pprint",
+      "random",
+      "torch",
+      "yaml"
+    ],
+    "functions": [
+      "str2bool",
+      "is_interactive",
+      "get_optimizer",
+      "parse_args"
+    ],
+    "warnings": []
+  },
+  {
+    "file": "Models/VL-T5/src/preprocess.py",
+    "sha256": "75dfe07e7f06006f6bfe1eeb7dcb9a4181423c4641cf6c99d2a5a8b88b86ba64",
+    "usage": "ignoré : entraînement, téléchargement, préparation, évaluation, test ou legacy hors inférence CV1-CV3",
+    "imports": [
+      "copy",
+      "numpy",
+      "random",
+      "torch"
+    ],
+    "functions": [
+      "corrupt_spans",
+      "corrupt_bart",
+      "ground_caption",
+      "refer_expression"
+    ],
+    "warnings": []
+  },
+  {
+    "file": "Models/VL-T5/src/tokenization.py",
+    "sha256": "69267ed4f23b1e6eb94705eb0daa1f3f81c8cb4e1e0e789e84e2cf61b60a00c0",
+    "usage": "ignoré : entraînement, téléchargement, préparation, évaluation, test ou legacy hors inférence CV1-CV3",
+    "imports": [
+      "re",
+      "sentencepiece",
+      "tokenizers",
+      "transformers",
+      "typing"
+    ],
+    "functions": [
+      "convert_slow_vlt5tokenizer"
+    ],
+    "warnings": []
+  },
+  {
+    "file": "Models/VL-T5/src/trainer_base.py",
+    "sha256": "8140de749ddc8d578d5311c2b19f463ec75b9bd6b15f60fd70b61b5dc0a6e01f",
+    "usage": "ignoré : entraînement, téléchargement, préparation, évaluation, test ou legacy hors inférence CV1-CV3",
+    "imports": [
+      "apex",
+      "collections",
+      "logging",
+      "numpy",
+      "os",
+      "packaging",
+      "pathlib",
+      "pprint",
+      "shutil",
+      "tokenization",
+      "torch",
+      "tqdm",
+      "transformers",
+      "transormers",
+      "utils",
+      "wandb"
+    ],
+    "functions": [],
+    "warnings": []
+  },
+  {
+    "file": "Models/VL-T5/src/utils.py",
+    "sha256": "c1fa03d7f489b62cb2dea9cb381d1b6209e4e9fcdb96b660ce37672e56f4d0f9",
+    "usage": "ignoré : entraînement, téléchargement, préparation, évaluation, test ou legacy hors inférence CV1-CV3",
+    "imports": [
+      "collections",
+      "logging",
+      "numpy",
+      "re",
+      "torch"
+    ],
+    "functions": [
+      "get_area",
+      "get_relative_distance",
+      "count_parameters",
+      "load_state_dict",
+      "set_global_logging_level",
+      "get_iou",
+      "xywh_to_xyxy"
+    ],
+    "warnings": []
+  },
+  {
+    "file": "Models/VL-T5/src/vqa.py",
+    "sha256": "fb7199db748b51f90713568cc5ca3e8b0fb8efabe0c13aeeaccd962148f4b3ab",
+    "usage": "ignoré : entraînement, téléchargement, préparation, évaluation, test ou legacy hors inférence CV1-CV3",
+    "imports": [
+      "apex",
+      "collections",
+      "datetime",
+      "dist_utils",
+      "logging",
+      "numpy",
+      "os",
+      "packaging",
+      "param",
+      "pathlib",
+      "pprint",
+      "shutil",
+      "time",
+      "torch",
+      "tqdm",
+      "trainer_base",
+      "transormers",
+      "utils",
+      "vqa_data",
+      "vqa_model"
+    ],
+    "functions": [
+      "main_worker"
+    ],
+    "warnings": []
+  },
+  {
+    "file": "Models/VL-T5/src/vqa_data.py",
+    "sha256": "16afa3aaebdba8144a0686ee5631c73de2bf05e6874e8caeb8cb954911bb26b3",
+    "usage": "ignoré : entraînement, téléchargement, préparation, évaluation, test ou legacy hors inférence CV1-CV3",
+    "imports": [
+      "collections",
+      "copy",
+      "h5py",
+      "json",
+      "math",
+      "multiprocessing",
+      "numpy",
+      "pandas",
+      "pathlib",
+      "pickle",
+      "random",
+      "re",
+      "tokenization",
+      "torch",
+      "tqdm",
+      "transformers"
+    ],
+    "functions": [
+      "get_loader"
+    ],
+    "warnings": [
+      "invalid escape sequence '\\d'",
+      "invalid escape sequence '\\d'"
+    ]
+  },
+  {
+    "file": "Models/VL-T5/src/vqa_inference.py",
+    "sha256": "ea87258f20381d395580af42cdca28e7391ea843246e450ca07791f4a28cc110",
+    "usage": "ignoré : entraînement, téléchargement, préparation, évaluation, test ou legacy hors inférence CV1-CV3",
+    "imports": [
+      "apex",
+      "collections",
+      "datetime",
+      "dist_utils",
+      "json",
+      "logging",
+      "numpy",
+      "os",
+      "packaging",
+      "param",
+      "pathlib",
+      "pprint",
+      "shutil",
+      "time",
+      "torch",
+      "tqdm",
+      "trainer_base",
+      "transormers",
+      "utils",
+      "vqa_data",
+      "vqa_model"
+    ],
+    "functions": [
+      "main_worker"
+    ],
+    "warnings": []
+  },
+  {
+    "file": "Models/VL-T5/src/vqa_model.py",
+    "sha256": "9f6ed0df5fe139d5f143e95f5ade9c1e447dd3a24ae1bed132f0ae4de6c4c0f5",
+    "usage": "ignoré : entraînement, téléchargement, préparation, évaluation, test ou legacy hors inférence CV1-CV3",
+    "imports": [
+      "modeling_bart",
+      "modeling_t5",
+      "numpy",
+      "pathlib",
+      "torch"
+    ],
+    "functions": [],
+    "warnings": []
+  },
+  {
+    "file": "Models/VisionTapas/args_parser.py",
+    "sha256": "b82c1877d94d676f425a3683eea634fb08301259d4f936259665838a61feed18",
+    "usage": "ignoré : entraînement, téléchargement, préparation, évaluation, test ou legacy hors inférence CV1-CV3",
+    "imports": [
+      "argparse"
+    ],
+    "functions": [
+      "str2bool",
+      "get_parser",
+      "get_parserQA",
+      "get_parserInference"
+    ],
+    "warnings": []
+  },
+  {
+    "file": "Models/VisionTapas/predict_classification.py",
+    "sha256": "46e7a8f82358a7d505d2ede749a86f05ba39bf00a9985373e50920343026138f",
+    "usage": "ignoré : entraînement, téléchargement, préparation, évaluation, test ou legacy hors inférence CV1-CV3",
+    "imports": [
+      "argparse",
+      "args_parser",
+      "data",
+      "json",
+      "logging",
+      "model",
+      "numpy",
+      "os",
+      "pandas",
+      "pickle",
+      "random",
+      "sys",
+      "time",
+      "torch",
+      "tqdm",
+      "transformers",
+      "typing",
+      "utils"
+    ],
+    "functions": [
+      "main"
+    ],
+    "warnings": []
+  },
+  {
+    "file": "Models/VisionTapas/train_classification.py",
+    "sha256": "25d51bd4a7fd4593c819dfa1017b17aec246dc2bf78995623164bbcba46f7b15",
+    "usage": "ignoré : entraînement, téléchargement, préparation, évaluation, test ou legacy hors inférence CV1-CV3",
+    "imports": [
+      "argparse",
+      "args_parser",
+      "data",
+      "json",
+      "logging",
+      "model",
+      "numpy",
+      "os",
+      "pandas",
+      "random",
+      "sys",
+      "time",
+      "torch",
+      "transformers",
+      "typing"
+    ],
+    "functions": [
+      "compute_metrics",
+      "main"
+    ],
+    "warnings": []
+  },
+  {
+    "file": "Models/VisionTapas/train_question_answering.py",
+    "sha256": "580d695a4fae37d6c9f0983d7f698bbf8bb47f7d3f9a4d99b489d059b1a64bc6",
+    "usage": "ignoré : entraînement, téléchargement, préparation, évaluation, test ou legacy hors inférence CV1-CV3",
+    "imports": [
+      "argparse",
+      "args_parser",
+      "data",
+      "json",
+      "logging",
+      "model",
+      "numpy",
+      "os",
+      "pandas",
+      "pickle",
+      "random",
+      "sys",
+      "time",
+      "torch",
+      "transformers",
+      "typing"
+    ],
+    "functions": [
+      "compute_metrics",
+      "main"
+    ],
+    "warnings": []
+  },
+  {
+    "file": "Models/VisionTapas/data/classification_dataset.py",
+    "sha256": "d01a88ec5a3168b2ddc6bdc02222c73bbcb6f588f4189dc16bb507811ac704ac",
+    "usage": "ignoré : entraînement, téléchargement, préparation, évaluation, test ou legacy hors inférence CV1-CV3",
+    "imports": [
+      "PIL",
+      "json",
+      "numpy",
+      "os",
+      "pandas",
+      "torch"
+    ],
+    "functions": [],
+    "warnings": []
+  },
+  {
+    "file": "Models/VisionTapas/data/inference_dataset.py",
+    "sha256": "a9e812df94465841b64f0af2e6c849e3251d7c51f2ad8f6a6c967dd04c5bfd43",
+    "usage": "ignoré : entraînement, téléchargement, préparation, évaluation, test ou legacy hors inférence CV1-CV3",
+    "imports": [
+      "PIL",
+      "json",
+      "numpy",
+      "os",
+      "pandas",
+      "torch"
+    ],
+    "functions": [],
+    "warnings": []
+  },
+  {
+    "file": "Models/VisionTapas/data/question_answering_dataset.py",
+    "sha256": "d0b1827dbe4048febc5c4df202ce3eb8dc9ad8522c5065807a36ea4ad5fd609f",
+    "usage": "ignoré : entraînement, téléchargement, préparation, évaluation, test ou legacy hors inférence CV1-CV3",
+    "imports": [
+      "PIL",
+      "json",
+      "numpy",
+      "os",
+      "pandas",
+      "tapas_utils",
+      "torch"
+    ],
+    "functions": [],
+    "warnings": []
+  },
+  {
+    "file": "Models/VisionTapas/data/tapas_utils.py",
+    "sha256": "b34a352b870644367a9c8d4397548a53593b2922b62a54282d6f954512fd2364",
+    "usage": "ignoré : entraînement, téléchargement, préparation, évaluation, test ou legacy hors inférence CV1-CV3",
+    "imports": [
+      "collections",
+      "enum",
+      "frozendict",
+      "numpy",
+      "re",
+      "scipy",
+      "six",
+      "struct",
+      "typing",
+      "unicodedata"
+    ],
+    "functions": [
+      "_find_matching_coordinates",
+      "_compute_cost_matrix_inner",
+      "_compute_cost_matrix",
+      "_parse_answer_coordinates",
+      "wtq_normalize",
+      "tokenize_string",
+      "to_float32",
+      "convert_to_float",
+      "_parse_answer_float",
+      "_has_single_float_answer_equal_to",
+      "_parse_question",
+      "parse_question",
+      "_get_cell_token_probs",
+      "_get_mean_cell_probs",
+      "convert_logits_to_predictions",
+      "get_final_answer"
+    ],
+    "warnings": []
+  },
+  {
+    "file": "Models/VisionTapas/model/config.py",
+    "sha256": "33aa52fa7edf4e9bee86f9c45e6c60e6b2f85e73d181375055307b8781cbefe3",
+    "usage": "ignoré : entraînement, téléchargement, préparation, évaluation, test ou legacy hors inférence CV1-CV3",
+    "imports": [
+      "transformers"
+    ],
+    "functions": [],
+    "warnings": []
+  },
+  {
+    "file": "Models/VisionTapas/model/tapas_utils.py",
+    "sha256": "7b7ae9fbed8dad9678ca4535addbb29854e555f048f1f399740732296bd3ce58",
+    "usage": "ignoré : entraînement, téléchargement, préparation, évaluation, test ou legacy hors inférence CV1-CV3",
+    "imports": [
+      "collections",
+      "dataclasses",
+      "enum",
+      "json",
+      "logging",
+      "math",
+      "numpy",
+      "os",
+      "pandas",
+      "random",
+      "sys",
+      "time",
+      "torch",
+      "torch_scatter",
+      "transformers",
+      "typing"
+    ],
+    "functions": [
+      "gather",
+      "flatten",
+      "range_index_map",
+      "_segment_reduce",
+      "reduce_sum",
+      "reduce_mean",
+      "reduce_max",
+      "reduce_min",
+      "compute_column_logits",
+      "_single_column_cell_selection_loss",
+      "compute_token_logits",
+      "_calculate_aggregate_mask",
+      "_calculate_aggregation_loss_known",
+      "_calculate_aggregation_loss_unknown",
+      "_calculate_aggregation_loss",
+      "_calculate_expected_result",
+      "huber_loss",
+      "_calculate_regression_loss"
+    ],
+    "warnings": []
+  },
+  {
+    "file": "Models/VisionTapas/model/vision_tapas.py",
+    "sha256": "1fe5d60d19e84f92a83483f250fa689f3c0786e796a31ff5976b4ebb9570cf66",
+    "usage": "ignoré : entraînement, téléchargement, préparation, évaluation, test ou legacy hors inférence CV1-CV3",
+    "imports": [
+      "PIL",
+      "collections",
+      "config",
+      "json",
+      "logging",
+      "numpy",
+      "os",
+      "pandas",
+      "random",
+      "sys",
+      "time",
+      "torch",
+      "transformers",
+      "typing"
+    ],
+    "functions": [],
+    "warnings": []
+  },
+  {
+    "file": "Models/VisionTapas/model/vision_tapas_for_classification.py",
+    "sha256": "3c336fbf47b2d75f218139748aacc7ab041f4c9ff3dbd061a1b69634007a94bd",
+    "usage": "ignoré : entraînement, téléchargement, préparation, évaluation, test ou legacy hors inférence CV1-CV3",
+    "imports": [
+      "config",
+      "json",
+      "logging",
+      "numpy",
+      "os",
+      "random",
+      "sys",
+      "time",
+      "torch",
+      "transformers",
+      "typing",
+      "vision_tapas"
+    ],
+    "functions": [],
+    "warnings": []
+  },
+  {
+    "file": "Models/VisionTapas/model/vision_tapas_for_question_answering.py",
+    "sha256": "e39eed4a04e041fdfba6b4a018c6d6796f543dded2445943964869ad9bb347d6",
+    "usage": "ignoré : entraînement, téléchargement, préparation, évaluation, test ou legacy hors inférence CV1-CV3",
+    "imports": [
+      "config",
+      "json",
+      "logging",
+      "numpy",
+      "os",
+      "random",
+      "sys",
+      "tapas_utils",
+      "time",
+      "torch",
+      "torch_scatter",
+      "transformers",
+      "typing",
+      "vision_tapas"
+    ],
+    "functions": [],
+    "warnings": []
+  },
+  {
+    "file": "Models/VisionTapas/utils/dataset.py",
+    "sha256": "193f3cd5c8ae7fc70c5f80b0325e1674048117ad3928c6b1da76dc0aa6a1cb99",
+    "usage": "ignoré : entraînement, téléchargement, préparation, évaluation, test ou legacy hors inférence CV1-CV3",
+    "imports": [
+      "PIL",
+      "ast",
+      "numpy",
+      "os",
+      "pandas",
+      "tapas_utils_new",
+      "torch"
+    ],
+    "functions": [
+      "process_str_list",
+      "check_answer_lst"
+    ],
+    "warnings": []
+  },
+  {
+    "file": "Models/VisionTapas/utils/tapas_utils.py",
+    "sha256": "efb26b3d188671c9c0d891a27e16237b3021160dbfa37c6a075b3f5717b00100",
+    "usage": "ignoré : entraînement, téléchargement, préparation, évaluation, test ou legacy hors inférence CV1-CV3",
+    "imports": [
+      "collections",
+      "enum",
+      "frozendict",
+      "numpy",
+      "re",
+      "scipy",
+      "six",
+      "struct",
+      "typing",
+      "unicodedata"
+    ],
+    "functions": [
+      "_find_matching_coordinates",
+      "_compute_cost_matrix_inner",
+      "_compute_cost_matrix",
+      "_parse_answer_coordinates",
+      "wtq_normalize",
+      "tokenize_string",
+      "to_float32",
+      "convert_to_float",
+      "_parse_answer_float",
+      "_has_single_float_answer_equal_to",
+      "_parse_question",
+      "parse_question",
+      "_get_cell_token_probs",
+      "_get_mean_cell_probs",
+      "convert_logits_to_predictions",
+      "find_answer_cells"
+    ],
+    "warnings": []
+  },
+  {
+    "file": "Models/VisionTapas/utils/tapas_utils_new.py",
+    "sha256": "b34a352b870644367a9c8d4397548a53593b2922b62a54282d6f954512fd2364",
+    "usage": "ignoré : entraînement, téléchargement, préparation, évaluation, test ou legacy hors inférence CV1-CV3",
+    "imports": [
+      "collections",
+      "enum",
+      "frozendict",
+      "numpy",
+      "re",
+      "scipy",
+      "six",
+      "struct",
+      "typing",
+      "unicodedata"
+    ],
+    "functions": [
+      "_find_matching_coordinates",
+      "_compute_cost_matrix_inner",
+      "_compute_cost_matrix",
+      "_parse_answer_coordinates",
+      "wtq_normalize",
+      "tokenize_string",
+      "to_float32",
+      "convert_to_float",
+      "_parse_answer_float",
+      "_has_single_float_answer_equal_to",
+      "_parse_question",
+      "parse_question",
+      "_get_cell_token_probs",
+      "_get_mean_cell_probs",
+      "convert_logits_to_predictions",
+      "get_final_answer"
+    ],
+    "warnings": []
+  },
+  {
+    "file": "cv/chart_classifier.py",
+    "sha256": "128725eef609511fceeb6b5f078e67afc960775e8af7b1993d5db3410f4bfc33",
+    "usage": "module actif du pipeline",
+    "imports": [
+      "PIL",
+      "argparse",
+      "json",
+      "pathlib",
+      "torch",
+      "torchvision"
+    ],
+    "functions": [
+      "image_transform",
+      "load_image",
+      "build_model",
+      "load_checkpoint",
+      "main"
+    ],
+    "warnings": []
+  },
+  {
+    "file": "cv/chart_text_parser.py",
+    "sha256": "4bb737713aead48d8acb136d31cf0c8813581ce05a1aee9d3a7fa57675c02d77",
+    "usage": "module actif du pipeline",
+    "imports": [
+      "__future__",
+      "math",
+      "re"
+    ],
+    "functions": [
+      "bbox_xyxy",
+      "iou",
+      "annotation_references",
+      "numeric",
+      "estimate_roles"
+    ],
+    "warnings": []
+  },
+  {
+    "file": "cv/evaluate_classifier.py",
+    "sha256": "6bfdab49b45c5ae50a6b94edb5795a7376b7f390e80701adc1786bc1100d1218",
+    "usage": "ignoré : entraînement, téléchargement, préparation, évaluation, test ou legacy hors inférence CV1-CV3",
+    "imports": [
+      "PIL",
+      "argparse",
+      "chart_classifier",
+      "csv",
+      "datetime",
+      "json",
+      "matplotlib",
+      "pathlib",
+      "prepare_cv2",
+      "sklearn",
+      "tempfile",
+      "torch"
+    ],
+    "functions": [
+      "main"
+    ],
+    "warnings": []
+  },
+  {
+    "file": "cv/evaluate_ocr.py",
+    "sha256": "4bcaada4cebb9df175f1ef6409847fbd4a9725e7efcc068534c229104efa542f",
+    "usage": "ignoré : entraînement, téléchargement, préparation, évaluation, test ou legacy hors inférence CV1-CV3",
+    "imports": [
+      "PIL",
+      "__future__",
+      "argparse",
+      "chart_text_parser",
+      "collections",
+      "concurrent",
+      "csv",
+      "datetime",
+      "hashlib",
+      "json",
+      "numpy",
+      "ocr_extraction",
+      "pathlib",
+      "random",
+      "re",
+      "scipy",
+      "unicodedata"
+    ],
+    "functions": [
+      "normalize",
+      "edit_distance",
+      "match_boxes",
+      "score_image",
+      "derive",
+      "audit_one",
+      "audit_annotations",
+      "main"
+    ],
+    "warnings": []
+  },
+  {
+    "file": "cv/fetch_official_annotations.py",
+    "sha256": "995258fcb78b2660617931b39fec4015b3c1a5767fea9706f4a40f885eceb0ed",
+    "usage": "ignoré : entraînement, téléchargement, préparation, évaluation, test ou legacy hors inférence CV1-CV3",
+    "imports": [
+      "argparse",
+      "io",
+      "json",
+      "pathlib",
+      "requests",
+      "struct",
+      "zipfile"
+    ],
+    "functions": [
+      "main"
+    ],
+    "warnings": []
+  },
+  {
+    "file": "cv/inspect_cv2_results.py",
+    "sha256": "278af81506c0504c6aa0950f28b0baf39afc200da53fdf968199150b3078302d",
+    "usage": "ignoré : entraînement, téléchargement, préparation, évaluation, test ou legacy hors inférence CV1-CV3",
+    "imports": [
+      "PIL",
+      "chart_classifier",
+      "json",
+      "matplotlib",
+      "pathlib",
+      "textwrap",
+      "torch"
+    ],
+    "functions": [
+      "draw",
+      "main"
+    ],
+    "warnings": []
+  },
+  {
+    "file": "cv/ocr_extraction.py",
+    "sha256": "7dd7f587c64a5419a83a4191cd146bfc6f69b3b412fc7fc4d69d6c8b5ecab7b4",
+    "usage": "module actif du pipeline",
+    "imports": [
+      "PIL",
+      "__future__",
+      "argparse",
+      "chart_classifier",
+      "chart_text_parser",
+      "cv2",
+      "datetime",
+      "difflib",
+      "easyocr",
+      "hashlib",
+      "json",
+      "math",
+      "numpy",
+      "pathlib",
+      "preprocessing",
+      "time",
+      "torch"
+    ],
+    "functions": [
+      "create_reader",
+      "deduplicate",
+      "save_result",
+      "main"
+    ],
+    "warnings": []
+  },
+  {
+    "file": "cv/prepare_cv2.py",
+    "sha256": "ed3173a202b518f9bee46f6e83d030b2cabea1f2ae4ff5d126ceaeee90fa3e9d",
+    "usage": "ignoré : entraînement, téléchargement, préparation, évaluation, test ou legacy hors inférence CV1-CV3",
+    "imports": [
+      "PIL",
+      "chart_classifier",
+      "concurrent",
+      "csv",
+      "hashlib",
+      "json",
+      "pathlib",
+      "random"
+    ],
+    "functions": [
+      "digest",
+      "read_labels",
+      "main"
+    ],
+    "warnings": []
+  },
+  {
+    "file": "cv/prepare_official_cv2.py",
+    "sha256": "42e711debc12e3a78df3d7a5aca8e3030fa8bdd74d2eb065aa40203f316e328e",
+    "usage": "ignoré : entraînement, téléchargement, préparation, évaluation, test ou legacy hors inférence CV1-CV3",
+    "imports": [
+      "PIL",
+      "chart_classifier",
+      "collections",
+      "concurrent",
+      "csv",
+      "json",
+      "pathlib",
+      "prepare_cv2"
+    ],
+    "functions": [
+      "inspect",
+      "main"
+    ],
+    "warnings": []
+  },
+  {
+    "file": "cv/preprocessing.py",
+    "sha256": "a7d1f7c130cdf86b380f7f812537bdb736d7f00f15424097afb5e8feaead4d3c",
+    "usage": "module actif du pipeline",
+    "imports": [
+      "PIL",
+      "__future__",
+      "argparse",
+      "cv2",
+      "datetime",
+      "hashlib",
+      "json",
+      "matplotlib",
+      "numpy",
+      "pathlib"
+    ],
+    "functions": [
+      "discover_images",
+      "preprocess",
+      "save_image",
+      "run",
+      "main"
+    ],
+    "warnings": []
+  },
+  {
+    "file": "cv/report_cv2.py",
+    "sha256": "ac5b0a320b4057687f19ce63b81e24121bd717277f23c0aa35669ac698441c8c",
+    "usage": "ignoré : entraînement, téléchargement, préparation, évaluation, test ou legacy hors inférence CV1-CV3",
+    "imports": [
+      "chart_classifier",
+      "csv",
+      "json",
+      "pathlib"
+    ],
+    "functions": [
+      "main"
+    ],
+    "warnings": []
+  },
+  {
+    "file": "cv/test_cv2_pipeline.py",
+    "sha256": "95fc756f37509308646e6101a41e28752b85efb2cd8a17ceacd03ce785fbb8f0",
+    "usage": "ignoré : entraînement, téléchargement, préparation, évaluation, test ou legacy hors inférence CV1-CV3",
+    "imports": [
+      "chart_classifier",
+      "csv",
+      "json",
+      "pathlib",
+      "torch"
+    ],
+    "functions": [
+      "main"
+    ],
+    "warnings": []
+  },
+  {
+    "file": "cv/test_cv3_pipeline.py",
+    "sha256": "e554d40b4b3c194143b833321dd04635be81a8446a3198d78fd376673dbf3322",
+    "usage": "ignoré : entraînement, téléchargement, préparation, évaluation, test ou legacy hors inférence CV1-CV3",
+    "imports": [
+      "PIL",
+      "argparse",
+      "chart_text_parser",
+      "datetime",
+      "evaluate_ocr",
+      "hashlib",
+      "json",
+      "math",
+      "numpy",
+      "ocr_extraction",
+      "pathlib"
+    ],
+    "functions": [
+      "main"
+    ],
+    "warnings": []
+  },
+  {
+    "file": "cv/train_classifier.py",
+    "sha256": "7340395f1ded4c6a1404938efab73c753f1b77cc167f22a7b8ad10d206c21ee5",
+    "usage": "ignoré : entraînement, téléchargement, préparation, évaluation, test ou legacy hors inférence CV1-CV3",
+    "imports": [
+      "argparse",
+      "chart_classifier",
+      "datetime",
+      "hashlib",
+      "json",
+      "matplotlib",
+      "numpy",
+      "pathlib",
+      "prepare_cv2",
+      "random",
+      "time",
+      "torch"
+    ],
+    "functions": [
+      "main"
+    ],
+    "warnings": []
+  }
+]

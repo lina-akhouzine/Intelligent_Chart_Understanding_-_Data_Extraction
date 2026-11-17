@@ -1,0 +1,13 @@
+{
+  "image": "C:\\Users\\ELECTRO-RIMO\\Downloads\\ChartQA-main\\ChartQA-main\\ChartQA Dataset\\test\\png\\00339007006077.png",
+  "prediction": "h_bar",
+  "probabilities": {
+    "v_bar": 1.547985266370233e-05,
+    "h_bar": 0.9999613761901855,
+    "line": 2.3058690203470178e-05,
+    "pie": 1.123633239785704e-07
+  },
+  "checkpoint": "C:\\Users\\ELECTRO-RIMO\\Downloads\\ChartQA-main\\ChartQA-main\\models_cv2\\resnet18_20261117_010609_069660.pt",
+  "trained": true,
+  "epoch": 20
+}
