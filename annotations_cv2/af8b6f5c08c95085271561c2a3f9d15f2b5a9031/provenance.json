@@ -1,0 +1,9 @@
+{
+  "repository": "https://huggingface.co/datasets/ahmed-masry/ChartQA",
+  "revision": "af8b6f5c08c95085271561c2a3f9d15f2b5a9031",
+  "archive_url": "https://huggingface.co/datasets/ahmed-masry/ChartQA/resolve/af8b6f5c08c95085271561c2a3f9d15f2b5a9031/ChartQA%20Dataset.zip",
+  "archive_size": 875370872,
+  "transferred_bytes": 22996493,
+  "annotations": 20882,
+  "images_downloaded": 0
+}
